@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Azure Data Factory/Azure Data Factory Managed Airflow.md",
+                "file": "Azure Storage Account/Table Storage.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure Data Factory/Azure Data Factory Managed Airflow.md",
+                "file": "Azure Storage Account/Table Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Azure Data Factory/Azure Data Factory Managed Airflow.md",
+                "file": "Azure Storage Account/Table Storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Azure Data Factory/Azure Data Factory Managed Airflow.md"
+                "file": "Azure Storage Account/Table Storage.md"
               }
             }
           }
@@ -207,30 +207,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "670db8cba3c800c2",
+  "active": "4c73a19500997344",
   "lastOpenFiles": [
+    "Azure Storage Account/Storage Queues.md",
+    "Azure Storage Account/File Storage.md",
+    "Azure Storage Account/Core Features.md",
+    "Images/Pasted image 20230921201150.png",
+    "Images/Pasted image 20230921201216.png",
+    "Images/Pasted image 20230921201441.png",
+    "Images/Pasted image 20230921201112.png",
+    "Azure Storage Account/Blob Storage.md",
+    "Images/Pasted image 20230920201903.png",
+    "Images/Pasted image 20230920202352.png",
+    "Images/Pasted image 20230920202536.png",
+    "Images/Pasted image 20230920202643.png",
+    "Fundamentals/Data Concepts.md",
+    "Azure Storage Account/Table Storage.md",
+    "Azure Storage Account",
+    "Azure Data Lake Storage Gen2/Azure Storage Account/File Storage.md",
+    "Azure Data Lake Storage Gen2/Azure Storage Account/Table Storage.md",
+    "Azure Data Lake Storage Gen2/Azure Storage Account/Storage Queues.md",
+    "Azure Data Lake Storage Gen2/Azure Storage Account/Core Features.md",
+    "Azure Data Lake Storage Gen2/Azure Storage Account/Blob Storage.md",
+    "Azure Data Lake Storage Gen2/Azure Storage Account",
     "Images/Pasted image 20230927165028.png",
     "Images/Pasted image 20230927164918.png",
-    "Images/Pasted image 20230927164736.png",
     "Azure Synapse Analytics/When to Use.md",
     "Azure Data Factory/Azure Data Factory Managed Airflow.md",
     "Azure Synapse Analytics/How It Works.md",
-    "Images/Pasted image 20230927160034.png",
-    "Images/Pasted image 20230927160011.png",
-    "Images/Pasted image 20230927155947.png",
-    "Images/Pasted image 20230927155915.png",
-    "Images/Pasted image 20230927155841.png",
-    "Images/Pasted image 20230927155806.png",
     "Azure Synapse Analytics/Introduction.md",
-    "Images/Pasted image 20230927155623.png",
     "Azure Data Lake Storage Gen2/Big Data Processing and Analytics.md",
-    "Images/Pasted image 20230927154341.png",
     "Azure Data Lake Storage Gen2/Stages for Processing Big Data.md",
     "Azure Data Lake Storage Gen2/DLSGen2 vs Blob Storage.md",
     "Azure Data Lake Storage Gen2/Azure Data Lake Basics.md",
     "Fundamentals/Data Engineering in Azure.md",
     "Fundamentals/Data Flows.md",
-    "Fundamentals/Data Concepts.md",
     "Images",
     "Fundamentals",
     "Azure Data Lake Storage Gen2",

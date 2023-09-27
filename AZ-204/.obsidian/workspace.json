@@ -14,8 +14,21 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "df63b919e96ba347",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Azure Developer (AZ-204).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Azure Developer (AZ-204).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Azure Developer (AZ-204).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Azure Developer (AZ-204).md"
+              }
             }
           }
         ]
@@ -138,8 +155,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07739741e0ba3102",
+  "active": "df63b919e96ba347",
   "lastOpenFiles": [
+    "images/Pasted image 20230921201441.png",
+    "images/Pasted image 20230921201216.png",
+    "images/Pasted image 20230921201150.png",
+    "images/Pasted image 20230921201112.png",
+    "images/Pasted image 20230920202643.png",
+    "images/Pasted image 20230920202536.png",
+    "images/Pasted image 20230920202352.png",
+    "images/Pasted image 20230920201903.png",
+    "Azure Storage Account/Table Storage.md",
+    "Azure Storage Account/Storage Queues.md",
+    "Azure Storage Account/File Storage.md",
+    "Azure Storage Account/Core Features.md",
+    "Azure Storage Account/Blob Storage.md",
+    "Azure Storage Account",
     "Azure Developer (AZ-204).md",
     "Azure Functions/Configuation/Azure Functions.md",
     "App Services/Azure App Service.md",
@@ -153,18 +184,11 @@
     "images/Pasted image 20230731135205.png",
     "Azure VMs/Hyper-V and Generation 1 & 2.md",
     "images/Pasted image 20230731134220.png",
-    "images/Pasted image 20230731133858.png",
-    "images/Pasted image 20230731133615.png",
     "Azure VMs/Azure Compute Units.md",
-    "images/Pasted image 20230727165719.png",
     "Azure VMs/Azure VM Sizes.md",
     "Azure VMs/Cloud Init.md",
     "Azure VMs/Operating Systems.md",
-    "images/Pasted image 20230727161849.png",
     "Azure VMs/VM Components.md",
-    "images/Pasted image 20230727161511.png",
-    "images/Pasted image 20230727161453.png",
-    "images/Pasted image 20230727161448.png",
     "Azure VMs/Azure VMs.md",
     "Azure Functions/Configuation/Azure Functions Core Tools.md",
     "Azure Functions/Configuation/Configurations.md",
@@ -174,14 +198,8 @@
     "Untitled.canvas",
     "Azure Functions/Configuation",
     "Azure Functions/Plan Sevices",
-    "Azure Functions/Plan Sevices/Plan Services.md",
-    "Azure Functions/Plan Sevices/Storage Consideration.md",
-    "Azure Functions/Plan Sevices/Azure Functions on Kubernetes.md",
     "Azure VMs",
     "images",
-    "Azure Functions/Plan Sevices/Durable Functions.md",
-    "Azure Functions/Plan Sevices/Function as a Service.md",
-    "Azure Functions/Plan Sevices/Serverless Applications.md",
     "Azure Functions"
   ]
 }

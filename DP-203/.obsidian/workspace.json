@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4c73a19500997344",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Azure Data Factory/Azure Data Factory Managed Airflow.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure Synapse Analytics/When to Use.md",
+                "file": "Azure Data Factory/Azure Data Factory Managed Airflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Azure Synapse Analytics/When to Use.md",
+                "file": "Azure Data Factory/Azure Data Factory Managed Airflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Azure Synapse Analytics/When to Use.md"
+                "file": "Azure Data Factory/Azure Data Factory Managed Airflow.md"
               }
             }
           }
@@ -195,10 +207,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4f33fb485635d40",
+  "active": "670db8cba3c800c2",
   "lastOpenFiles": [
-    "Azure Synapse Analytics/How It Works.md",
+    "Images/Pasted image 20230927165028.png",
+    "Images/Pasted image 20230927164918.png",
+    "Images/Pasted image 20230927164736.png",
     "Azure Synapse Analytics/When to Use.md",
+    "Azure Data Factory/Azure Data Factory Managed Airflow.md",
+    "Azure Synapse Analytics/How It Works.md",
     "Images/Pasted image 20230927160034.png",
     "Images/Pasted image 20230927160011.png",
     "Images/Pasted image 20230927155947.png",
@@ -209,8 +225,6 @@
     "Images/Pasted image 20230927155623.png",
     "Azure Data Lake Storage Gen2/Big Data Processing and Analytics.md",
     "Images/Pasted image 20230927154341.png",
-    "Images/Pasted image 20230927154259.png",
-    "Images/Pasted image 20230927154209.png",
     "Azure Data Lake Storage Gen2/Stages for Processing Big Data.md",
     "Azure Data Lake Storage Gen2/DLSGen2 vs Blob Storage.md",
     "Azure Data Lake Storage Gen2/Azure Data Lake Basics.md",

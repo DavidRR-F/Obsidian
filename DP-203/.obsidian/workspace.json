@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "c333bea4525d3d99",
+    "type": "split",
+    "children": [
+      {
+        "id": "72fd34099de9d096",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a0544b187ac373b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fundamentals/Data Concepts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "601267e1014d1c07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fundamentals/Data Engineering in Azure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "909de6c45dc05702",
+    "type": "split",
+    "children": [
+      {
+        "id": "79c47ab13317d3f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "670db8cba3c800c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "58e1fb09b5def869",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5de90be6ef429ece",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b941a0165efc9796",
+    "type": "split",
+    "children": [
+      {
+        "id": "068e5d21deddd331",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77feb30b314c5597",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Fundamentals/Data Engineering in Azure.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "358a9a2f18aacc24",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Fundamentals/Data Engineering in Azure.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3242fb5b34b9fed1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5392e9175560f3d0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Fundamentals/Data Engineering in Azure.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "601267e1014d1c07",
+  "lastOpenFiles": [
+    "Fundamentals/Data Flows.md",
+    "Fundamentals/Data Concepts.md",
+    "Fundamentals/Data Engineering in Azure.md",
+    "Images/Pasted image 20230927145822.png",
+    "Images/Pasted image 20230927145430.png",
+    "Images/Pasted image 20230927145405.png",
+    "Images/Pasted image 20230927145344.png",
+    "Images/Pasted image 20230927145323.png",
+    "Images/Pasted image 20230927145254.png",
+    "Images/Pasted image 20230927145219.png",
+    "Images",
+    "Images/Pasted image 20230927145045.png",
+    "Images/Pasted image 20230927145021.png",
+    "Images/Pasted image 20230927144947.png",
+    "Fundamentals",
+    "Azure Data Lake Storage Gen2",
+    "Azure Databricks",
+    "Azure Data Factory",
+    "Azure Event Hubs",
+    "Azure Stream Analytics",
+    "Azure Synapse Analytics"
+  ]
+}

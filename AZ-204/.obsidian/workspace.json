@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "81e5e6dabcdaf751",
+    "type": "split",
+    "children": [
+      {
+        "id": "649e1bb1d9b497cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07739741e0ba3102",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e32f512338d7a45c",
+    "type": "split",
+    "children": [
+      {
+        "id": "508c0bd13920d82d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19e76ddea4e81411",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a2bc2eae7e8a30d4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f772e90918ec3d87",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fb94505d1ef125f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "061ae5e5b0ca06ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe1e1f01e5cc35ce",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8137afde8a1e0e23",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8a8d7a37cfef9ed7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "758fcc45ef56812e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "07739741e0ba3102",
+  "lastOpenFiles": [
+    "Azure Developer (AZ-204).md",
+    "Azure Functions/Configuation/Azure Functions.md",
+    "App Services/Azure App Service.md",
+    "App Services/App Service Networking Features.md",
+    "App Services/Authentication & Authorization.md",
+    "App Services/Deploy to App Service.md",
+    "App Services/Azure Service Plans.md",
+    "Azure VMs/Windows vs Linux Server.md",
+    "App Services",
+    "images/Pasted image 20230731135827.png",
+    "images/Pasted image 20230731135205.png",
+    "Azure VMs/Hyper-V and Generation 1 & 2.md",
+    "images/Pasted image 20230731134220.png",
+    "images/Pasted image 20230731133858.png",
+    "images/Pasted image 20230731133615.png",
+    "Azure VMs/Azure Compute Units.md",
+    "images/Pasted image 20230727165719.png",
+    "Azure VMs/Azure VM Sizes.md",
+    "Azure VMs/Cloud Init.md",
+    "Azure VMs/Operating Systems.md",
+    "images/Pasted image 20230727161849.png",
+    "Azure VMs/VM Components.md",
+    "images/Pasted image 20230727161511.png",
+    "images/Pasted image 20230727161453.png",
+    "images/Pasted image 20230727161448.png",
+    "Azure VMs/Azure VMs.md",
+    "Azure Functions/Configuation/Azure Functions Core Tools.md",
+    "Azure Functions/Configuation/Configurations.md",
+    "Azure Functions/Configuation/Function Triggers.md",
+    "Azure Functions/Configuation/Custom Handlers.md",
+    "Azure Functions/Configuation/Authorization Levels.md",
+    "Untitled.canvas",
+    "Azure Functions/Configuation",
+    "Azure Functions/Plan Sevices",
+    "Azure Functions/Plan Sevices/Plan Services.md",
+    "Azure Functions/Plan Sevices/Storage Consideration.md",
+    "Azure Functions/Plan Sevices/Azure Functions on Kubernetes.md",
+    "Azure VMs",
+    "images",
+    "Azure Functions/Plan Sevices/Durable Functions.md",
+    "Azure Functions/Plan Sevices/Function as a Service.md",
+    "Azure Functions/Plan Sevices/Serverless Applications.md",
+    "Azure Functions"
+  ]
+}

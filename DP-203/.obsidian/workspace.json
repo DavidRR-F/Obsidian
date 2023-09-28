@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fundamentals/Data Concepts.md",
+                "file": "Fundamentals (DP-900)/Data Concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,14 +61,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Azure Synapse Analytics/When to Use.md",
+                "file": "Fundamentals (DP-900)/Azure Storage Account/Core Features.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e3e294817a21e95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fundamentals (DP-900)/Data Analytic Types.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure Synapse Analytics/When to Use.md",
+                "file": "Fundamentals (DP-900)/Data Analytic Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Azure Synapse Analytics/When to Use.md",
+                "file": "Fundamentals (DP-900)/Data Analytic Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Azure Synapse Analytics/When to Use.md"
+                "file": "Fundamentals (DP-900)/Data Analytic Types.md"
               }
             }
           }
@@ -195,8 +207,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4f33fb485635d40",
+  "active": "670db8cba3c800c2",
   "lastOpenFiles": [
+    "Images/Pasted image 20230928113322.png",
+    "Fundamentals (DP-900)/Data Processing.md",
+    "Fundamentals (DP-900)/Data Analytic Types.md",
+    "Untitled.md",
+    "Images/Pasted image 20230928112951.png",
+    "Images/Pasted image 20230928112911.png",
+    "Fundamentals (DP-900)/Azure Storage Account/File Storage.md",
+    "Fundamentals (DP-900)/Azure Storage Account/Data For.md",
+    "Fundamentals (DP-900)/Data Formats.md",
+    "Images/Pasted image 20230928112248.png",
+    "Fundamentals (DP-900)/Data Concepts.md",
+    "Fundamentals (DP-900)/Azure Storage Account/Table Storage.md",
+    "Fundamentals (DP-900)/Azure Storage Account/Storage Queues.md",
+    "Fundamentals (DP-900)/Azure Storage Account/Core Features.md",
+    "Fundamentals (DP-900)/Azure Storage Account/Blob Storage.md",
+    "Analytic Types",
+    "Azure Synapse Analytics/When to Use.md",
     "Images/Pasted image 20230928105149.png",
     "Images/Pasted image 20230928104125.png",
     "Azure Synapse Analytics/Serverless SQL Pools/Transform data files with the CREATE EXTERNAL TABLE AS SELECT statement.md",
@@ -209,34 +238,22 @@
     "Images/Pasted image 20230921201150.png",
     "Images/Pasted image 20230921201112.png",
     "Images/Pasted image 20230920202643.png",
-    "Images/Pasted image 20230920202536.png",
-    "Images/Pasted image 20230920202352.png",
-    "Images/Pasted image 20230920201903.png",
-    "Azure Storage Account/Table Storage.md",
-    "Azure Storage Account/Storage Queues.md",
-    "Azure Storage Account/File Storage.md",
-    "Azure Storage Account/Core Features.md",
-    "Azure Storage Account/Blob Storage.md",
-    "Azure Storage Account",
+    "Fundamentals (DP-900)/Azure Storage Account",
     "Azure Data Factory/Azure Data Factory Managed Airflow.md",
     "Azure Synapse Analytics/Synapse serverless SQL pools.md",
-    "Azure Synapse Analytics/When to Use.md",
     "Azure Synapse Analytics/How It Works.md",
     "Azure Synapse Analytics/Introduction.md",
     "Azure Data Lake Storage Gen2/Big Data Processing and Analytics.md",
     "Azure Data Lake Storage Gen2/Stages for Processing Big Data.md",
     "Azure Data Lake Storage Gen2/DLSGen2 vs Blob Storage.md",
     "Azure Data Lake Storage Gen2/Azure Data Lake Basics.md",
-    "Fundamentals/Data Engineering in Azure.md",
-    "Fundamentals/Data Flows.md",
-    "Fundamentals/Data Concepts.md",
+    "Fundamentals (DP-900)/Data Engineering in Azure.md",
     "Images",
-    "Fundamentals",
+    "Fundamentals (DP-900)",
     "Azure Data Lake Storage Gen2",
     "Azure Databricks",
     "Azure Data Factory",
     "Azure Event Hubs",
-    "Azure Stream Analytics",
-    "Azure Synapse Analytics"
+    "Azure Stream Analytics"
   ]
 }

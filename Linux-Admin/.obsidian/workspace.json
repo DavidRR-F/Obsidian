@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "08ed52f3d8fde8d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0fb0c0897400163",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc2a3b926c0c1625",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basics/Permissions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24107762ded6ebc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basics/Permissions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "387f04bf91f27e64",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9cdd909a0a9b321",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea28786160f1d852",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7d903c28d7c4b381",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "aeb97fb0be19d69e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4c444e8916109e1a",
+    "type": "split",
+    "children": [
+      {
+        "id": "526beae5b8c7f2de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "915fbe1da44c3550",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Basics/Permissions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "36be25825d8e4760",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Basics/Permissions.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "18aa5436017236e9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0470cef63e3e002e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Basics/Permissions.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "24107762ded6ebc9",
+  "lastOpenFiles": [
+    "images/Pasted image 20231015092557.png",
+    "Basics/File System Structure.md",
+    "images",
+    "images/Pasted image 20231015082527.png",
+    "Basics/Permissions.md",
+    "CentOS/Untitled.md",
+    "Basics",
+    "CentOS/CentOS Introduction.md",
+    "CentOS"
+  ]
+}

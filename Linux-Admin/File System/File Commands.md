@@ -295,3 +295,12 @@ $ cat segment_* > recombined_file.txt
 ```
 
 This command concatenates all files matching the pattern `segment_*` into a single file named `recombined_file.txt`.
+
+### sed
+
+- Replace a string in a file with a newstring
+- Find and delete a line
+- Remove empty lines
+- Remove the First or n lines in a file
+- Replace tabs with spaces
+- Show defined lines from a file

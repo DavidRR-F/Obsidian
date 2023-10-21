@@ -1,64 +1,48 @@
 {
   "main": {
-    "id": "08ed52f3d8fde8d0",
+    "id": "ee410e268e303d22",
     "type": "split",
     "children": [
       {
-        "id": "c0fb0c0897400163",
+        "id": "4095ae0da14af97b",
         "type": "tabs",
         "children": [
           {
-            "id": "dc2a3b926c0c1625",
+            "id": "3707f521828581e0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "File System/File Permissions.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "24107762ded6ebc9",
+            "id": "35a8c9287287cfca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "File System/File Commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5ebdacec17a8591",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "System Administration/User Account Management.md",
+                "file": "Config/Airflow Configurations.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "387f04bf91f27e64",
+    "id": "27de47c24a6db238",
     "type": "split",
     "children": [
       {
-        "id": "f9cdd909a0a9b321",
+        "id": "ef2645d1dac020f1",
         "type": "tabs",
         "children": [
           {
-            "id": "ea28786160f1d852",
+            "id": "e0ccd578d0a8c05e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -68,7 +52,7 @@
             }
           },
           {
-            "id": "7d903c28d7c4b381",
+            "id": "bfd809240a025854",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -83,7 +67,7 @@
             }
           },
           {
-            "id": "aeb97fb0be19d69e",
+            "id": "9f3c3921dbdc8c64",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -97,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "4c444e8916109e1a",
+    "id": "45aba915f7e3b84d",
     "type": "split",
     "children": [
       {
-        "id": "526beae5b8c7f2de",
+        "id": "33f6e41ca2bc8b4a",
         "type": "tabs",
         "children": [
           {
-            "id": "915fbe1da44c3550",
+            "id": "8dd4d9efe326c42a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Administration/User Account Management.md",
+                "file": "Config/Airflow Configurations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,19 +106,19 @@
             }
           },
           {
-            "id": "36be25825d8e4760",
+            "id": "645cba3ec6bd195b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Administration/User Account Management.md",
+                "file": "Config/Airflow Configurations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "18aa5436017236e9",
+            "id": "fc7a7989ae200d01",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -145,12 +129,12 @@
             }
           },
           {
-            "id": "0470cef63e3e002e",
+            "id": "f829997033fb2e3c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Administration/User Account Management.md"
+                "file": "Config/Airflow Configurations.md"
               }
             }
           }
@@ -171,23 +155,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5ebdacec17a8591",
+  "active": "35a8c9287287cfca",
   "lastOpenFiles": [
-    "System Administration/Account Authentication.md",
-    "System Administration/User Account Management.md",
-    "System Administration/Processes, Jobs, and Scheduling.md",
-    "images/Pasted image 20231018203435.png",
-    "File System/File Permissions.md",
-    "File System/File Commands.md",
-    "System Administration",
-    "CentOS/CentOS Introduction.md",
-    "File System/File System Structure.md",
-    "images/Pasted image 20231016205601.png",
-    "images/Pasted image 20231015092557.png",
-    "images",
-    "images/Pasted image 20231015082527.png",
-    "CentOS/Untitled.md",
-    "File System",
-    "CentOS"
+    "Plugins/Airflow Extensions.md",
+    "Config/Airflow Configurations.md",
+    "Config",
+    "Plugins"
   ]
 }

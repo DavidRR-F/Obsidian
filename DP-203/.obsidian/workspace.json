@@ -54,9 +54,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "31d4f1ae970ac2d5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -183,7 +193,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4f33fb485635d40",
+  "active": "31d4f1ae970ac2d5",
   "lastOpenFiles": [
     "Azure Synapse Analytics/Serverless SQL Pools/Include a data transformation stored procedure in a pipeline.md",
     "Azure Synapse Analytics/Serverless SQL Pools/Transform data files with the CREATE EXTERNAL TABLE AS SELECT statement.md",

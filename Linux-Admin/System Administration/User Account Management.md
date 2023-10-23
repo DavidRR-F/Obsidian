@@ -177,3 +177,44 @@ $ write: user2 is logged in more than once; writing to pts/0 Hello, user2! How c
 ```
     
 In the example above, you initiate a chat with "user2" using the `write` command.
+
+## System Utility Commands
+
+### `uptime`
+
+![[Pasted image 20231023160112.png]]
+
+- <span style="color:pink;">11:18:23</span> - the current linux system time
+- <span style="color:green;">up 83 days</span> - how long your system has been running
+- <span style="color:blue;">4 users</span> - number of users currently logged into your linux machine
+- <span style="color:orange;">load average 0.16,0.03,0.01</span> - average CPU load for 1, 5, and 15 minutes
+
+### `hostname`
+    
+- Explanation: The `hostname` command is used to display or set the system's hostname, which is the name that identifies a device on a network.
+- Example: To display the current hostname, simply run `hostname`. To set a new hostname, use `hostname NEW_HOSTNAME`, replacing `NEW_HOSTNAME` with the desired name.
+- 
+### `uname`
+    
+- Explanation: The `uname` command provides information about the system, such as the kernel name, network node hostname, kernel release, kernel version, machine hardware name, and processor architecture.
+- Example: Running `uname -a` will display detailed system information, including all the available information.
+
+### `which`
+    
+- Explanation: The `which` command is used to locate and display the path of a command or executable in the system's PATH environment variable.
+- Example: To find the path of a command like `ls`, use `which ls`. It will return the full path to the `ls` command, e.g., `/bin/ls`.
+
+### `cal`
+    
+- Explanation: The `cal` command is used to display a calendar for a specific month or year in the terminal.
+- Example: To display a calendar for the current month, simply run `cal`. To show a calendar for a specific year, use `cal <year>`. For example, `cal 2023` will display the calendar for the year 2023.
+- 
+### `bc`
+    
+- Explanation: The `bc` command is a calculator that performs mathematical calculations in the terminal, including arithmetic, trigonometry, and more.
+- Example: You can use `bc` to perform simple calculations, such as:
+        - Addition: `echo "5 + 3" | bc`
+        - Subtraction: `echo "10 - 4" | bc`
+        - Multiplication: `echo "6 * 7" | bc`
+        - Division: `echo "20 / 4" | bc`
+        - Square root: `echo "sqrt(25)" | bc`

@@ -40,7 +40,7 @@ $ systemctl [option] [servicename].service
 |enabled|configure application to start on boot|
 |disabled|configure application to not start on boot|
 |restart|restart an application|
-|list_units --all|get a list of all services|
+|list-units --all|get a list of all services|
 
 ### `ps`
 
@@ -74,4 +74,78 @@ shows the linux processes and it provides a real time view of the running system
 - %MEM = memory usage of task
 - TIME+ = CPU time 
 
+
+### `kill`
+
+used to terminate processes manually. Sends a signal the ultimately kills a particular process or group of processes via process id. Used when the systemctl stop does not work 
+
+```bash
+$ kill [OPTION] [PID]
+```
+
+- ***OPTION*** = signal name or signal number/ID
+- ***PID*** = process ID
+
+`kill -l` - to get a list of all signal names/numbers
+`kill -1` - Restart
+`kill -2` - Interrupt from the keyboard just like `Ctrl C`
+`kill -9` - Forcefully kill the process
+`kill -15` - Killing a process gracefully
+`killall` - Kill all processes
+`pkill` - kill via process name
+
+### `crontab`
+
+used to schedule tasks
+
+|Options|Description|
+|:--------|:------------|
+|-e|Edit the crontab|
+|-l|List the contab entries|
+|-r|remove the crontab|
+|crond|crontab daemon/service that manages scheduling|
+
+![[Pasted image 20231023193246.png]]
+
+Example: create  crontab entry by scheduling a task
+
+```bash
+$ crontab -e
+
+# In File
+21 16 * 10 * echo "Spooky Season" >> crontab_entry
+
+$ wq!
+```
+
+By Default there are 4 different types of cronjobs
+ - Hourly
+ - Daily
+ - Weekly
+ - Monthly
+All the above are setup in
+- `/etc/cron.____`
+The timing for each are set in
+- `/etc/anacrontab --` (Except hourly `/etc/cron.d/0hourly`)
+### `at`
+
+allows you to schedule jobs but only once. When the command runs it will enter interactive mode and you can get out by pressing `Ctrl D`
+
+- `at HH:MM PM` = Schedule a job
+- `atq` = List the at entries
+- `atrm #` = Remove at entry
+- `atd` = at daemon/service that manages scheduling
+
+Example: Create at entry by scheduling a task
+
+```bash
+$ at 04:45 PM
+
+# In FIle
+echo "Hello World"
+
+Ctrl D
+```
+
+## Process Management
 

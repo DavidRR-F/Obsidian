@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Administration/Processes, Jobs, and Scheduling.md",
+                "file": "Shell Scripting/Linux Kernel and Shell.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Administration/Processes, Jobs, and Scheduling.md",
+                "file": "Shell Scripting/Linux Kernel and Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Administration/Processes, Jobs, and Scheduling.md",
+                "file": "Shell Scripting/Linux Kernel and Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Administration/Processes, Jobs, and Scheduling.md"
+                "file": "Shell Scripting/Linux Kernel and Shell.md"
               }
             }
           }
@@ -146,11 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5ebdacec17a8591",
+  "active": "ea28786160f1d852",
   "lastOpenFiles": [
+    "images/Pasted image 20231024205150.png",
+    "System Administration/Processes, Jobs, and Scheduling.md",
+    "Shell Scripting/Linux Kernel and Shell.md",
+    "Shell Scripting",
     "File System/File Commands.md",
     "System Administration/User Account Management.md",
-    "System Administration/Processes, Jobs, and Scheduling.md",
     "images/Pasted image 20231023193246.png",
     "images/Pasted image 20231023160112.png",
     "System Administration/Account Authentication.md",

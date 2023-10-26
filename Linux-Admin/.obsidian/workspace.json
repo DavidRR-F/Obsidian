@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shell Scripting/Linux Kernel and Shell.md",
+                "file": "Shell Scripting/Basics of Shell Scripting.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Shell Scripting/Linux Kernel and Shell.md",
+                "file": "Shell Scripting/Basics of Shell Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Shell Scripting/Linux Kernel and Shell.md",
+                "file": "Shell Scripting/Basics of Shell Scripting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Shell Scripting/Linux Kernel and Shell.md"
+                "file": "Shell Scripting/Basics of Shell Scripting.md"
               }
             }
           }
@@ -146,11 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea28786160f1d852",
+  "active": "e5ebdacec17a8591",
   "lastOpenFiles": [
+    "Shell Scripting/VI Basics.md",
+    "Shell Scripting/Basics of Shell Scripting.md",
+    "File System/File Permissions.md",
+    "Shell Scripting/Untitled",
+    "Shell Scripting/Linux Kernel and Shell.md",
+    "images/Pasted image 20231025194413.png",
     "images/Pasted image 20231024205150.png",
     "System Administration/Processes, Jobs, and Scheduling.md",
-    "Shell Scripting/Linux Kernel and Shell.md",
     "Shell Scripting",
     "File System/File Commands.md",
     "System Administration/User Account Management.md",
@@ -158,7 +163,6 @@
     "images/Pasted image 20231023160112.png",
     "System Administration/Account Authentication.md",
     "images/Pasted image 20231018203435.png",
-    "File System/File Permissions.md",
     "System Administration",
     "CentOS/CentOS Introduction.md",
     "File System/File System Structure.md",

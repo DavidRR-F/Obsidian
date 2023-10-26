@@ -18,6 +18,9 @@ Here are some key responsibilities and functions of the Linux kernel:
     
 7. **Security**: The kernel enforces security policies and access controls to protect system resources from unauthorized access or malicious activities.
 
+
+![[Pasted image 20231025194413.png]]
+
 ## What is a Shell?
 
 The Linux shell, often simply referred to as "the shell," is a command-line interface (CLI) program that allows users to interact with the Linux operating system by issuing text-based commands. It acts as an intermediary between the user and the Linux kernel, translating user commands into system-level actions.
@@ -51,4 +54,3 @@ There are several different shells available for Linux, with the most common one
     
 - **Dash:** Dash is a minimalistic shell designed for scripting and as a default system shell in some Linux distributions for efficiency reasons.
 
-![[Pasted image 20231024205150.png]]

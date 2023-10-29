@@ -79,3 +79,87 @@ $ ethtool -S eth0
 
 ## NIC Bonding
 
+The aggregation or combination of multiple NIC into a single bond interface mainly used for high availability and redundancy
+
+![[Pasted image 20231029175810.png]]
+
+### **Redundancy**
+
+In a redundant NIC bonding configuration, multiple NICs are used to provide backup or failover in case one NIC or its connection fails. This ensures that network connectivity remains available even if one of the NICs or its associated network path becomes unavailable. Here's how redundancy is achieved:
+
+- **Active-Backup Mode (Failover)**: In this mode, one NIC (the active or primary NIC) is actively used for network traffic, while the other NICs (backup or secondary NICs) remain inactive. If the active NIC fails or loses its connection, one of the backup NICs automatically takes over to maintain network connectivity.
+    
+- **Monitoring and Failover Mechanisms**: NIC bonding typically includes mechanisms to monitor the status of the active NIC. If the active NIC fails or becomes unavailable, the bonding driver detects this and switches to one of the backup NICs. The failover is usually seamless and transparent to network applications.
+    
+
+### **High Availability Link Aggregation**
+
+In addition to redundancy, NIC bonding can be used to increase network bandwidth and achieve high availability through link aggregation. In this mode, multiple NICs are used together to increase throughput and provide load balancing. Here's how high availability link aggregation works:
+
+- **Load Balancing**: Multiple NICs are actively used for network traffic simultaneously. Incoming and outgoing network packets are distributed across the NICs, balancing the load and maximizing network bandwidth utilization.
+    
+- **Fault Tolerance**: Even in link aggregation mode, NIC bonding provides fault tolerance. If one or more NICs in the bond fail, the remaining NICs continue to handle network traffic. This ensures that network connectivity is maintained, albeit at a reduced bandwidth if NICs fail.
+    
+- **Link Aggregation Protocols**: Various link aggregation protocols, such as IEEE 802.3ad (LACP - Link Aggregation Control Protocol), are used to manage the link aggregation. These protocols help in negotiating and configuring the link aggregation between the NICs and the connected network switch.
+    
+- **Switch Configuration**: To utilize link aggregation, the network switch or switches to which the bonded NICs are connected must also be configured to support link aggregation. The switch and NICs communicate using the chosen link aggregation protocol to create a high-bandwidth link.
+
+## NIC Bonding Procedure
+
+![[Pasted image 20231029180451.png]]
+
+1. Add a new NIC if one does not exist then Install bonding driver `modprobe bonding` if bonding is not enabled. To list the bonding module info run `modinfo bonding`
+	
+2. Create a bond interface file
+
+```bash
+$ vi /etc/sysconfig/network-sctips/ifcfg-bond0
+
+# File Content Example
+DEVICE=bond0
+TYPE=Bond
+NAME=bond0
+BONDING_MASTER=yes # bonding of the master is itself
+BOOTPROTO=none # none or static if you want to assign a static IP
+ONBOOT=yes
+IPADDR=192.168.1.80
+NETMASK=255.255.255.0
+GATEWAY=192.168.1.1
+BONDING_OPTS="mode=5 milmon"
+```
+
+3. Edit the first NIC file (enp0s3)
+
+```bash
+$ vi /etc/sysconfig/network-scripts/ifcfg-en0s3
+
+# Replace the Content with the following
+DEVICE=enp0s3
+TYPE=Ethernet
+BOOTPROTO=none # none or static if you want to assign a static IP
+ONBOOT=yes
+HWADDR="MAC from the ifconfig command"
+MASTER=bond0
+SLAVE=yes
+```
+
+4. Edit the second NIC file (enp0s8)
+
+```bash
+$ vi /etc/sysconfig/network-scripts/ifcfg-en0s8
+
+# Replace the Content with the following
+DEVICE=enp0s8
+TYPE=Ethernet
+BOOTPROTO=none # none or static if you want to assign a static IP
+ONBOOT=yes
+HWADDR="MAC from the ifconfig command"
+MASTER=bond0
+SLAVE=yes
+```
+
+5. Restart network `systemctl restart network`
+
+6. Test and verify the configuartion with `ifconfig`
+
+

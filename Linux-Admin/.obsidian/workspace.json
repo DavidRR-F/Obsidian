@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Netork Interface Card (NIC).md",
+                "file": "Networking/Network Interface Card (NIC).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Netork Interface Card (NIC).md",
+                "file": "Networking/Network Interface Card (NIC).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Netork Interface Card (NIC).md",
+                "file": "Networking/Network Interface Card (NIC).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Netork Interface Card (NIC).md"
+                "file": "Networking/Network Interface Card (NIC).md"
               }
             }
           }
@@ -146,10 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5ebdacec17a8591",
+  "active": "ea28786160f1d852",
   "lastOpenFiles": [
+    "images/Pasted image 20231029180451.png",
+    "images/Pasted image 20231029175810.png",
     "Networking/Network Commands.md",
-    "Networking/Netork Interface Card (NIC).md",
+    "Networking/Network Interface Card (NIC).md",
     "Networking/Network Files.md",
     "Networking/Network Basics.md",
     "Shell Scripting/Basics of Shell Scripting.md",

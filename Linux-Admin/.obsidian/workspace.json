@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7d3ccc096da125d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Protocols.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network Manager.md",
+                "file": "Networking/Protocols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network Manager.md",
+                "file": "Networking/Protocols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network Manager.md"
+                "file": "Networking/Protocols.md"
               }
             }
           }
@@ -146,10 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5ebdacec17a8591",
+  "active": "7d3ccc096da125d5",
   "lastOpenFiles": [
-    "Networking/Network Interface Card (NIC).md",
+    "images/Pasted image 20231030192603.png",
     "Networking/Network Manager.md",
+    "Networking/Protocols.md",
+    "Networking/Network Interface Card (NIC).md",
     "images/Pasted image 20231029180451.png",
     "images/Pasted image 20231029175810.png",
     "Networking/Network Commands.md",

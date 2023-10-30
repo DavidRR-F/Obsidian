@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network Interface Card (NIC).md",
+                "file": "Networking/Network Manager.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network Interface Card (NIC).md",
+                "file": "Networking/Network Manager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network Interface Card (NIC).md",
+                "file": "Networking/Network Manager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network Interface Card (NIC).md"
+                "file": "Networking/Network Manager.md"
               }
             }
           }
@@ -146,12 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea28786160f1d852",
+  "active": "e5ebdacec17a8591",
   "lastOpenFiles": [
+    "Networking/Network Interface Card (NIC).md",
+    "Networking/Network Manager.md",
     "images/Pasted image 20231029180451.png",
     "images/Pasted image 20231029175810.png",
     "Networking/Network Commands.md",
-    "Networking/Network Interface Card (NIC).md",
     "Networking/Network Files.md",
     "Networking/Network Basics.md",
     "Shell Scripting/Basics of Shell Scripting.md",

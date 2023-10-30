@@ -160,6 +160,6 @@ SLAVE=yes
 
 5. Restart network `systemctl restart network`
 
-6. Test and verify the configuartion with `ifconfig`
+6. Test and verify the configuration with `ifconfig`
 
 

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Protocols.md",
+                "file": "System Administration/System and Package Management.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Protocols.md",
+                "file": "System Administration/System and Package Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Protocols.md",
+                "file": "System Administration/System and Package Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Protocols.md"
+                "file": "System Administration/System and Package Management.md"
               }
             }
           }
@@ -161,9 +161,10 @@
   },
   "active": "7d3ccc096da125d5",
   "lastOpenFiles": [
+    "Networking/File Transfer Protocols.md",
+    "System Administration/System and Package Management.md",
     "images/Pasted image 20231030192603.png",
     "Networking/Network Manager.md",
-    "Networking/Protocols.md",
     "Networking/Network Interface Card (NIC).md",
     "images/Pasted image 20231029180451.png",
     "images/Pasted image 20231029175810.png",
@@ -192,7 +193,6 @@
     "images/Pasted image 20231016205601.png",
     "images/Pasted image 20231015092557.png",
     "images",
-    "images/Pasted image 20231015082527.png",
     "CentOS/Untitled.md",
     "File System",
     "CentOS"

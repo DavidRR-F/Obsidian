@@ -35,16 +35,38 @@ $ rpm -qa | grep <package_name>
 - Install a Package
 
 ```bash
-$ rpm -ihv /tmp/package.rpm
+$ rpm -ihv /tmp/<package_name>
+```
+
+- Get package Info
+
+```bash
+$ rpm -qi <package_name>
+```
+
+- Find Package configuration Files
+
+```bash
+$ rpm -qc <package_name>
 ```
 
 - Remove a Package
 
 ```bash
-$ rpm -e package
+$ rpm -e <package_name>
+```
+
+- Tell what Package a command is from
+
+```bash
+$ which <command>
+
+$ rpm -qf <command_path>
 ```
 
 ## Creating Local Repository (Yum Server)
+
+1. Mount CDROM (Optical) drive (disk that has all the packages)
 
 ```bash
 $ mnt /dev/sr0
@@ -57,3 +79,17 @@ Two Types of upgrades
 	- Backup Files - Build new Server - Transfer Files
 - Minor Version Upgrades - 0.X
 	- can be done through package manager update commands `yum update -y` or `upgrade` (deletes packages)
+
+## Rollback Updates and Patches
+
+On Virtual Machines you have the ability to rollback changes by creating a snapshot before making any changes, but on a physical machine this is not the case and you must rely on other methods.
+
+- Rollback a package (patch)
+
+```bash
+$ yum history undo <package>
+```
+
+- Rollback an update
+
+	- Downgrading a system to minor versions is not recommended as this might leave the system in an undesired or unstable state

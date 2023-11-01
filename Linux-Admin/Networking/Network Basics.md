@@ -76,7 +76,7 @@ Common examples of network gateways include:
     
 - **DHCP** is preferred in larger networks where automatic IP address assignment and management efficiency are important. It simplifies administration and helps prevent address conflicts, making it well-suited for general-purpose devices like computers, smartphones, and IoT devices.
 
-## Network Interface
+## Network Interface (NIC)
 
 A network interface, often abbreviated as NIC (Network Interface Card) or simply as "network adapter," is a hardware component or a software interface that allows a computer or other device to physically connect to a network and communicate with other devices on that network. Network interfaces play a fundamental role in enabling data transmission over networks. Here are key points about network interfaces:
 
@@ -104,3 +104,19 @@ A network interface, often abbreviated as NIC (Network Interface Card) or simply
 6. **Drivers and Software**: Network interface hardware requires appropriate drivers or software to communicate with the operating system and manage network connections.
     
 7. **Role in Network Communication**: When a device wants to send or receive data over a network, the data is processed and transmitted/received through the network interface. It plays a critical role in encapsulating data into packets, managing communication with other devices, and handling data transmission/reception.
+
+## SSH and Telnet
+
+- **Telnet** - Un-secured connection between computers
+
+```bash
+$ telnet [hostname or IP address]
+```
+
+- **SSH** - Secured connection between computers
+
+![[Pasted image 20231101160406.png]]
+
+```bash
+$ ssh <user>@<ip_or_hostname>
+```

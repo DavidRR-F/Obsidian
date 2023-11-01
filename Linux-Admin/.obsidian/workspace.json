@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Administration/System and Package Management.md",
+                "file": "Networking/Domain Name System (DNS).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Administration/System and Package Management.md",
+                "file": "Networking/Domain Name System (DNS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Administration/System and Package Management.md",
+                "file": "Networking/Domain Name System (DNS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Administration/System and Package Management.md"
+                "file": "Networking/Domain Name System (DNS).md"
               }
             }
           }
@@ -161,16 +161,18 @@
   },
   "active": "7d3ccc096da125d5",
   "lastOpenFiles": [
-    "Networking/File Transfer Protocols.md",
+    "Networking/Network Basics.md",
+    "Networking/Domain Name System (DNS).md",
+    "images/Pasted image 20231101160406.png",
+    "Networking/Network Interface Card (NIC).md",
     "System Administration/System and Package Management.md",
+    "Networking/File Transfer Protocols.md",
     "images/Pasted image 20231030192603.png",
     "Networking/Network Manager.md",
-    "Networking/Network Interface Card (NIC).md",
     "images/Pasted image 20231029180451.png",
     "images/Pasted image 20231029175810.png",
     "Networking/Network Commands.md",
     "Networking/Network Files.md",
-    "Networking/Network Basics.md",
     "Shell Scripting/Basics of Shell Scripting.md",
     "Networking",
     "Shell Scripting/VI Basics.md",
@@ -191,7 +193,6 @@
     "CentOS/CentOS Introduction.md",
     "File System/File System Structure.md",
     "images/Pasted image 20231016205601.png",
-    "images/Pasted image 20231015092557.png",
     "images",
     "CentOS/Untitled.md",
     "File System",

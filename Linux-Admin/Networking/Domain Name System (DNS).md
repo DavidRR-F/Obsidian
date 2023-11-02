@@ -104,3 +104,95 @@ $ www.example.com.    IN  CNAME   webserver.example.com.
 ```bash
 $ yum install bind bind-utils -y
 ```
+
+2. Configure DNS Server
+
+```bash
+$ vi /etc/named.conf
+
+# Edit lines
+listen-on port 53 { 127.0.0.1; <ip_address>; };
+
+zone "<domain>" IN {
+	type master;
+	file "forward.lab";
+	allow-update { none; };
+};
+
+zone "1.168.192.in-addr.arpa" IN {
+	type master;
+	file "reverse.lab";
+	allow-update { none; };
+};
+```
+
+3. Create Zone Files
+
+```bash
+$ cd /var/named
+
+$ touch forward.lab
+
+$ touch reverse.lab
+```
+
+- Modify forward zone file
+
+```
+$TTL 86400 
+@ IN SOA masterdns.lab.local. root.lab.local. ( 
+     2011071001 ;Serial 3600 ;
+     Refresh 1800 ;Retry 604800 ;
+     Expire 86400 ;Minimum TTL 
+ ) 
+@ IN NS masterdns.lab.local. 
+@ IN A 192.168.1.29 masterdns IN A 192.168.1.29 
+clienta IN A 192.168.1.240 
+clientb IN A 192.168.1.241
+```
+
+- Modify Reverse zone file
+
+```
+$TTL 86400 @ IN SOA masterdns.lab.local. root.lab.local. ( 
+	2011071001 ;
+	Serial 3600 ;
+	Refresh 1800 ;
+	Retry 604800 ;
+	Expire 86400 ;Minimum TTL 
+) 
+@ IN NS masterdns.lab.local. 
+@ IN PTR lab.local. masterdns IN A 192.168.1.29 
+29 IN PTR masterdns.lab.local. 
+240 IN PTR clienta.lab.local. 
+241 IN PTR clientb.lab.local.
+```
+
+- Update Configurations
+
+```bash
+$ vi /etc/sysconfig/network-scripts/ifcfg-enp0s3
+
+# Edit File
+DNS=192.168.1.29
+
+$ vi /etc/resolv.conf
+
+# Adit File
+nameserver 192.168.1.29
+```
+
+- Start DNS Server
+
+```bash
+$ systemctl start named
+$ systemctl enable named
+```
+
+- Enable firewall traffic
+
+```bash
+$ sudo firewall-cmd --add-port=53/tcp --permanent
+
+$ sudo firewall-cmd --reload
+```

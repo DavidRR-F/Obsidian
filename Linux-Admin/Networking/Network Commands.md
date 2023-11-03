@@ -65,3 +65,42 @@ $ sudo tcpdump -i eth0
 ```
         
 This command captures and prints network packets on the specified interface, which can be useful for diagnosing network issues and analyzing network traffic.
+
+### **nslookup** (Name Server Lookup)
+
+- **Purpose**: `nslookup` is an older DNS tool that is less feature-rich compared to `dig`. It is commonly used for simple DNS queries and basic troubleshooting tasks.
+- **Functionality**:
+    - `nslookup` provides a basic interactive shell where you can enter domain names or IP addresses and receive corresponding DNS information, such as A records, MX records, and name server details.
+    - It can perform forward and reverse DNS lookups and display information about the DNS servers used for name resolution.
+
+To query the A record for a domain:
+
+```bash
+$ nslookup example.com
+```
+
+To query A record for a IP Address:
+
+```bash
+$ nslookup 192.168.1.29
+```
+### **dig**
+
+
+- **Purpose**: `dig` is a versatile and powerful DNS diagnostic tool used for querying DNS information. It is the preferred choice for DNS-related tasks among experienced system administrators and network engineers.
+- **Functionality**:
+    - `dig` can query specific DNS records, such as A (IPv4 address), AAAA (IPv6 address), MX (mail exchange), NS (name server), PTR (reverse DNS), and more.
+    - It allows for advanced querying, including specifying the DNS server to query, requesting specific record types, setting query timeouts, and enabling debugging.
+    - `dig` provides detailed information, including response headers, response time, and additional information about DNS responses.
+
+To query the A record for a domain:
+
+```bash
+$ dig A example.com
+```
+
+To query A record for a IP Address:
+
+```bash
+$ dig MX example.com
+```

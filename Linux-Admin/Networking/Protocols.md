@@ -133,3 +133,58 @@ $ touch serverfile
 
 $ rsync -avzh <user_name>@<remote_server_ip>:/home/<user_name>/serverfile /tmp/backups
 ```
+
+## Network Time Protocol (NTP)
+
+networking protocol and a set of algorithms used to synchronize the time of computer systems and network devices over a network. The primary purpose of NTP is to ensure that all devices on a network have accurate and synchronized time, which is essential for various purposes
+
+1. Check if ntp package is installed
+
+```bash
+$ rpm -qa | grep ntp
+
+$ yum install ntp -y
+```
+
+2. Modify `/etc/ntp.conf`
+
+```bash
+$ vi /etc/ntp.conf
+
+# Add Content
+server 8.8.8.8 # g0ogles dns
+```
+
+3. Start and enable service
+
+```bash
+$ systemctl start ntpd
+
+$ systemctl enable ntpd
+```
+
+4. Check if the service is running
+
+```bash
+$ systemctl status ntpd
+
+or 
+
+$ ps -ef | grep ntp
+```
+
+### `ntpq`
+
+interactive mode for ntp
+
+```bash
+$ ntpq
+# get dns time list
+ntpq> peers
+ntpq> quit
+```
+
+## `chronyd`
+
+ensure that all devices on a network have accurate and synchronized time, which is essential for various purposes just like NTP but with more features
+

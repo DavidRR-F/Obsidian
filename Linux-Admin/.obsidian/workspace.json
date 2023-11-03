@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Domain Name System (DNS).md",
+                "file": "Networking/Protocols.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Domain Name System (DNS).md",
+                "file": "Networking/Protocols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Domain Name System (DNS).md",
+                "file": "Networking/Protocols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Domain Name System (DNS).md"
+                "file": "Networking/Protocols.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "e5ebdacec17a8591",
   "lastOpenFiles": [
-    "Networking/File Transfer Protocols.md",
+    "Networking/Network Commands.md",
     "Networking/Domain Name System (DNS).md",
+    "Networking/Protocols.md",
     "Networking/Network Interface Card (NIC).md",
     "System Administration/System and Package Management.md",
     "images/Pasted image 20231101160406.png",
@@ -158,7 +159,6 @@
     "images/Pasted image 20231030192603.png",
     "images/Pasted image 20231029180451.png",
     "images/Pasted image 20231029175810.png",
-    "Networking/Network Commands.md",
     "Networking/Network Files.md",
     "Networking/Network Basics.md",
     "Shell Scripting/Basics of Shell Scripting.md",

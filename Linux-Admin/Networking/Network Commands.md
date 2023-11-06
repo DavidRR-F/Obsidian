@@ -104,3 +104,71 @@ To query A record for a IP Address:
 ```bash
 $ dig MX example.com
 ```
+
+## timedatectl
+
+command-line utility available on Linux systems that allows users and administrators to view and configure various system clock and time-related settings. It is part of the `systemd` suite of utilities and is commonly found on modern Linux distributions that use `systemd` as their init system. `timedatectl` provides a convenient way to manage time and date settings on the system
+
+1. **View the Current System Time and Date**:
+    
+```bash
+$ timedatectl
+```
+
+    
+This command displays detailed information about the current system time, time zone, and other time-related settings.
+    
+2. **Change the System Time**:
+    
+```bash
+$ sudo timedatectl set-time "2023-10-26 14:30:00"
+```
+
+This command sets the system time to October 26, 2023, at 14:30:00.
+    
+3. **Change the System Time Zone**:
+    
+```bash
+$ sudo timedatectl set-timezone "America/New_York"
+```
+    
+This command changes the system's time zone to "America/New_York."
+    
+4. **Enable NTP Synchronization**:
+    
+```bash
+$ sudo timedatectl set-ntp true
+```
+
+This command enables automatic time synchronization with NTP servers, helping to keep the system clock accurate.
+    
+5. **List Available Time Zones**:
+    
+```bash
+$ timedatectl list-timezones
+```
+
+This command displays a list of available time zones that you can use to set the system's time zone.
+    
+6. **Show Detailed Information**:
+    
+```bash
+$ timedatectl show
+```
+
+This command provides detailed information about the system's time and date settings, including the current time, time zone, RTC status, and more.
+    
+7. **Set Hardware Clock to UTC**:
+    
+```bash
+$ sudo timedatectl set-local-rtc 0
+```
+
+    
+This command sets the hardware clock (RTC) to use UTC instead of local time.
+    
+8. **Set Hardware Clock to Local Time**:
+    
+```bash
+$ sudo timedatectl set-local-rtc 1
+```

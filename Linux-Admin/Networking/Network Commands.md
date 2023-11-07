@@ -172,3 +172,38 @@ This command sets the hardware clock (RTC) to use UTC instead of local time.
 ```bash
 $ sudo timedatectl set-local-rtc 1
 ```
+
+
+## traceroute
+
+a network diagnostic tool used to trace the route that packets of data take as they travel across an IP network from a source to a destination. It is commonly used to troubleshoot network connectivity issues, identify network bottlenecks, and measure network latency (the time it takes for data packets to travel from one point to another). Traceroute provides valuable insights into the path that data follows through the network.
+
+1. **Hop-by-Hop Analysis**:
+    
+    - Traceroute works by sending a series of Internet Control Message Protocol (ICMP) or User Datagram Protocol (UDP) packets with varying time-to-live (TTL) values to the destination IP address.
+    - Each router or network device along the path to the destination decrements the TTL value by one. When the TTL reaches zero, the device discards the packet and sends an ICMP "Time Exceeded" message back to the sender.
+    - The "Time Exceeded" message indicates the presence of the router or device and provides information about its IP address.
+
+1. **Iterative Process**:
+    
+    - Traceroute sends multiple packets with increasing TTL values, starting from TTL 1 and incrementing by one for each subsequent packet.
+    - As a result, each packet reaches a different router along the path to the destination, and the routers send back "Time Exceeded" messages.
+
+1. **Displaying Results**:
+    
+    - Traceroute displays the results in a tabular format, showing each hop (router or device) along the route, along with its IP address and the time it took for the packet to reach that hop and return.
+    - It may also show the DNS name of each hop if reverse DNS lookup is successful.
+
+Here is the basic syntax for using `traceroute`:
+
+```bash
+$ traceroute destination
+```
+
+- `destination`: The IP address or hostname of the destination you want to trace the route to.
+
+For example, to trace the route to the Google DNS server (8.8.8.8), you would run:
+
+```bash
+$ traceroute 8.8.8.8
+```

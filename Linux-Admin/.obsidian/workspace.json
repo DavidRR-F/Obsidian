@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Services.md",
+                "file": "CentOS and Redhat/Cockpit.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Services.md",
+                "file": "CentOS and Redhat/Cockpit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Services.md",
+                "file": "CentOS and Redhat/Cockpit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Services.md"
+                "file": "CentOS and Redhat/Cockpit.md"
               }
             }
           }
@@ -148,9 +148,18 @@
   },
   "active": "e5ebdacec17a8591",
   "lastOpenFiles": [
+    "images/Pasted image 20231106204220.png",
+    "CentOS and Redhat/Fedora Based Linux.md",
+    "CentOS and Redhat/Cockpit.md",
+    "Security/Securing SSH.md",
+    "images/Pasted image 20231106202921.png",
+    "images/Pasted image 20231106200633.png",
     "Networking/Network Commands.md",
-    "System Administration/System and Package Management.md",
+    "Security/OpenLDAP.md",
+    "Security/OS Hardening Introduction.md",
     "Networking/Services.md",
+    "Security",
+    "System Administration/System and Package Management.md",
     "Networking/Domain Name System (DNS).md",
     "Networking/Network Interface Card (NIC).md",
     "images/Pasted image 20231101160406.png",
@@ -175,14 +184,11 @@
     "images/Pasted image 20231023193246.png",
     "images/Pasted image 20231023160112.png",
     "System Administration/Account Authentication.md",
-    "images/Pasted image 20231018203435.png",
     "System Administration",
-    "CentOS/CentOS Introduction.md",
     "File System/File System Structure.md",
-    "images/Pasted image 20231016205601.png",
     "images",
     "CentOS/Untitled.md",
     "File System",
-    "CentOS"
+    "CentOS and Redhat"
   ]
 }

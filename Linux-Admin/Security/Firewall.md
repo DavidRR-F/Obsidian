@@ -255,4 +255,131 @@ Reload after adding rules
 ```bash
 $ firewall-cmd --reload
 ```
+### Zones
 
+zones are predefined network security profiles or configurations that group network interfaces and define a set of default firewall rules for each zone. Zones simplify the management of firewall settings by categorizing network interfaces into different security contexts, making it easier to apply consistent firewall rules for specific network scenarios. Each zone has its own set of default rules tailored to the expected level of security for that zone.
+
+Here are some common zones in `firewalld`:
+
+1. **Public Zone**:
+    
+    - **Description**: The public zone is typically used for public-facing network interfaces that are connected to untrusted or publicly accessible networks, such as the internet.
+    - **Default Rules**: The default rules for the public zone are often restrictive, allowing only essential incoming traffic (e.g., SSH) and blocking most unsolicited incoming traffic.
+
+1. **Internal Zone**:
+    
+    - **Description**: The internal zone is used for trusted network interfaces that are part of your internal network or LAN (Local Area Network).
+    - **Default Rules**: The default rules for the internal zone are typically more permissive, allowing communication between devices on the same local network while still blocking external or untrusted traffic.
+
+1. **Work Zone**:
+    
+    - **Description**: The work zone is often used for network interfaces in work or office environments where a moderate level of security is required. It's a balanced zone suitable for many scenarios.
+    - **Default Rules**: The work zone may allow common services like web browsing, email, and remote desktop access, while still providing some protection against malicious traffic.
+
+1. **Home Zone**:
+    
+    - **Description**: The home zone is designed for network interfaces on trusted home networks, such as those in residential settings.
+    - **Default Rules**: The home zone's default rules are typically more permissive to allow common home network activities. It may allow file sharing and multimedia streaming, for example.
+
+1. **DMZ Zone**:
+    
+    - **Description**: The DMZ (Demilitarized Zone) zone is used for network interfaces that are part of a DMZ network. A DMZ is an isolated network segment that sits between a trusted internal network and an untrusted external network (e.g., the internet).
+    - **Default Rules**: The DMZ zone may allow specific services intended to be exposed to the internet, such as web servers or email servers, while still protecting the internal network.
+
+1. **Block Zone**:
+    
+    - **Description**: The block zone is used to block all incoming and outgoing network traffic on a specific network interface.
+    - **Default Rules**: The block zone's default rules are typically set to deny all traffic, effectively creating an isolated network segment that does not allow any communication.
+
+Get a list of all zones
+
+```bash
+$ firewall-cmd --get-zones
+```
+
+Get a list of active zones
+
+```bash
+$ firewall-cmd --get-active-zones
+```
+
+Get rules of a specific zone
+
+```bash
+$ firewall-cmd --zone=<zone_name> --list-all
+```
+
+### Services
+
+Services are predefined sets of firewall rules that define how to handle network traffic for specific applications or services. These service definitions simplify the process of configuring firewall rules by allowing you to reference services by name rather than specifying individual ports and protocols. Each service definition includes information about the necessary ports, protocols, and rules required to allow that service to function properly.
+
+Add a service
+
+```bash
+firewall-cmd --add-service=http
+```
+
+Add a service that is not predefined
+
+All Services are pre-defined by firewalld. To add a 3rd party service, you have to:
+- add it to the firewalld services configuration file `/usr/lib/firwalld/services`
+
+```xml
+<?xml version="1.0" encoding="utf-8"?> 
+<service> 
+	<short>MyApp Service</short> 
+	<description>Custom service for MyApp</description> 
+	<port protocol="tcp" port="12345"/> 
+</service>
+```
+
+```bash
+$ cp myservice.xml /usr/lib/firewlld/services
+```
+
+```bash
+$ firewall-cmd --add-service=myservice
+```
+
+Remove a service
+
+```bash
+$ firewall-cmd --remove-service=<service_name>
+```
+
+### Ports
+
+Ports play a fundamental role in configuring firewall rules. Ports are used to define the communication endpoints for network services or applications. Firewall rules are set up to control access to these ports based on the specified port number and protocol
+
+Add a port
+
+```bash
+$ frewall-cmd --add-port=1143/tcp
+```
+
+Remove a port
+
+```bash
+$ firewall-cmd --remove-port 1143/tcp
+```
+
+Reject incoming traffic from an IP address
+
+```bash
+$ firewall-cmd --add-rich-rule'rule family="ipv4" source address="192.168.0.x" reject'
+```
+
+Block and unblock ICMP incoming traffic
+
+```bash
+$ firewall-cmd --add-icmp-block-inversion
+```
+
+- ICMP stands for Internet Control Message Protocol. It is one of the core protocols in the Internet Protocol (IP) suite and is used for various network-related functions, particularly for diagnostic and control purposes. ICMP operates at the network layer (Layer 3) of the OSI model and is typically used by networking tools and utilities to communicate network status and error information between devices on a network
+
+Block outgoing traffic to a specific website/IP Address
+
+```bash
+$ host -t a www.facebook.com
+$ firewall-cmd --direct --add-rule ipv4 filter OUTPUT 0 -d 31.13.71.36 -j DROP
+```

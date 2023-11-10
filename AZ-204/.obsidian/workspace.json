@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "649e1bb1d9b497cc",
+        "id": "6d81e16c0548ac23",
         "type": "tabs",
         "children": [
           {
-            "id": "07739741e0ba3102",
+            "id": "8eaa7404dfa6ab9e",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "df63b919e96ba347",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Azure Developer (AZ-204).md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure Developer (AZ-204).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Azure Developer (AZ-204).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Azure Developer (AZ-204).md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -155,8 +140,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df63b919e96ba347",
+  "active": "19e76ddea4e81411",
   "lastOpenFiles": [
+    "Azure Developer (AZ-204).md",
+    "Untitled.md",
     "images/Pasted image 20230921201441.png",
     "images/Pasted image 20230921201216.png",
     "images/Pasted image 20230921201150.png",
@@ -171,7 +158,6 @@
     "Azure Storage Account/Core Features.md",
     "Azure Storage Account/Blob Storage.md",
     "Azure Storage Account",
-    "Azure Developer (AZ-204).md",
     "Azure Functions/Configuation/Azure Functions.md",
     "App Services/Azure App Service.md",
     "App Services/App Service Networking Features.md",
@@ -183,7 +169,6 @@
     "images/Pasted image 20230731135827.png",
     "images/Pasted image 20230731135205.png",
     "Azure VMs/Hyper-V and Generation 1 & 2.md",
-    "images/Pasted image 20230731134220.png",
     "Azure VMs/Azure Compute Units.md",
     "Azure VMs/Azure VM Sizes.md",
     "Azure VMs/Cloud Init.md",

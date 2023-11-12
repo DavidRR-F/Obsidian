@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/Firewall.md",
+                "file": "System Administration/System Performance.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/Firewall.md",
+                "file": "System Administration/System Performance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/Firewall.md",
+                "file": "System Administration/System Performance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/Firewall.md"
+                "file": "System Administration/System Performance.md"
               }
             }
           }
@@ -146,11 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5ebdacec17a8591",
+  "active": "ea28786160f1d852",
   "lastOpenFiles": [
-    "Untitled.md",
+    "images/Pasted image 20231112093141.png",
+    "images/Pasted image 20231112092836.png",
+    "images/Pasted image 20231112092549.png",
+    "images/Pasted image 20231112092349.png",
     "Security/Firewall.md",
     "System Administration/System Performance.md",
+    "Untitled.md",
     "images/Pasted image 20231106202921.png",
     "images/Pasted image 20231106204220.png",
     "images/Pasted image 20231108185224.png",
@@ -169,10 +173,7 @@
     "System Administration/System and Package Management.md",
     "Networking/Domain Name System (DNS).md",
     "Networking/Network Interface Card (NIC).md",
-    "images/Pasted image 20231101160406.png",
     "Networking/Network Manager.md",
-    "images/Pasted image 20231030192603.png",
-    "images/Pasted image 20231029180451.png",
     "Networking/Network Files.md",
     "Networking/Network Basics.md",
     "Shell Scripting/Basics of Shell Scripting.md",
@@ -189,7 +190,6 @@
     "System Administration",
     "File System/File System Structure.md",
     "images",
-    "CentOS/Untitled.md",
     "File System",
     "CentOS and Redhat"
   ]

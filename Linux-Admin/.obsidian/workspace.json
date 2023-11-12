@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Administration/System Performance.md",
+                "file": "Disk Management/Boot Processes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Administration/System Performance.md",
+                "file": "Disk Management/Boot Processes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Administration/System Performance.md",
+                "file": "Disk Management/Boot Processes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Administration/System Performance.md"
+                "file": "Disk Management/Boot Processes.md"
               }
             }
           }
@@ -148,27 +148,30 @@
   },
   "active": "ea28786160f1d852",
   "lastOpenFiles": [
+    "images/Pasted image 20231112162824.png",
+    "Networking/Services.md",
+    "Disk Management/Boot Processes.md",
+    "CentOS and Redhat/Automate Linux Installation.md",
+    "images/Pasted image 20231112105647.png",
+    "Disk Management",
+    "System Administration/System Performance.md",
     "images/Pasted image 20231112093141.png",
     "images/Pasted image 20231112092836.png",
     "images/Pasted image 20231112092549.png",
     "images/Pasted image 20231112092349.png",
     "Security/Firewall.md",
-    "System Administration/System Performance.md",
     "Untitled.md",
     "images/Pasted image 20231106202921.png",
     "images/Pasted image 20231106204220.png",
     "images/Pasted image 20231108185224.png",
     "images/Pasted image 20231108200642.png",
     "images/Pasted image 20231108202105.png",
-    "images/Pasted image 20231108201500.png",
     "CentOS and Redhat/Cockpit.md",
     "CentOS and Redhat/Fedora Based Linux.md",
     "Security/Securing SSH.md",
-    "images/Pasted image 20231106200633.png",
     "Networking/Network Commands.md",
     "Security/OpenLDAP.md",
     "Security/OS Hardening Introduction.md",
-    "Networking/Services.md",
     "Security",
     "System Administration/System and Package Management.md",
     "Networking/Domain Name System (DNS).md",
@@ -186,9 +189,7 @@
     "Shell Scripting",
     "File System/File Commands.md",
     "System Administration/User Account Management.md",
-    "System Administration/Account Authentication.md",
     "System Administration",
-    "File System/File System Structure.md",
     "images",
     "File System",
     "CentOS and Redhat"

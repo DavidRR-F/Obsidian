@@ -61,44 +61,49 @@ The computer boot process, often referred to as "bootstrapping" or simply "booti
     - The boot process begins when the computer is powered on or when it is reset (restarted).
     - When power is applied, the computer's central processing unit (CPU) starts executing instructions from a predefined memory location known as the reset vector or BIOS (Basic Input/Output System) firmware.
 
-1. **POST (Power-On Self-Test)**:
+2. **POST (Power-On Self-Test)**:
     
     - The BIOS firmware conducts a Power-On Self-Test (POST). During POST, the computer's hardware components (e.g., CPU, RAM, storage devices, keyboard, and graphics card) are tested for proper functionality.
     - If the POST process detects hardware issues or failures, it may display error messages or emit audible beep codes to indicate the problem.
 
-1. **BIOS Initialization**:
+3. **BIOS Initialization**:
     
     - After completing the POST, the BIOS initializes the system's hardware components and peripherals.
     - The BIOS configuration settings, including the boot order (sequence of devices to check for bootable media), are loaded and checked.
 
-1. **Boot Device Selection**:
+4. **Boot Device Selection**:
     
     - The BIOS uses the boot order to determine which storage device (e.g., hard drive, solid-state drive, USB drive, CD/DVD drive) to attempt to boot from first.
     - If a bootable device is found, the BIOS transfers control to the Master Boot Record (MBR) or the boot sector of the selected storage device.
 
-1. **MBR and Bootloader**:
+5. **MBR and Bootloader**:
     
     - The MBR or the boot sector of the bootable storage device contains a small program called the bootloader.
     - The bootloader's primary function is to load the operating system kernel into memory. The bootloader may also provide options for selecting an operating system if multiple OS installations exist on the same computer (e.g., dual-boot configuration).
 
-1. **Operating System Kernel Loading**:
+6. **Operating System Kernel Loading**:
     
     - The bootloader loads the operating system's kernel into memory. The kernel is the core component of the operating system that manages hardware resources, processes, and system calls.
     - Once the kernel is loaded, it initializes system drivers, performs hardware detection, and prepares the system for user interaction.
 
-1. **Init Process (Systemd on Modern Linux Systems)**:
+7. **Init Process (Systemd on Modern Linux Systems)**:
     
     - On modern Linux distributions that use systemd as the init system, systemd is the first user-space program to start.
     - systemd initializes user-space services, starts system daemons, and manages system processes.
 
-1. **User Login or Graphical User Interface (GUI)**:
+8. **User Login or Graphical User Interface (GUI)**:
     
     - After initialization, the operating system presents a user login prompt or starts the graphical user interface (GUI), depending on the system's configuration.
     - Users can log in and begin using the computer.
 
-1. **User-Level Applications**:
+9. **User-Level Applications**:
     
     - Once the user is logged in, user-level applications, services, and user interfaces are launched based on user preferences and system configuration.
 
-## Linux Boot Process
+## Linux Boot Process CentOS/Redhat 6 and down
 
+![[Pasted image 20231112164047.png]]
+
+## Linux Boot Process CentOS/Redhat 7 and up
+
+![[Pasted image 20231113193520.png]]

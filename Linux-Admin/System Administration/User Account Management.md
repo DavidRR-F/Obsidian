@@ -218,3 +218,21 @@ In the example above, you initiate a chat with "user2" using the `write` command
         - Multiplication: `echo "6 * 7" | bc`
         - Division: `echo "20 / 4" | bc`
         - Square root: `echo "sqrt(25)" | bc`
+
+## Message of the day
+
+The "Message of the Day" (MotD) is a simple and often customizable text message or banner that is typically displayed to users when they log into a Unix-like operating system or shell environment. The primary purpose of the MotD is to provide system administrators with a way to communicate important information, updates, or announcements to users as they access the system.
+
+1. **Welcome Message**: The MotD often serves as a welcome message to users, providing a friendly greeting or acknowledging their successful login to the system.
+    
+2. **System Information**: System administrators can use the MotD to display important system information, such as the system's hostname, IP address, current operating system version, or system uptime.
+    
+3. **News and Announcements**: The MotD can be used to convey important news, announcements, or updates related to the system, applications, or security. This information can include scheduled maintenance, security alerts, or reminders.
+    
+4. **Legal Notices**: In some environments, legal notices or terms of use may be displayed in the MotD to remind users of their responsibilities and obligations when using the system.
+    
+5. **Customization**: System administrators have the flexibility to customize the MotD to suit their organization's needs. This may include adding ASCII art, branding elements, or specific instructions.
+    
+6. **Dynamic Content**: Some MotDs can display dynamic content based on user login, time of day, or other factors. For example, it may display different messages for different user groups or provide information specific to the user's role.
+    
+7. **Location**: The MotD file is often located in the `/etc/` directory and is typically named `motd` or `issue`. Its contents can be edited using a text editor, allowing administrators to update the message as needed.

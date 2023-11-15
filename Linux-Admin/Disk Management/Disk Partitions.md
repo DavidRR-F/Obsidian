@@ -101,3 +101,175 @@ $ fdisk /dev/sdX (fdisk) a
 $ fdisk /dev/sdX (fdisk) w
 ```
 
+## Logical Virtual Management - LVM
+
+LVM is a technology and set of utilities used in Unix-like operating systems, including Linux, to manage and abstract storage devices, such as hard drives (HDDs) and solid-state drives (SSDs), in a flexible and efficient manner. LVM allows for the creation of logical volumes (LVs) that span one or more physical storage devices, providing advantages in terms of volume management, resizing, and data protection.
+
+![[Pasted image 20231114200838.png]]
+
+### Add Disk and Create New LVM Partition
+
+![[Pasted image 20231114205208.png]]
+
+ 1. Create a Partition
+
+```bash
+$ fdisk /dev/sdc
+
+fdisk> n # new partition
+fdisk> p # primary partition
+# the rest as default values
+
+# change partition type
+fdisk> t # change partition
+fdisk> L # see hex codes
+fdisk> 8e # Linux LVM partition
+
+fdisk> w # write to partition
+```
+
+2. Create a physical volume
+
+```bash
+$ pvcreate /dev/sdc1
+```
+
+Verify
+
+```bash
+$ pvdisplay
+```
+
+3. Create Volume Group
+
+```bash
+$ vgcreate <group_name> <pysical_volume>
+```
+
+Verify
+
+```bash
+$ vgdisplay
+```
+
+4. Create Logical Volume
+
+```bash
+$ lvcreate -n <volume_name> --size 1G <volume_group>
+```
+
+Verify
+
+```bash
+$ lvdisplay
+```
+
+5.  Format Disk and assign xfs File System
+
+Assign xfs File System
+
+```bash
+$ mkfs.xfs /dev/<volume_group>/<logical_volume>
+```
+
+Mount Logical Volume to directory
+
+```bash
+$ mkdir /mydir
+
+$mount /dev/<volume_group>/<logical_volume> /mydir
+```
+
+Verify
+
+```bash
+$ df -h
+```
+
+### Add and Extend Disk using LVM
+
+1.  Partition a Disk
+
+```bash
+$ fdisk /dev/sdd
+
+fdisk> n # new partition
+fdisk> p # primary partition
+# the rest as default values
+
+# change partition type
+fdisk> t # change partition
+fdisk> L # see hex codes
+fdisk> 8e # Linux LVM partition
+
+fdisk> w # write to partition
+```
+
+2. Create Physical Volume
+
+```bash
+$ pvcreate /dev/sdd1
+```
+
+3. Extend Volume Group
+
+```bash
+$ vgextend <volume_group> /dev/sdd1
+```
+
+4. Extend Logical Volume
+
+```bash
+$ lvextend -L+1024M /dev/mapper/<volume_group>-<logical_volume>
+```
+
+You can find this volume using `df -h`
+
+5. Extend File System
+
+```bash
+$ xfs_growfs /dev/mapper/<volume_group>-<logical_volume>
+```
+
+Extending a disk using LVM (Logical Volume Manager) offers several advantages and flexibility in managing storage on Linux systems
+
+1. **Dynamic Storage Allocation**:
+    
+    - LVM allows you to dynamically allocate storage space to logical volumes (LVs) without the need to repartition physical devices or create new partitions.
+    - This dynamic allocation means you can adjust the size of a logical volume as your storage needs change, which is especially useful in environments with evolving data requirements.
+
+2. **No Downtime**:
+    
+    - You can extend a logical volume while the file system on that volume is still in use. There's no need to unmount the file system or take the system offline, which minimizes disruption to users and applications.
+
+3. **Efficient Space Utilization**:
+    
+    - LVM enables efficient space utilization by allowing you to allocate only as much storage as you currently need. You can then add more space as required, reducing the risk of over-provisioning or wasting storage resources.
+
+4. **Improved Backup and Snapshot Management**:
+    
+    - Extending a logical volume allows you to create larger snapshot volumes, which can be valuable for backup purposes or for creating consistent point-in-time copies of data.
+    - Larger logical volumes can accommodate more data, facilitating backup and data management.
+
+5. **Migration and Data Relocation**:
+    
+    - LVM makes it easier to migrate data between physical volumes or storage devices. This can be useful for replacing aging hardware or redistributing data for better performance.
+    - You can move data between logical volumes within the same volume group or even between different volume groups.
+
+6. **Performance Optimization**:
+    
+    - Extending a logical volume can improve storage performance, especially when combined with techniques like striping (data is distributed across multiple physical devices) or adding faster storage devices to the volume group.
+
+7. **Redundancy and Data Protection**:
+    
+    - By extending logical volumes, you can create redundant setups, such as mirroring or RAID configurations, to enhance data protection and fault tolerance.
+
+8. **Simplified Storage Management**:
+    
+    - LVM simplifies storage management by providing a unified framework for managing physical volumes, volume groups, and logical volumes. This abstraction layer makes
+    - storage administration more straightforward.
+
+9. **Long-Term Scalability**:
+    
+    - LVM supports long-term scalability, allowing you to adapt to future storage requirements without the need for significant reconfiguration or downtime
+

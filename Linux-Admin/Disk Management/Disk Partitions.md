@@ -273,3 +273,62 @@ Extending a disk using LVM (Logical Volume Manager) offers several advantages an
     
     - LVM supports long-term scalability, allowing you to adapt to future storage requirements without the need for significant reconfiguration or downtime
 
+
+## Add/Extend Swap Space
+
+Swap space in Linux is used when the amount of physical memory (RAM) is full. If the system needs more memory resources and the RAM is full, inactive pages in memory are moved to the swap space. While swap space can help machines with small amount of RAM. it should not be considered a replacement for more RAM Swap space is located on hard drives, which have a slower access time then physical memory.
+
+### Recommended swap size (Twice the size of RAM)
+
+- M = Amount of RAM in GB
+- S = Amount of swap in GB
+
+#### if $M \leq 2$, then $S = M*2$, else $S = M + 2$
+
+### Commands
+
+#### **`dd`
+    
+- `dd` stands for "data duplicator" or "disk dump" and is a command-line utility used for copying and converting data. It can be used for various tasks, such as creating disk images, copying files, and performing low-level data operations.
+- `dd` works by reading data from an input source (specified by the `if` or "input file" parameter) and writing it to an output destination (specified by the `of` or "output file" parameter).
+- Example: Copying the contents of one file to another using `dd`:
+        
+```bash
+$ dd if=/dev/zero of=/newswap bs=1M count=1024
+```
+#### `mkswap`
+    
+- `mkswap` is a command used to create a swap space or swap partition on a block device, such as a disk partition or a file.
+- Swap space is used as virtual memory by the operating system when physical RAM (Random Access Memory) is exhausted. It allows the system to store and retrieve data from disk when RAM is full, helping to prevent system crashes due to memory exhaustion.
+- Example: Creating a swap partition on a device (e.g., `/dev/sdX`):
+        
+```bash
+$ mkswap /newswap
+```
+        
+#### `swapon`
+    
+- `swapon` is a command used to activate or enable swap space on a specified block device or file. When you run `swapon`, the specified swap space becomes available for use by the operating system.
+- Example: Activating a swap partition or file:
+        
+```bash
+$ swapon /newswap
+```
+        
+#### `swapoff`
+    
+- `swapoff` is a command used to deactivate or disable swap space on a specified block device or file. When you run `swapoff`, the specified swap space is no longer used for virtual memory, and the contents of the swap space may be flushed back to RAM.
+- Example: Deactivating a swap partition or file:
+        
+```bash
+$ swapoff /newswap
+```
+
+
+To have the swap space enabled during boot time. You need to specify it in fstab
+
+```bash
+$ vi /etc/fstab
+
+/newswap swap swap default 0 0
+```

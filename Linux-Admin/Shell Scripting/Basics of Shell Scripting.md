@@ -12,7 +12,7 @@ A shell script is an executable file containing multiple shell commands that are
 **Example**
 
 ```bash
-#!bin/bash
+#!/bin/bash
 
 echo "Hello World"
 ```

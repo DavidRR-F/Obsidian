@@ -1,7 +1,7 @@
 
 ## I/O Commands
 ### Pipes
-A pipe is used by the shell to connect the output of one commmand directly to the input of another command
+A pipe is used by the shell to connect the output of one command directly to the input of another command
 
 	  - command1 [arguements] | command2 [arguements]
 

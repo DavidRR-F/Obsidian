@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RHCSA Practice/Tasks.md",
+                "file": "RHCSA Practice/RH124/Control, Monitor, and Manage Services.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc830942f8576427",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System Administration/Processes, Jobs, and Scheduling.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 416.5
   },
   "right": {
     "id": "4c444e8916109e1a",
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RHCSA Practice/Tasks.md",
+                "file": "RHCSA Practice/RH124/Control, Monitor, and Manage Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RHCSA Practice/Tasks.md",
+                "file": "RHCSA Practice/RH124/Control, Monitor, and Manage Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RHCSA Practice/Tasks.md"
+                "file": "RHCSA Practice/RH124/Control, Monitor, and Manage Services.md"
               }
             }
           }
@@ -148,8 +160,20 @@
   },
   "active": "e5ebdacec17a8591",
   "lastOpenFiles": [
-    "Shell Scripting/VI Text Editor.md",
+    "RHCSA Practice/RH124/Log Monitoring.md",
+    "RHCSA Practice/RH124/Control, Monitor, and Manage Services.md",
+    "System Administration/Processes, Jobs, and Scheduling.md",
+    "RHCSA Practice/RH124/Create, View, Edit, Manage Files.md",
+    "RHCSA Practice/RH124/User Management.md",
+    "File System/File Permissions.md",
+    "File System/File Commands.md",
+    "System Administration/User Account Management.md",
+    "System Administration/Account Authentication.md",
+    "File System/File System Structure.md",
+    "RHCSA Practice/Troubleshooting/Fix Lost Root Password.md",
+    "RHCSA Practice/Troubleshooting/Fix fstab misconfiguration.md",
     "RHCSA Practice/Tasks.md",
+    "Shell Scripting/VI Text Editor.md",
     "RHCSA Practice/Exam Details.md",
     "RHCSA Practice/Tasks/Understanding Essential Tools/List, set and change user permissions.md",
     "RHCSA Practice/Tasks/Understanding Essential Tools/File Management.md",
@@ -169,22 +193,10 @@
     "RHCSA Practice/Tasks",
     "Disk Management/Advanced Storage Features.md",
     "RHCSA Practice/Troubleshooting/Backup and Restoring.md",
-    "File System/File Commands.md",
     "RHCSA Practice/Troubleshooting/Troubleshooting Tools.md",
-    "RHCSA Practice/Troubleshooting/Fix Lost Root Password.md",
-    "RHCSA Practice/Troubleshooting/Fix fstab misconfiguration.md",
     "RHCSA Practice/Troubleshooting",
-    "RHCSA Practice/RH124/Manage Users.md",
-    "RHCSA Practice/RH124/Manage File System.md",
-    "System Administration/User Account Management.md",
-    "Shell Scripting/Basics of Shell Scripting.md",
-    "File System/File System Structure.md",
-    "File System/File Permissions.md",
     "RHCSA Practice/RH134",
     "images/Pasted image 20231115193534.png",
-    "Disk Management/Disk Partitions.md",
-    "Disk Management/Boot Processes.md",
-    "Networking/Network Commands.md",
     "images/Pasted image 20231114205208.png",
     "images/Pasted image 20231114200838.png",
     "images/Pasted image 20231113193520.png",

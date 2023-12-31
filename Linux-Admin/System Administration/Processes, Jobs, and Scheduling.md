@@ -418,6 +418,8 @@ $ sudo dmidecode --type system
 
 ## Recovering Root Password
 
+[[Fix Lost Root Password]]
+
 - Restart your computer
 - edit grub
 - change password

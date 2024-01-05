@@ -4,6 +4,63 @@
 - handle lv resizing
 - learn kvm
 
+
+I've used one or more of the below resources in my Red Hat cert journey, of course starting with RHCSA.
+
+[The official Red Hat documentation is free]([https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/)) is a great resource to have while studying because it will teach you best practices as it relates to Red Hat exams.
+
+**Blogs**
+
+[CertDepot](https://www.certdepot.net/rhel7-certification-overview/) is a fantastic resource for those going for RHCSA/RHCE. There are plenty of how-tos and resources to supplement your studies with. Also, there are exam objective changes, advanced exercises, and other exam prep resources.
+
+[Lisenet](https://www.lisenet.com/rhce/) is one of the best for navigating the RHCE/RHCA level exams. There is thoughtful insight into the exam experience (without breaking the NDA), carefully crafted how-tos on every RHCE exam objective, and exam tips to make you successful on exam day. Lastly, there are helpful study notes for some RHCA level exams.
+
+[Rootusers](https://www.rootusers.com/red-hat-certified-system-administrator-rhcsa-ex200-study-guide/) - Great comprehensive blog with study guides for RHCSA/RHCE and how-to guides for many different exam related tasks.
+
+**Exam Prep Books**
+
+_(Note: mods got mad with posting external links, you can find all of these on Amazon.)_
+
+RHCSA/RHCE exam prep book by Sander Van Vugt
+
+RHCSA/RHCE exam prep book by Michael Jang and Alessandro Orsaria
+
+**Video Courses**
+
+[Red Hat Learning Subscription](https://www.redhat.com/en/services/training/learning-subscription) obviously would be the way to go if you can afford the hefty subscription prices. There is a 7 day free trial that you can take advantage of for testing out the platform before committing to the yearly subscription. There are courses for every Red Hat exam, cloud based labs, early access to new content, and practice exams depending on which tier you go with.
+
+[O'Reilly Learning Platform](https://learning.oreilly.com/register/) - Highly recommend if you can't afford the RHLS. This would be my first choice for unofficial Red Hat courseware since all of Sander Van Vugt's courses are published on this platform among others (Including electronic version of most of the exam prep books stated below). Sander is the closest you’ll get to the official Red Hat courses in my opinion. There are varies courses that span from RHCSA to RHCA level exam prep. There are also live learning sessions that include RHCSA/RHCE crash courses, as well as, Openshift/Ansible/Containers/Kubernetes courses.
+
+[Linux Academy](https://linuxacademy.com/) is another learning platform that has a robust catalog that spans the whole IT environment. It also includes cloud based servers and exercises that make it an all inclusive experience. As far as quality goes, I expected more, but it is still a decent resource and many have successfully passed their certifications using their platform.
+
+**Study Groups**
+
+I created the [Red Hat Certs Slack Workspace](https://join.slack.com/t/redhat-certs/shared_invite/enQtNjM4MTA3OTU1NDI0LTRkMzYxOGY3NjEwNTk4ZWQwMGMwMmMyNWYxMDRlZjg4NzgwMDdmZGU2OGNjMzMwNDQ1MTY1NmY1N2U3NTNlYWM) to help budding RHCSAs all the way up to full-metal RHCAs. It has exam resources (check pinned items), filled with smart people ready to help and answer your questions, and like [u/Tekz08](https://www.reddit.com/u/Tekz08/) mentioned, there are practice exam resources to test your skills before sitting the exam such as practice exams and automated environment deployments.
+
+If Slack is not your bag then there is also a [Discord](https://discord.gg/waTErpp) group that I discovered after creating the slack group above. It is also filled with accomplished RHCSA/RHCE/RHCAs willing to help you get certified.
+
+**Automated Environment Deployments**
+
+Here are some automated practice environments I created as a project in my journey to the Ansible exam. I thought I'd share these practice resources for everyone to use as well. The VMs are automatically deployed with Vagrant using VirtualBox in headless mode and configured with Ansible.
+
+The aim is to have a reusable environment to study with without having to manually build it up each time. I would still recommend being proficient in building up your own environment but after hundreds of times doing it myself, it’s nice to have a reproducible and less error prone way of setting up a practice environment. You can practice individual tasks or do a full practice exam.
+
+If you are looking for practice exams to take against these environments, head to the [Red Hat Certs Slack Workspace](https://join.slack.com/t/redhat-certs/shared_invite/zt-7ju3rz7b-_G3Njp3PDwdBG_81SwPeLA) and check the pinned items in the #practiceexam channel. Navigate to the below environment repo you wish to use and follow the README instructions.
+
+[RHCSA 7](https://github.com/rdbreak/rhcsa7env)
+
+[RHCSA 8](https://github.com/rdbreak/rhcsa8env)
+
+The below environments are for when you pass your RHCSA ;)
+
+[RHCE 7](https://github.com/rdbreak/rhce7env)
+
+[RHCE 8](https://github.com/rdbreak/rhce8env)
+
+[Ansible 2.3](https://github.com/rdbreak/ansible23env)
+
+[Ansible 2.7](https://github.com/rdbreak/ansible27env)
+
 ## Understand and use essential tools
 
 - Access a shell prompt and issue commands with correct syntax.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RHCSA Practice/RH124/Control, Monitor, and Manage Services.md",
+                "file": "Networking/Network Interface Card (NIC).md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5
+    "width": 323.5
   },
   "right": {
     "id": "4c444e8916109e1a",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RHCSA Practice/RH124/Control, Monitor, and Manage Services.md",
+                "file": "Networking/Network Interface Card (NIC).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RHCSA Practice/RH124/Control, Monitor, and Manage Services.md",
+                "file": "Networking/Network Interface Card (NIC).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RHCSA Practice/RH124/Control, Monitor, and Manage Services.md"
+                "file": "Networking/Network Interface Card (NIC).md"
               }
             }
           }
@@ -160,29 +160,32 @@
   },
   "active": "e5ebdacec17a8591",
   "lastOpenFiles": [
-    "RHCSA Practice/RH124/Log Monitoring.md",
     "RHCSA Practice/RH124/Control, Monitor, and Manage Services.md",
-    "System Administration/Processes, Jobs, and Scheduling.md",
     "RHCSA Practice/RH124/Create, View, Edit, Manage Files.md",
     "RHCSA Practice/RH124/User Management.md",
-    "File System/File Permissions.md",
+    "File System/File System Structure.md",
     "File System/File Commands.md",
+    "Shell Scripting/VI Text Editor.md",
+    "System Administration/System Performance.md",
+    "Shell Scripting/Linux Kernel and Shell.md",
+    "Shell Scripting/Basics of Shell Scripting.md",
+    "Disk Management/Advanced Storage Features.md",
+    "Networking/Network Commands.md",
+    "RHCSA Practice/Troubleshooting/Troubleshooting Tools.md",
+    "RHCSA Practice/Troubleshooting/Fix fstab misconfiguration.md",
+    "RHCSA Practice/RH124/Log Monitoring.md",
+    "System Administration/Processes, Jobs, and Scheduling.md",
+    "File System/File Permissions.md",
     "System Administration/User Account Management.md",
     "System Administration/Account Authentication.md",
-    "File System/File System Structure.md",
     "RHCSA Practice/Troubleshooting/Fix Lost Root Password.md",
-    "RHCSA Practice/Troubleshooting/Fix fstab misconfiguration.md",
     "RHCSA Practice/Tasks.md",
-    "Shell Scripting/VI Text Editor.md",
     "RHCSA Practice/Exam Details.md",
     "RHCSA Practice/Tasks/Understanding Essential Tools/List, set and change user permissions.md",
     "RHCSA Practice/Tasks/Understanding Essential Tools/File Management.md",
     "RHCSA Practice/Tasks/Understanding Essential Tools/Untitled.md",
     "RHCSA Practice/Tasks/Understanding Essential Tools/Archive, compress, unpack, and uncompress files.md",
     "RHCSA Practice/Tasks/Understanding Essential Tools/Switch users in multiuser targets.md",
-    "RHCSA Practice/Tasks/Understanding Essential Tools/Configure and use SSH.md",
-    "RHCSA Practice/Tasks/Understanding Essential Tools/Grep and Regular Expressions.md",
-    "RHCSA Practice/Tasks/Understanding Essential Tools/Input Output Redirection.md",
     "RHCSA Practice/Tasks/Manage Security",
     "RHCSA Practice/Tasks/Manage users and groups",
     "RHCSA Practice/Tasks/Deploy, config, and maintain systems",
@@ -191,9 +194,6 @@
     "RHCSA Practice/Tasks/Operate running systems",
     "RHCSA Practice/Tasks/Understanding Essential Tools",
     "RHCSA Practice/Tasks",
-    "Disk Management/Advanced Storage Features.md",
-    "RHCSA Practice/Troubleshooting/Backup and Restoring.md",
-    "RHCSA Practice/Troubleshooting/Troubleshooting Tools.md",
     "RHCSA Practice/Troubleshooting",
     "RHCSA Practice/RH134",
     "images/Pasted image 20231115193534.png",

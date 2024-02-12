@@ -21,6 +21,95 @@ $ ssh-copy-id <user>@<hostname/ip>
 ```
 
 Once the key is added you should be able to login to the worker nodes without a password.
+
+## NFS Setup
+
+To be able to run parallel calculations across multiple nodes we need to setup a centralized network file system on the controller node.
+
+```bash
+$ sudo apt-get install nfs-server
+```
+
+Create a directory for your nfs then edit the `etc/exports` file. at the EOF add the following
+
+```bash
+/your/nfs/path *(rw,sync)
+```
+
+Restart the nfs kernel server
+
+```bash
+$ sudo service nfs-kernel-server restart
+```
+
+Change the ownership of your nfs directory from root to your user
+
+```bash
+$ sudo chown slurm-admin /mnt/ssd/nfs
+```
+
+### Worker Nodes
+
+On the worker nodes we need to mount the nfs file system from the controller node
+
+```bash
+sudo apt-get install nfs-client
+```
+
+Edit the `etc/fstab` file to add the mount
+
+```
+<controller-hostname>:/controller/nfs/dir/path /worker/nfs/dir/path nfs
+```
+
+Remount all Partitions
+
+```bash
+sudo mount -a
+```
+### Partition SSD (Optional)
+
+If we need more space on the nfs we can use a SSD, we will need to patition the SSDs and make sure they are mounted on boot
+
+List all available storage
+
+```shell
+$ sudo fdisk -l
+```
+
+locate your SSD then create a patition table
+
+```shell
+$ sudo fdisk /dev/sda
+- Press `g` to create a new empty GPT partition table
+- Press `n` to add a new partition (accept default settings)
+- Press `w` to write the changes and exit
+```
+
+Format the SSD partition
+
+```shell
+$ sudo mkfs.ext4 /dev/sda1
+```
+
+Create a mount point
+
+```shell
+$ sudo mkdir /mnt/ssd
+```
+
+Mount the SSD
+
+```shell
+$ sudo mount /dev/sda1 /mnt/ssd
+```
+
+Update /etf/fstab to make sure the SSD mounts automatically on boot
+
+```bash
+$ echo "/dev/sda1 /mnt/ssd ext4 defaults 0 0" | sudo tee -a /etc/fstab
+```
+
 ## Munge Setup
 
 Munge is a authentication service used for communication between nodes. The setup for munge is the for controller and worker nodes with the exception that the controllers `munge.key` file needs to be transferred to the worker nodes in order to have password less authentication.

@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c0fb0c0897400163",
+        "id": "539afae875bd9b90",
         "type": "tabs",
         "children": [
           {
-            "id": "e5ebdacec17a8591",
+            "id": "72611d82618fa6f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network Interface Card (NIC).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc830942f8576427",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "System Administration/Processes, Jobs, and Scheduling.md",
+                "file": "RHCSA Practice/RH124/User Management.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 416.5
   },
   "right": {
     "id": "4c444e8916109e1a",
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network Interface Card (NIC).md",
+                "file": "RHCSA Practice/RH124/User Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network Interface Card (NIC).md",
+                "file": "RHCSA Practice/RH124/User Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network Interface Card (NIC).md"
+                "file": "RHCSA Practice/RH124/User Management.md"
               }
             }
           }
@@ -158,28 +146,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5ebdacec17a8591",
+  "active": "72611d82618fa6f4",
   "lastOpenFiles": [
+    "System Administration/User Account Management.md",
+    "System Administration/System Performance.md",
+    "System Administration/System and Package Management.md",
+    "System Administration/Processes, Jobs, and Scheduling.md",
+    "System Administration/Account Authentication.md",
+    "File System/File Permissions.md",
+    "Shell Scripting/Basics of Shell Scripting.md",
+    "Shell Scripting/Linux Kernel and Shell.md",
+    "CentOS and Redhat/Automate Linux Installation.md",
+    "RHCSA Practice/Tasks.md",
+    "RHCSA Practice/RH124/Manage Networking.md",
     "RHCSA Practice/RH124/Control, Monitor, and Manage Services.md",
     "RHCSA Practice/RH124/Create, View, Edit, Manage Files.md",
     "RHCSA Practice/RH124/User Management.md",
-    "File System/File System Structure.md",
-    "File System/File Commands.md",
     "Shell Scripting/VI Text Editor.md",
-    "System Administration/System Performance.md",
-    "Shell Scripting/Linux Kernel and Shell.md",
-    "Shell Scripting/Basics of Shell Scripting.md",
-    "Disk Management/Advanced Storage Features.md",
-    "Networking/Network Commands.md",
-    "RHCSA Practice/Troubleshooting/Troubleshooting Tools.md",
-    "RHCSA Practice/Troubleshooting/Fix fstab misconfiguration.md",
     "RHCSA Practice/RH124/Log Monitoring.md",
-    "System Administration/Processes, Jobs, and Scheduling.md",
-    "File System/File Permissions.md",
-    "System Administration/User Account Management.md",
-    "System Administration/Account Authentication.md",
+    "File System/File Commands.md",
+    "File System/File System Structure.md",
     "RHCSA Practice/Troubleshooting/Fix Lost Root Password.md",
-    "RHCSA Practice/Tasks.md",
+    "RHCSA Practice/Troubleshooting/Fix fstab misconfiguration.md",
     "RHCSA Practice/Exam Details.md",
     "RHCSA Practice/Tasks/Understanding Essential Tools/List, set and change user permissions.md",
     "RHCSA Practice/Tasks/Understanding Essential Tools/File Management.md",

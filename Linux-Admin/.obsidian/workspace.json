@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "72611d82618fa6f4",
+            "id": "8b45c9971652f3e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RHCSA Practice/RH124/User Management.md",
+                "file": "File System/File Commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RHCSA Practice/RH124/User Management.md",
+                "file": "File System/File Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RHCSA Practice/RH124/User Management.md",
+                "file": "File System/File Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RHCSA Practice/RH124/User Management.md"
+                "file": "File System/File Commands.md"
               }
             }
           }
@@ -146,26 +146,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "72611d82618fa6f4",
+  "active": "ea28786160f1d852",
   "lastOpenFiles": [
+    "Shell Scripting/VI Text Editor.md",
+    "System Administration/Processes, Jobs, and Scheduling.md",
+    "RHCSA Practice/RH124/Control, Monitor, and Manage Services.md",
+    "RHCSA Practice/RH124/Manage Networking.md",
+    "RHCSA Practice/RH124/Create, View, Edit, Manage Files.md",
+    "File System/File System Structure.md",
+    "File System/File Permissions.md",
+    "File System/File Commands.md",
+    "RHCSA Practice/RH124/User Management.md",
     "System Administration/User Account Management.md",
     "System Administration/System Performance.md",
     "System Administration/System and Package Management.md",
-    "System Administration/Processes, Jobs, and Scheduling.md",
     "System Administration/Account Authentication.md",
-    "File System/File Permissions.md",
     "Shell Scripting/Basics of Shell Scripting.md",
     "Shell Scripting/Linux Kernel and Shell.md",
     "CentOS and Redhat/Automate Linux Installation.md",
     "RHCSA Practice/Tasks.md",
-    "RHCSA Practice/RH124/Manage Networking.md",
-    "RHCSA Practice/RH124/Control, Monitor, and Manage Services.md",
-    "RHCSA Practice/RH124/Create, View, Edit, Manage Files.md",
-    "RHCSA Practice/RH124/User Management.md",
-    "Shell Scripting/VI Text Editor.md",
     "RHCSA Practice/RH124/Log Monitoring.md",
-    "File System/File Commands.md",
-    "File System/File System Structure.md",
     "RHCSA Practice/Troubleshooting/Fix Lost Root Password.md",
     "RHCSA Practice/Troubleshooting/Fix fstab misconfiguration.md",
     "RHCSA Practice/Exam Details.md",

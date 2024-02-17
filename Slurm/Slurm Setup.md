@@ -215,6 +215,8 @@ $ sudo useradd -m -c "SLURM workload manager" -d /var/lib/slurm -u $SLURMUSER -g
 
 ## Munge Setup
 
+## Controller Node
+
 Munge is a authentication service used for communication between nodes. The setup for munge is the for controller and worker nodes with the exception that the controllers `munge.key` file needs to be transferred to the worker nodes in order to have password less authentication.
 
 First, run the following command to install the munge packages.
@@ -249,6 +251,16 @@ Now enable the munge service and restart munge
 ```bash
 $ sudo systemctl enable munge
 $ sudo systemctl restart munge
+```
+
+## Worker Nodes
+
+Copy the munge key in the NFS slurm directory and set the permissions and ownership
+
+```bash
+$ sudo scp /mnt/ssd/nfs/slurm/munge.key /etc/munge/
+$ sudo chown munge:munge /etc/munge/munge.key
+$ sudo chmod 400 /etc/munge/munge.key
 ```
 
 # Slurm Configuration
@@ -416,9 +428,10 @@ PIDFile=/run/slurm/slurmd.pid
 Create `/run/slurm` and update ownership and permissions
 
 ```bash
-$ sudo mkdir -p /run/slurm 
-$ sudo chown slurm:slurm /run/slurm 
-$ sudo chmod 755 /run/slurm
+$ su -
+$ mkdir -p /run/slurm 
+$ chown slurm:slurm /run/slurm 
+$ chmod 755 /run/slurm
 ```
 
 #### Run the following as root echo 
@@ -448,6 +461,92 @@ $ sudo systemctl status slurmdbd
 $ sudo systemctl status slurmctld
 ```
 
-## Worker Node
+## Worker Nodes
 
+Install slurm
 
+```bash
+sudo apt-get install slurm-wlm
+```
+
+Copy  `slurm.conf` and `slurmdbd.conf` to the nfs directory then copy them to our slurm directories on the worker nodes
+
+```bash
+$ sudo scp /mnt/ssd/nfs/slurm/slurm.conf /etc/slurm/
+$ sudo scp /mnt/ssd/nfs/slurm/slurmdbd.conf /etc/slurm/
+```
+
+update ownership and permissions
+
+```bash
+$ sudo chown slurm:slurm /etc/slurm/slurmdbd.conf
+$ sudo chown slurm:slurm /etc/slurm/slurm.conf
+$ sudo chmod 600 /etc/slurm/slurmdbd.conf
+$ sudo chmod 600 /etc/slurm/slurm.conf
+```
+
+Create slurm files
+
+```bash
+$ mkdir /var/spool/slurmd 
+$ chown slurm: /var/spool/slurmd 
+$ chmod 755 /var/spool/slurmd 
+$ mkdir /var/log/slurm/ 
+$ touch /var/log/slurm/slurmd.log 
+$ chown -R slurm:slurm /var/log/slurm/slurmd.log 
+$ chmod 755 /var/log/slurm 
+$ mkdir /run/slurm 
+$ touch /run/slurm/slurmd.pid 
+$ chown slurm /run/slurm 
+$ chown slurm:slurm /run/slurm 
+$ chmod -R 770 /run/slurm
+```
+
+Add slurm to the temporary file
+
+```bash
+$ sudo vi /etc/tmpfiles.d/slurm.conf
+
+d /run/slurm 0770 slurm slurm -
+d /var/run/slurm 0755 slurm slurm -
+d /var/log/slurm 0755 slurm slurm -
+d /var/spool/slurm 0755 slurm slurm -
+```
+
+Add the path to the slurm.service
+
+```bash
+$ sudo vi /usr/lib/systemd/system/slurmd.service
+
+PIDFile=/run/slurm/slurmd.pid
+```
+
+Add the cgroup mount point
+
+```bash
+$ su -
+$ echo CgroupMountpoint=/sys/fs/cgroup >> /etc/slurm/cgroup.conf
+$ slurmd -C
+```
+
+enable `slurmd` and reboot
+
+```bash
+$ sudo systemctl enable slurmd
+$ sudo systemctl start slurmd
+$ sudo reboot
+```
+
+**Note**: check if slurmd throws connection errors on the worker or controller if so reboot the controller
+
+```bash
+sudo sinfo -a
+sudo scontrol ping
+```
+
+if node1 down 
+
+```bash
+$ sudo scontrol update nodename=node1 state=Idle
+$ sudo sinfo -a
+```

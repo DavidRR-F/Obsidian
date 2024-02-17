@@ -67,6 +67,12 @@ Remount all Partitions
 ```bash
 sudo mount -a
 ```
+
+Create a directory for slurm
+
+```bash
+$ mkdir /mnt/ssd/nfs/slurm
+```
 ### Partition SSD (Optional)
 
 If we need more space on the nfs we can use a SSD, we will need to patition the SSDs and make sure they are mounted on boot
@@ -110,6 +116,86 @@ Update /etf/fstab to make sure the SSD mounts automatically on boot
 $ echo "/dev/sda1 /mnt/ssd ext4 defaults 0 0" | sudo tee -a /etc/fstab
 ```
 
+## Setup Static IP
+
+Add IP Addresses of clusters
+
+```shell
+$ sudo nano /etc/hosts
+- Add in following template
+<IP Address> <Hostname> <Username>
+...
+```
+
+Update your cloud.cfg so ips arent wiped on reboot
+
+```shell
+$ sudo nano /etc/cloud/cloud.cfg
+- comment out update_etc_hosts
+```
+
+find ip address
+
+```shell
+$ ip addr show
+- your eth0 subnet
+```
+
+Default Gateway
+
+```shell
+$ ip route | grep default
+```
+
+Routers local DNS
+
+```
+$ cat /etc/resolv.conf
+- next to namespace
+```
+
+or use googles (8.8.8.8, 8.8.4.4) or cloudflare (1.1.1.1)
+
+Backup your netplan config
+
+```shell
+$ sudo cp /etc/netplan/<your-config>.yaml /etc/netplan/<your-config>.yaml.backup
+```
+
+Edit your configuration
+
+```shell
+$ sudo nano /etc/netplan/<your-config>.yaml
+```
+
+```yaml
+network:
+  version: 2
+  ethernets:
+    eth0:
+      dhcp4: no
+      addresses:
+        - <ip-address>/24
+      routes:
+        - to: default
+          via: <router-local>
+      nameservers:
+        addresses: [<router-local-or-third-party>]
+```
+
+Apply your changes
+
+```shell
+$ sudo netplan apply
+```
+
+On some versions of Ubuntu, the open vswitch service is not installed you will have to install and enable the service to use the netplan command.
+
+```shell
+$ sudo apt-get install --reinstall openvswitch-switch
+$ ls /lib/systemd/system/ovsdb-server.service
+$ sudo systemctl start ovsdb-server
+```
 
 ## Cluster Users
 
@@ -117,12 +203,12 @@ We will create a user for munge and slurm on every node.
 
 ```bash
 # Create Munge User
-$ export MUNGEUSER=1001 
+$ export MUNGEUSER=1004
 $ sudo groupadd -g $MUNGEUSER munge 
 $ sudo useradd -m -c "MUNGE Uid 'N' Gid Emporium" -d /var/lib/munge -u $MUNGEUSER -g munge -s /sbin/nologin munge
 
 # create Slurm User
-$ export SLURMUSER=1002 
+$ export SLURMUSER=1005 
 $ sudo groupadd -g $SLURMUSER slurm 
 $ sudo useradd -m -c "SLURM workload manager" -d /var/lib/slurm -u $SLURMUSER -g slurm -s /bin/bash slurm
 ```
@@ -134,72 +220,39 @@ Munge is a authentication service used for communication between nodes. The setu
 First, run the following command to install the munge packages.
 
 ```
-$ sudo apt install munge libmunge2 libmunge-dev
+$ sudo apt-get install munge 
 ```
 
-This should install successfully as long as you're connected to the internet. To test your installation, you can run the following command:
-
-```
-$ munge -n | unmunge | grep STATUS
-```
-
-You should see something like `STATUS: SUCCESS`. Now, you have Munge correctly installed and there should be a Munge key at `/etc/munge/munge.key'. If you don't see one, then you should be able to create one manually by running the following command:
-
-```
-$ sudo /usr/sbin/mungekey
-```
-
-> With future updates of munge, slurm, and ubuntu, specific file locations may change.
-
-Now, we have to ensure all of the munge files have the correct permissions. This just entails giving the munge user ownership over all the munge files. You don't have to create the munge user manually since it should have been created by munge when we installed the packages above. In fact, we recommend saving yourself the trouble and not creating the user yourself. We had a lot of troubles stem from trying to create it ourselves.
-
-To Setup the correct permissions, use the following commands:
+This should install successfully as long as you're connected to the internet. Now we need to set permission and ownership of the munge files:
 
 ```
 $ sudo chown -R munge: /etc/munge/ /var/log/munge/ /var/lib/munge/ /run/munge/
-$ sudo chmod 0700 /etc/munge/ /var/log/munge/ /var/lib/munge/
-$ sudo chmod 0755 /run/munge/
-$ sudo chmod 0700 /etc/munge/munge.key
-$ sudo chown -R munge: /etc/munge/munge.key
+$ sudo chmod 0700 /etc/munge/ /var/log/munge/ /var/lib/munge/ /run/munge/
 ```
 
-Next, we need to restart the munge service and configure it to run at startup. We do that like so:
+### Copy Munge Key to NFS
 
-```
-$ systemctl enable munge
-$ systemctl restart munge
-```
-
-You can investigate munge service errors with:
-
-```
-$ systemctl status munge
-```
-
-Or
-
-```
-$ sudo nano /var/log/munge/munged.log
-```
-
-That's it! Now, you can go ahead and Setup your worker nodes. Also, for convenience you can now save your `munge.key` located at `/etc/munge/` to an easily accessible location. You will need to copy that key over to the other nodes in the cluster when setting them up.
+We want to add the `munge.key` file to our NFS for slurm so that the controller and worker nodes can authenticate with each other using it.
 
 ```bash
-$ sudo scp /etc/munge/munge.key /mnt/ssd/nfs/slurm/
-$ chmod -R 777 munge.key
+sudo scp /etc/munge/munge.key /mnt/ssd/nfs/slurm/
 ```
 
-Now, we can test the munge connection to the controller node, like so:
+update the `munge.key` permissions
 
+```bash
+$ sudo chmod -R 777 munge.key
 ```
-$ munge -n | ssh <CONTROLLER_NODE> unmunge 
+
+Now enable the munge service and restart munge
+
+```bash
+$ sudo systemctl enable munge
+$ sudo systemctl restart munge
 ```
 
-Make sure to replace `<CONTROLLER_NODE>` with host alias of your controller node. If this is successful, you should see the munge status of the controller node. If you get an error, try restarting the munge service on the controller node.
-
-## Slurm Setup
-
-### Controller Node
+# Slurm Configuration
+## Controller Node
 
 Install Dependencies
 
@@ -211,12 +264,25 @@ $ sudo apt-get install slurm-wlm
 
 #### Slurm account database (MariaDB)
 
+Access MariaDB as root
+
 ```bash
-$ su -
+$ su - (or sudo -i)
 $ mysql
-$ grant all on slurm_acct_db.* TO 'slurm'@'localhost' identified by 'hashmi12' with grant option; create database slurm_acct_db;
-$ exit
 ```
+
+Create a sthe slurm database and grant permission to the slurm user
+
+```sql
+create database slurm_acct_db;
+grant all on slurm_acct_db.* TO 'slurm'@'localhost' identified by 'yourpassword' with grant option;
+```
+    
+- **`grant all on slurm_acct_db.*`**: Grants all privileges on the database `slurm_acct_db` and all its tables (denoted by `*`) to the user.
+- **`TO 'slurm'@'localhost'`**: Specifies the user `slurm` connecting from `localhost` is the grantee. The user `slurm` will have the privileges on `slurm_acct_db`.
+- **`identified by 'hashmi12'`**: Sets the password for the `slurm` user to `hashmi12`.
+- **`with grant option;`**: Allows the `slurm` user to grant the privileges they have to other users.
+- **`create database slurm_acct_db;`**: This SQL statement creates a new database named `slurm_acct_db`. This database is intended to be used by Slurm for accounting purposes, which tracks job and resource usage data.
 
 ### Allow ports on firewall
 
@@ -255,6 +321,12 @@ PurgeTXNAfter=12months
 PurgeUsageAfter=12months
 ```
 
+Update conf permissions
+
+```bash
+$ sudo chown slurm:slurm /etc/slurm/slurmdbd.conf
+$ sudo chmod 600 /etc/slurm/slumdbd.conf
+```
 #### Configure `slurm.conf` using the [Configuration website](https://slurm.schedmd.com/configurator.easy.html)
 
 Copy the configuration created through the website and add it to the `/etc/slurm-llnl/slurm.conf`
@@ -274,9 +346,9 @@ SlurmctldHost=node0
 #MpiParams=ports=#-#  
 ProctrackType=proctrack/cgroup  
 ReturnToService=1  
-SlurmctldPidFile=/var/run/slurmctld.pid  
+SlurmctldPidFile=/run/slurm/slurmctld.pid  
 SlurmctldPort=6817  
-SlurmdPidFile=/var/run/slurmd.pid  
+SlurmdPidFile=/run/slurm/slurmd.pid  
 SlurmdPort=6818  
 SlurmdSpoolDir=/var/spool/slurmd  
 SlurmUser=slurm  
@@ -307,7 +379,7 @@ SlurmdLogFile=/var/log/slurmd.log
 #  
 #  
 # COMPUTE NODES  
-NodeName=node[1-32] CPUs=1 State=UNKNOWN  
+NodeName=node[0-x] CPUs=4 ThreadsPerCore=1 State=UNKNOWN  
 PartitionName=debug Nodes=ALL Default=YES MaxTime=INFINITE State=UP
 ```
 
@@ -316,7 +388,7 @@ PartitionName=debug Nodes=ALL Default=YES MaxTime=INFINITE State=UP
 ```bash
 $ sudo mkdir /var/spool/slurmctld
 $ sudo chown slurm:slurm /var/spool/slurmctld
-$ chrown 755 /var/spool/slurmctld
+$ sudo chown 700 /var/spool/slurmctld
 
 $ sudo mkdir /var/log/slurm
 $ touch /var/log/slurm/slurmctld.log 
@@ -341,6 +413,13 @@ $ sudo vi /usr/lib/systemd/system/slurmd.service
 PIDFile=/run/slurm/slurmd.pid
 ```
 
+Create `/run/slurm` and update ownership and permissions
+
+```bash
+$ sudo mkdir -p /run/slurm 
+$ sudo chown slurm:slurm /run/slurm 
+$ sudo chmod 755 /run/slurm
+```
 
 #### Run the following as root echo 
 
@@ -349,19 +428,26 @@ $ CgroupMountpoint=/sys/fs/cgroup >> /etc/slurm-llnl/cgroup.conf
 $ slurm -C
 ```
 
+- **`CgroupMountpoint=/sys/fs/cgroup`**: This is a configuration setting intended for a configuration file. It specifies a setting or variable named `CgroupMountpoint` and sets its value to `/sys/fs/cgroup`. This path is typically the mountpoint for cgroups (control groups) in a Linux filesystem, which is a feature used to limit, account for, and isolate the resource usage (CPU, memory, disk I/O, etc.) of a collection of processes.
+    
+- **`>>`**: This is a shell redirection operator used in Unix and Unix-like operating systems. It appends the output of the command on its left to the file on its right. If the file does not exist, it will be created; if the file exists, the text will be added to the end of the file without overwriting its existing contents.
+    
+- **`/etc/slurm-llnl/cgroup.conf`**: This is the file path to which the configuration line is being appended. It suggests the file is a configuration file for cgroups within the Slurm Workload Manager, a free, open-source job scheduler for Linux and Unix-like kernels. Slurm is often used on large and small computing clusters to allocate resources, provide a framework for starting, executing, and monitoring work (usually in the form of jobs and tasks), and managing workload.
 ### Start Slurm services
 
 ```bash
-$ systemctl daemon-reload 
-$ systemctl enable slurmdbd 
-$ systemctl start slurmdbd 
-$ systemctl enable slurmctld 
-$ systemctl start slurmctld 
+$ sudo systemctl daemon-reload 
+$ sudo systemctl enable slurmdbd 
+$ sudo systemctl start slurmdbd 
+$ sudo systemctl enable slurmctld 
+$ sudo systemctl start slurmctld 
 
 At this point see the status of the started services: 
-$ systemctl status slurmdbd 
-$ systemctl status slurmctld
-
-If error
-Condition check resulted in Slurm controller daemon being skipped.
+$ sudo systemctl status slurmd
+$ sudo systemctl status slurmdbd 
+$ sudo systemctl status slurmctld
 ```
+
+## Worker Node
+
+

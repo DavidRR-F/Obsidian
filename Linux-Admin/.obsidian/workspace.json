@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "File System/File Commands.md",
+                "file": "File System/File Permissions.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "chmod",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "File System/File Commands.md",
+                "file": "File System/File Permissions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "File System/File Commands.md",
+                "file": "File System/File Permissions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "File System/File Commands.md"
+                "file": "File System/File Permissions.md"
               }
             }
           }
@@ -146,16 +147,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea28786160f1d852",
+  "active": "8b45c9971652f3e1",
   "lastOpenFiles": [
+    "RHCSA Practice/RH124/Create, View, Edit, Manage Files.md",
+    "Networking/Services.md",
+    "Disk Management/Disk Partitions.md",
+    "File System/File Commands.md",
     "Shell Scripting/VI Text Editor.md",
     "System Administration/Processes, Jobs, and Scheduling.md",
     "RHCSA Practice/RH124/Control, Monitor, and Manage Services.md",
     "RHCSA Practice/RH124/Manage Networking.md",
-    "RHCSA Practice/RH124/Create, View, Edit, Manage Files.md",
     "File System/File System Structure.md",
     "File System/File Permissions.md",
-    "File System/File Commands.md",
     "RHCSA Practice/RH124/User Management.md",
     "System Administration/User Account Management.md",
     "System Administration/System Performance.md",
@@ -172,8 +175,6 @@
     "RHCSA Practice/Tasks/Understanding Essential Tools/List, set and change user permissions.md",
     "RHCSA Practice/Tasks/Understanding Essential Tools/File Management.md",
     "RHCSA Practice/Tasks/Understanding Essential Tools/Untitled.md",
-    "RHCSA Practice/Tasks/Understanding Essential Tools/Archive, compress, unpack, and uncompress files.md",
-    "RHCSA Practice/Tasks/Understanding Essential Tools/Switch users in multiuser targets.md",
     "RHCSA Practice/Tasks/Manage Security",
     "RHCSA Practice/Tasks/Manage users and groups",
     "RHCSA Practice/Tasks/Deploy, config, and maintain systems",

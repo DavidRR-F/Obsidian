@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking Fundamentals/Network Devices.md",
+                "file": "Networking Fundamentals/OSI Model.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking Fundamentals/Network Devices.md",
+                "file": "Networking Fundamentals/OSI Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking Fundamentals/Network Devices.md",
+                "file": "Networking Fundamentals/OSI Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking Fundamentals/Network Devices.md"
+                "file": "Networking Fundamentals/OSI Model.md"
               }
             }
           }
@@ -148,15 +148,20 @@
   },
   "active": "c396bdfe8009d0d7",
   "lastOpenFiles": [
-    "images/Pasted image 20240219192359.png",
-    "images/Pasted image 20240216165604.png",
-    "images/Pasted image 20240216165503.png",
+    "Pasted image 20240220165613.png",
+    "images/Pasted image 20240220163422.png",
     "Networking Fundamentals/Network Devices.md",
-    "images/Pasted image 20240216165044.png",
-    "images/Pasted image 20240216164103.png",
-    "images/Pasted image 20240216161237.png",
+    "Networking Fundamentals/OSI Model.md",
+    "Pasted image 20240220163316.png",
+    "images/Pasted image 20240220162506.png",
+    "images/Pasted image 20240220161550.png",
+    "Pasted image 20240220162016.png",
+    "images/Pasted image 20240220110551.png",
+    "images/Pasted image 20240220104442.png",
+    "images/Pasted image 20240220100833.png",
+    "images/Pasted image 20240220094821.png",
+    "images/Pasted image 20240220093647.png",
     "images",
-    "images/Pasted image 20240216160642.png",
     "Networking Fundamentals"
   ]
 }

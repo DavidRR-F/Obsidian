@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking Fundamentals/OSI Model.md",
+                "file": "Networking Fundamentals/Network Devices.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "413d5e6f6cb5a9b8",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking Fundamentals/OSI Model.md",
+                "file": "Networking Fundamentals/Network Devices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking Fundamentals/OSI Model.md",
+                "file": "Networking Fundamentals/Network Devices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking Fundamentals/OSI Model.md"
+                "file": "Networking Fundamentals/Network Devices.md"
               }
             }
           }
@@ -148,19 +148,20 @@
   },
   "active": "c396bdfe8009d0d7",
   "lastOpenFiles": [
-    "Pasted image 20240220165613.png",
-    "images/Pasted image 20240220163422.png",
+    "Networking Fundamentals/Hosts Communication.md",
+    "Networking Fundamentals/Switches Communication.md",
+    "images/Pasted image 20240221164159.png",
+    "images/Pasted image 20240221162352.png",
+    "images/Pasted image 20240221160201.png",
+    "images/Pasted image 20240221143545.png",
+    "images/Pasted image 20240221143100.png",
     "Networking Fundamentals/Network Devices.md",
     "Networking Fundamentals/OSI Model.md",
-    "Pasted image 20240220163316.png",
-    "images/Pasted image 20240220162506.png",
-    "images/Pasted image 20240220161550.png",
-    "Pasted image 20240220162016.png",
-    "images/Pasted image 20240220110551.png",
-    "images/Pasted image 20240220104442.png",
-    "images/Pasted image 20240220100833.png",
-    "images/Pasted image 20240220094821.png",
-    "images/Pasted image 20240220093647.png",
+    "images/Pasted image 20240221142022.png",
+    "images/Pasted image 20240221131041.png",
+    "images/Pasted image 20240221122008.png",
+    "images/Pasted image 20240221104050.png",
+    "images/Pasted image 20240220165613.png",
     "images",
     "Networking Fundamentals"
   ]

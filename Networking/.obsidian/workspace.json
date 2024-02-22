@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking Fundamentals/Network Devices.md",
+                "file": "Networking Fundamentals/Communication/Routers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "90cc14196838bfa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking Fundamentals/Network Protocols.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 227.5
   },
   "right": {
     "id": "413d5e6f6cb5a9b8",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking Fundamentals/Network Devices.md",
+                "file": "Networking Fundamentals/Network Protocols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking Fundamentals/Network Devices.md",
+                "file": "Networking Fundamentals/Network Protocols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking Fundamentals/Network Devices.md"
+                "file": "Networking Fundamentals/Network Protocols.md"
               }
             }
           }
@@ -146,22 +159,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c396bdfe8009d0d7",
+  "active": "90cc14196838bfa1",
   "lastOpenFiles": [
-    "Networking Fundamentals/Hosts Communication.md",
-    "Networking Fundamentals/Switches Communication.md",
-    "images/Pasted image 20240221164159.png",
-    "images/Pasted image 20240221162352.png",
-    "images/Pasted image 20240221160201.png",
-    "images/Pasted image 20240221143545.png",
-    "images/Pasted image 20240221143100.png",
-    "Networking Fundamentals/Network Devices.md",
     "Networking Fundamentals/OSI Model.md",
-    "images/Pasted image 20240221142022.png",
-    "images/Pasted image 20240221131041.png",
-    "images/Pasted image 20240221122008.png",
-    "images/Pasted image 20240221104050.png",
-    "images/Pasted image 20240220165613.png",
+    "Networking Fundamentals/Network Protocols.md",
+    "Untitled.md",
+    "Networking Fundamentals/Communication/Routers.md",
+    "images/Pasted image 20240222144230.png",
+    "images/Pasted image 20240222144850.png",
+    "images/Pasted image 20240222143430.png",
+    "images/Pasted image 20240222143619.png",
+    "images/Pasted image 20240222142941.png",
+    "images/Pasted image 20240222141939.png",
+    "images/Pasted image 20240222105953.png",
+    "images/Pasted image 20240222105827.png",
+    "images/Pasted image 20240222105104.png",
+    "images/Pasted image 20240222101055.png",
+    "Networking Fundamentals/Communication/Switches.md",
+    "Networking Fundamentals/Communication/Hosts.md",
+    "Networking Fundamentals/Communication",
+    "Networking Fundamentals/Network Devices.md",
     "images",
     "Networking Fundamentals"
   ]

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking Fundamentals/Network Protocols.md",
+                "file": "Networking Fundamentals/Packet Traveling.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking Fundamentals/Network Protocols.md",
+                "file": "Networking Fundamentals/Packet Traveling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking Fundamentals/Network Protocols.md",
+                "file": "Networking Fundamentals/Packet Traveling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking Fundamentals/Network Protocols.md"
+                "file": "Networking Fundamentals/Packet Traveling.md"
               }
             }
           }
@@ -159,10 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90cc14196838bfa1",
+  "active": "97e816aea58422a6",
   "lastOpenFiles": [
-    "Networking Fundamentals/OSI Model.md",
+    "images/Pasted image 20240223165939.png",
+    "Networking Fundamentals/Communication/Switches.md",
+    "Networking Fundamentals/Packet Traveling.md",
+    "images/Pasted image 20240223161453.png",
     "Networking Fundamentals/Network Protocols.md",
+    "images/Pasted image 20240223095332.png",
+    "images/Pasted image 20240223093733.png",
+    "images/Pasted image 20240223093448.png",
+    "Networking Fundamentals/OSI Model.md",
     "Untitled.md",
     "Networking Fundamentals/Communication/Routers.md",
     "images/Pasted image 20240222144230.png",
@@ -171,11 +178,6 @@
     "images/Pasted image 20240222143619.png",
     "images/Pasted image 20240222142941.png",
     "images/Pasted image 20240222141939.png",
-    "images/Pasted image 20240222105953.png",
-    "images/Pasted image 20240222105827.png",
-    "images/Pasted image 20240222105104.png",
-    "images/Pasted image 20240222101055.png",
-    "Networking Fundamentals/Communication/Switches.md",
     "Networking Fundamentals/Communication/Hosts.md",
     "Networking Fundamentals/Communication",
     "Networking Fundamentals/Network Devices.md",

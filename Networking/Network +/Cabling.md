@@ -29,6 +29,7 @@
 ![[Pasted image 20240226203407.png]]
 
 - **Type**: Cat5e (Category 5 enhanced) / Cat6 (Category 6)
+- 568A standard: OrW, Or, GrW, B,BW,G,BrW, Br
 
 | Type  | Distance   | Max Bandwith                                          |
 | :---- | ---------- | ----------------------------------------------------- |

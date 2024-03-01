@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Slurm CLI.md",
+                "file": "Slurm Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Slurm CLI.md",
+                "file": "Slurm Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Slurm CLI.md",
+                "file": "Slurm Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Slurm CLI.md"
+                "file": "Slurm Setup.md"
               }
             }
           }
@@ -161,7 +161,7 @@
   },
   "active": "56812eea043cb365",
   "lastOpenFiles": [
-    "Slurm Setup.md",
-    "Slurm CLI.md"
+    "Slurm CLI.md",
+    "Slurm Setup.md"
   ]
 }

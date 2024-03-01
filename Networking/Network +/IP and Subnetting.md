@@ -32,6 +32,8 @@ Classful addressing is an early method for the allocation of IP addresses. Devel
 
 # Subnet Masks
 
+![[Pasted image 20240301155210.png]]
+
 A subnet mask is a 32-bit number that masks an IP address and divides the IP address into network address and host address components. Subnet masks are used in IP networking to differentiate the network portion of an IP address from the host portion. This differentiation is crucial for routing IP packets on a network and for defining the size of a network or subnet.
 
 ### How Subnet Masks Work
@@ -41,6 +43,7 @@ An IP address consists of two main parts: the network portion and the host porti
 - **Binary Representation**: Both IP addresses and subnet masks are written as four octets separated by periods in decimal form for human readability (e.g., 255.255.255.0). However, within a computer or network device, they are processed in binary form.
 - **Masking Process**: The subnet mask works by applying a bitwise AND operation between the IP address and the subnet mask. The result reveals the network address, enabling devices and routers to determine whether an IP address is on a local network or an external network.
 
+![[Pasted image 20240301155832.png]]
 ### Explanation
 
 Consider an IP address of 192.168.1.10 with a subnet mask of 255.255.255.0:
@@ -68,4 +71,35 @@ On a Network the subnet mask helps define if traffic is inside or outside of the
 - **Default Subnet Mask**: Assigned based on the class (A, B, or C) of the IP address and assumes no custom subnetting. For example, Class C IP addresses have a default subnet mask of 255.255.255.0.
 - **Custom Subnet Mask**: Used in subnetting to create subnets of different sizes within a network. This is essential in CIDR (Classless Inter-Domain Routing) to maximize the efficient use of IP addresses.
 
-## Subnetting
+## Subnetting with CIDR
+
+![[Pasted image 20240301160342.png]]
+
+Classless Inter-Domain Routing (CIDR) is a method for allocating IP addresses and routing IP packets. Introduced in 1993 to replace the older classful IP addressing system, CIDR allows for more efficient and flexible allocation of IP addresses. This efficiency is achieved by varying the length of the subnet mask, which, in turn, allows for a wider range of IP address assignments and helps slow the exhaustion of IPv4 addresses.
+
+| Subnet | Address Size |
+| :----- | ------------ |
+| /24    | 254          |
+| /25    | 126          |
+| /26    | 62           |
+| /27    | 30           |
+| /28    | 14           |
+| /29    | 6            |
+| /30    | 2            |
+
+### Key Features of CIDR
+
+- **Variable-Length Subnet Masking (VLSM)**: CIDR uses VLSM to divide the Internet into variable-sized blocks of IP addresses. This approach allows for the creation of subnets of almost any size, making it possible to allocate IP addresses more efficiently according to the actual needs of organizations and networks.
+- **Notation**: CIDR notation simplifies the representation of IP addresses and their associated routing prefix. It uses a slash (`/`) followed by a number (e.g., `192.168.1.0/24`) to indicate the network portion of the address. The number after the slash represents the number of bits in the subnet mask that are set to 1, starting from the left. In the example, `/24` means the first 24 bits are the network part of the address, leaving the last 8 bits for host addresses within that network.
+- **Supernetting**: CIDR supports the aggregation of several smaller networks into a single, larger address block, known as supernetting. This reduces the number of routing entries in the global routing table and simplifies the routing process.
+
+### Benefits of CIDR
+
+- **Efficient Use of IP Space**: By allowing the creation of subnets that precisely fit an organization's size, CIDR minimizes the wastage of IP addresses.
+- **Reduction in Routing Table Size**: CIDR's ability to aggregate routes into supernets decreases the number of entries in routing tables, making internet routing more efficient.
+- **Slows IP Address Exhaustion**: CIDR's efficient allocation has helped to slow down the rate at which the available IPv4 address space is used up, although the long-term solution to address exhaustion is the adoption of IPv6, which provides a vastly larger address space.
+- **Flexibility**: Organizations can receive an IP address block based on their size and growth predictions, rather than being constrained by the fixed blocks defined by classful addressing.
+
+### Transition to IPv6
+
+While CIDR has extended the usability of IPv4, the continued growth of the internet and the proliferation of connected devices have led to the depletion of available IPv4 addresses. IPv6 was developed to address this limitation, offering a significantly larger address space (128-bit addresses compared to IPv4's 32-bit addresses) and incorporating features for improved performance and security. Transitioning to IPv6 is considered the ultimate solution to address space exhaustion, but CIDR remains a critical technology for managing the remaining IPv4 address space efficiently.

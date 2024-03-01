@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/TCP and IP.md",
+                "file": "Network +/IP and Subnetting.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/TCP and IP.md",
+                "file": "Network +/IP and Subnetting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/TCP and IP.md",
+                "file": "Network +/IP and Subnetting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/TCP and IP.md"
+                "file": "Network +/IP and Subnetting.md"
               }
             }
           }
@@ -143,13 +143,20 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "c396bdfe8009d0d7",
   "lastOpenFiles": [
+    "images/Pasted image 20240301155832.png",
+    "images/Pasted image 20240301160342.png",
+    "Network +/IP and Subnetting.md",
+    "images/Pasted image 20240301155651.png",
+    "images/Pasted image 20240301160228.png",
+    "images/Pasted image 20240301155517.png",
+    "images/Pasted image 20240301155210.png",
     "Networking Fundamentals/Communication/Hosts.md",
-    "Network +/TCP and IP.md",
     "Networking Fundamentals/Network Protocols.md",
     "Networking Fundamentals/Network Devices.md",
     "Networking Fundamentals/Communication/Switches.md",
@@ -165,12 +172,6 @@
     "images/Pasted image 20240228182410.png",
     "images/Pasted image 20240228182045.png",
     "images/Pasted image 20240226205827.png",
-    "images/Pasted image 20240226203454.png",
-    "images/Pasted image 20240226203407.png",
-    "images/Pasted image 20240226203103.png",
-    "images/Pasted image 20240226202544.png",
-    "images/Pasted image 20240226202235.png",
-    "images/Pasted image 20240226202008.png",
     "Network +/Cabling/Untitled.md",
     "Network +/Cabling",
     "Network +",

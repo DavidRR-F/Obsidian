@@ -103,3 +103,44 @@ Classless Inter-Domain Routing (CIDR) is a method for allocating IP addresses an
 ### Transition to IPv6
 
 While CIDR has extended the usability of IPv4, the continued growth of the internet and the proliferation of connected devices have led to the depletion of available IPv4 addresses. IPv6 was developed to address this limitation, offering a significantly larger address space (128-bit addresses compared to IPv4's 32-bit addresses) and incorporating features for improved performance and security. Transitioning to IPv6 is considered the ultimate solution to address space exhaustion, but CIDR remains a critical technology for managing the remaining IPv4 address space efficiently.
+
+# Dynamic and Static IP Addressing
+
+DHCP - Dynamic Host Configuration Protocol
+
+A DHCP Server provides a IP, Subnet mask, Default Gateway, and DNS Server IP for any client. Whenever a host connects to a new network it sends a DHCP discover message the DHCP server can then respond with the information required to connect to the internet
+
+![[Pasted image 20240223095332.png]]
+
+# Special IP Addresses
+
+## Private IP Addresses
+
+Private IP addresses are reserved IP addresses used within private networks, not directly accessible from the internet. They are defined by the Internet Assigned Numbers Authority (IANA) and are set aside specifically for use in private networks, such as those within homes, schools, and businesses. The main purpose of private IP addresses is to allow multiple devices within a network to communicate with each other without using a public IP address for each device. This helps in conserving the limited number of available public IP addresses and enhances network security by hiding internal network addresses from the external network.
+
+There are specific IP ranges designated for private use:
+
+- **10.0.0.0 to 10.255.255.255**: This is a single Class A network with a 8-bit block size, providing up to 16 million private IP addresses.
+- **172.16.0.0 to 172.31.255.255**: This range is a set of 16 contiguous Class B networks with a 12-bit block size, offering over 1 million addresses.
+- **192.168.0.0 to 192.168.255.255**: This is a set of 256 contiguous Class C networks with a 16-bit block size, allowing for approximately 65,000 addresses.
+
+Devices within the same private network can communicate with each other using private IP addresses. However, to access the internet or communicate with devices outside their local network, they must go through a network address translation (NAT) process typically performed by a router. The router translates private IP addresses to a public IP address for outgoing traffic and then back to the appropriate private IP address for incoming traffic, enabling seamless internet access and communication with external services.
+
+## Loopback Address
+
+A loopback address is a special IP address that is used to test network software and hardware. It is designated for use in diagnostics and troubleshooting within the local host. The most common loopback address is `127.0.0.1` for IPv4 and `::1` for IPv6. When you send data to the loopback address, the network stack of the operating system processes the data as if it had been received from the network, but instead, it immediately loops it back to the sending side. This allows developers and network administrators to test the network interface and the stack without needing to physically transmit packets over the network.
+
+The entire `127.0.0.0/8` network (meaning any address from `127.0.0.1` to `127.255.255.254`) is reserved for loopback purposes, but `127.0.0.1` is the most commonly used address. Using a loopback address is a standard way to refer to the local system in network testing and software development, as it allows for a reliable method of sending messages to the same device.
+
+This mechanism is particularly useful for testing network software, configuring software applications, and diagnosing problems within the network interface or the network stack itself. It ensures that the network interface and software can send and receive data correctly without involving the physical network interface, which can be helpful for initial setup, development, or troubleshooting scenarios.
+
+## APIPA - Automatic Private IP Addressing
+
+  
+APIPA stands for Automatic Private IP Addressing. It is a feature used by Microsoft Windows operating systems to automatically assign a unique IP address to a computer's network interface when it fails to obtain a static IP address from a DHCP (Dynamic Host Configuration Protocol) server or when no manual IP address has been configured. This feature enables computers on a local network to communicate with each other even in the absence of a DHCP server or manual network configuration.
+
+The IP addresses assigned by APIPA are in the range of **169.254.0.1 to 169.254.255.254** with a subnet mask of 255.255.0.0 (or a /16 network prefix). This address range is specifically reserved for Automatic Private IP Addressing and is recognized across different operating systems for the same purpose.
+
+APIPA is particularly useful in small networks, such as a home or small business network, where there is no DHCP server to assign IP addresses and manual configuration is not feasible or desired. When a device configured to use DHCP starts up and cannot find a DHCP server, it assigns itself an IP address from the APIPA range. This allows the device to communicate with other devices on the same local network that have also been assigned an APIPA address.
+
+However, because APIPA addresses are only valid for local network segments, they cannot be used to communicate with devices outside the local network or the internet. This means that while APIPA allows for basic network connectivity and communication between devices on the same subnet, it does not provide full network functionality without further configuration or the presence of a DHCP server.

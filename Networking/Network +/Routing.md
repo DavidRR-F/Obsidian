@@ -192,3 +192,112 @@ While a DMZ provides an added layer of security, it also requires careful config
 - Regularly updating and patching systems within the DMZ to protect against known vulnerabilities.
 - Minimizing the number of services and openings to reduce potential attack vectors.
 - Monitoring traffic to and from the DMZ for suspicious activity.
+
+
+## Routing Table
+
+a Routing Table can be populated via three methods.
+
+- **Directly Connected**: Routes for the Networks which are attached
+
+![[Pasted image 20240222092210.png]]
+
+- **Static Route**: Route manually provided by an Administrator
+
+![[Pasted image 20240222093501.png]]
+
+- **Dynamic Route**: Route learned automatically from other Routers
+
+![[Pasted image 20240222094745.png]]
+
+**Note** If a router receives a packet that it doesn't know how to deliver the route will discard the packet. Thus, the Routing Table needs to be pre populated before traffic can flow through it.
+## Dynamic Routing Protocols
+
+Dynamic routing protocols are algorithms designed for routers to communicate information about the best paths through a network dynamically.
+### **Routing Information Protocol (RIP)**
+
+A distance-vector routing protocol that uses hop count as a routing metric to find the shortest path between the source and destination.
+
+![[Pasted image 20240305134406.png]]
+
+- RIP's max hop count is 15
+- RIP1 used only classful networking
+
+#### Distance-Vector Routing Protocol
+
+Distance-vector routing protocols determine the best path to a destination based on distance metrics (like hop count) and direction (vector). Routers using distance-vector protocols periodically exchange information with their immediate neighbors, containing the distances to all destinations they know of. This information is used to update their routing tables accordingly.
+
+- **Key Features**:
+    
+    - Simplicity and ease of implementation.
+    - Routers only know the next hop and the distance (in terms of a metric like hop count) to reach any destination.
+    - Slow convergence and susceptibility to routing loops, although mechanisms like split horizon, route poisoning, and hold-down timers are used to mitigate these issues.
+- **Examples**: RIP (Routing Information Protocol) and IGRP (Interior Gateway Routing Protocol, a precursor to EIGRP) are examples of distance-vector routing protocols.
+### **Open Shortest Path First (OSPF)** 
+
+A link-state routing protocol that uses a method of flooding to exchange link information within an Autonomous System (AS), creating a map of the network to determine the shortest path.
+
+![[Pasted image 20240305142143.png]]
+
+- OSPF uses Area IDs
+- OSPF converges very quickly
+
+#### Link-State Routing Protocol
+
+Link-state routing protocols operate by maintaining a complete map or topology of the network. Each router independently discovers its neighbors and the status of the links to those neighbors. This information is then compiled into link-state advertisements (LSAs) that are flooded to all routers in the network area, allowing each router to build a complete, consistent view of the network topology.
+
+- **Key Features**:
+    
+    - Utilizes Dijkstra's algorithm to calculate the shortest path to each node.
+    - Rapid convergence due to immediate flooding of topology changes.
+    - Scales well in larger networks with the use of areas or zones to limit the scope of LSAs.
+- **Examples**: OSPF (Open Shortest Path First) and IS-IS (Intermediate System to Intermediate System) are two well-known link-state routing protocols.
+### **Border Gateway Protocol (BGP)** 
+
+An exterior gateway protocol designed to exchange routing and reachability information among autonomous systems on the internet.
+
+#### Exterior Gateway Protocol (EGP)
+
+Exterior Gateway Protocols are designed to route data between autonomous systems (ASes), which are distinct networks managed by different organizations. EGPs are crucial for internet connectivity, as they enable the exchange of routing information between independently managed networks.
+
+- **Key Features**:
+    
+    - Focuses on policy-based routing decisions rather than just the shortest path.
+    - Manages routing between autonomous systems with scalability to support the global internet.
+- **Example**: BGP (Border Gateway Protocol) is the de facto EGP used on the internet today. While "EGP" refers to a specific protocol that was used historically for routing between networks, BGP is the standard protocol currently in use for this purpose.
+
+### Conclusion
+
+**Static routing** involves manually configuring the routes in a network device's routing table. Network administrators explicitly set the paths that data packets take through the network by specifying the next hop address or specific interface for each destination network. These routes do not change unless manually updated or removed by the administrator.
+
+**Dynamic routing** uses protocols to automatically discover and update routing information between routers. This method enables the network to adapt to changes, such as link failures or network expansions, without manual intervention. Dynamic routing protocols, such as OSPF (Open Shortest Path First), EIGRP (Enhanced Interior Gateway Routing Protocol), and BGP (Border Gateway Protocol), exchange information between routers to determine the best paths for data packet forwarding.
+
+### IGP (Interior Gateway Protocol)
+
+IGPs are used within a single autonomous system (AS). An autonomous system is a collection of IP networks and routers under the control of one or more network operators that presents a common routing policy to the internet. IGPs distribute routing information among routers within the same autonomous system.
+
+**Key Characteristics of IGPs:**
+
+- **Scope**: Operate within a single autonomous system.
+- **Purpose**: Manage routing within a network, ensuring data packets are efficiently distributed among routers in the same AS.
+- **Examples**: Common IGPs include:
+    - **RIP (Routing Information Protocol)**: Uses hop count as a routing metric, with a maximum limit of 15 hops.
+    - **OSPF (Open Shortest Path First)**: A link-state protocol that quickly converges and scales well within large or complex networks.
+    - **EIGRP (Enhanced Interior Gateway Routing Protocol)**: A Cisco proprietary protocol that combines the best features of link-state and distance-vector protocols.
+
+### EGP (Exterior Gateway Protocol)
+
+EGP is specifically designed for routing between autonomous systems, facilitating the exchange of routing information between different networks operated by separate organizations. While EGP historically refers to a specific protocol, the term is more broadly used to describe protocols that function between autonomous systems.
+
+**Key Characteristics of EGPs:**
+
+- **Scope**: Operate between autonomous systems.
+- **Purpose**: Manage routing between separate networks, enabling internet connectivity and data exchange across the global internet.
+- **Examples**: The most notable EGP is:
+    - **BGP (Border Gateway Protocol)**: The de facto EGP used on the internet, managing routing between different autonomous systems. It ensures data packets find their way across the complex interconnections of the global internet.
+
+### Key Differences
+
+- **Operational Scope**: IGPs are concerned with routing within a single AS, focusing on internal network efficiency and optimization. EGPs, particularly BGP, handle routing between ASes, dealing with policy, scalability, and redundancy on a global scale.
+- **Routing Policies**: IGPs typically optimize for metrics like distance, cost, or speed. EGPs must consider policy decisions, which may include routing preferences, load balancing, and avoiding certain networks due to business or political reasons.
+- **Complexity and Scalability**: EGPs must manage more complex routing tables and deal with a wider range of routing policies and relationships than IGPs.

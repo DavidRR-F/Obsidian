@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Routing.md",
+                "file": "Network +/Network Diagnostic Tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Routing.md",
+                "file": "Network +/Network Diagnostic Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Routing.md",
+                "file": "Network +/Network Diagnostic Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Routing.md"
+                "file": "Network +/Network Diagnostic Tools.md"
               }
             }
           }
@@ -149,31 +149,33 @@
   },
   "active": "97e816aea58422a6",
   "lastOpenFiles": [
+    "images/Pasted image 20240305212656.png",
+    "Network +/Protocols.md",
+    "Network +/Network Diagnostic Tools.md",
+    "images/Pasted image 20240305210312.png",
+    "images/Pasted image 20240305210135.png",
+    "Networking Fundamentals/OSI Model.md",
+    "Networking Fundamentals/Packet Traveling.md",
+    "Networking Fundamentals/Network Protocols.md",
+    "Networking Fundamentals/Communication/Switches.md",
+    "Networking Fundamentals/Communication/Routers.md",
+    "Networking Fundamentals/Communication/Hosts.md",
+    "Networking Fundamentals/Network Devices.md",
+    "Network +/Cabling.md",
+    "Network +/Routing.md",
     "images/Pasted image 20240305142143.png",
     "images/Pasted image 20240305134406.png",
-    "Network +/Network Topologies.md",
-    "Network +/Routing.md",
     "images/Pasted image 20240305130552.png",
-    "Networking Fundamentals/Communication/Routers.md",
     "images/Pasted image 20240304214945.png",
     "images/Pasted image 20240304212744.png",
     "images/Pasted image 20240304191536.png",
     "Network +/IP and Subnetting.md",
-    "Networking Fundamentals/Network Protocols.md",
+    "Network +/Network Topologies.md",
     "images/Pasted image 20240301155832.png",
     "images/Pasted image 20240301160342.png",
-    "images/Pasted image 20240301155651.png",
-    "images/Pasted image 20240301160228.png",
-    "images/Pasted image 20240301155517.png",
-    "Networking Fundamentals/Communication/Hosts.md",
-    "Networking Fundamentals/Network Devices.md",
-    "Networking Fundamentals/Communication/Switches.md",
-    "Networking Fundamentals/OSI Model.md",
-    "Networking Fundamentals/Packet Traveling.md",
     "Network +/Installing a Physical Network.md",
     "Network +/Untitled",
     "Network +/Ethernet.md",
-    "Network +/Cabling.md",
     "Network +/Cabling/Untitled.md",
     "Network +/Cabling",
     "Network +",

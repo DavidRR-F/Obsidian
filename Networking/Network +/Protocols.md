@@ -72,3 +72,98 @@ IGMP is used in IP networks to establish multicast group memberships. It allows 
 **Versions of IGMP**: There are several versions of IGMP (IGMPv1, IGMPv2, and IGMPv3), with each version introducing improvements in efficiency and capabilities for managing multicast group memberships.
 
 **Note**: ICMP and IGMP work on the internet layer (2) in the TCP/IP model
+
+# FTP - File Transfer Protocol
+
+FTP, or File Transfer Protocol, is a standard network protocol used to transfer files from one host to another over a TCP-based network, such as the Internet. FTP is defined by the Internet Engineering Task Force (IETF) in RFC 959 and has been used since the early days of the Internet to upload and download files.
+
+### How FTP Works
+
+FTP operates on a client-server model, where an FTP server hosts the files to be shared, and an FTP client is used to access and transfer files to and from the server. FTP requires users to authenticate themselves with a username and password, although anonymous FTP access is also possible where users can log in with a generic username like "anonymous" or "ftp" and their email address as the password.
+
+FTP uses two channels for communication:
+
+- **Command Channel (Control Connection)**: Operates on TCP port 21 by default and is used for sending commands between the client and server (such as login credentials and commands to change the directory, list files, or transfer files).
+- **Data Channel (Data Connection)**: Used for the actual transfer of files. FTP can operate in two modes for data transfer:
+    - **Active Mode**: The server initiates the data connection back to the client. The client listens on a random port and tells the server to connect to it.
+    - **Passive Mode**: Used to solve issues encountered with firewalls and NAT on the client side blocking incoming connections. In passive mode, the client initiates both the command and data connections to the server.
+
+### FTP Commands
+
+FTP clients use a set of standardized commands to interact with the server. Some common commands include:
+
+- `USER`: Specify the username for login.
+- `PASS`: Specify the password for login.
+- `LIST`: List files in the current directory.
+- `CWD`: Change the working directory.
+- `PASV`: Enter passive mode.
+- `RETR`: Retrieve (download) a file.
+- `STOR`: Store (upload) a file.
+
+# SMTP - Simple Mail Transfer Protocol
+
+Simple Mail Transfer Protocol (SMTP) is a protocol used on the Internet for sending emails from one server to another. SMTP is defined by the Internet Engineering Task Force (IETF) in RFC 821 (the original specification) and RFC 5321 (the protocol's current specification). It specifies how email messages are transmitted between mail servers, as well as the process for sending mail from a mail client to a mail server. This protocol is a part of the application layer of the TCP/IP suite.
+
+### How SMTP Works
+
+SMTP operates on a client-server model, where:
+
+- **SMTP servers** act as mail carriers, receiving outgoing mail from clients and routing them to their destination. These servers can also relay mail to other SMTP servers if the destination address is not within the same domain.
+- **SMTP clients**, which can be email applications or mail transfer agents, use SMTP to send mail to the server.
+
+SMTP uses TCP as its transport protocol, defaulting to port 25, though port 587 is also commonly used for email submission by clients to servers, especially when authentication and encryption are involved.
+
+- POP3 (Post Office Protocol v3) - port 110
+- IMAP (Internet Message Access Protocol v4) - port 143
+### Process of Sending an Email with SMTP
+
+1. **Connection and Identification**: The sending server initiates a TCP connection to the receiving server's SMTP port. The servers exchange identification information using SMTP commands.
+2. **Mail Transfer**: The sender issues commands to specify the sender and recipient(s) of the message, followed by the message itself. Basic commands include:
+    - `MAIL FROM`: Specifies the sender's email address.
+    - `RCPT TO`: Specifies the recipient's email address.
+    - `DATA`: Indicates the start of the message body, which ends with a single period (`.`) on a line by itself.
+3. **Session Termination**: Once the message is transferred, the session is closed with a `QUIT` command.
+
+### SMTP and Email Delivery
+
+- **Sending to Local Recipients**: If the recipient's domain is local, the SMTP server directly places the email in the recipient's mailbox.
+- **Sending to External Recipients**: If the recipient is outside the sending server's local domain, SMTP relays the message to another SMTP server closer to the recipient's domain, possibly going through multiple relays.
+
+### Use with Other Protocols
+
+While SMTP handles sending and relaying email, the retrieval of emails from a server by a client uses different protocols, typically POP3 (Post Office Protocol 3) or IMAP (Internet Message Access Protocol). These protocols allow users to download messages to their local devices or manage their emails directly on the server, respectively.
+
+### Encrypting Email (SMTPS)
+
+**SMTP in itself does not include encryption**, so messages sent via plain SMTP can be intercepted and read. To address this, extensions and related protocols have been developed:
+
+- **STARTTLS**: An SMTP command that initiates encryption of the connection using TLS (Transport Layer Security), protecting the data from eavesdropping. port (465 or 587).
+- **SMTPS**: Refers to using SMTP over SSL/TLS for encryption, often on a dedicated port (465, 995, or 993).
+- **SMTP Authentication (SMTP AUTH)**: Requires the client to authenticate with the server, helping to prevent unauthorized use of SMTP servers for sending spam.
+
+# Telnet and SSH
+
+### Telnet (Telecommunication Network)
+
+- **Protocol Type**: Application layer protocol.
+- **Security**: Telnet does not encrypt data, which means that all communications, including login credentials, are sent in clear text over the network. This makes it vulnerable to eavesdropping and man-in-the-middle attacks.
+- **Port**: Typically uses TCP port 23.
+- **Usage**: Historically used for remote command-line access and management of network devices and servers. Due to its lack of security, Telnet has largely been replaced by SSH for accessing sensitive or private systems over an unsecured network, like the Internet. However, it might still be used in controlled environments where security is not a concern, or on local networks.
+- **Operation**: Establishes a virtual terminal (VTY) session, allowing users to interact with a remote device as if they were physically present at the terminal.
+
+### SSH (Secure Shell)
+
+- **Protocol Type**: Application layer protocol designed to provide secure remote login and other secure network services over an insecure network.
+- **Security**: SSH provides robust security by encrypting the entire session, including login credentials and commands. It uses public-key cryptography for both authentication and data encryption, protecting against eavesdropping, connection hijacking, and other security threats.
+- **Port**: Typically uses TCP port 22.
+- **Usage**: Widely used for securely accessing and managing network devices, servers, and other systems remotely. SSH is also used for securely transferring files over the network using associated protocols like SFTP (SSH File Transfer Protocol) or SCP (Secure Copy Protocol).
+- **Operation**: Like Telnet, SSH provides a command-line interface for interacting with a remote device. However, it includes mechanisms for negotiating encryption, authenticating users, and maintaining the integrity and confidentiality of the data being exchanged.
+
+### Key Differences
+
+- **Security**: The most significant difference is security. SSH was explicitly designed to address the security weaknesses of Telnet by providing encrypted communications.
+- **Usage Context**: While SSH is universally recommended for all remote access over an insecure network due to its encryption and authentication features, Telnet might only be used in specific, secure, or legacy environments.
+- **Features**: SSH supports more advanced features than Telnet, including port forwarding, which allows for secure tunneling of other protocols, and the ability to mount remote file systems securely over the network.
+
+# NTP - Network Time Protocol
+

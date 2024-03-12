@@ -167,3 +167,16 @@ While SMTP handles sending and relaying email, the retrieval of emails from a se
 
 # NTP - Network Time Protocol
 
+- NTP/SNTP - port 143
+
+NTP, or Network Time Protocol, is a networking protocol designed to synchronize clocks of computers over a network. Developed by David L. Mills at the University of Delaware, NTP has been in use since 1985 and is one of the oldest Internet protocols still in use. NTP is critical for various applications and services that require accurate timekeeping, as it ensures that the time across all devices in a network is consistent and precise.
+
+![[Pasted image 20240310155436.png]]
+### How NTP Works
+
+NTP operates using a hierarchical, semi-layered system of time sources. The hierarchy is divided into several levels, known as "strata," where Stratum 0 is the highest level and represents high-precision timekeeping devices such as atomic clocks, GPS clocks, or other radio clocks. These are not directly connected to the network but are used as reference time sources by Stratum 1 servers, which are directly connected to Stratum 0 devices.
+
+- **Stratum 1**: Devices directly connected to Stratum 0 devices, acting as primary time servers.
+- **Stratum 2**: Servers synchronized to Stratum 1 servers, and so on, up to Stratum 15. Stratum 16 is considered unsynchronized.
+
+NTP clients adjust their clocks based on the timestamps received from NTP servers. The protocol is designed to mitigate the effects of variable latency over data networks. NTP can adjust the local clock in small increments or decrements to align it to the correct time without causing abrupt changes that could be disruptive to time-sensitive applications.

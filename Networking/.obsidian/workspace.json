@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/WAN Connectivity.md",
+                "file": "Network +/Wireless Networking.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/WAN Connectivity.md",
+                "file": "Network +/Wireless Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/WAN Connectivity.md",
+                "file": "Network +/Wireless Networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/WAN Connectivity.md"
+                "file": "Network +/Wireless Networking.md"
               }
             }
           }
@@ -149,9 +149,14 @@
   },
   "active": "c396bdfe8009d0d7",
   "lastOpenFiles": [
+    "Pasted image 20240317150545.png",
+    "images/Pasted image 20240317150212.png",
+    "images/Pasted image 20240317150001.png",
+    "images/Pasted image 20240317145902.png",
+    "Network +/WAN Connectivity.md",
+    "Network +/Wireless Networking.md",
     "images/Pasted image 20240316092952.png",
     "Network +/IPv6.md",
-    "Network +/WAN Connectivity.md",
     "images/Pasted image 20240314124540.png",
     "images/Pasted image 20240314123148.png",
     "Network +/Switch Features.md",
@@ -170,16 +175,12 @@
     "images/Pasted image 20240311124403.png",
     "images/Pasted image 20240310164630.png",
     "images/Pasted image 20240310155436.png",
-    "images/Pasted image 20240305212656.png",
-    "images/Pasted image 20240305210312.png",
-    "images/Pasted image 20240305210135.png",
     "Networking Fundamentals/OSI Model.md",
     "Networking Fundamentals/Packet Traveling.md",
     "Networking Fundamentals/Network Protocols.md",
     "Networking Fundamentals/Communication/Routers.md",
     "Networking Fundamentals/Communication/Hosts.md",
     "Networking Fundamentals/Network Devices.md",
-    "images/Pasted image 20240305142143.png",
     "Network +/Installing a Physical Network.md",
     "Network +/Untitled",
     "Network +/Cabling/Untitled.md",

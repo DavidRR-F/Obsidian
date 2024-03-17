@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Securing TCP - IP.md",
+                "file": "Network +/WAN Connectivity.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Securing TCP - IP.md",
+                "file": "Network +/WAN Connectivity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Securing TCP - IP.md",
+                "file": "Network +/WAN Connectivity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Securing TCP - IP.md"
+                "file": "Network +/WAN Connectivity.md"
               }
             }
           }
@@ -149,9 +149,17 @@
   },
   "active": "c396bdfe8009d0d7",
   "lastOpenFiles": [
-    "Pasted image 20240311213601.png",
-    "Network +/Network Diagnostic Tools.md",
+    "images/Pasted image 20240316092952.png",
+    "Network +/IPv6.md",
+    "Network +/WAN Connectivity.md",
+    "images/Pasted image 20240314124540.png",
+    "images/Pasted image 20240314123148.png",
+    "Network +/Switch Features.md",
+    "Network +/Cisco Commands.md",
+    "Networking Fundamentals/Communication/Switches.md",
     "Network +/Securing TCP - IP.md",
+    "images/Pasted image 20240311213601.png",
+    "Network +/Network Diagnostic Tools.md",
     "Network +/Network Topologies.md",
     "Network +/IP and Subnetting.md",
     "Network +/Ethernet.md",
@@ -168,14 +176,10 @@
     "Networking Fundamentals/OSI Model.md",
     "Networking Fundamentals/Packet Traveling.md",
     "Networking Fundamentals/Network Protocols.md",
-    "Networking Fundamentals/Communication/Switches.md",
     "Networking Fundamentals/Communication/Routers.md",
     "Networking Fundamentals/Communication/Hosts.md",
     "Networking Fundamentals/Network Devices.md",
     "images/Pasted image 20240305142143.png",
-    "images/Pasted image 20240305134406.png",
-    "images/Pasted image 20240305130552.png",
-    "images/Pasted image 20240304214945.png",
     "Network +/Installing a Physical Network.md",
     "Network +/Untitled",
     "Network +/Cabling/Untitled.md",

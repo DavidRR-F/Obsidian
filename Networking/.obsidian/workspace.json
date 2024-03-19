@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Wireless Networking.md",
+                "file": "Network +/Virtualization and Cloud Computing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Wireless Networking.md",
+                "file": "Network +/Virtualization and Cloud Computing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Wireless Networking.md",
+                "file": "Network +/Virtualization and Cloud Computing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Wireless Networking.md"
+                "file": "Network +/Virtualization and Cloud Computing.md"
               }
             }
           }
@@ -149,12 +149,13 @@
   },
   "active": "c396bdfe8009d0d7",
   "lastOpenFiles": [
+    "Network +/Wireless Networking.md",
+    "Network +/Virtualization and Cloud Computing.md",
     "Pasted image 20240317150545.png",
     "images/Pasted image 20240317150212.png",
     "images/Pasted image 20240317150001.png",
     "images/Pasted image 20240317145902.png",
     "Network +/WAN Connectivity.md",
-    "Network +/Wireless Networking.md",
     "images/Pasted image 20240316092952.png",
     "Network +/IPv6.md",
     "images/Pasted image 20240314124540.png",
@@ -174,7 +175,6 @@
     "Network +/Routing.md",
     "images/Pasted image 20240311124403.png",
     "images/Pasted image 20240310164630.png",
-    "images/Pasted image 20240310155436.png",
     "Networking Fundamentals/OSI Model.md",
     "Networking Fundamentals/Packet Traveling.md",
     "Networking Fundamentals/Network Protocols.md",

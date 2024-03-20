@@ -1,20 +1,20 @@
-| File | Description |
-|:----|:----|
-| /boot | contains file that is used by the boot loader (grub.cfg)|
-| /root | root user home directory |
-| /dev | systems devices (disk, cdrom, speakers, flashdrive, keyboard, etc..) |
-| /etc | configuration files |
-|/bin -> /usr/bin|Everyday user commands|
-|/sbin -> /usr/bin|system/filesystem commands|
-|/opt|optional add-on applications (Not part of OS apps)|
-|/proc|running processes (Only exists in Memory)|
-|/lib -> /usr/lib|C programming library files needed by commands and apps|
-|/tmp|directory for temporary files|
-|/home|directory for users|
-|/var|system logs|
-|/run|system daemons that start very early (e.g. systemd and udev) to store temporary runtime files like PID files|
-|/mnt|to mount external filesystem (e.g. NFS)|
-|/media|for cdrom mounts|
+| File              | Description                                                                                                  |
+| :---------------- | :----------------------------------------------------------------------------------------------------------- |
+| /boot             | contains file that is used by the boot loader (grub.cfg)                                                     |
+| /root             | root user home directory                                                                                     |
+| /dev              | systems devices (disk, cdrom, speakers, flashdrive, keyboard, etc..)                                         |
+| /etc              | configuration files                                                                                          |
+| /bin -> /usr/bin  | Everyday user commands                                                                                       |
+| /sbin -> /usr/bin | system/filesystem commands                                                                                   |
+| /opt              | optional add-on applications (Not part of OS apps)                                                           |
+| /proc             | running processes (Only exists in Memory)                                                                    |
+| /lib -> /usr/lib  | C programming library files needed by commands and apps                                                      |
+| /tmp              | directory for temporary files                                                                                |
+| /home             | directory for users                                                                                          |
+| /var              | system logs                                                                                                  |
+| /run              | system daemons that start very early (e.g. systemd and udev) to store temporary runtime files like PID files |
+| /mnt              | to mount external filesystem (e.g. NFS)                                                                      |
+| /media            | for cdrom mounts                                                                                             |
 
 ## File Commands 
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Integrating Networked Devices.md",
+                "file": "Network +/Network Operations.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 227.5
   },
   "right": {
     "id": "413d5e6f6cb5a9b8",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Integrating Networked Devices.md",
+                "file": "Network +/Network Operations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Integrating Networked Devices.md",
+                "file": "Network +/Network Operations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Integrating Networked Devices.md"
+                "file": "Network +/Network Operations.md"
               }
             }
           }
@@ -147,24 +147,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "97e816aea58422a6",
+  "active": "c396bdfe8009d0d7",
   "lastOpenFiles": [
+    "Network +/Virtualization and Cloud Computing.md",
+    "Network +/Network Operations.md",
     "images/Pasted image 20240320123604.png",
     "images/Pasted image 20240320123534.png",
-    "Network +/Datacenters.md",
-    "Network +/Integrating Networked Devices.md",
     "images/Pasted image 20240319145233.png",
     "images/Pasted image 20240319145054.png",
     "images/Pasted image 20240319145025.png",
     "images/Pasted image 20240319145013.png",
     "images/Pasted image 20240319144109.png",
-    "Network +/Virtualization and Cloud Computing.md",
     "images/Pasted image 20240319142815.png",
     "images/Pasted image 20240319134808.png",
     "images/Pasted image 20240319134413.png",
-    "images/Pasted image 20240319134313.png",
-    "Network +/WAN Connectivity.md",
+    "Network +/Integrating Networked Devices.md",
+    "Network +/Datacenters.md",
     "Network +/Wireless Networking.md",
+    "Network +/WAN Connectivity.md",
     "Network +/IPv6.md",
     "Network +/Switch Features.md",
     "Network +/Cisco Commands.md",

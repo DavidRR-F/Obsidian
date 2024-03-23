@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Network Operations.md",
+                "file": "Network +/Protecting Networks/Network Attacks/VLAN Hopping.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 365.5
   },
   "right": {
     "id": "413d5e6f6cb5a9b8",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Network Operations.md",
+                "file": "Network +/Protecting Networks/Network Attacks/VLAN Hopping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Network Operations.md",
+                "file": "Network +/Protecting Networks/Network Attacks/VLAN Hopping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Network Operations.md"
+                "file": "Network +/Protecting Networks/Network Attacks/VLAN Hopping.md"
               }
             }
           }
@@ -149,18 +149,29 @@
   },
   "active": "c396bdfe8009d0d7",
   "lastOpenFiles": [
-    "Network +/Virtualization and Cloud Computing.md",
+    "Network +/Protecting Networks/Network Attacks/Password Attacks.md",
+    "Network +/Protecting Networks/Network Attacks/Man in the Middle (On-Path).md",
+    "Network +/Protecting Networks/Network Attacks/Spoofing.md",
+    "Network +/Protecting Networks/Network Attacks/Command and Control.md",
+    "Network +/Protecting Networks/Network Attacks/DoS - Denial of Service.md",
+    "Network +/Protecting Networks/Network Attacks/VLAN Hopping.md",
+    "Network +/Protecting Networks/Security Risks/Untitled.md",
+    "Network +/Protecting Networks/Network Attacks/Rouge DHCP Servers.md",
+    "Network +/Protecting Networks/Network Security Concepts.md",
+    "Network +/Protecting Networks/Network Attacks",
+    "images/Pasted image 20240322085049.png",
+    "Network +/Protecting Networks",
     "Network +/Network Operations.md",
+    "images/Pasted image 20240321124039.png",
+    "images/Pasted image 20240321123928.png",
+    "images/Pasted image 20240321123416.png",
+    "images/Pasted image 20240321123220.png",
+    "Network +/Virtualization and Cloud Computing.md",
     "images/Pasted image 20240320123604.png",
     "images/Pasted image 20240320123534.png",
     "images/Pasted image 20240319145233.png",
     "images/Pasted image 20240319145054.png",
     "images/Pasted image 20240319145025.png",
-    "images/Pasted image 20240319145013.png",
-    "images/Pasted image 20240319144109.png",
-    "images/Pasted image 20240319142815.png",
-    "images/Pasted image 20240319134808.png",
-    "images/Pasted image 20240319134413.png",
     "Network +/Integrating Networked Devices.md",
     "Network +/Datacenters.md",
     "Network +/Wireless Networking.md",
@@ -176,16 +187,6 @@
     "Network +/Ethernet.md",
     "Network +/DNS.md",
     "Network +/Cabling.md",
-    "Network +/Protocols.md",
-    "Network +/Routing.md",
-    "Networking Fundamentals/OSI Model.md",
-    "Networking Fundamentals/Packet Traveling.md",
-    "Networking Fundamentals/Network Protocols.md",
-    "Networking Fundamentals/Communication/Routers.md",
-    "Networking Fundamentals/Communication/Hosts.md",
-    "Networking Fundamentals/Network Devices.md",
-    "Network +/Installing a Physical Network.md",
-    "Network +/Untitled",
     "Network +/Cabling",
     "Network +",
     "Networking Fundamentals/Communication",

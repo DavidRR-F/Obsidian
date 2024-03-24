@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Network +/IT Procedures/System Life Cycles.md",
+                "file": "Networking/Network +/Network Monitoring/Splunk.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/Network +/IT Procedures/System Life Cycles.md",
+                "file": "Networking/Network +/Network Monitoring/Splunk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking/Network +/IT Procedures/System Life Cycles.md",
+                "file": "Networking/Network +/Network Monitoring/Splunk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking/Network +/IT Procedures/System Life Cycles.md"
+                "file": "Networking/Network +/Network Monitoring/Splunk.md"
               }
             }
           }
@@ -148,30 +148,44 @@
   },
   "active": "c21912db8e2c4526",
   "lastOpenFiles": [
-    "Networking/Network +/Network Security/Network Defense/Firewalls.md",
+    "Pasted image 20240324150439.png",
+    "Networking/Network +/Network Monitoring/SIEM.md",
+    "Networking/Network +/Network Monitoring/Splunk.md",
+    "Networking/Network +/Network Monitoring/Metrics.md",
+    "Networking/Network +/Network Monitoring/System Monitoring.md",
+    "Networking/Network +/Network Monitoring/Documenting Logs.md",
+    "Networking/Network +/Network Monitoring/SNMP.md",
+    "Networking/Network +/Network Configuration and Infra/Switch Features.md",
+    "Networking/Network +/Network Configuration and Infra/WAN Connectivity.md",
+    "Networking/Network +/Network Components/Wireless Networking.md",
+    "Networking/Network +/Network Components",
+    "Networking/Network +/Network Configuration and Infra/Network Topologies.md",
+    "Networking/Network +/Network Configuration and Infra/Datacenters.md",
+    "Networking/Network +/Network Configuration and Infra/Virtualization and Cloud Computing.md",
+    "Networking/Network +/Network Security/Securing TCP - IP.md",
+    "Networking/Network +/Network Components/Routing.md",
+    "Networking/Network +/Network Components/Protocols.md",
+    "Networking/Network +/Network Monitoring/Network Diagnostic Tools.md",
+    "Networking/Network +/Network Components/IPv6.md",
+    "Networking/Network +/Network Components/IP and Subnetting.md",
+    "Networking/Network +/Network Components/Ethernet.md",
+    "Networking/Network +/Network Components/DNS.md",
+    "Networking/Network +/Network Configuration and Infra",
+    "Networking/Network +/Network Monitoring/Monitoring Tools.md",
+    "Networking/images/Pasted image 20240324134912.png",
+    "Networking/images/Pasted image 20240324134820.png",
+    "Networking/images/Screenshot from 2024-03-24 13-47-22.png",
+    "Networking/images/Screenshot from 2024-03-24 13-45-13.png",
+    "Networking/Network +/Network Monitoring/Environmental Factors.md",
     "Networking/Network +/Network Security/Network Defense/DMZ - Demilitarized Zone.md",
+    "Networking/Network +/Network Monitoring",
+    "Networking/Network +/Untitled.md",
+    "Networking/Network +/Network Security/Untitled",
+    "Networking/Network +/Network Security/Network Attacks/Rouge DHCP Servers.md",
     "Networking/images/Screenshot from 2024-03-23 19-14-35.png",
-    "Networking/Network +/Network Security/Network Defense/Network Hardening.md",
-    "Networking/Network +/Network Security/Network Defense/Physical Security.md",
     "Networking/images/Screenshot from 2024-03-23 18-46-46.png",
-    "Networking/Network +/Cabling.md",
-    "Networking/Network +/Network Security/Untitled.md",
-    "Networking/Network +/Procedures/Untitled.md",
-    "Networking/Network +/Network Security/Network Threats/Common Vulnerabilities.md",
-    "Networking/Network +/Network Security/Network Threats/Social Engineering.md",
-    "Networking/Network +/Network Security/Network Threats/Malware.md",
     "Networking/Network +/Network Security/Network Defense",
     "Networking/Network +/Network Security/Network Threats",
-    "Networking/Network +/IT Procedures/System Life Cycles.md",
-    "Networking/Network +/Securing TCP - IP.md",
-    "Networking/Network +/Switch Features.md",
-    "Networking/Network +/Routing.md",
-    "Networking/Network +/Protocols.md",
-    "Networking/Network +/Integrating Networked Devices.md",
-    "Networking/Network +/IT Procedures",
-    "Networking/Network +/Datacenters.md",
-    "Networking/Network +/Network Topologies.md",
-    "Networking/Network +/IT Procedures/Network Operations.md",
-    "Networking/Network +/Network Security/Network Attacks/Man in the Middle (On-Path).md"
+    "Networking/Network +/IT Procedures"
   ]
 }

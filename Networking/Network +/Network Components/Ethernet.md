@@ -242,3 +242,33 @@ An uplink port on a network switch or hub is a special port designed for connect
 ### Modern Networking and Auto-MDI/MDIX
 
 In contemporary networking, the distinction between crossover cables and uplink ports has become less critical due to Auto-MDI/MDIX. This feature enables network devices to automatically detect the type of cable connected (straight-through or crossover) and configure the port accordingly, allowing any port to be used for direct device connections or uplink purposes. As a result, networking has become more flexible and user-friendly, significantly reducing cabling errors and simplifying network expansion and configuration.
+
+# CSMA
+
+Carrier Sense Multiple Access (CSMA) is a network protocol that dictates how devices on a shared medium, like an Ethernet or wireless network, detect whether the channel is clear for data transmission. The goal is to minimize collisions—instances where two devices try to transmit data simultaneously, causing the data from both devices to be corrupted or lost. CSMA has two primary variants tailored to manage data traffic and minimize collisions in different network environments: CSMA/CD (Collision Detection) and CSMA/CA (Collision Avoidance).
+
+### CSMA/CD (Carrier Sense Multiple Access with Collision Detection)
+
+**How It Works**:
+
+- **Carrier Sense**: Devices check the network to ascertain if it's idle or in use. If the medium is in use, the device waits before checking again.
+- **Multiple Access**: Multiple devices access the medium but must wait if another device is transmitting.
+- **Collision Detection**: If a device transmits data and a collision is detected (i.e., another device was transmitting simultaneously), it stops sending data immediately.
+- **Backoff Algorithm**: After detecting a collision, devices wait for a random period before attempting to retransmit, reducing the likelihood of another collision.
+
+**Environment**:
+
+- CSMA/CD is primarily used in wired networks, specifically traditional Ethernet LANs. However, with the advent of full-duplex and switching technologies, the need for CSMA/CD has decreased in modern wired networks, as these technologies inherently avoid collisions.
+
+### CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance)
+
+**How It Works**:
+
+- **Carrier Sense**: Similar to CSMA/CD, devices listen to the network to determine if it's clear for transmission. If it's in use, they wait.
+- **Multiple Access**: Allows multiple devices to access the medium while trying to minimize the chance of collisions.
+- **Collision Avoidance**: Instead of detecting collisions after they happen, CSMA/CA tries to prevent them from occurring in the first place. It uses techniques like RTS (Request to Send) and CTS (Clear to Send) signals. A device sends an RTS to the access point, which, if the medium is clear, responds with a CTS, granting permission to the requesting device to transmit.
+- **Acknowledgment (ACK)**: After successfully receiving data, the receiver sends an ACK back to the sender, confirming the successful data receipt. If the sender does not receive an ACK, it assumes the data was lost or corrupted and attempts retransmission after a waiting period.
+
+**Environment**:
+
+- CSMA/CA is used in wireless networks (Wi-Fi) where collision detection is impractical due to the "hidden node problem" and the nature of radio transmission. In the hidden node problem, two devices might be in range of the access point but not in range of each other, making it impossible for them to detect a potential collision directly.

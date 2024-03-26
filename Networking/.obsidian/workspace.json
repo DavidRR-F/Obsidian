@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Protecting Networks/Network Attacks/VLAN Hopping.md",
+                "file": "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "568",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Protecting Networks/Network Attacks/VLAN Hopping.md",
+                "file": "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Protecting Networks/Network Attacks/VLAN Hopping.md",
+                "file": "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Protecting Networks/Network Attacks/VLAN Hopping.md"
+                "file": "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md"
               }
             }
           }
@@ -147,8 +147,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c396bdfe8009d0d7",
+  "active": "97e816aea58422a6",
   "lastOpenFiles": [
+    "Network +/Network Configuration and Infra/Physical Network/Troubleshooting Structured Cabling.md",
+    "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md",
+    "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
+    "images/Pasted image 20240325104747.png",
+    "Network +/Network Configuration and Infra/Physical Network/Distribution Panels.md",
+    "images/Pasted image 20240325104443.png",
+    "images/Pasted image 20240325104412.png",
+    "images/Pasted image 20240325104323.png",
+    "Network +/Network Configuration and Infra/Physical Network/Terminating Structured Cabling.md",
+    "images/Pasted image 20240325103022.png",
+    "Network +/Network Monitoring/Monitoring Tools.md",
+    "images/Pasted image 20240325102656.png",
+    "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
+    "Network +/Network Components/Ethernet.md",
+    "Network +/Network Monitoring/Network Troubleshooting/Network Troubleshooting Theory.md",
+    "Network +/Network Configuration and Infra/Physical Network",
+    "Network +/Network Monitoring/Network Troubleshooting",
     "Network +/Protecting Networks/Network Attacks/Password Attacks.md",
     "Network +/Protecting Networks/Network Attacks/Man in the Middle (On-Path).md",
     "Network +/Protecting Networks/Network Attacks/Spoofing.md",
@@ -165,28 +182,13 @@
     "images/Pasted image 20240321124039.png",
     "images/Pasted image 20240321123928.png",
     "images/Pasted image 20240321123416.png",
-    "images/Pasted image 20240321123220.png",
     "Network +/Virtualization and Cloud Computing.md",
-    "images/Pasted image 20240320123604.png",
-    "images/Pasted image 20240320123534.png",
-    "images/Pasted image 20240319145233.png",
-    "images/Pasted image 20240319145054.png",
-    "images/Pasted image 20240319145025.png",
     "Network +/Integrating Networked Devices.md",
     "Network +/Datacenters.md",
     "Network +/Wireless Networking.md",
     "Network +/WAN Connectivity.md",
     "Network +/IPv6.md",
     "Network +/Switch Features.md",
-    "Network +/Cisco Commands.md",
-    "Networking Fundamentals/Communication/Switches.md",
-    "Network +/Securing TCP - IP.md",
-    "Network +/Network Diagnostic Tools.md",
-    "Network +/Network Topologies.md",
-    "Network +/IP and Subnetting.md",
-    "Network +/Ethernet.md",
-    "Network +/DNS.md",
-    "Network +/Cabling.md",
     "Network +/Cabling",
     "Network +",
     "Networking Fundamentals/Communication",

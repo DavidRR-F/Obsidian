@@ -13,10 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md",
+                "file": "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "af63503d053cccc2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md",
+                "file": "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md",
+                "file": "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md"
+                "file": "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md"
               }
             }
           }
@@ -144,13 +152,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "flashcard-learning:Review flashcards": false
     }
   },
-  "active": "97e816aea58422a6",
+  "active": "c396bdfe8009d0d7",
   "lastOpenFiles": [
-    "Network +/Network Configuration and Infra/Physical Network/Troubleshooting Structured Cabling.md",
+    "Network +/Flashcards.md",
+    "images/Pasted image 20240324150439.png",
     "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md",
+    "Network +/Flashcards/Untitled.md",
+    "Network +/Flashcards",
+    "Network +/Network Configuration and Infra/Physical Network/Troubleshooting Structured Cabling.md",
     "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
     "images/Pasted image 20240325104747.png",
     "Network +/Network Configuration and Infra/Physical Network/Distribution Panels.md",
@@ -181,14 +194,10 @@
     "Network +/Network Operations.md",
     "images/Pasted image 20240321124039.png",
     "images/Pasted image 20240321123928.png",
-    "images/Pasted image 20240321123416.png",
     "Network +/Virtualization and Cloud Computing.md",
     "Network +/Integrating Networked Devices.md",
     "Network +/Datacenters.md",
     "Network +/Wireless Networking.md",
-    "Network +/WAN Connectivity.md",
-    "Network +/IPv6.md",
-    "Network +/Switch Features.md",
     "Network +/Cabling",
     "Network +",
     "Networking Fundamentals/Communication",

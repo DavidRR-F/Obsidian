@@ -1,0 +1,11 @@
+{
+  "flashcard-learning:create-flashcard": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+.box {
+    border: 1px solid var(--background-modifier-border);
+}
+
+.row-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.row-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row-space-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.col-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.col-space-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col-space-around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.p-5px {
+    padding: 5px;
+}
+
+.p-10px {
+    padding: 10px;
+}
+
+.p-30px {
+    padding: 30px;
+}
+
+.p-x-30px {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.p-l-30px {
+    padding-left: 30px;
+}
+
+.p-y-10px {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.p-y-30px {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.p-top-5px {
+    padding-top: 5px;
+}
+
+.m-y-10px {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.w-33pct {
+    width: 33%;
+}
+
+.w-50pct {
+    width: 50%;
+}
+
+.w-80pct {
+    width: 80%;
+}
+
+.w-100pct {
+    width: 100%;
+}
+
+.h-80pct {
+    height: 80%;
+}
+
+.h-90pct {
+    height: 90%;
+}
+
+.h-100pct {
+    height: 100%;
+}
+
+.max-w-33pct {
+    max-width: 33%;
+}
+
+.max-w-60pct {
+    max-width: 60%;
+}
+
+.max-w-100pct {
+    max-width: 100%;
+}
+
+.max-w-500px {
+    max-width: 500px;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.nowrap {
+    white-space: nowrap ;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bg-red {
+    background-color: #d72503 !important;
+}
+
+.bg-green {
+    background-color: #1fae51 !important;
+}
+
+.txt-dark {
+    color: #23272b;
+}
+
+.txt-bold {
+    font-weight: bold;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.btn-height {
+    height: 40px;
+    margin-bottom: 30px;
+}

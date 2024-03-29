@@ -2,7 +2,7 @@
 flashcard: true
 ---
 🃟 Flaschcard: (-1, 0, IP) (: What is a Default Gateway) (: a device (typically a router) on a network that serves as an entry and exit point for traffic between the local network and other networks or the internet)
-🃟 Flaschcard: (-1, 0, IP) (: a device (typically a router) on a network that serves as an entry and exit point for traffic between the local network and other networks or the internet) (: What is a Default Gateway)
+❌️🃟 Flaschcard: (-1, 0, IP) (: a device (typically a router) on a network that serves as an entry and exit point for traffic between the local network and other networks or the internet) (: What is a Default Gateway)
 
 
 🃟 Flaschcard: (-1, 0, IP) (: What is the structure of an IP Address) (: a 32-bit signature broken represented as four Octets (0-255) that is then convert into a number)

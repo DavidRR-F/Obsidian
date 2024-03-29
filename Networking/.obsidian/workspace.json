@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "64a06fc2c18147a7",
+        "id": "332ccdfce5186aa0",
         "type": "tabs",
         "children": [
           {
-            "id": "0cc2b0258371904a",
+            "id": "d71a02453f90a088",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Flashcards/DNS.md",
+                "file": "Network +/Network Configuration and Infra/Datacenters.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "568",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Flashcards/DNS.md",
+                "file": "Network +/Flashcards/Cloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Flashcards/DNS.md",
+                "file": "Network +/Flashcards/Cloud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Flashcards/DNS.md"
+                "file": "Network +/Flashcards/Cloud.md"
               }
             }
           }
@@ -149,24 +149,24 @@
     }
   },
   "floating": {
-    "id": "3b33455e92dedace",
+    "id": "ca2c2da3d93b0cd8",
     "type": "floating",
     "children": [
       {
-        "id": "56a6449c60344107",
+        "id": "ef0cafa38aab2954",
         "type": "window",
         "children": [
           {
-            "id": "1cab51717b1102b2",
+            "id": "566dfb639a5f930a",
             "type": "tabs",
             "children": [
               {
-                "id": "8859f901a9508581",
+                "id": "c396bdfe8009d0d7",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Network +/Flashcards/Wireless.md",
+                    "file": "Network +/Flashcards/Cloud.md",
                     "mode": "source",
                     "source": false
                   }
@@ -176,30 +176,36 @@
           }
         ],
         "direction": "vertical",
-        "x": -164,
-        "y": 202,
-        "width": 1232,
-        "height": 790,
+        "x": 2427,
+        "y": 13,
+        "width": 1510,
+        "height": 992,
         "maximize": true,
         "zoom": 0
       }
     ]
   },
-  "active": "0cc2b0258371904a",
+  "active": "c396bdfe8009d0d7",
   "lastOpenFiles": [
-    "Network +/IT Procedures/System Life Cycles.md",
-    "Network +/Flashcards/DNS.md",
-    "Network +/IT Procedures/Network Operations.md",
-    "Network +/Network Components/DNS.md",
-    "Network +/Flashcards/Wireless.md",
-    "Network +/Network Components/Wireless Networking.md",
-    "Network +/Flashcards",
+    "Network +/Network Configuration and Infra/Datacenters.md",
+    "Network +/Flashcards/Cloud.md",
     "Network +/Network Configuration and Infra/WAN Connectivity.md",
-    "Network +/Network Configuration and Infra/Physical Network/Troubleshooting Structured Cabling.md",
+    "Network +/Network Configuration and Infra/Virtualization and Cloud Computing.md",
     "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
+    "Network +/Flashcards/Wireless.md",
+    "Network +/Flashcards/Switches.md",
+    "Network +/Flashcards/Protocols.md",
+    "Network +/Flashcards/Routing.md",
+    "Network +/Flashcards/IP Addressing.md",
+    "Network +/Flashcards/Networks.md",
+    "Network +/Flashcards/Ethernet.md",
+    "Network +/Flashcards/DNS.md",
+    "Network +/Flashcards/Cabling.md",
+    "Network +/Flashcards",
+    "Network +/Flashcards.md",
     "images/Pasted image 20240324150439.png",
     "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md",
-    "Network +/Flashcards",
+    "Network +/Network Configuration and Infra/Physical Network/Troubleshooting Structured Cabling.md",
     "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
     "images/Pasted image 20240325104747.png",
     "Network +/Network Configuration and Infra/Physical Network/Distribution Panels.md",
@@ -217,21 +223,15 @@
     "Network +/Protecting Networks/Network Attacks/Password Attacks.md",
     "Network +/Protecting Networks/Network Attacks/Man in the Middle (On-Path).md",
     "Network +/Protecting Networks/Network Attacks/Spoofing.md",
-    "Network +/Protecting Networks/Network Attacks/Command and Control.md",
-    "Network +/Protecting Networks/Network Attacks/DoS - Denial of Service.md",
-    "Network +/Protecting Networks/Network Attacks/VLAN Hopping.md",
-    "Network +/Protecting Networks/Security Risks/Untitled.md",
-    "Network +/Protecting Networks/Network Attacks/Rouge DHCP Servers.md",
-    "Network +/Protecting Networks/Network Security Concepts.md",
     "Network +/Protecting Networks/Network Attacks",
     "images/Pasted image 20240322085049.png",
     "Network +/Protecting Networks",
-    "Network +/Network Operations.md",
     "images/Pasted image 20240321124039.png",
     "images/Pasted image 20240321123928.png",
     "Network +/Cabling",
     "Network +",
     "Networking Fundamentals/Communication",
-    "images"
+    "images",
+    "Networking Fundamentals"
   ]
 }

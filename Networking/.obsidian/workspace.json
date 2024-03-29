@@ -4,27 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "603688b6ead4ad5e",
+        "id": "64a06fc2c18147a7",
         "type": "tabs",
         "children": [
           {
-            "id": "c396bdfe8009d0d7",
+            "id": "0cc2b0258371904a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
+                "file": "Network +/Flashcards/DNS.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "af63503d053cccc2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -56,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "568",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
+                "file": "Network +/Flashcards/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
+                "file": "Network +/Flashcards/DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md"
+                "file": "Network +/Flashcards/DNS.md"
               }
             }
           }
@@ -156,14 +148,58 @@
       "flashcard-learning:Review flashcards": false
     }
   },
-  "active": "c396bdfe8009d0d7",
+  "floating": {
+    "id": "3b33455e92dedace",
+    "type": "floating",
+    "children": [
+      {
+        "id": "56a6449c60344107",
+        "type": "window",
+        "children": [
+          {
+            "id": "1cab51717b1102b2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8859f901a9508581",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Network +/Flashcards/Wireless.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -164,
+        "y": 202,
+        "width": 1232,
+        "height": 790,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "0cc2b0258371904a",
   "lastOpenFiles": [
-    "Network +/Flashcards.md",
+    "Network +/IT Procedures/System Life Cycles.md",
+    "Network +/Flashcards/DNS.md",
+    "Network +/IT Procedures/Network Operations.md",
+    "Network +/Network Components/DNS.md",
+    "Network +/Flashcards/Wireless.md",
+    "Network +/Network Components/Wireless Networking.md",
+    "Network +/Flashcards",
+    "Network +/Network Configuration and Infra/WAN Connectivity.md",
+    "Network +/Network Configuration and Infra/Physical Network/Troubleshooting Structured Cabling.md",
+    "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
     "images/Pasted image 20240324150439.png",
     "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md",
-    "Network +/Flashcards/Untitled.md",
     "Network +/Flashcards",
-    "Network +/Network Configuration and Infra/Physical Network/Troubleshooting Structured Cabling.md",
     "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
     "images/Pasted image 20240325104747.png",
     "Network +/Network Configuration and Infra/Physical Network/Distribution Panels.md",
@@ -174,7 +210,6 @@
     "images/Pasted image 20240325103022.png",
     "Network +/Network Monitoring/Monitoring Tools.md",
     "images/Pasted image 20240325102656.png",
-    "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
     "Network +/Network Components/Ethernet.md",
     "Network +/Network Monitoring/Network Troubleshooting/Network Troubleshooting Theory.md",
     "Network +/Network Configuration and Infra/Physical Network",
@@ -194,14 +229,9 @@
     "Network +/Network Operations.md",
     "images/Pasted image 20240321124039.png",
     "images/Pasted image 20240321123928.png",
-    "Network +/Virtualization and Cloud Computing.md",
-    "Network +/Integrating Networked Devices.md",
-    "Network +/Datacenters.md",
-    "Network +/Wireless Networking.md",
     "Network +/Cabling",
     "Network +",
     "Networking Fundamentals/Communication",
-    "images",
-    "Networking Fundamentals"
+    "images"
   ]
 }

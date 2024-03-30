@@ -233,3 +233,18 @@ flashcard: true
 
 🃟 Flaschcard: (-1, 0, Security) (: What is TACACS+ - Terminal Access Controller Access-Control System Plus) (: an advanced protocol used for remote authentication and access control to network devices and resources. designed to provide a more secure and flexible method for managing access to networks and systems)
 🃟 Flaschcard: (-1, 0, Security) (: an advanced protocol used for remote authentication and access control to network devices and resources. designed to provide a more secure and flexible method for managing access to networks and systems) (: What is TACACS+ - Terminal Access Controller Access-Control System Plus)
+
+🃟 Flaschcard: (-1, 0, Security) (: What is a TACACS+ Server) (: The central authority that performs authentication, authorization, and accounting. It holds user credentials and access policies, processes AAA requests from clients, and logs accounting data)
+🃟 Flaschcard: (-1, 0, Security) (: The central authority that performs authentication, authorization, and accounting. It holds user credentials and access policies, processes AAA requests from clients, and logs accounting data) (: What is a TACACS+ Server)
+
+🃟 Flaschcard: (-1, 0, Security) (: What is a TACACS+ Client) (: Usually a network device (like a router or switch) that requires a user to authenticate before granting access. The client communicates with the TACACS+ server to perform AAA functions based on configured policies)
+🃟 Flaschcard: (-1, 0, Security) (: Usually a network device (like a router or switch) that requires a user to authenticate before granting access. The client communicates with the TACACS+ server to perform AAA functions based on configured policies) (: What is a TACACS+ Client)
+
+🃟 Flaschcard: (-1, 0, Security) (: What is Kerberos) (: a network authentication protocol designed to provide strong authentication for client/server applications by using secret-key cryptography)
+🃟 Flaschcard: (-1, 0, Security) (: a network authentication protocol designed to provide strong authentication for client/server applications by using secret-key cryptography) (: What is Kerberos)
+
+🃟 Flaschcard: (-1, 0, Security) (: What is EAP - Extensible Authentication Protocol) (: a framework widely used in wireless networks and point-to-point connections to provide flexible authentication mechanisms. Initially developed for use in PPP (Point-to-Point Protocol) connections)
+🃟 Flaschcard: (-1, 0, Security) (: a framework widely used in wireless networks and point-to-point connections to provide flexible authentication mechanisms. Initially developed for use in PPP (Point-to-Point Protocol) connections) (: What is EAP - Extensible Authentication Protocol)
+
+
+

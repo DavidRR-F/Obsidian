@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "332ccdfce5186aa0",
+        "id": "d738b31dba9a9125",
         "type": "tabs",
         "children": [
           {
-            "id": "d71a02453f90a088",
+            "id": "01662996efb1cd56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Network Configuration and Infra/Datacenters.md",
+                "file": "Network +/Network Security/Securing TCP - IP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Flashcards/Cloud.md",
+                "file": "Network +/Flashcards/Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Flashcards/Cloud.md",
+                "file": "Network +/Flashcards/Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Flashcards/Cloud.md"
+                "file": "Network +/Flashcards/Security.md"
               }
             }
           }
@@ -161,12 +161,12 @@
             "type": "tabs",
             "children": [
               {
-                "id": "c396bdfe8009d0d7",
+                "id": "ed39c4b33853d56c",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Network +/Flashcards/Cloud.md",
+                    "file": "Network +/Flashcards/Security.md",
                     "mode": "source",
                     "source": false
                   }
@@ -176,8 +176,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 2427,
-        "y": 13,
+        "x": 2120,
+        "y": -16,
         "width": 1510,
         "height": 992,
         "maximize": true,
@@ -185,44 +185,44 @@
       }
     ]
   },
-  "active": "c396bdfe8009d0d7",
+  "active": "ed39c4b33853d56c",
   "lastOpenFiles": [
-    "Network +/Network Configuration and Infra/Datacenters.md",
+    "Network +/Network Security/Securing TCP - IP.md",
+    "Network +/Flashcards/Security.md",
+    "Network +/Network Security/Network Security Concepts.md",
+    "Network +/Network Security/Network Threats/Malware.md",
+    "Network +/Network Security/Network Threats/Common Vulnerabilities.md",
+    "Network +/Network Security/Network Defense/Physical Security.md",
+    "Network +/Network Security/Network Defense/Network Hardening.md",
+    "Network +/Network Security/Network Defense/Firewalls.md",
+    "Network +/Network Security/Network Defense/DMZ - Demilitarized Zone.md",
+    "Network +/Network Security/Network Attacks/Password Attacks.md",
+    "Network +/Network Security/Network Attacks/Man in the Middle (On-Path).md",
+    "Network +/Network Security/Network Attacks/DoS - Denial of Service.md",
+    "Network +/Network Security/Network Attacks/Command and Control.md",
+    "Network +/Network Security/Network Attacks/Rouge DHCP Servers.md",
+    "Network +/Network Security/Network Attacks/VLAN Hopping.md",
     "Network +/Flashcards/Cloud.md",
+    "Network +/Flashcards/Monitoring.md",
+    "Network +/Network Monitoring/Network Troubleshooting/Network Troubleshooting Theory.md",
+    "Network +/Network Monitoring/Network Troubleshooting/Network Diagnostic Tools.md",
+    "Network +/Network Monitoring/Splunk.md",
+    "Network +/Network Monitoring/SNMP.md",
+    "Network +/Network Monitoring/SIEM.md",
+    "Network +/Network Monitoring/Monitoring Tools.md",
+    "Network +/Network Monitoring/Metrics.md",
+    "Network +/Network Monitoring/Documenting Logs.md",
     "Network +/Network Configuration and Infra/WAN Connectivity.md",
-    "Network +/Network Configuration and Infra/Virtualization and Cloud Computing.md",
-    "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
-    "Network +/Flashcards/Wireless.md",
-    "Network +/Flashcards/Switches.md",
-    "Network +/Flashcards/Protocols.md",
-    "Network +/Flashcards/Routing.md",
-    "Network +/Flashcards/IP Addressing.md",
-    "Network +/Flashcards/Networks.md",
-    "Network +/Flashcards/Ethernet.md",
-    "Network +/Flashcards/DNS.md",
-    "Network +/Flashcards/Cabling.md",
     "Network +/Flashcards",
-    "Network +/Flashcards.md",
     "images/Pasted image 20240324150439.png",
-    "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md",
-    "Network +/Network Configuration and Infra/Physical Network/Troubleshooting Structured Cabling.md",
-    "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
     "images/Pasted image 20240325104747.png",
-    "Network +/Network Configuration and Infra/Physical Network/Distribution Panels.md",
     "images/Pasted image 20240325104443.png",
     "images/Pasted image 20240325104412.png",
     "images/Pasted image 20240325104323.png",
-    "Network +/Network Configuration and Infra/Physical Network/Terminating Structured Cabling.md",
     "images/Pasted image 20240325103022.png",
-    "Network +/Network Monitoring/Monitoring Tools.md",
     "images/Pasted image 20240325102656.png",
-    "Network +/Network Components/Ethernet.md",
-    "Network +/Network Monitoring/Network Troubleshooting/Network Troubleshooting Theory.md",
     "Network +/Network Configuration and Infra/Physical Network",
     "Network +/Network Monitoring/Network Troubleshooting",
-    "Network +/Protecting Networks/Network Attacks/Password Attacks.md",
-    "Network +/Protecting Networks/Network Attacks/Man in the Middle (On-Path).md",
-    "Network +/Protecting Networks/Network Attacks/Spoofing.md",
     "Network +/Protecting Networks/Network Attacks",
     "images/Pasted image 20240322085049.png",
     "Network +/Protecting Networks",

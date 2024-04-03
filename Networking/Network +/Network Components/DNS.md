@@ -62,6 +62,9 @@ A zone represents an administrative space within the domain namespace. A zone fi
 - **Primary Zone**: The primary zone is the authoritative copy of the zone data.
 - **Secondary Zone**: A secondary zone is a read-only copy of the zone that gets its data from the primary zone through zone transfers. Secondary zones are used for load balancing and redundancy.
 
+## Split horizon and Split View DNS
+
+Split-horizon or split-view DNS is a network configuration where two separate DNS zones for the same domain are maintained: one for internal network users (the "internal view") and one for external users (the "external view"). This approach allows network administrators to control and customize the DNS responses based on the source of the DNS query, effectively presenting a different view of the domain's DNS records to internal and external users.
 ## Records
 
 DNS (Domain Name System) uses various types of records to provide essential information about domains and how they should be handled. Here are some of the key DNS record types:

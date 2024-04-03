@@ -25,6 +25,15 @@ Mesh topology features devices that are interconnected, with each device having 
 
 ![[Pasted image 20240226202544.png]]
 
+### 6. Hybrid Topology
+  
+A Hybrid Topology combines two or more different network topologies to form a resultant topology that inherits features, strengths, and weaknesses of the combined topologies. This approach allows for flexibility, scalability, and optimization of network performance based on specific requirements and constraints. Hybrid topologies are commonly used in large-scale networks, such as those of enterprises or campuses, where diverse connectivity needs and redundancy are important
+
+### Examples of Hybrid Topology
+
+1. **Star-Bus Hybrid**: Combines star and bus topologies, where individual stars are interconnected through a central bus. This setup benefits from the simplicity and manageability of star topologies, while the bus facilitates broader connectivity.
+    
+2. **Star-Ring Hybrid**: Integrates star and ring topologies, possibly by connecting various star networks into a larger ring configuration. This provides the manageability of star networks with the data routing efficiency of a ring.
 ### LAN (Local Area Network)
 
 - **Scale and Scope**: LANs are networks confined to a small geographic area, such as a single building, office, or home. They are designed for short-distance communication.

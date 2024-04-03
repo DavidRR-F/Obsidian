@@ -31,6 +31,11 @@ The TCP 3-way handshake involves three steps:
 
 **Use Cases**: TCP is used in applications where reliable data transmission is crucial, such as web browsing (HTTP/HTTPS), email (SMTP, POP3, IMAP), and file transfers (FTP).
 
+#### Flags
+
+- **RST**: A reset (RST) flag is used to terminate the connection
+- **FIN**: A finish (FIN) flag is used to request that the connection be terminated
+
 ### UDP (User Datagram Protocol)
 
 UDP is a connectionless protocol, which means it sends data without establishing a connection with the receiver and without any guarantee that the data will reach its destination. It is a simpler, faster protocol that does not provide the error checking and correction mechanisms that TCP does.

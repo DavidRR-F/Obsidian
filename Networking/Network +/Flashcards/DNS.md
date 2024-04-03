@@ -11,7 +11,7 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, DNS) (: What is a Nameserver) (: A server that contains a list of domain names and the corresponding IP addresses)
 🃟 Flaschcard: (-1, 0, DNS) (: A server that contains a list of domain names and the corresponding IP addresses) (: What is a Nameserver)
 
-🃟 Flaschcard: (-1, 0, DNS) (: What is a DNS Record) (: Entries within the DNS that provide information about a domain, including IP addresses (A and AAAA records), mail servers (MX records), and others)
+🃟 Flaschcard: (-1, 0, DNS) (: What is a DNS Record) (: Entries within the DNS that provide information about a domain, including IP addresses (A and AAAA records)
 ❌️🃟 Flaschcard: (-1, 0, DNS) (: Entries within the DNS that provide information about a domain, including IP addresses (A and AAAA records), mail servers (MX records), and others) (: What is a DNS Record)
 
 🃟 Flaschcard: (-1, 0, DNS) (: What is a DNS Query) (: Sending a request to a DNS server to request the IP address associated with that domain name)
@@ -20,13 +20,13 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, DNS) (: What is a Recursive Resolver) (: The job of tracking down the IP address for the domain name)
 🃟 Flaschcard: (-1, 0, DNS) (: The job of tracking down the IP address for the domain name) (: What is a Recursive Resolver)
 
-🃟 Flaschcard: (-1, 0, DNS) (: What is a Root Nameserver) (: Responds with a referral to the Top-Level Domain (TLD) DNS servers  if the recursive resolver does not have the information cached)
+🃟 Flaschcard: (-1, 0, DNS) (: What is a Root Nameserver) (: Responds with a referral to the Top-Level Domain (TLD)
 ❌️🃟 Flaschcard: (-1, 0, DNS) (: Responds with a referral to the Top-Level Domain (TLD) DNS servers  if the recursive resolver does not have the information cached) (: What is a Root Nameserver)
 
 🃟 Flaschcard: (-1, 0, DNS) (: What is a TLD Nameserver) (: Responds with a referral to the domain's authoritative nameservers)
 🃟 Flaschcard: (-1, 0, DNS) (: Responds with a referral to the domain's authoritative nameservers) (: What is a TLD Nameserver)
 
-🃟 Flaschcard: (-1, 0, DNS) (: What is a Authoritative Nameserver) (: Holds the DNS records for the domain, including the A record (for IPv4 addresses) or AAAA record (for IPv6 addresses) which contains the IP address of the domain)
+🃟 Flaschcard: (-1, 0, DNS) (: What is a Authoritative Nameserver) (: Holds the DNS records for the domain, including the A record (for IPv4 addresses)
 ❌️🃟 Flaschcard: (-1, 0, DNS) (: Holds the DNS records for the domain, including the A record (for IPv4 addresses) or AAAA record (for IPv6 addresses) which contains the IP address of the domain) (: What is a Authoritative Nameserver)
 
 🃟 Flaschcard: (-1, 0, DNS) (: What is an Internal DNS) (: This system allows devices within the network to communicate with each other using domain names that are not accessible or resolvable from the outside world)
@@ -56,7 +56,7 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, DNS) (: What is a DNS AAAA Record) (: Maps a domain name to its corresponding IPv6 address)
 🃟 Flaschcard: (-1, 0, DNS) (: Maps a domain name to its corresponding IPv6 address) (: What is a DNS AAAA Record)
 
-🃟 Flaschcard: (-1, 0, DNS) (: What is a DNS CNAME Record) (: Used to alias one domain name to another (the "canonical" domain name), allowing multiple domain names to map to the same IP address)
+🃟 Flaschcard: (-1, 0, DNS) (: What is a DNS CNAME Record) (: Used to alias one domain name to another (the "canonical" domain name)
 ❌️🃟 Flaschcard: (-1, 0, DNS) (: Used to alias one domain name to another (the "canonical" domain name), allowing multiple domain names to map to the same IP address) (: What is a DNS CNAME Record)
 
 🃟 Flaschcard: (-1, 0, DNS) (: What is a DNS MX Record) (: Specifies the mail server responsible for accepting email messages on behalf of a domain)
@@ -74,13 +74,13 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, DNS) (: What is a DNS SRV Record) (: Identifies the hostname and port number of servers offering specific services, such as LDAP, SIP, or XMPP)
 🃟 Flaschcard: (-1, 0, DNS) (: Identifies the hostname and port number of servers offering specific services, such as LDAP, SIP, or XMPP) (: What is a DNS SRV Record)
 
-🃟 Flaschcard: (-1, 0, DNS) (: What is a DNS TXT Record) (: Allows administrators to insert arbitrary text into a DNS record; often used for verifying domain ownership, implementing email security measures like SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail), and DMARC (Domain-based Message Authentication, Reporting, and Conformance))
+🃟 Flaschcard: (-1, 0, DNS) (: What is a DNS TXT Record) (: Allows administrators to insert arbitrary text into a DNS record; often used for verifying domain ownership, implementing email security measures like SPF (Sender Policy Framework)
 ❌️🃟 Flaschcard: (-1, 0, DNS) (: Allows administrators to insert arbitrary text into a DNS record; often used for verifying domain ownership, implementing email security measures like SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail), and DMARC (Domain-based Message Authentication, Reporting, and Conformance)) (: What is a DNS TXT Record)
 
-🃟 Flaschcard: (-1, 0, DNS) (: What is a DNS SPF Record) (: Used to specify which mail servers are permitted to send email on behalf of a domain, aiming to reduce spam. (Note: While SPF was historically implemented as a separate record type, it is now typically included as part of a TXT record)
-🃟 Flaschcard: (-1, 0, DNS) (: Used to specify which mail servers are permitted to send email on behalf of a domain, aiming to reduce spam. (Note: While SPF was historically implemented as a separate record type, it is now typically included as part of a TXT record) (: What is a DNS SPF Record)
+🃟 Flaschcard: (-1, 0, DNS) (: What is a DNS SPF Record) (: Used to specify which mail servers are permitted to send email on behalf of a domain, aiming to reduce spam. (Note)
+🃟 Flaschcard: (-1, 0, DNS) (: Used to specify which mail servers are permitted to send email on behalf of a domain, aiming to reduce spam. (Note) (: What is a DNS SPF Record)
 
-🃟 Flaschcard: (-1, 0, DNS) (: What is a DNS NAPTR Record) (: Used in dynamic delegation discovery systems that implement ENUM (E.164 Number Mapping) and other services to map telephone numbers and other identifiers to URIs (Uniform Resource Identifiers) and DNS records)
+🃟 Flaschcard: (-1, 0, DNS) (: What is a DNS NAPTR Record) (: Used in dynamic delegation discovery systems that implement ENUM (E.164 Number Mapping)
 ❌️🃟 Flaschcard: (-1, 0, DNS) (: Used in dynamic delegation discovery systems that implement ENUM (E.164 Number Mapping) and other services to map telephone numbers and other identifiers to URIs (Uniform Resource Identifiers) and DNS records) (: What is a DNS NAPTR Record)
 
 🃟 Flaschcard: (-1, 0, DNS) (: What is DDNS - Dynamic DNS) (a service that automatically updates the DNS records for a domain name in real-time, reflecting changes in the IP address of a host that may frequently change: )

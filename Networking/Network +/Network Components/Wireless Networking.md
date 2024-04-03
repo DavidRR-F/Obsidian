@@ -31,7 +31,19 @@ Several versions of the 802.11 standard have been released since its inception, 
 - **802.11g**: Combines the best of both 802.11a and 802.11b, offering speeds up to 54 Mbps in the 2.4 GHz band.
 - **802.11n (Wi-Fi 4)**: Introduces MIMO (Multiple Input Multiple Output) technology to increase bandwidth up to 600 Mbps and range, operating in both 2.4 GHz and 5 GHz bands.
 - **802.11ac (Wi-Fi 5)**: Provides significant improvements over 802.11n, with higher throughput in the 5 GHz band, offering speeds up to several Gbps. MU-MIMO (Multiuser MIMO)
-- **802.11ax (Wi-Fi 6)**: The latest standard as of my last update, focusing on improving efficiency, especially in dense environments, with theoretical speeds up to 9.6 Gbps.
+- **802.11ax (Wi-Fi 6)**: The latest standard as of my last update, focusing on improving efficiency, especially in dense environments, with theoretical speeds up to 9.6 Gbps between 1 GHz and 6 GHz.
+
+### RSSI
+
+RSSI, standing for Received Signal Strength Indicator, is a measure of the power level that a wireless device is receiving from a signal source, such as a Wi-Fi router or a cellphone tower. It is typically measured in decibels from 0 (zero) down to -120dBm and is used by wireless communication devices to gauge the strength of an available wireless signal.
+
+### Key Points about RSSI:
+
+- **Measurement Unit**: RSSI values are expressed in decibels from 0 (zero) to -120dBm. A higher (closer to 0) RSSI value indicates a stronger signal. For example, -60dBm is a stronger signal than -75dBm.
+- **Relative Measure**: RSSI is a relative index and does not correspond to a specific power level. The interpretation of RSSI values can vary between devices and manufacturers, meaning that an RSSI value of -70dBm from one device cannot be directly compared to the same value on another device without accounting for their respective RSSI scales.
+- **Signal Quality**: While RSSI is a good indicator of signal strength, it does not directly translate to signal quality. Other factors, such as noise and interference, can affect the quality of a wireless connection even if the RSSI is high.
+- **Use Cases**: RSSI is used in various applications to make decisions about wireless connectivity. For instance, a smartphone might use RSSI to determine which Wi-Fi network to connect to, or a wireless access point may use RSSI to decide when to hand off a device to another access point in larger networks.
+
 
 # Wireless Security Standards
 
@@ -116,6 +128,11 @@ Antennas are crucial components of wireless communication systems, converting el
 
 ![[Pasted image 20240317150212.png]]
 
+## Parabolic Antenna
+
+A parabolic antenna, also known as a parabolic dish antenna or dish antenna, is a high-gain reflector antenna that operates using a parabolic reflector, a curved surface with the cross-sectional shape of a parabola. The parabolic shape enables the antenna to focus incoming radio waves onto a small area (the feed or focal point), or conversely, to take energy from a source located at the focal point and emit it as a narrow beam of radio waves, typically in a specific direction. This design allows for high directivity and gain, making parabolic antennas ideal for long-distance communication links, including point-to-point communication, satellite communication, radio telescopes, and radar systems.
+
+![[Pasted image 20240402135936.png]]
 ### Understanding Antenna Gain
 
 - **Directionality**: Antenna gain indicates how well the antenna focuses energy in a given direction. High-gain antennas can send and receive signals more effectively at greater distances in their preferred direction but have reduced performance outside this direction. Conversely, low-gain antennas spread the energy more evenly in all directions, providing broader coverage but over shorter distances.
@@ -136,6 +153,18 @@ Antennas are crucial components of wireless communication systems, converting el
 
 In summary, antenna gain is a critical parameter that reflects the antenna's ability to direct its power and thus its effectiveness in transmitting and receiving signals over distances. The choice of antenna gain for a specific application depends on the required coverage pattern, distance, and the surrounding environment.
 
+### Geo-IP
+
+Geo-IP, short for Geographic Internet Protocol, refers specifically to the process of mapping an IP address to a geographical location. This method relies on databases that contain information about which IP addresses are allocated to different regions around the world. By looking up an IP address in a Geo-IP database, one can determine the country, region, city, and sometimes even the specific area or ISP (Internet Service Provider) associated with that IP address.
+
+**Characteristics**:
+
+- **Accuracy**: The accuracy of Geo-IP can vary significantly. It is generally reliable at the country level, but its accuracy diminishes for more specific locations.
+- **Use Cases**: Geo-IP is widely used for content localization, access control (geofencing), digital rights management, targeted advertising, and fraud detection.
+
+### Geolocation
+
+Geolocation is a broader term that encompasses any method used to determine the geographical location of an internet-connected device. This includes not only IP-based methods (Geo-IP) but also techniques that use GPS data, Wi-Fi positioning, cell tower triangulation, and other sensor data available on a device. Geolocation can provide much more precise location information, especially when GPS or similar technologies are used.
 
 # Wireless Scenarios
 

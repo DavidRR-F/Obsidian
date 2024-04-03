@@ -1,0 +1,3 @@
+LDAP stands for Lightweight Directory Access Protocol. It is a protocol used for accessing and maintaining distributed directory information services over an IP network. LDAP is commonly used for accessing and managing directory information such as user profiles, organization structures, and other resources within a network.
+
+LDAP provides a standardized way for clients to query and modify directory information stored on directory servers. These directory servers can store a wide range of information, such as user authentication credentials, contact information, group memberships, and more. Similar to Active Directory

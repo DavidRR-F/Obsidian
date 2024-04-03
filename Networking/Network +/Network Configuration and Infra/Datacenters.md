@@ -82,6 +82,10 @@ In data center networking, a three-tier architecture is commonly used to organiz
 
 **Use Cases**: Ideal for enterprise environments requiring efficient, high-speed access to block storage for critical applications such as databases, email servers, and virtual machine file systems.
 
+### Jumbo Frame
+
+A jumbo frame refers to an Ethernet frame that is larger than the standard maximum transmission unit (MTU) size of 1,500 bytes. Jumbo frames can carry up to 9,000 bytes (9KB) of payload, although the exact size can vary by manufacturer and network setup. The idea behind jumbo frames is to reduce the overhead associated with transmitting packets over a network by allowing more data to be packed into a single frame, thus improving network efficiency, especially in high-throughput environments such as data centers and enterprise networks.
+
 ### iSCSI (Internet Small Computer System Interface)
 
 **Definition**: iSCSI is a network protocol that allows the use of the IP network to carry SCSI commands, enabling block-level data transport over LANs, WANs, or the Internet. iSCSI facilitates the creation of SANs (Storage Area Networks) over existing networking infrastructure, making it a cost-effective and flexible solution for providing shared storage among multiple servers.

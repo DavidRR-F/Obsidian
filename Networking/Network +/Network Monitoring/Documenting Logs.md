@@ -26,6 +26,7 @@ Syslog is a standard protocol used for logging and forwarding log messages in a 
 - **Informational (6)**: Informational messages. This level is used for general informational messages, such as user login/logout events or system status updates.
 - **Debug (7)**: Debugging messages. This level is used for debugging information or diagnostic messages that are useful for troubleshooting issues or tracing system behavior.
 
+
 ## **History/Change Logs**: 
 
 History or change logs record historical events and changes made to system configurations, files, or settings over time. These logs document additions, modifications, deletions, and updates to system resources, user accounts, application configurations, and system settings. History/change logs help administrators track system changes, audit system activity, and roll back changes if necessary.

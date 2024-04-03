@@ -58,6 +58,8 @@ This indicates that the device with IP address 192.168.1.10 is on the network 19
 
 255.255.255.0 or /24 --> xxx.xxx.xxx.1 -->xxx.xxx.xxx.254
 
+When a subnet is defined The Highest IP Address is reserved for the **Broadcast Address** and The Lowest IP is reserved for the **Network ID**
+
 On a Network the subnet mask helps define if traffic is inside or outside of the Network for inbound traffic any place there is a 1 the number in the bits of a subnet mask the number have to be the same for example if you have a subnet 192.168.11.0/24 inbound traffic is defined by the IP range 192.168.11.1 -> 192.168.11.254 otherwise traffic is sent to the Default Gateway
 
 ### Purpose and Benefits

@@ -27,14 +27,14 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, Routing) (: What is RIP - Routing Information Protocol) (: A distance-vector routing protocol that uses hop count as a routing metric to find the shortest path between the source and destination)
 🃟 Flaschcard: (-1, 0, Routing) (: A distance-vector routing protocol that uses hop count as a routing metric to find the shortest path between the source and destination) (: What is RIP - Routing Information Protocol)
 
-🃟 Flaschcard: (-1, 0, Routing) (: What is OSPF - Open Shortest Path First) (: A link-state routing protocol that uses a method of flooding to exchange link information within an Autonomous System (AS), creating a map of the network to determine the shortest path)
+🃟 Flaschcard: (-1, 0, Routing) (: What is OSPF - Open Shortest Path First) (: A link-state routing protocol that uses a method of flooding to exchange link information within an Autonomous System (AS)
 ❌️🃟 Flaschcard: (-1, 0, Routing) (: A link-state routing protocol that uses a method of flooding to exchange link information within an Autonomous System (AS), creating a map of the network to determine the shortest path) (: What is OSPF - Open Shortest Path First)
 
 🃟 Flaschcard: (-1, 0, Routing) (: What is BGP - Border Gateway Protocol) (: An exterior gateway protocol designed to exchange routing and reachability information among autonomous systems on the internet)
 🃟 Flaschcard: (-1, 0, Routing) (: An exterior gateway protocol designed to exchange routing and reachability information among autonomous systems on the internet) (: What is BGP - Border Gateway Protocol)
 
 ❌️🃟 Flaschcard: (-1, 0, Routing) (: What is IS-IS (Intermediate System to Intermediate System)) (: A link-state routing protocol, similar to OSPF, used to determine the best path for data through a network of packet-switched communication systems)
-🃟 Flaschcard: (-1, 0, Routing) (: A link-state routing protocol, similar to OSPF, used to determine the best path for data through a network of packet-switched communication systems) (: What is IS-IS (Intermediate System to Intermediate System))
+🃟 Flaschcard: (1, 16, Routing) (: A link-state routing protocol, similar to OSPF, used to determine the best path for data through a network of packet-switched communication systems) (: What is IS-IS (Intermediate System to Intermediate System)
 
 🃟 Flaschcard: (-1, 0, Routing) (: What is EIGRP - Enhanced Interior Gateway Routing Protocol) (: An advanced distance-vector routing protocol that is used on a computer network for automating routing decisions and configuration)
 🃟 Flaschcard: (-1, 0, Routing) (: An advanced distance-vector routing protocol that is used on a computer network for automating routing decisions and configuration) (: What is EIGRP - Enhanced Interior Gateway Routing Protocol)
@@ -65,19 +65,19 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, Routing) (: What is Port Forwarding) (: a technique used in networking to redirect a communication request from one address and port number combination to another while the packets are traversing a network gateway, such as a router or firewall)
 🃟 Flaschcard: (-1, 0, Routing) (: a technique used in networking to redirect a communication request from one address and port number combination to another while the packets are traversing a network gateway, such as a router or firewall) (: What is Port Forwarding)
 
-🃟 Flaschcard: (-1, 0, Routing) (: What is Port Range Forwarding) (: a network configuration process used to redirect external communications from a range of port numbers through a router or firewall to a specific device within a private local network (LAN))
+🃟 Flaschcard: (-1, 0, Routing) (: What is Port Range Forwarding) (: a network configuration process used to redirect external communications from a range of port numbers through a router or firewall to a specific device within a private local network (LAN)
 ❌️🃟 Flaschcard: (-1, 0, Routing) (: a network configuration process used to redirect external communications from a range of port numbers through a router or firewall to a specific device within a private local network (LAN)) (: What is Port Range Forwarding)
 
 🃟 Flaschcard: (-1, 0, Routing) (: What is Port Triggering) (: a networking feature used in some routers that allows for the automatic forwarding of specific ports based on outgoing traffic from a network)
 🃟 Flaschcard: (-1, 0, Routing) (: a networking feature used in some routers that allows for the automatic forwarding of specific ports based on outgoing traffic from a network) (: What is Port Triggering)
 
-🃟 Flaschcard: (-1, 0, Routing) (: What is a DMZ - Demilitarized Zone) (: a physical or logical subnetwork that contains and exposes an organization's external-facing services to an untrusted network, typically the Internet whose primary purpose is to add an additional layer of security to an organization's local area network (LAN))
+🃟 Flaschcard: (-1, 0, Routing) (: What is a DMZ - Demilitarized Zone) (: a physical or logical subnetwork that contains and exposes an organization's external-facing services to an untrusted network, typically the Internet whose primary purpose is to add an additional layer of security to an organization's local area network (LAN)
 ❌️🃟 Flaschcard: (-1, 0, Routing) (: a physical or logical subnetwork that contains and exposes an organization's external-facing services to an untrusted network, typically the Internet whose primary purpose is to add an additional layer of security to an organization's local area network (LAN)) (: What is a DMZ - Demilitarized Zone)
 
 🃟 Flaschcard: (-1, 0, Routing) (: WHat is BGP - Border Gateway Protocol) (: An exterior gateway protocol designed to exchange routing and reachability information among autonomous systems on the internet)
 🃟 Flaschcard: (-1, 0, Routing) (: An exterior gateway protocol designed to exchange routing and reachability information among autonomous systems on the internet) (: WHat is BGP - Border Gateway Protocol)
 
-🃟 Flaschcard: (-1, 0, Routing) (: What is EGP - Exterior Gateway Protocol) (: route data between autonomous systems (ASes), which are distinct networks managed by different organizations)
+🃟 Flaschcard: (-1, 0, Routing) (: What is EGP - Exterior Gateway Protocol) (: route data between autonomous systems (ASes)
 ❌️🃟 Flaschcard: (-1, 0, Routing) (: route data between autonomous systems (ASes), which are distinct networks managed by different organizations) (: What is EGP - Exterior Gateway Protocol)
 
 🃟 Flaschcard: (-1, 0, Routing) (: What is IGP - Interior Gateway Protocol) (: An autonomous system is a collection of IP networks and routers under the control of one or more network operators that presents a common routing policy to the internet. distribute routing information among routers within the same autonomous system)

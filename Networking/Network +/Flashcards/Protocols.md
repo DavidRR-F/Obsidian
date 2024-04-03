@@ -20,7 +20,7 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, Protocols) (: What is UDP - User Datagram Protocol) (: a connectionless protocol, which means it sends data without establishing a connection with the receiver and without any guarantee that the data will reach its destination)
 🃟 Flaschcard: (-1, 0, Protocols) (: a connectionless protocol, which means it sends data without establishing a connection with the receiver and without any guarantee that the data will reach its destination) (: What is UDP - User Datagram Protocol)
 
-🃟 Flaschcard: (-1, 0, Protocol) (: What is ICMP - Internet Control Message Protocol) (: used for sending diagnostic or control messages between network devices. It operates within the Internet Protocol Suite (IP), specifically used with IPv4 (for IPv6, ICMPv6 provides similar functionality))
+🃟 Flaschcard: (-1, 0, Protocol) (: What is ICMP - Internet Control Message Protocol) (: used for sending diagnostic or control messages between network devices. It operates within the Internet Protocol Suite (IP)
 ❌️🃟 Flaschcard: (-1, 0, Protocol) (: used for sending diagnostic or control messages between network devices. It operates within the Internet Protocol Suite (IP), specifically used with IPv4 (for IPv6, ICMPv6 provides similar functionality)) (: What is ICMP - Internet Control Message Protocol)
 
 🃟 Flaschcard: (-1, 0, Protocol) (: What is  IGMP - Internet Group Management Protocol) (: used in IP networks to establish multicast group memberships. It allows a network device to report its multicast group membership to adjacent routers)

@@ -301,3 +301,7 @@ EGP is specifically designed for routing between autonomous systems, facilitatin
 - **Operational Scope**: IGPs are concerned with routing within a single AS, focusing on internal network efficiency and optimization. EGPs, particularly BGP, handle routing between ASes, dealing with policy, scalability, and redundancy on a global scale.
 - **Routing Policies**: IGPs typically optimize for metrics like distance, cost, or speed. EGPs must consider policy decisions, which may include routing preferences, load balancing, and avoiding certain networks due to business or political reasons.
 - **Complexity and Scalability**: EGPs must manage more complex routing tables and deal with a wider range of routing policies and relationships than IGPs.
+
+## Firmware Flash
+
+A firmware flash, often simply referred to as "flashing," is the process of updating or replacing the firmware on a device. Firmware is a type of software that provides low-level control for a device's specific hardware. Unlike regular software that can be easily updated or uninstalled, firmware is embedded into the hardware, making the process of updating it more complex and requiring a specific procedure. By flashing the firmware, it can provide the ability to communicate with newer devices and remove known software vulnerabilities from the device

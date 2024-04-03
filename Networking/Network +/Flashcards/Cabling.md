@@ -1,7 +1,7 @@
 ---
 flashcard: true
 ---
-🃟 Flaschcard: (-1, 0, Cables) (: What is a RG-6 Coaxial Cable) (: a common type of coaxial cable used in residential and commercial applications, including cable television (CATV), internet service provision via cable, and increasingly for satellite installations. The 75-ohm impedance is optimized for these applications, balancing signal loss over distance with the need for flexibility and ease of installation)
+🃟 Flaschcard: (-1, 0, Cables) (: What is a RG-6 Coaxial Cable) (: a common type of coaxial cable used in residential and commercial applications, including cable television (CATV)
 ❌️🃟 Flaschcard: (-1, 0, Cables) (: a common type of coaxial cable used in residential and commercial applications, including cable television (CATV), internet service provision via cable, and increasingly for satellite installations. The 75-ohm impedance is optimized for these applications, balancing signal loss over distance with the need for flexibility and ease of installation) (: What is a RG-6 Coaxial Cable)
 
 🃟 Flaschcard: (-1, 0, Cables) (: What is a F-Type Connector) (: Widely used for cable television, internet service provision via cable, and satellite television. It screws on and provides a secure connection for RF signals)
@@ -10,8 +10,8 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, Cables) (: What is a BNC Connector) (: Used in professional and commercial audio/video equipment, a twist-lock mechanism, making them suitable for situations where a secure connection is essential to prevent accidental disconnection.)
 🃟 Flaschcard: (-1, 0, Cables) (: Used in professional and commercial audio/video equipment, a twist-lock mechanism, making them suitable for situations where a secure connection is essential to prevent accidental disconnection.) (: What is a BNC Connector)
 
-🃟 Flaschcard: (-1, 0, Cables) (: What is a RJ45 Twisted Pair Cable) (: consists of pairs of insulated copper wires twisted together. Type: Cat5e -> Cat6)
-🃟 Flaschcard: (-1, 0, Cables) (: consists of pairs of insulated copper wires twisted together. Type: Cat5e -> Cat6) (: What is a RJ45 Twisted Pair Cable)
+🃟 Flaschcard: (-1, 0, Cables) (: What is a RJ45 Twisted Pair Cable) (: consists of pairs of insulated copper wires twisted together. Type)
+🃟 Flaschcard: (-1, 0, Cables) (: consists of pairs of insulated copper wires twisted together. Type) (: What is a RJ45 Twisted Pair Cable)
 
 🃟 Flaschcard: (-1, 0, Cables) (: What is STP - Sheilded Twited Pair) (: include a shield that surrounds the twisted wire pairs)
 🃟 Flaschcard: (-1, 0, Cables) (: include a shield that surrounds the twisted wire pairs) (: What is STP - Sheilded Twited Pair)
@@ -31,13 +31,13 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, Cables) (: What is the Distance and Max Bandwidth of Cat7) (: Distance 100 meters Max Bandwidth 10+ Gbps)
 🃟 Flaschcard: (-1, 0, Cables) (: Distance 100 meters Max Bandwidth 10+ Gbps) (: What is the Distance and Max Bandwidth of Cat7)
 
-🃟 Flaschcard: (-1, 0, Cables) (: What is the Distance and Max Bandwidth of Cat8) (: Distance 100 meters Max Bandwidth 25 Gbps)
+🃟 Flaschcard: (1, 16, Cables) (: What is the Distance and Max Bandwidth of Cat8) (: Distance 100 meters Max Bandwidth 25 Gbps)
 🃟 Flaschcard: (-1, 0, Cables) (: Distance 100 meters Max Bandwidth 25 Gbps) (: What is the Distance and Max Bandwidth of Cat8)
 
-🃟 Flaschcard: (-1, 0, Cables) (: What is a Single Node Fiber Optic Cable) (: Designed for long-distance communication, it has a small core (around 9 micrometers in diameter) that allows only one mode of light to propagate. This minimizes signal degradation over distance. Cable Color Yellow, Uses Lasers)
+🃟 Flaschcard: (-1, 0, Cables) (: What is a Single Node Fiber Optic Cable) (: Designed for long-distance communication, it has a small core (around 9 micrometers in diameter)
 ❌️🃟 Flaschcard: (-1, 0, Cables) (: Designed for long-distance communication, it has a small core (around 9 micrometers in diameter) that allows only one mode of light to propagate. This minimizes signal degradation over distance. Cable Color Yellow, Uses Lasers) (: What is a Single Node Fiber Optic Cable)
 
-🃟 Flaschcard: (-1, 0, Cables) (: What is a Multi node Fiber Optic Cable) (: Used for shorter distances, it has a larger core (50 or 62.5 micrometers) that supports multiple modes of light. MMF is typically used within buildings or campuses where high data rates are needed over relatively short distances. Cable Color Orange, Uses LED)
+🃟 Flaschcard: (-1, 0, Cables) (: What is a Multi node Fiber Optic Cable) (: Used for shorter distances, it has a larger core (50 or 62.5 micrometers)
 ❌️🃟 Flaschcard: (-1, 0, Cables) (: Used for shorter distances, it has a larger core (50 or 62.5 micrometers) that supports multiple modes of light. MMF is typically used within buildings or campuses where high data rates are needed over relatively short distances. Cable Color Orange, Uses LED) (: What is a Multi node Fiber Optic Cable)
 
 🃟 Flaschcard: (-1, 0, Cables) (: What is a LC Connector) (: A small form-factor fiber optic connector typically used in data communications and telecommunications)
@@ -55,7 +55,7 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, Cables) (: What is a firing rate) (: refer to the cable's ability to resist fire and not produce toxic smoke or fumes when exposed to heat)
 🃟 Flaschcard: (-1, 0, Cables) (: refer to the cable's ability to resist fire and not produce toxic smoke or fumes when exposed to heat) (: What is a firing rate)
 
-🃟 Flaschcard: (-1, 0, Cables) (: What is MDF - Main Distribution Frame) (: the primary hub of a network's structured cabling system. It's where the service provider's line (such as a telephone company's line) enters a building and connects to the building's internal network)
+🃟 Flaschcard: (-1, 0, Cables) (: What is MDF - Main Distribution Frame) (: the primary hub of a network's structured cabling system. It's where the service provider's line (such as a telephone company's line)
 ❌️🃟 Flaschcard: (-1, 0, Cables) (: the primary hub of a network's structured cabling system. It's where the service provider's line (such as a telephone company's line) enters a building and connects to the building's internal network) (: What is MDF - Main Distribution Frame)
 
 🃟 Flaschcard: (-1, 0, Cables) (: What is IDF - Intermediate Distribution Frame) (: a secondary hub located away from the MDF, typically on different floors or sections of a building or in different buildings on a campus)
@@ -70,10 +70,10 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, Cables) (: What is Cable Continuity testing) (: checks if there is a complete path for current to flow from one end of a cable to the other. It verifies that the cable doesn't have any breaks or open circuits)
 🃟 Flaschcard: (-1, 0, Cables) (: checks if there is a complete path for current to flow from one end of a cable to the other. It verifies that the cable doesn't have any breaks or open circuits) (: What is Cable Continuity testing)
 
-🃟 Flaschcard: (-1, 0, Cables) (: What is Cable Distance tesing) (: refers to the ability to measure the length of a cable or locate a fault within the cable. This is where a Time Domain Reflectometer (TDR) becomes important)
+🃟 Flaschcard: (-1, 0, Cables) (: What is Cable Distance tesing) (: refers to the ability to measure the length of a cable or locate a fault within the cable. This is where a Time Domain Reflectometer (TDR)
 ❌️🃟 Flaschcard: (-1, 0, Cables) (: refers to the ability to measure the length of a cable or locate a fault within the cable. This is where a Time Domain Reflectometer (TDR) becomes important) (: What is Cable Distance tesing)
 
-🃟 Flaschcard: (-1, 0, Cables) (: What is TDR - Time Domain Reflectometer) (: an instrument that measures the time it takes for an electronic signal to travel down a cable and be reflected back from the end of the cable or the point of a fault (like a break or severe crimp))
+🃟 Flaschcard: (-1, 0, Cables) (: What is TDR - Time Domain Reflectometer) (: an instrument that measures the time it takes for an electronic signal to travel down a cable and be reflected back from the end of the cable or the point of a fault (like a break or severe crimp)
 ❌️🃟 Flaschcard: (-1, 0, Cables) (: an instrument that measures the time it takes for an electronic signal to travel down a cable and be reflected back from the end of the cable or the point of a fault (like a break or severe crimp)) (: What is TDR - Time Domain Reflectometer)
 
 🃟 Flaschcard: (-1, 0, Cables) (: What is Cable Crosswalk) (: a form of interference that occurs when the signal from one cable leaks into another, potentially degrading the signal quality and leading to data transmission errors. It is especially relevant in twisted-pair cables, such as those used in Ethernet networks, where multiple pairs are enclosed within a single cable sheath)

@@ -348,4 +348,52 @@ What is a Layer 3 switch?
 ? #AOSR/10qs9/m/3ejd
 allows Layer 3 switches to perform both switching (forwarding data based on MAC addresses) 
 and routing (forwarding data based on IP addresses)
+***
+What is AAA stand for?
+? #AOSR/efnjd/m/38d4
+Authentication, Authorization, and Accounting
+***
+What is RADIUS?
+? #AOSR/efnjd/m/46sv
+Remote Authentication Dial-In User Service, is a network Protocol that provides
+AAA management for users who connect and use a network service. widely adopted for 
+broader network access control, including wireless networks, VPNs
+***
+What is TACACS+?
+? #AOSR/efnjd/m/7mgo
+Terminal Access Controller Access-Control System-Plus, is an advanced protocol
+used or authentication and access control to netwrok devices, commonly used in 
+large networks, particularly those that include a variety of networking equipment 
+from different vendors
+***
+What is IDS and IPS?
+? #AOSR/efnjd/m/4io6
+Intrusion Dectection Systems, are designed to passively monitor network traffic
+for sus activity. Intrustion Prevention Systems, not only detect threats but
+also take preventitive action.
+***
+What is RPO and RTO?
+? #AOSR/efnjd/m/1rqk
+Recovory Point Objective, refers to the medimum amount of data loss an
+organization can tolerate during a disrution while Recovery Time Objective is
+the amount of time which a business process must be restored after a disruption
+***
+What is MTTR and MTBF?
+? #AOSR/efnjd/m/7be4
+Mean Time to Repair, is the average time required to repair a failed component
+while Mean Time Between Failures is the time between the iccurrence of
+non-consecutive failures in a system
+***
+What is CSMA/CD?
+? #AOSR/efnjd/m/4k49
+Carrier Sense Multiple Access with Collision Detection, is a network protocol
+used to manage how data is transmitted over a shared medium. Designed to
+minimize the chance of packet collisions when multiple devices attempt to send
+data simultaneously
 
+#Q #AOSR/332v0
+What are the ports used by SQLnet, MySQL, MSSQLSEVER, SMB, and SNMP
+? #AOSR/332v0/m/5jva
+SQLnet: 1521
+MySQL: 3306
+MSSQL: 1433

@@ -13,13 +13,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking Fundamentals/Communication/Routers.md",
+                "file": "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "3cf46752f4b529de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network +/Network Security/Network Defense/Firewalls.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a9dc5ec78053fd38",
+            "type": "leaf",
+            "state": {
+              "type": "aosr-review-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Dynamic Routing Protocol",
+                "query": "Firewall",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking Fundamentals/Communication/Routers.md",
+                "file": "Network +/Network Security/Network Defense/Firewalls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Networking Fundamentals/Communication/Routers.md",
+                "file": "Network +/Network Security/Network Defense/Firewalls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Networking Fundamentals/Communication/Routers.md"
+                "file": "Network +/Network Security/Network Defense/Firewalls.md"
               }
             }
           }
@@ -150,20 +171,25 @@
       "aosr:Aosr": false
     }
   },
-  "active": "dd70ecd08401353a",
+  "active": "a9dc5ec78053fd38",
   "lastOpenFiles": [
+    "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
+    "Network +/Review.md~",
+    "Network +/Network Configuration and Infra/Physical Network/Troubleshooting Structured Cabling.md",
+    "Networking Fundamentals/OSI Model.md",
+    "Network +/Network Configuration and Infra/Switch Features.md",
+    "Network +/Network Components/IPv6.md",
+    "Network +/Network Configuration and Infra/Integrating Networked Devices.md",
+    "Network +/Network Components/Wireless Networking.md",
+    "Network +/Review.md",
+    "Networking Fundamentals/Communication/Routers.md",
     "Network +/IT Procedures/Network Operations.md",
     "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
-    "Network +/Review.md~",
     "Network +/Other/LDAP.md",
     "Network +/Network Configuration and Infra/Datacenters.md",
     "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md",
     "Network +/Network Monitoring/Documenting Logs.md",
-    "Network +/Network Configuration and Infra/Switch Features.md",
     "Network +/Network Components/Ethernet.md",
-    "Networking Fundamentals/Communication/Routers.md",
-    "Network +/Network Components/Wireless Networking.md",
-    "Network +/Review.md",
     "Network +/Other/NAT - PAT.md",
     "Network +/Network Components/DNS.md",
     "Network +/Other",
@@ -171,15 +197,11 @@
     "Network +/Network Components/Protocols.md",
     "Network +/Network Security/Network Attacks/DoS - Denial of Service.md",
     "Network +/Flashcards/Cabling.md",
-    "Networking Fundamentals/OSI Model.md",
     "Networking Fundamentals/Network Devices.md",
     "Network +/Network Security/Securing TCP - IP.md",
     "images/Pasted image 20240402135936.png",
     "Network +/Network Components/Routing.md",
     "Network +/Network Security/Network Attacks/Man in the Middle (On-Path).md",
-    "Network +/Network Configuration and Infra/Network Topologies.md",
-    "Network +/Network Components/IP and Subnetting.md",
-    "Network +/Network Security/Network Defense/Network Hardening.md",
     "Network +/Flashcards",
     "images/Pasted image 20240324150439.png",
     "images/Pasted image 20240325104747.png",

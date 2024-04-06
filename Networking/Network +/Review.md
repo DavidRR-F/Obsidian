@@ -171,7 +171,7 @@ sessions for voice, video, messaging, and other multimedia interactive communica
 - [x] Software Defined Networking Layers
 - [x] OSI Model
 - [ ] Data destruction Methods
-- [ ] 3-tiered Arcitecture
+- [x] 3-tiered Arcitecture
 - [ ] RF Interference
 - [x] Packet Sniffer - Wireshark
 - [x] LACP and BPDU
@@ -350,46 +350,59 @@ allows Layer 3 switches to perform both switching (forwarding data based on MAC 
 and routing (forwarding data based on IP addresses)
 ***
 What is AAA stand for?
-? #AOSR/efnjd/m/38d4
+? #AOSR/10qs9/m/7t6a
 Authentication, Authorization, and Accounting
 ***
 What is RADIUS?
-? #AOSR/efnjd/m/46sv
+? #AOSR/10qs9/m/4o6v
 Remote Authentication Dial-In User Service, is a network Protocol that provides
 AAA management for users who connect and use a network service. widely adopted for 
 broader network access control, including wireless networks, VPNs
 ***
 What is TACACS+?
-? #AOSR/efnjd/m/7mgo
+? #AOSR/10qs9/m/p7il
 Terminal Access Controller Access-Control System-Plus, is an advanced protocol
 used or authentication and access control to netwrok devices, commonly used in 
 large networks, particularly those that include a variety of networking equipment 
 from different vendors
 ***
 What is IDS and IPS?
-? #AOSR/efnjd/m/4io6
+? #AOSR/10qs9/m/1pi0
 Intrusion Dectection Systems, are designed to passively monitor network traffic
 for sus activity. Intrustion Prevention Systems, not only detect threats but
 also take preventitive action.
 ***
 What is RPO and RTO?
-? #AOSR/efnjd/m/1rqk
+? #AOSR/10qs9/m/1vqt
 Recovory Point Objective, refers to the medimum amount of data loss an
 organization can tolerate during a disrution while Recovery Time Objective is
 the amount of time which a business process must be restored after a disruption
 ***
 What is MTTR and MTBF?
-? #AOSR/efnjd/m/7be4
+? #AOSR/10qs9/m/moha
 Mean Time to Repair, is the average time required to repair a failed component
 while Mean Time Between Failures is the time between the iccurrence of
 non-consecutive failures in a system
 ***
 What is CSMA/CD?
-? #AOSR/efnjd/m/4k49
+? #AOSR/10qs9/m/3p16
 Carrier Sense Multiple Access with Collision Detection, is a network protocol
 used to manage how data is transmitted over a shared medium. Designed to
 minimize the chance of packet collisions when multiple devices attempt to send
 data simultaneously
+***
+What is the difference between RADUIS and TACACS+?
+? #AOSR/10qs9/m/56i0
+RADUIS: UTP, combines AAA services into single protocol
+TACACS+: TCP, seperates AAA services into different components
+***
+What are the layers in 3 Teired Architecture and what is there purpose?
+?
+**Core Layer**: primary function is to offer reliable, high-capacity connectivity 
+to multiple aggregation/distribution layers.
+**Aggregation Layer**: aggregates the traffic from multiple access switches and 
+forwards it to the core layer
+**Edge Layer**: entry point for end devices into the network
 
 #Q #AOSR/332v0
 What are the ports used by SQLnet, MySQL, MSSQLSEVER, SMB, and SNMP
@@ -397,3 +410,6 @@ What are the ports used by SQLnet, MySQL, MSSQLSEVER, SMB, and SNMP
 SQLnet: 1521
 MySQL: 3306
 MSSQL: 1433
+SMB: 445
+SNMP: 161, 162
+

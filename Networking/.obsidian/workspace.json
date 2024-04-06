@@ -25,22 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Network Security/Network Defense/Firewalls.md",
+                "file": "Network +/Network Configuration and Infra/Datacenters.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "a9dc5ec78053fd38",
-            "type": "leaf",
-            "state": {
-              "type": "aosr-review-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Firewall",
+                "query": "Three-T",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Network Security/Network Defense/Firewalls.md",
+                "file": "Network +/Network Configuration and Infra/Datacenters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Network Security/Network Defense/Firewalls.md",
+                "file": "Network +/Network Configuration and Infra/Datacenters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Network Security/Network Defense/Firewalls.md"
+                "file": "Network +/Network Configuration and Infra/Datacenters.md"
               }
             }
           }
@@ -171,8 +163,9 @@
       "aosr:Aosr": false
     }
   },
-  "active": "a9dc5ec78053fd38",
+  "active": "3cf46752f4b529de",
   "lastOpenFiles": [
+    "Network +/Network Security/Network Defense/Firewalls.md",
     "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
     "Network +/Review.md~",
     "Network +/Network Configuration and Infra/Physical Network/Troubleshooting Structured Cabling.md",
@@ -201,7 +194,6 @@
     "Network +/Network Security/Securing TCP - IP.md",
     "images/Pasted image 20240402135936.png",
     "Network +/Network Components/Routing.md",
-    "Network +/Network Security/Network Attacks/Man in the Middle (On-Path).md",
     "Network +/Flashcards",
     "images/Pasted image 20240324150439.png",
     "images/Pasted image 20240325104747.png",

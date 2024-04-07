@@ -170,23 +170,22 @@ sessions for voice, video, messaging, and other multimedia interactive communica
 - [x] Wireless Encryption
 - [x] Software Defined Networking Layers
 - [x] OSI Model
-- [ ] Data destruction Methods
 - [x] 3-tiered Arcitecture
-- [ ] RF Interference
+- [x] RF Interference
 - [x] Packet Sniffer - Wireshark
 - [x] LACP and BPDU
-- [ ] Dynamic ARP Inspection
-- [ ] Pre-action system
-- [ ] Time-division multiplexing
+- [x] Dynamic ARP Inspection
+- [x] Pre-action system
+- [x] Time-division multiplexing
 - [x] ICMP
 - [x] Straight-through and crossover cables
 - [x] Layer 3 switch
 - [x] CAN, PAN, WAN, LAN
-- [ ] Host, Network Firewall
-- [ ] ATM Cells
+- [x] Host, Network Firewall
+- [x] ATM Cells
 - [x] UTM
 - [x] OID
-- [ ] Access Point Channels
+- [x] Access Point Channels
 - [x] nslookup
 
 #Q  #AOSR/10qs9
@@ -403,6 +402,43 @@ to multiple aggregation/distribution layers.
 **Aggregation Layer**: aggregates the traffic from multiple access switches and 
 forwards it to the core layer
 **Edge Layer**: entry point for end devices into the network
+***
+What is RF Interference?
+?
+Radio Frequency Interference
+***
+What is Dynamic ARP Inspection?
+?
+DAI inspects ARP packets on the network and verifies them against a trusted 
+database before forwarding them on to their intended destinations. Protects
+against ARP spoofing
+***
+What is a Pre-Action System?
+?
+fire protection system designed to minimize potential water damage while 
+providing effective fire suppression capabilities
+***
+What is TDM?
+? 
+Time Division Multiplexing is a method of transmitting and receiving independent 
+signals over a common signal path by means of sychronized switches
+***
+What is the difference between a Host and Network Firewall?
+?
+**Host**: Software Base on individual computers
+**Network**: Hardware/Software based protects entire network
+***
+What is an ATM cell?
+?
+Asyncronous Transfer Mode cells are the basic unit of data exchange in ATM
+networks which are designed for high-speed network communication
+***
+What are Access Point Channels and what channels should you use for 2.4GHz?
+?
+Access point channels refer to specific frequency bands within the larger wireless 
+frequency spectrum that are used by Wi-Fi access points (APs) and devices to communicate.
+Use channels 1, 6, and 11 for 2.4GHz because they don't overlap
+
 
 #Q #AOSR/332v0
 What are the ports used by SQLnet, MySQL, MSSQLSEVER, SMB, and SNMP

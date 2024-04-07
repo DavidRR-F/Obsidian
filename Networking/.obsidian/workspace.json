@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Network Configuration and Infra/Datacenters.md",
+                "file": "Network +/Network Security/Network Defense/Firewalls.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Three-T",
+                "query": "host firewall",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Network Configuration and Infra/Datacenters.md",
+                "file": "Network +/Network Security/Network Defense/Firewalls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Network Configuration and Infra/Datacenters.md",
+                "file": "Network +/Network Security/Network Defense/Firewalls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Network Configuration and Infra/Datacenters.md"
+                "file": "Network +/Network Security/Network Defense/Firewalls.md"
               }
             }
           }
@@ -165,6 +165,8 @@
   },
   "active": "3cf46752f4b529de",
   "lastOpenFiles": [
+    "Network +/IT Procedures/Network Operations.md",
+    "Network +/Network Configuration and Infra/Datacenters.md",
     "Network +/Network Security/Network Defense/Firewalls.md",
     "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
     "Network +/Review.md~",
@@ -176,10 +178,8 @@
     "Network +/Network Components/Wireless Networking.md",
     "Network +/Review.md",
     "Networking Fundamentals/Communication/Routers.md",
-    "Network +/IT Procedures/Network Operations.md",
     "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
     "Network +/Other/LDAP.md",
-    "Network +/Network Configuration and Infra/Datacenters.md",
     "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md",
     "Network +/Network Monitoring/Documenting Logs.md",
     "Network +/Network Components/Ethernet.md",

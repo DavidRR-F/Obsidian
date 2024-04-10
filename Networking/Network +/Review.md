@@ -396,7 +396,7 @@ RADUIS: UTP, combines AAA services into single protocol
 TACACS+: TCP, seperates AAA services into different components
 ***
 What are the layers in 3 Teired Architecture and what is there purpose?
-?
+? #AOSR/10qs9/m/7je5
 **Core Layer**: primary function is to offer reliable, high-capacity connectivity 
 to multiple aggregation/distribution layers.
 **Aggregation Layer**: aggregates the traffic from multiple access switches and 
@@ -404,17 +404,17 @@ forwards it to the core layer
 **Edge Layer**: entry point for end devices into the network
 ***
 What is RF Interference?
-?
+? #AOSR/10qs9/m/7mkb
 Radio Frequency Interference
 ***
 What is Dynamic ARP Inspection?
-?
+? #AOSR/10qs9/m/2f2n
 DAI inspects ARP packets on the network and verifies them against a trusted 
 database before forwarding them on to their intended destinations. Protects
 against ARP spoofing
 ***
 What is a Pre-Action System?
-?
+? #AOSR/10qs9/m/705k
 fire protection system designed to minimize potential water damage while 
 providing effective fire suppression capabilities
 ***
@@ -424,23 +424,23 @@ Time Division Multiplexing is a method of transmitting and receiving independent
 signals over a common signal path by means of sychronized switches
 ***
 What is the difference between a Host and Network Firewall?
-?
+? #AOSR/10qs9/m/jgmg
 **Host**: Software Base on individual computers
 **Network**: Hardware/Software based protects entire network
 ***
 What is an ATM cell?
-?
+? #AOSR/10qs9/m/1lkd
 Asyncronous Transfer Mode cells are the basic unit of data exchange in ATM
 networks which are designed for high-speed network communication
 ***
 What are Access Point Channels and what channels should you use for 2.4GHz?
-?
+? #AOSR/10qs9/m/25ka
 Access point channels refer to specific frequency bands within the larger wireless 
 frequency spectrum that are used by Wi-Fi access points (APs) and devices to communicate.
 Use channels 1, 6, and 11 for 2.4GHz because they don't overlap
 ***
 What are the ports used by SQLnet, MySQL, MSSQLSEVER, SMB, and SNMP
-? #AOSR/332v0/m/5jva
+? #AOSR/10qs9/m/ag52
 SQLnet: 1521
 MySQL: 3306
 MSSQL: 1433
@@ -449,23 +449,112 @@ SNMP: 161, 162
 
 # Practice Exam 3 Reveiew
 
-- [ ] Control Plane Policing
-- [ ] Router Advertisement Guard
-- [ ] BCP
-- [ ] DaaS 
-- [ ] Performance Metrics - Throughput, Bandwidth, Latency, Jitter
-- [ ] MPLS
-- [ ] EAP and TTLS - 802.1x using PAP 
-- [ ] Errors - Runt, CRC, Encapsulation, Giant
-- [ ] WiMAX
-- [ ] Network Topologies - Hub and spoke
-- [ ] T1 line - Demarcation Point
-- [ ] Defence in Depth, Least Privilege, Zero trust
-- [ ] Management Plane - SDN 
+- [x] Control Plane Policing
+- [x] Router Advertisement Guard
+- [x] BCP
+- [x] DaaS 
+- [x] Performance Metrics - Throughput, Bandwidth, Latency, Jitter
+- [x] MPLS
+- [x] EAP and TTLS - 802.1x using PAP 
+- [x] Errors - Runt, CRC, Encapsulation, Giant
+- [x] WiMAX
+- [x] Network Topologies - Hub and spoke
+- [x] T1 line - Demarcation Point
+- [x] Defence in Depth, Least Privilege, Zero trust
+- [x] Management Plane - SDN 
 - [ ] ACL Entries
 - [ ] LDAPS - port 
 - [ ] Subnet Review 
 - [ ] VNC
 - [ ] Collision domains
 - [ ] Piggybacking vs Tailgating
+
+#Q  #AOSR/3r2q5
+What is Control PLane Policing?
+? #AOSR/3r2q5/m/53bf
+allows you to use MQC (Modular Quality of Service) framework to permit/deny or rate-limit traffic that goes to the route processor
+***
+What is Router Advertisement Guard?
+? #AOSR/3r2q5/m/7nrb
+Router Advertisement Guard filters IPv6 router advertisements on interfaces to
+block unauthorized router advertisements
+***
+What is BCP?
+? #AOSR/3r2q5/m/7smr
+Buisness Continuity Plan, is a disaster recovery plan that contains strategies
+for handling IT distruptions to networks, servers, and other devices
+***
+What is DaaS?
+? #AOSR/3r2q5/m/3t41
+Desktop as a service
+***
+What do the following performance metrics measure: Throughput, Bandwidth,
+Latency, Jitter
+? #AOSR/3r2q5/m/30f5
+- **Throughput**: amount of data transferred over the network within a specified
+  period tipically in bits per second or packets per second
+- **Bandwidth**: the maximum amount of data that can be transmitted over a
+network path in a given period of time measured in bps, mps, or Gbps
+- **Latency**: the time it takes for data packets to travel from a source to a
+destination measured in miliseconds
+- **Jitter**: variation of latency, the variablility of packet delay between
+packets traveling from source to destination
+***
+Multiprotocol Label Switching, routing techinque used in telecomunication
+networks that directs and carries data from one netowrk node to the next base on
+short path labels rather than long network addresses
+***
+What is EAP?
+?
+Extensible Authentication Protocol, a framework widely used in wireless networks
+and point-to-point connections, a general structure that allows various
+authentication methods to be "plugged in"
+***
+What is TTLS?
+?
+Tunneled Transport Layer Security, an extention od EAP that creates a secure
+tunnal betwenen the client and the authentication server 
+***
+What is PAP?
+?
+Password Authentication Protocol, a simple authentication protocol where
+usernames and passwords are sent over the internet to authenticate users 
+***
+What are the following error types: Runt, CRC, Encapsulation, Giant
+?
+- **Runt Error**: a packet that is smaller than the minimum allowed size on the
+  network
+- **CRC Error**:Cyclic Redundancy Check Error, occurs when the CRC value of a
+packet does not match the calculated CRC value at the receiving end
+- **Encapsulation Error**: occurs when a packet's framing is incorrect or when a
+  packet cannot be de-encapsulated
+- **Gaint Error**: a packet that exceeds the maximum allowed size on the network  
+***
+What is WiMAX?
+?
+Worldwide Interoperability for Microwave Access, a wireless communication
+standard for high-speed long-distancce broadband.
+***
+What is a Hub and spoke Network Topology?
+?
+another term for Star network topology
+***
+What is a T1 line demarication point?
+?
+physical point where the telecommunications carrier's responsibility ends and 
+the customer's responsibility begins for a T1 circuit The T1 line is a type of 
+digital transmission service that can carry data at a rate of 1.544 Mbps, and 
+it is widely used by businesses for connecting to the internet, linking 
+offices, or handling voice communications
+***
+What do the following security terms mean: Defense in Depth, Least Privilege,
+Zero Trust 
+?
+- **Defense in Depth**: security strategy that layers multiple security measure
+  to protect/prevent access.
+- **Least Privilege**: a security concept that dictates users, systems, and
+programs should have only minimum levels of access or permissions needed
+- **Zero Trust**: ensures that entities are only given access to the resources
+that they absolutly need
+***
 

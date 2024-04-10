@@ -25,14 +25,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Network Security/Network Defense/Firewalls.md",
+                "file": "Network +/Network Configuration and Infra/WAN Connectivity.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "59f8c3a544310212",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network +/Network Monitoring/Metrics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77c9e0125de6fbe3",
+            "type": "leaf",
+            "state": {
+              "type": "aosr-review-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -61,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "host firewall",
+                "query": "Errors",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Network Security/Network Defense/Firewalls.md",
+                "file": "Network +/Network Monitoring/Metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Network Security/Network Defense/Firewalls.md",
+                "file": "Network +/Network Monitoring/Metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Network Security/Network Defense/Firewalls.md"
+                "file": "Network +/Network Monitoring/Metrics.md"
               }
             }
           }
@@ -163,11 +183,18 @@
       "aosr:Aosr": false
     }
   },
-  "active": "3cf46752f4b529de",
+  "active": "77c9e0125de6fbe3",
   "lastOpenFiles": [
+    "Network +/Network Components/Wireless Networking.md",
+    "Network +/Network Security/Securing TCP - IP.md",
+    "Network +/Network Security/Network Attacks/Man in the Middle (On-Path).md",
+    "Network +/Network Configuration and Infra/WAN Connectivity.md",
+    "Network +/Network Monitoring/Metrics.md",
+    "Network +/Network Monitoring/Documenting Logs.md",
+    "Network +/Network Security/Network Defense/Network Hardening.md",
+    "Network +/Network Security/Network Defense/Firewalls.md",
     "Network +/IT Procedures/Network Operations.md",
     "Network +/Network Configuration and Infra/Datacenters.md",
-    "Network +/Network Security/Network Defense/Firewalls.md",
     "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
     "Network +/Review.md~",
     "Network +/Network Configuration and Infra/Physical Network/Troubleshooting Structured Cabling.md",
@@ -175,25 +202,18 @@
     "Network +/Network Configuration and Infra/Switch Features.md",
     "Network +/Network Components/IPv6.md",
     "Network +/Network Configuration and Infra/Integrating Networked Devices.md",
-    "Network +/Network Components/Wireless Networking.md",
     "Network +/Review.md",
     "Networking Fundamentals/Communication/Routers.md",
     "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
     "Network +/Other/LDAP.md",
     "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md",
-    "Network +/Network Monitoring/Documenting Logs.md",
     "Network +/Network Components/Ethernet.md",
     "Network +/Other/NAT - PAT.md",
     "Network +/Network Components/DNS.md",
     "Network +/Other",
     "Network +/Network Domains.md",
     "Network +/Network Components/Protocols.md",
-    "Network +/Network Security/Network Attacks/DoS - Denial of Service.md",
-    "Network +/Flashcards/Cabling.md",
-    "Networking Fundamentals/Network Devices.md",
-    "Network +/Network Security/Securing TCP - IP.md",
     "images/Pasted image 20240402135936.png",
-    "Network +/Network Components/Routing.md",
     "Network +/Flashcards",
     "images/Pasted image 20240324150439.png",
     "images/Pasted image 20240325104747.png",

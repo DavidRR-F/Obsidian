@@ -438,9 +438,7 @@ What are Access Point Channels and what channels should you use for 2.4GHz?
 Access point channels refer to specific frequency bands within the larger wireless 
 frequency spectrum that are used by Wi-Fi access points (APs) and devices to communicate.
 Use channels 1, 6, and 11 for 2.4GHz because they don't overlap
-
-
-#Q #AOSR/332v0
+***
 What are the ports used by SQLnet, MySQL, MSSQLSEVER, SMB, and SNMP
 ? #AOSR/332v0/m/5jva
 SQLnet: 1521
@@ -448,4 +446,26 @@ MySQL: 3306
 MSSQL: 1433
 SMB: 445
 SNMP: 161, 162
+
+# Practice Exam 3 Reveiew
+
+- [ ] Control Plane Policing
+- [ ] Router Advertisement Guard
+- [ ] BCP
+- [ ] DaaS 
+- [ ] Performance Metrics - Throughput, Bandwidth, Latency, Jitter
+- [ ] MPLS
+- [ ] EAP and TTLS - 802.1x using PAP 
+- [ ] Errors - Runt, CRC, Encapsulation, Giant
+- [ ] WiMAX
+- [ ] Network Topologies - Hub and spoke
+- [ ] T1 line - Demarcation Point
+- [ ] Defence in Depth, Least Privilege, Zero trust
+- [ ] Management Plane - SDN 
+- [ ] ACL Entries
+- [ ] LDAPS - port 
+- [ ] Subnet Review 
+- [ ] VNC
+- [ ] Collision domains
+- [ ] Piggybacking vs Tailgating
 

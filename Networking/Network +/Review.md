@@ -462,12 +462,12 @@ SNMP: 161, 162
 - [x] T1 line - Demarcation Point
 - [x] Defence in Depth, Least Privilege, Zero trust
 - [x] Management Plane - SDN 
-- [ ] ACL Entries
-- [ ] LDAPS - port 
-- [ ] Subnet Review 
-- [ ] VNC
-- [ ] Collision domains
-- [ ] Piggybacking vs Tailgating
+- [x] ACL Entries
+- [x] LDAPS - port 
+- [x] Subnet Review 
+- [x] VNC
+- [x] Collision domains
+- [x] Piggybacking vs Tailgating
 
 #Q  #AOSR/3r2q5
 What is Control PLane Policing?
@@ -557,4 +557,47 @@ programs should have only minimum levels of access or permissions needed
 - **Zero Trust**: ensures that entities are only given access to the resources
 that they absolutly need
 ***
-
+What is a ACL entry?
+?
+ACL entries, also known as ACL rules, are specific instructions that control the 
+flow of traffic into or out of a network
+- Example:
+```ACL
+deny 192.168.1.0 0.0.0.255  - This entry denies any traffic coming from the 192.168.1.0/24
+permit tcp 10.1.1.0 0.0.0.255 host 192.168.5.10 eq 80  - This entry allows TCP traffic from the 10.1.1.0/24 subnet to a specific host (192.168.5.10) on port 80 (HTTP)
+```
+***
+What is LDAPS and what port does it use?
+?
+a version of the Lightweight Directory Access Protocol (LDAP) that incorporates 
+SSL (Secure Sockets Layer) or TLS (Transport Layer Security) to encrypt 
+communications between an LDAP client and server
+***
+What is the address size of subnet /24-30?
+?
+| Subnet | Address Size |
+| :----- | ------------ |
+| /24    | 254          |
+| /25    | 126          |
+| /26    | 62           |
+| /27    | 30           |
+| /28    | 14           |
+| /29    | 6            |
+| /30    | 2            |
+***
+What is VNC?
+?
+Virtual Network Computing. It is a cross-platform screen sharing system 
+that was created to remotely control another computer
+***
+What is a collision domain?
+?
+a network segment where data packets can "collide" with one another 
+when being sent over a shared medium
+***
+What is the difference between piggybacking and tailgating in security?
+?
+- **Piggybacking**: involves the unauthorized person gaining access to a restricted area 
+***with*** the knowledge or even the consent of the authorized individual
+- **Tailgating**: involves the unauthorized person follows an authorized person into 
+a secured area ***without*** the consent of the authorized individual

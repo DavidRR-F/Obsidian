@@ -70,7 +70,7 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, Security) (: attempts to keep many connections to the target web server open and hold them as long as possible. It accomplishes this by continuously sending partial HTTP requests, which never get completed) (: What is a Slowloris Attack)
 
 🃟 Flaschcard: (-1, 0, Security) (: What is a Amplification Attack) (: In these attacks, the attacker magnifies the volume of the attack by reflecting the traffic off other systems and increasing the amount of data sent to the target)
-🃟 Flaschcard: (1, 16, Security) (: In these attacks, the attacker magnifies the volume of the attack by reflecting the traffic off other systems and increasing the amount of data sent to the target) (: What is a Amplification Attack)
+🃟 Flaschcard: (2, 18, Security) (: In these attacks, the attacker magnifies the volume of the attack by reflecting the traffic off other systems and increasing the amount of data sent to the target) (: What is a Amplification Attack)
 
 🃟 Flaschcard: (-1, 0, Security) (: What is a Smurf Attack) (: attacker sends Internet Control Message Protocol (ICMP)
 ❌️🃟 Flaschcard: (-1, 0, Security) (: attacker sends Internet Control Message Protocol (ICMP) echo requests (pings) to a network broadcast address using a spoofed source address (the target’s IP). Each host on the network responds to the ping request, amplifying the volume of traffic directed at the target) (: What is a Smurf Attack)
@@ -111,7 +111,7 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, Security) (: What is a ACL - Access Control List) (: a list of rules used by routers and firewalls to permit or deny traffic based on IP addresses, ports, or protocols)
 🃟 Flaschcard: (-1, 0, Security) (: a list of rules used by routers and firewalls to permit or deny traffic based on IP addresses, ports, or protocols) (: What is a ACL - Access Control List)
 
-🃟 Flaschcard: (0, 16, Security) (: What is Network Hardening) (: involves implementing various security measures to reduce vulnerabilities and protect against potential threats. This process includes configuring network devices and services to enhance security)
+🃟 Flaschcard: (1, 17, Security) (: What is Network Hardening) (: involves implementing various security measures to reduce vulnerabilities and protect against potential threats. This process includes configuring network devices and services to enhance security)
 🃟 Flaschcard: (-1, 0, Security) (: involves implementing various security measures to reduce vulnerabilities and protect against potential threats. This process includes configuring network devices and services to enhance security) (: What is Network Hardening)
 
 🃟 Flaschcard: (-1, 0, Security) (: What is DAI - Dynamic ARP Inspection) (: a security feature used on switches to mitigate the risk of ARP poisoning/spoofing attacks, where an attacker sends false ARP messages to link their MAC address with the IP address of a legitimate host on the network)

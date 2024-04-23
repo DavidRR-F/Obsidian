@@ -3,7 +3,7 @@ flashcard: true
 ---
 
 🃟 Flaschcard: (-1, 0, Cloud) (: What is a Hypervisor) (: a software, firmware, or hardware that creates and runs virtual machines)
-🃟 Flaschcard: (0, 16, Cloud) (: a software, firmware, or hardware that creates and runs virtual machines) (: What is a Hypervisor)
+🃟 Flaschcard: (1, 17, Cloud) (: a software, firmware, or hardware that creates and runs virtual machines) (: What is a Hypervisor)
 
 🃟 Flaschcard: (-1, 0, Cloud) (: What is a Type 1 Hypervisor) (: These hypervisors run directly on the host's hardware to control the hardware and to manage guest operating systems. They do not require a host operating system. Example VMWare vSphere, Microsoft Hyper-V)
 🃟 Flaschcard: (-1, 0, Cloud) (: These hypervisors run directly on the host's hardware to control the hardware and to manage guest operating systems. They do not require a host operating system. Example VMWare vSphere, Microsoft Hyper-V) (: What is a Type 1 Hypervisor)
@@ -95,7 +95,7 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, Cloud) (: What is High Availability) (: Various concepts and technologies are implemented to achieve this goal, including load balancing, clustering, active-active and active-passive configurations, First Hop Redundancy Protocols (FHRP)
 ❌️🃟 Flaschcard: (-1, 0, Cloud) (: Various concepts and technologies are implemented to achieve this goal, including load balancing, clustering, active-active and active-passive configurations, First Hop Redundancy Protocols (FHRP), and Power Distribution Units (PDUs)) (: What is High Availability)
 
-🃟 Flaschcard: (1, 16, Cloud) (: What is Load Balancing) (: involves distributing incoming network traffic across multiple servers to ensure no single server becomes overwhelmed by demand)
+🃟 Flaschcard: (2, 18, Cloud) (: What is Load Balancing) (: involves distributing incoming network traffic across multiple servers to ensure no single server becomes overwhelmed by demand)
 🃟 Flaschcard: (-1, 0, Cloud) (: involves distributing incoming network traffic across multiple servers to ensure no single server becomes overwhelmed by demand) (: What is Load Balancing)
 
 🃟 Flaschcard: (-1, 0, Cloud) (: What is Clustering) (: refers to the practice of grouping multiple servers so that they work together as a single system to provide higher availability, reliability, and scalability)

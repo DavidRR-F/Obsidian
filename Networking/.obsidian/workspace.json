@@ -4,47 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "9b62be8e1d056efc",
+        "id": "181c52a81523ce9c",
         "type": "tabs",
         "children": [
           {
-            "id": "dd70ecd08401353a",
+            "id": "106f6dca94cab192",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
+                "file": "Networking Fundamentals/Network Protocols.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3cf46752f4b529de",
+            "id": "c1884af5a4c5ea25",
+            "type": "leaf",
+            "state": {
+              "type": "aosr-review-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "b901e943755c34ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Network Configuration and Infra/WAN Connectivity.md",
+                "file": "Network +/Network Components/Ethernet.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "59f8c3a544310212",
+            "id": "beda2e625de438cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Network Components/IP and Subnetting.md",
+                "file": "Network +/Review.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "VNC",
+                "query": "QoS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Network Components/IP and Subnetting.md",
+                "file": "Network +/Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Network Components/IP and Subnetting.md",
+                "file": "Network +/Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Network Components/IP and Subnetting.md"
+                "file": "Network +/Review.md"
               }
             }
           }
@@ -175,11 +182,22 @@
       "aosr:Aosr": false
     }
   },
-  "active": "77daac8c77ff356f",
+  "active": "beda2e625de438cf",
   "lastOpenFiles": [
+    "Pasted image 20240422192627.png",
+    "Network +/Network Components/Ethernet.md",
+    "Network +/Network Monitoring/SIEM.md",
+    "Networking Fundamentals/Network Protocols.md",
+    "Network +/Network Components/Protocols.md",
+    "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
+    "Network +/Network Components/DNS.md",
+    "Networking Fundamentals/Network Devices.md",
+    "Networking Fundamentals/Communication/Routers.md",
+    "Networking Fundamentals/Communication/Hosts.md",
+    "Network +/Review.md",
+    "Network +/Network Components/IP and Subnetting.md",
     "Network +/Flashcards/IP Addressing.md",
     "Network +/Network Monitoring/Metrics.md",
-    "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
     "Network +/Network Components/Wireless Networking.md",
     "Network +/Network Security/Securing TCP - IP.md",
     "Network +/Network Security/Network Attacks/Man in the Middle (On-Path).md",
@@ -193,18 +211,7 @@
     "Network +/Network Configuration and Infra/Physical Network/Troubleshooting Structured Cabling.md",
     "Networking Fundamentals/OSI Model.md",
     "Network +/Network Configuration and Infra/Switch Features.md",
-    "Network +/Network Components/IPv6.md",
-    "Network +/Network Configuration and Infra/Integrating Networked Devices.md",
-    "Network +/Review.md",
-    "Networking Fundamentals/Communication/Routers.md",
-    "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
-    "Network +/Other/LDAP.md",
-    "Network +/Network Configuration and Infra/Physical Network/MDF and IDF.md",
-    "Network +/Network Components/Ethernet.md",
-    "Network +/Other/NAT - PAT.md",
-    "Network +/Network Components/DNS.md",
     "Network +/Other",
-    "Network +/Network Domains.md",
     "images/Pasted image 20240402135936.png",
     "Network +/Flashcards",
     "images/Pasted image 20240324150439.png",

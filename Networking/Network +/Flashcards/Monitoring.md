@@ -75,7 +75,7 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, Monitoring) (: What is a SNMP MIB - Management Information Base) (: a database that defines the structure and organization of managed objects within a device. It contains a collection of managed object definitions, represented in a hierarchical tree structure)
 🃟 Flaschcard: (-1, 0, Monitoring) (: a database that defines the structure and organization of managed objects within a device. It contains a collection of managed object definitions, represented in a hierarchical tree structure) (: What is a SNMP MIB - Management Information Base)
 
-🃟 Flaschcard: (0, 16, Monitoring) (: What are the 3 Operations of SNMP) (: Get, Trap, Walk)
+🃟 Flaschcard: (1, 17, Monitoring) (: What are the 3 Operations of SNMP) (: Get, Trap, Walk)
 🃟 Flaschcard: (-1, 0, Monitoring) (: Get, Trap, Walk) (: What are the 3 Operations of SNMP)
 
 🃟 Flaschcard: (-1, 0, Monitoring) (: What is the SNMP GET Opertion) (: process used by SNMP managers to retrieve specific information from SNMP agents (managed devices)
@@ -99,7 +99,7 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, Monitoring) (: What is Wireshark) (: a graphical network protocol analyzer tool widely used in the networking field. It allows you to capture and interactively browse the traffic running on a computer network)
 🃟 Flaschcard: (-1, 0, Monitoring) (: a graphical network protocol analyzer tool widely used in the networking field. It allows you to capture and interactively browse the traffic running on a computer network) (: What is Wireshark)
 
-🃟 Flaschcard: (1, 16, Monitoring) (: What is `tcpdump`) (: captures packets at the network layer and can interpret packets of most higher-level protocols such as HTTP, FTP, DNS, and others)
+🃟 Flaschcard: (2, 18, Monitoring) (: What is `tcpdump`) (: captures packets at the network layer and can interpret packets of most higher-level protocols such as HTTP, FTP, DNS, and others)
 🃟 Flaschcard: (-1, 0, Monitoring) (: captures packets at the network layer and can interpret packets of most higher-level protocols such as HTTP, FTP, DNS, and others) (: What is `tcpdump`)
 
 🃟 Flaschcard: (-1, 0, Monitoring) (: What is `net`) (: a versatile command-line utility available in Windows operating systems that allows users to view, configure, and troubleshoot network settings and resources)

@@ -34,7 +34,7 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, Routing) (: An exterior gateway protocol designed to exchange routing and reachability information among autonomous systems on the internet) (: What is BGP - Border Gateway Protocol)
 
 ❌️🃟 Flaschcard: (-1, 0, Routing) (: What is IS-IS (Intermediate System to Intermediate System)) (: A link-state routing protocol, similar to OSPF, used to determine the best path for data through a network of packet-switched communication systems)
-🃟 Flaschcard: (1, 16, Routing) (: A link-state routing protocol, similar to OSPF, used to determine the best path for data through a network of packet-switched communication systems) (: What is IS-IS (Intermediate System to Intermediate System)
+🃟 Flaschcard: (0, 16, Routing) (: A link-state routing protocol, similar to OSPF, used to determine the best path for data through a network of packet-switched communication systems) (: What is IS-IS (Intermediate System to Intermediate System)
 
 🃟 Flaschcard: (-1, 0, Routing) (: What is EIGRP - Enhanced Interior Gateway Routing Protocol) (: An advanced distance-vector routing protocol that is used on a computer network for automating routing decisions and configuration)
 🃟 Flaschcard: (-1, 0, Routing) (: An advanced distance-vector routing protocol that is used on a computer network for automating routing decisions and configuration) (: What is EIGRP - Enhanced Interior Gateway Routing Protocol)

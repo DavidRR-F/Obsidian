@@ -505,23 +505,23 @@ networks that directs and carries data from one netowrk node to the next base on
 short path labels rather than long network addresses
 ***
 What is EAP?
-?
+? #AOSR/3r2q5/m/7mp3
 Extensible Authentication Protocol, a framework widely used in wireless networks
 and point-to-point connections, a general structure that allows various
 authentication methods to be "plugged in"
 ***
 What is TTLS?
-?
+? #AOSR/3r2q5/m/60aa
 Tunneled Transport Layer Security, an extention od EAP that creates a secure
 tunnal betwenen the client and the authentication server 
 ***
 What is PAP?
-?
+? #AOSR/3r2q5/m/541v
 Password Authentication Protocol, a simple authentication protocol where
 usernames and passwords are sent over the internet to authenticate users 
 ***
 What are the following error types: Runt, CRC, Encapsulation, Giant
-?
+? #AOSR/3r2q5/m/6mjm
 - **Runt Error**: a packet that is smaller than the minimum allowed size on the
   network
 - **CRC Error**:Cyclic Redundancy Check Error, occurs when the CRC value of a
@@ -531,16 +531,16 @@ packet does not match the calculated CRC value at the receiving end
 - **Gaint Error**: a packet that exceeds the maximum allowed size on the network  
 ***
 What is WiMAX?
-?
+? #AOSR/3r2q5/m/3s9f
 Worldwide Interoperability for Microwave Access, a wireless communication
 standard for high-speed long-distancce broadband.
 ***
 What is a Hub and spoke Network Topology?
-?
+? #AOSR/3r2q5/m/2g59
 another term for Star network topology
 ***
 What is a T1 line demarication point?
-?
+? #AOSR/3r2q5/m/2ejs
 physical point where the telecommunications carrier's responsibility ends and 
 the customer's responsibility begins for a T1 circuit The T1 line is a type of 
 digital transmission service that can carry data at a rate of 1.544 Mbps, and 
@@ -549,7 +549,7 @@ offices, or handling voice communications
 ***
 What do the following security terms mean: Defense in Depth, Least Privilege,
 Zero Trust 
-?
+? #AOSR/3r2q5/m/611p
 - **Defense in Depth**: security strategy that layers multiple security measure
   to protect/prevent access.
 - **Least Privilege**: a security concept that dictates users, systems, and
@@ -558,7 +558,7 @@ programs should have only minimum levels of access or permissions needed
 that they absolutly need
 ***
 What is a ACL entry?
-?
+? #AOSR/3r2q5/m/5evi
 ACL entries, also known as ACL rules, are specific instructions that control the 
 flow of traffic into or out of a network
 - Example:
@@ -568,13 +568,13 @@ permit tcp 10.1.1.0 0.0.0.255 host 192.168.5.10 eq 80  - This entry allows TCP t
 ```
 ***
 What is LDAPS and what port does it use?
-?
+? #AOSR/3r2q5/m/2h35
 a version of the Lightweight Directory Access Protocol (LDAP) that incorporates 
 SSL (Secure Sockets Layer) or TLS (Transport Layer Security) to encrypt 
 communications between an LDAP client and server
 ***
 What is the address size of subnet /24-30?
-?
+? #AOSR/3r2q5/m/rdrc
 | Subnet | Address Size |
 | :----- | ------------ |
 | /24    | 254          |
@@ -586,12 +586,12 @@ What is the address size of subnet /24-30?
 | /30    | 2            |
 ***
 What is VNC?
-?
+? #AOSR/3r2q5/m/gghg
 Virtual Network Computing. It is a cross-platform screen sharing system 
 that was created to remotely control another computer
 ***
 What is a collision domain?
-?
+? #AOSR/3r2q5/m/4jg4
 a network segment where data packets can "collide" with one another 
 when being sent over a shared medium
 ***
@@ -601,3 +601,16 @@ What is the difference between piggybacking and tailgating in security?
 ***with*** the knowledge or even the consent of the authorized individual
 - **Tailgating**: involves the unauthorized person follows an authorized person into 
 a secured area ***without*** the consent of the authorized individual
+
+## Practice Test 
+
+#Q 
+What is a Broadcast Domain?
+?
+a logical segment of a computer network where all nodes can reach each other by sending and receiving broadcast messages
+***
+What is a Collision Domain?
+?
+a network segment where data transmissions from different devices can collide with each other
+![[Pasted image 20240422192627.png]]
+***

@@ -22,7 +22,7 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, Wireless) (: 54 Mbps in the 2.4GHz band) (: 802.11g speed and band)
 
 🃟 Flaschcard: (-1, 0, Wireless) (: 802.11n speed and band) (: 600 Mbps in both the 2.4 GHz and 5 GHz bands)
-🃟 Flaschcard: (0, 16, Wireless) (: 600 Mbps in both the 2.4 GHz and 5 GHz bands) (: 802.11n speed and band)
+🃟 Flaschcard: (1, 17, Wireless) (: 600 Mbps in both the 2.4 GHz and 5 GHz bands) (: 802.11n speed and band)
 
 🃟 Flaschcard: (-1, 0, Wireless) (: 802.11ac speed and band) (: serveral Gbps in the 5GHz band)
 🃟 Flaschcard: (-1, 0, Wireless) (: serveral Gbps in the 5GHz band) (: 802.11ac speed and band)

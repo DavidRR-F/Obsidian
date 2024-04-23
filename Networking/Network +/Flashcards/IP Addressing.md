@@ -24,7 +24,7 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, IP) (: Reserved for multicast addressing and does not divide into network and host portions. Addresses start with '1110', ranging from 224.0.0.0 to 239.255.255.255.) (: What is Class D)
 
 🃟 Flaschcard: (-1, 0, IP) (: What is Class E) (: Reserved for future use, experimental purposes, and starts with '1111', ranging from 240.0.0.0 to 255.255.255.255)
-🃟 Flaschcard: (1, 16, IP) (: Reserved for future use, experimental purposes, and starts with '1111', ranging from 240.0.0.0 to 255.255.255.255) (: What is Class E)
+🃟 Flaschcard: (2, 18, IP) (: Reserved for future use, experimental purposes, and starts with '1111', ranging from 240.0.0.0 to 255.255.255.255) (: What is Class E)
 
 🃟 Flaschcard: (-1, 0, IP) (: What is ARP - Address Resolution Protocol) (: a protocol or procedure that connects an ever-changing Internet Protocol (IP)
 ❌️🃟 Flaschcard: (-1, 0, IP) (: a protocol or procedure that connects an ever-changing Internet Protocol (IP) address to a fixed physical machine address) (: What is ARP - Address Resolution Protocol)
@@ -60,7 +60,7 @@ flashcard: true
 🃟 Flaschcard: (-1, 0, IP) (: this subnet has an address size of 30) (: What is the address size of this subnet /27)
 
 🃟 Flaschcard: (-1, 0, IP) (: What is the address size of this subnet /28) (: this subnet has an address size of 14)
-🃟 Flaschcard: (0, 16, IP) (: this subnet has an address size of 14) (: What is the address size of this subnet /28)
+🃟 Flaschcard: (1, 17, IP) (: this subnet has an address size of 14) (: What is the address size of this subnet /28)
 
 🃟 Flaschcard: (-1, 0, IP) (: What is the address size of this subnet /29) (: this subnet has an address size of 6)
 🃟 Flaschcard: (-1, 0, IP) (: this subnet has an address size of 6) (: What is the address size of this subnet /29)

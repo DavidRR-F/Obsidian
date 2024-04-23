@@ -602,7 +602,8 @@ What is the difference between piggybacking and tailgating in security?
 - **Tailgating**: involves the unauthorized person follows an authorized person into 
 a secured area ***without*** the consent of the authorized individual
 
-## Practice Test 
+## Practice Exam 4 
+ 
 
 #Q 
 What is a Broadcast Domain?
@@ -614,3 +615,55 @@ What is a Collision Domain?
 a network segment where data transmissions from different devices can collide with each other
 ![[Pasted image 20240422192627.png]]
 ***
+What is MPLS?
+? #AOSR/3r2q5/m/nj0j
+Multi-protocol label switching (MPLS) is a mechanism used within computer network infrastructures 
+to speed up the time it takes a data packet to flow from one node to another
+***
+What is MTU?
+? #AOSR/3r2q5/m/q767
+A jumbo frame is an Ethernet frame with a payload greater than the standard 
+maximum transmission unit (MTU) of 1,500 bytes
+***
+What is POP3?
+? #AOSR/3r2q5/m/403s
+Post Office Protocol version 3 (POP3) uses port 110 and is an application-layer Internet 
+standard protocol used by e-mail clients to retrieve e-mail from a mail server.
+Port 995 over SSL
+*** 
+What is IMAP?
+?
+Internet message access protocol, a protocol for receiving email that allows users to access 
+their emails from different devices, port 143/port 993(ssl)
+***
+Whats the difference between POP3 and IMAP?
+?
+- **POP3**: downloads emails from a server to a single computer, making those emails only accessible on that specific computer. 
+- **IMAP**: stores emails on a server and then syncs them across multiple devices.
+*** 
+What is SIEM?
+?
+Security Information and Event Management solution for collecting data from
+various security solutions and analyzing the data
+***
+What is NIPS and HIPS?
+?
+Network IPS and Host IPS
+***
+What is SOP?
+?
+Standard Operating Procedure, procedure documentation specific to your operation that describes the activities 
+necessary to complete tasks in accordance with industry regulations
+***
+What is Administrative Distance?
+?
+Administrative Distance (AD) is a value used by routers to determine the trustworthiness of a routing information source, essentially ranking routing protocols according to their reliability between 0 and 255 were 0 is the most trustworthy
+***
+What is the Administrative distance of the following routing protocols: EIGRP, OSPF, IS-IS, RIP, BGP, IGRP
+?
+**EIGRP**: 90 for internal 170 external
+**OSPF**: 110
+**IS-IS**: 115
+**RIP**: 120
+**BGP**: 20 for external 200 internal
+**IGRP**: 100

@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Network +/Network Components/Routing Protocols.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ea1216eef871f5c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Network +/Review.md",
                 "mode": "source",
                 "source": false
@@ -20,18 +32,15 @@
             }
           },
           {
-            "id": "b901e943755c34ae",
+            "id": "90e672e56ee197a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network +/Network Components/Ethernet.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "aosr-review-view",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,53 +170,18 @@
       "aosr:Aosr": false
     }
   },
-  "floating": {
-    "id": "9d9ca580ec9a544d",
-    "type": "floating",
-    "children": [
-      {
-        "id": "512ad07389acedf0",
-        "type": "window",
-        "children": [
-          {
-            "id": "d9accac462e5cb41",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "beda2e625de438cf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Network +/Network Components/Routing Protocols.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -855,
-        "y": 56,
-        "width": 601,
-        "height": 604,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "106f6dca94cab192",
+  "active": "90e672e56ee197a1",
   "lastOpenFiles": [
     "Network +/Network Components/Routing Protocols.md",
     "Network +/Review.md",
-    "Network +/Network Components/Ethernet.md",
+    "Pasted image 20240424182606.png",
+    "Pasted image 20240424181709.png",
     "Networking Fundamentals/Network Protocols.md",
-    "Network +/Network Components/Routing.md",
-    "Network +/Network Components/Protocols.md",
     "images/Pasted image 20240422192627.png",
+    "Pasted image 20240422192627.png",
+    "Network +/Network Components/Ethernet.md",
     "Network +/Network Monitoring/SIEM.md",
+    "Network +/Network Components/Protocols.md",
     "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
     "Network +/Network Components/DNS.md",
     "Networking Fundamentals/Network Devices.md",
@@ -236,12 +210,9 @@
     "images/Pasted image 20240325104443.png",
     "images/Pasted image 20240325104412.png",
     "images/Pasted image 20240325104323.png",
-    "images/Pasted image 20240325103022.png",
-    "images/Pasted image 20240325102656.png",
     "Network +/Network Configuration and Infra/Physical Network",
     "Network +/Network Monitoring/Network Troubleshooting",
     "Network +/Protecting Networks/Network Attacks",
-    "images/Pasted image 20240322085049.png",
     "Network +/Protecting Networks",
     "Network +/Cabling",
     "Network +",

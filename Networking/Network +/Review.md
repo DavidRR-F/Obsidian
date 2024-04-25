@@ -596,7 +596,7 @@ a network segment where data packets can "collide" with one another
 when being sent over a shared medium
 ***
 What is the difference between piggybacking and tailgating in security?
-?
+? #AOSR/3r2q5/m/3q3l
 - **Piggybacking**: involves the unauthorized person gaining access to a restricted area 
 ***with*** the knowledge or even the consent of the authorized individual
 - **Tailgating**: involves the unauthorized person follows an authorized person into 
@@ -605,28 +605,28 @@ a secured area ***without*** the consent of the authorized individual
 ## Practice Exam 4 
  
 
-#Q 
+#Q  #AOSR/6plhj
 What is a Broadcast Domain?
-?
+? #AOSR/6plhj/m/6rh6
 a logical segment of a computer network where all nodes can reach each other by sending and receiving broadcast messages
 ***
 What is a Collision Domain?
-?
+? #AOSR/6plhj/m/bv5c
 a network segment where data transmissions from different devices can collide with each other
 ![[Pasted image 20240422192627.png]]
 ***
 What is MPLS?
-? #AOSR/3r2q5/m/nj0j
+? #AOSR/6plhj/m/71qe
 Multi-protocol label switching (MPLS) is a mechanism used within computer network infrastructures 
 to speed up the time it takes a data packet to flow from one node to another
 ***
 What is MTU?
-? #AOSR/3r2q5/m/q767
+? #AOSR/6plhj/m/6sou
 A jumbo frame is an Ethernet frame with a payload greater than the standard 
 maximum transmission unit (MTU) of 1,500 bytes
 ***
 What is POP3?
-? #AOSR/3r2q5/m/403s
+? #AOSR/6plhj/m/55ut
 Post Office Protocol version 3 (POP3) uses port 110 and is an application-layer Internet 
 standard protocol used by e-mail clients to retrieve e-mail from a mail server.
 Port 995 over SSL
@@ -637,9 +637,9 @@ Internet message access protocol, a protocol for receiving email that allows use
 their emails from different devices, port 143/port 993(ssl)
 ***
 Whats the difference between POP3 and IMAP?
-?
-- **POP3**: downloads emails from a server to a single computer, making those emails only accessible on that specific computer. 
-- **IMAP**: stores emails on a server and then syncs them across multiple devices.
+? #AOSR/6plhj/m/69gd
+**POP3**: downloads emails from a server to a single computer, making those emails only accessible on that specific computer. 
+**IMAP**: stores emails on a server and then syncs them across multiple devices.
 *** 
 What is SIEM?
 ?
@@ -647,23 +647,23 @@ Security Information and Event Management solution for collecting data from
 various security solutions and analyzing the data
 ***
 What is NIPS and HIPS?
-?
+? #AOSR/6plhj/m/3m63
 Network IPS and Host IPS
 ***
 What is SOP?
-?
+? #AOSR/6plhj/m/7uor
 Standard Operating Procedure, procedure documentation specific to your operation that describes the activities 
 necessary to complete tasks in accordance with industry regulations
 ***
 What is Administrative Distance?
-?
+? #AOSR/6plhj/m/2nc9
 Administrative Distance (AD) is a value used by routers to determine the trustworthiness of a routing information source, essentially ranking routing protocols according to their reliability between 0 and 255 were 0 is the most trustworthy
 ***
 What is the Administrative distance of the following routing protocols: EIGRP, OSPF, IS-IS, RIP, BGP, IGRP
-?
-**EIGRP**: 90 for internal 170 external
-**OSPF**: 110
-**IS-IS**: 115
-**RIP**: 120
-**BGP**: 20 for external 200 internal
-**IGRP**: 100
+? #AOSR/6plhj/m/73or
+**EIGRP**: 90 for internal 170 external (Hybrid Routing Protocol)
+**OSPF**: 110 (Link Stating Protocol)
+**IS-IS**: 115 (Link State Protocol)
+**RIP**: 120 (Distance Vector Protocol)
+**BGP**: 20 for external 200 internal (Path Vector Protocol)
+**IGRP**: 100 (Distance Vector Routing Protocol)

@@ -1,4 +1,4 @@
-DNS, or Domain Name System, is a hierarchical and decentralized naming system used to identify computers, services, and other resources reachable through the Internet or private networks. It associates various information with domain names assigned to each of the participating entities. Most notably, it translates more readily memorized domain names to the numerical IP addresses needed for locating and identifying computer services and devices with the underlying network protocols.
+ DNS, or Domain Name System, is a hierarchical and decentralized naming system used to identify computers, services, and other resources reachable through the Internet or private networks. It associates various information with domain names assigned to each of the participating entities. Most notably, it translates more readily memorized domain names to the numerical IP addresses needed for locating and identifying computer services and devices with the underlying network protocols.
 
 FQFN - Fully Qualified Domain Name:
 

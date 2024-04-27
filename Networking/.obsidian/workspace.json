@@ -4,43 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "181c52a81523ce9c",
+        "id": "69ce43f2ff04cecf",
         "type": "tabs",
         "children": [
           {
-            "id": "106f6dca94cab192",
+            "id": "972a6c579ec3078c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network +/Network Components/Routing Protocols.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea1216eef871f5c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network +/Review.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "90e672e56ee197a1",
-            "type": "leaf",
-            "state": {
-              "type": "aosr-review-view",
+              "type": "empty",
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Network +/Review.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -170,12 +141,14 @@
       "aosr:Aosr": false
     }
   },
-  "active": "90e672e56ee197a1",
+  "active": "972a6c579ec3078c",
   "lastOpenFiles": [
-    "Network +/Network Components/Routing Protocols.md",
     "Network +/Review.md",
-    "Pasted image 20240424182606.png",
-    "Pasted image 20240424181709.png",
+    "Network +/Network Components/DNS.md",
+    "Network +/Network Components/IPv6.md",
+    "Network +/Network Components/Routing Protocols.md",
+    "images/Pasted image 20240424182606.png",
+    "images/Pasted image 20240424181709.png",
     "Networking Fundamentals/Network Protocols.md",
     "images/Pasted image 20240422192627.png",
     "Pasted image 20240422192627.png",
@@ -183,7 +156,6 @@
     "Network +/Network Monitoring/SIEM.md",
     "Network +/Network Components/Protocols.md",
     "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
-    "Network +/Network Components/DNS.md",
     "Networking Fundamentals/Network Devices.md",
     "Networking Fundamentals/Communication/Routers.md",
     "Networking Fundamentals/Communication/Hosts.md",

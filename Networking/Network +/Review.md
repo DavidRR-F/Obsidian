@@ -603,7 +603,6 @@ What is the difference between piggybacking and tailgating in security?
 a secured area ***without*** the consent of the authorized individual
 
 ## Practice Exam 4 
- 
 
 #Q  #AOSR/6plhj
 What is a Broadcast Domain?
@@ -667,3 +666,156 @@ What is the Administrative distance of the following routing protocols: EIGRP, O
 **RIP**: 120 (Distance Vector Protocol)
 **BGP**: 20 for external 200 internal (Path Vector Protocol)
 **IGRP**: 100 (Distance Vector Routing Protocol)
+
+
+# Practice Test 5 
+
+- [ ] Tf is T1/T3 - E1/E3  
+- [ ] Router/Switch Configuration Files
+- [x] IPv6 In General (Router Advertisement/Address Ranges)
+- [ ] NAT Types SNAT DNAT GNAT PAT
+
+#Q  #AOSR/47vhb
+What is the address range for IPv6 link local addresses?
+? #AOSR/47vhb/m/5ik2
+Link-Local addresses are used for communication between nodes on the same network segment with 
+an address range of FE80::/10.  
+
+#Q
+What is the address range for IPv6 multicast addresses?
+? #AOSR/47vhb/m/5td1
+Multicast is a method used to send network traffic from one source to a group of receivers
+with an address range of FF00::/8.
+
+#Q 
+What is the address range for IPv6 unique local unicast addresses?
+? #AOSR/47vhb/m/5ogr
+Unique local addresses are also known as private IPv6 addresses or local IPv6
+addresses with an address rang of FC00::/7. 
+
+#Q 
+What is the address range for IPv6 global unicast addresses?
+? #AOSR/47vhb/m/5ogr
+globally routable and reachable IPv6 address with an address range of 2000::/3. 
+
+
+#Q  
+What is the difference between Link Local and Local Unicast IPv6 Addresses?
+? #AOSR/47vhb/m/38e2
+**Link local Address**: used in one single network segment and cant be routed
+to.
+**Local Unicast Address**: used withing routing domain and can be routed to.
+
+#Q 
+What is a Router Advertisement?
+?
+Router Advertisement Protocol in an IPv6 protocol that allows hosts to create
+the own IPv6 addresses based on their MAC addresses
+
+#Q  #AOSR/7duk0
+What is Router Solicitation?
+? #AOSR/7duk0/m/1sb6
+Router Solicitation mesages are used by hosts to locate routers in their local
+network segment
+
+#Q 
+What is NDP?
+? #AOSR/47vhb/m/3hjm
+Neighbor Discovery Protocol, as an IPv6 protocol that allows hosts in a netowrk
+to dicover each others' Layer 2 addrresses (ARP for IPv6)
+
+#Q 
+Why doesn't IPv6 need to use NAT?
+? #AOSR/47vhb/m/70n9
+NAT is used to map multiple private addresses inside a local network to a
+public IP address which is used because of a lack of IPv4 addresses. IPv6 has a
+larger address pool and therefore does not need to use NAT.
+
+#Q 
+What is EIRP?
+?
+Effective Isotopic radiated power, measures the maximum power that an antenna
+can radiate
+
+#Q 
+What is MPLS?
+?
+Multi protocol Label Switching, is a switching mechanism that puts labels on
+data and then uses those labels to foward the data
+
+#Q 
+What is AES?
+?
+Advanced Encryption Standard is considered the most secure Data Encrpytion
+Standard available in 128/192-bit keys.
+
+#Q 
+What is ICA?
+?
+Independant Computing Architecture, Developed by Citrix, a user on one OS can
+remotly access applications running on a computer with a different OS
+
+#Q 
+What is CSMA/CA?
+?
+designed to avoid collisions on wireless networks
+
+#Q 
+What is HSRP?
+?
+Hot Standby Router Protocol, is a redundacny protocol that allows you to configure 
+two or more routers as standby routers and only a single router as an active router 
+at a time (Essential Having redundant routers incase one fails)
+
+#Q 
+What is VRRP?
+?
+Virtual Router Redundancy Protocol, is a redundacy protocol that establishes
+virtual routers with a master router with the others acting as backups incase 
+the master fails
+
+#Q 
+What is the difference between HSRP and VRRP?
+?
+While they both automatically assign available IP routers to hosts, In HSRP, 
+the owner and standby routers exchange frames. In VRRP, 
+the master router sends VRRP frames to backup routers, but the backup routers are silent
+
+#Q 
+What is Z-wave?
+?
+A wireless communication protocol for IoT devices to connect and exchange
+control commands and data with each other
+
+
+#Q 
+What is a T1 line?
+?
+a twisted copper wire that transfers voice and data from one location to another via digital 
+signals and provides 1.544 Mbps of Bandwidth - North American Line
+
+#Q 
+What is T3?
+?
+an ultra high-speed connection capable of transmitting data
+and provides 44.7 Mbps of Bandwidth - North American Line
+
+#Q 
+What is E1?
+?
+T1 lines European counterpart
+provides 2.048 Mbps of Bandwidth
+
+#Q 
+What is E3?
+?
+T3 lines European counterpart
+provides 34.368 Mbps of Bandwidth
+
+#Q 
+What is RSSI?
+?
+Recieved Signal Strangth Indication, measuers the power level of a wireless
+signal being recieved from a device
+
+

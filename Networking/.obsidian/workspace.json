@@ -11,8 +11,12 @@
             "id": "972a6c579ec3078c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Network +/Review.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "QoS",
+                "query": "EIGRP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Network +/Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Network +/Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Network +/Review.md"
+              }
             }
           }
         ]
@@ -143,7 +152,10 @@
   },
   "active": "972a6c579ec3078c",
   "lastOpenFiles": [
+    "Network +/Network Configuration and Infra/Physical Network/Terminating Structured Cabling.md",
     "Network +/Review.md",
+    "Network +/Network Components/Ethernet.md",
+    "Network +/Network Configuration and Infra/Datacenters.md",
     "Network +/Network Components/DNS.md",
     "Network +/Network Components/IPv6.md",
     "Network +/Network Components/Routing Protocols.md",
@@ -152,7 +164,6 @@
     "Networking Fundamentals/Network Protocols.md",
     "images/Pasted image 20240422192627.png",
     "Pasted image 20240422192627.png",
-    "Network +/Network Components/Ethernet.md",
     "Network +/Network Monitoring/SIEM.md",
     "Network +/Network Components/Protocols.md",
     "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
@@ -170,10 +181,8 @@
     "Network +/Network Security/Network Defense/Network Hardening.md",
     "Network +/Network Security/Network Defense/Firewalls.md",
     "Network +/IT Procedures/Network Operations.md",
-    "Network +/Network Configuration and Infra/Datacenters.md",
     "Network +/Review.md~",
     "Network +/Network Configuration and Infra/Physical Network/Troubleshooting Structured Cabling.md",
-    "Networking Fundamentals/OSI Model.md",
     "Network +/Other",
     "images/Pasted image 20240402135936.png",
     "Network +/Flashcards",

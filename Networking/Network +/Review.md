@@ -818,4 +818,64 @@ What is RSSI?
 Recieved Signal Strangth Indication, measuers the power level of a wireless
 signal being recieved from a device
 
+#Q 
+What is iSCSI?
+?
+(Pronounced I-scuzzy), Internet Small Computer System Interface, Is a protocol
+to allow multiple users to access network drives remotely over a TCP/IP network
+by setting up a shared storage network.
+
+#Q 
+What are the components of iSCSI?
+?
+**Initiator**: the hardware/software installed on a client to send data
+**Target**: the server the hosts the storage resources
+
+#Q 
+What is the term for the maximum acceptable amount of power loss on an optical
+link?
+?
+Link Budget
+
+#Q 
+What is MDIX?
+?
+A switch feature that ditects the type of cable connected and configures the
+port accordingly (no need to worry about using corssover vs straight-through
+cable)
+
+#Q 
+What kind of cable is fire-retardent?
+?
+Plenum
+
+#Q 
+What are the pin colors 1-8 of the 568B wiring standard?
+?
+1 Orange/White
+2 Orange 
+3 Green/White 
+4 Blue 
+5 Blue/White 
+6 Green 
+7 Brown/White 
+8 Brown
+
+- [ ] DSSS OFDM
+
+
+
+# Learn cli tools 
+
+- [ ] ping 
+- [ ] route
+- [ ] traceroute
+- [ ] dig 
+- [ ] netstat 
+- [ ] nbstat
+- [ ] ipconfig/ifconfig 
+- [ ] nmap 
+- [ ] tracert
+- [ ] nslookup
+
 

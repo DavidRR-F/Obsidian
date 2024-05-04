@@ -679,36 +679,36 @@ What is the Administrative distance of the following routing protocols: EIGRP, O
 What is the address range for IPv6 link local addresses?
 ? #AOSR/47vhb/m/5ik2
 Link-Local addresses are used for communication between nodes on the same network segment with 
-an address range of FE80::/10.  
+an address range of FE80::/10.   #AOSR/47vhb/s/3aes
 
-#Q
+#Q #AOSR/6fgmb
 What is the address range for IPv6 multicast addresses?
-? #AOSR/47vhb/m/5td1
+? #AOSR/6fgmb/m/3m8q
 Multicast is a method used to send network traffic from one source to a group of receivers
-with an address range of FF00::/8.
+with an address range of FF00::/8. #AOSR/6fgmb/s/6mqk
 
-#Q 
+#Q  #AOSR/66lrs
 What is the address range for IPv6 unique local unicast addresses?
-? #AOSR/47vhb/m/5ogr
+? #AOSR/66lrs/m/7nth
 Unique local addresses are also known as private IPv6 addresses or local IPv6
-addresses with an address rang of FC00::/7. 
+addresses with an address rang of FC00::/7.  #AOSR/66lrs/s/13bc
 
-#Q 
+#Q  #AOSR/7n7u7
 What is the address range for IPv6 global unicast addresses?
-? #AOSR/47vhb/m/5ogr
-globally routable and reachable IPv6 address with an address range of 2000::/3. 
+? #AOSR/7n7u7/m/6hhi
+globally routable and reachable IPv6 address with an address range of 2000::/3.  #AOSR/7n7u7/s/4pgs
 
 
-#Q  
+#Q   #AOSR/el7d1
 What is the difference between Link Local and Local Unicast IPv6 Addresses?
-? #AOSR/47vhb/m/38e2
+? #AOSR/el7d1/m/76j0
 **Link local Address**: used in one single network segment and cant be routed
 to.
 **Local Unicast Address**: used withing routing domain and can be routed to.
 
-#Q 
+#Q  #AOSR/r87au
 What is a Router Advertisement?
-?
+? #AOSR/r87au/m/247n
 Router Advertisement Protocol in an IPv6 protocol that allows hosts to create
 the own IPv6 addresses based on their MAC addresses
 
@@ -718,140 +718,140 @@ What is Router Solicitation?
 Router Solicitation mesages are used by hosts to locate routers in their local
 network segment
 
-#Q 
+#Q  #AOSR/2rusg
 What is NDP?
-? #AOSR/47vhb/m/3hjm
+? #AOSR/2rusg/m/3hbp
 Neighbor Discovery Protocol, as an IPv6 protocol that allows hosts in a netowrk
 to dicover each others' Layer 2 addrresses (ARP for IPv6)
 
-#Q 
+#Q  #AOSR/4r80f
 Why doesn't IPv6 need to use NAT?
-? #AOSR/47vhb/m/70n9
+? #AOSR/4r80f/m/780n
 NAT is used to map multiple private addresses inside a local network to a
 public IP address which is used because of a lack of IPv4 addresses. IPv6 has a
 larger address pool and therefore does not need to use NAT.
 
-#Q 
+#Q  #AOSR/6aodl
 What is EIRP?
-?
+? #AOSR/6aodl/m/54nv
 Effective Isotopic radiated power, measures the maximum power that an antenna
 can radiate
 
-#Q 
+#Q  #AOSR/15eku
 What is MPLS?
-?
+? #AOSR/15eku/m/2q7u
 Multi protocol Label Switching, is a switching mechanism that puts labels on
 data and then uses those labels to foward the data
 
-#Q 
+#Q  #AOSR/460g1
 What is AES?
-?
+? #AOSR/460g1/m/2sab
 Advanced Encryption Standard is considered the most secure Data Encrpytion
 Standard available in 128/192-bit keys.
 
-#Q 
+#Q  #AOSR/2aqrg
 What is ICA?
-?
+? #AOSR/2aqrg/m/5e78
 Independant Computing Architecture, Developed by Citrix, a user on one OS can
 remotly access applications running on a computer with a different OS
 
-#Q 
+#Q  #AOSR/l8fi9
 What is CSMA/CA?
-?
+? #AOSR/l8fi9/m/684t
 designed to avoid collisions on wireless networks
 
-#Q 
+#Q  #AOSR/45e8b
 What is HSRP?
-?
+? #AOSR/45e8b/m/5vou
 Hot Standby Router Protocol, is a redundacny protocol that allows you to configure 
 two or more routers as standby routers and only a single router as an active router 
 at a time (Essential Having redundant routers incase one fails)
 
-#Q 
+#Q  #AOSR/513e2
 What is VRRP?
-?
+? #AOSR/513e2/m/4r3g
 Virtual Router Redundancy Protocol, is a redundacy protocol that establishes
 virtual routers with a master router with the others acting as backups incase 
 the master fails
 
-#Q 
+#Q  #AOSR/3m64j
 What is the difference between HSRP and VRRP?
-?
+? #AOSR/3m64j/m/10k2
 While they both automatically assign available IP routers to hosts, In HSRP, 
 the owner and standby routers exchange frames. In VRRP, 
 the master router sends VRRP frames to backup routers, but the backup routers are silent
 
-#Q 
+#Q  #AOSR/3rv1e
 What is Z-wave?
-?
+? #AOSR/3rv1e/m/4d1g
 A wireless communication protocol for IoT devices to connect and exchange
 control commands and data with each other
 
 
-#Q 
+#Q  #AOSR/5tvlp
 What is a T1 line?
-?
+? #AOSR/5tvlp/m/1buq
 a twisted copper wire that transfers voice and data from one location to another via digital 
 signals and provides 1.544 Mbps of Bandwidth - North American Line
 
-#Q 
+#Q  #AOSR/2v49n
 What is T3?
-?
+? #AOSR/2v49n/m/17j1
 an ultra high-speed connection capable of transmitting data
 and provides 44.7 Mbps of Bandwidth - North American Line
 
-#Q 
+#Q  #AOSR/7bhpi
 What is E1?
-?
+? #AOSR/7bhpi/m/280i
 T1 lines European counterpart
 provides 2.048 Mbps of Bandwidth
 
-#Q 
+#Q  #AOSR/5fdcg
 What is E3?
-?
+? #AOSR/5fdcg/m/z756
 T3 lines European counterpart
 provides 34.368 Mbps of Bandwidth
 
-#Q 
+#Q  #AOSR/1tiqm
 What is RSSI?
-?
+? #AOSR/1tiqm/m/4l4q
 Recieved Signal Strangth Indication, measuers the power level of a wireless
 signal being recieved from a device
 
-#Q 
+#Q  #AOSR/3qgis
 What is iSCSI?
-?
+? #AOSR/3qgis/m/mhen
 (Pronounced I-scuzzy), Internet Small Computer System Interface, Is a protocol
 to allow multiple users to access network drives remotely over a TCP/IP network
 by setting up a shared storage network.
 
-#Q 
+#Q  #AOSR/69lg4
 What are the components of iSCSI?
-?
+? #AOSR/69lg4/m/7uao
 **Initiator**: the hardware/software installed on a client to send data
 **Target**: the server the hosts the storage resources
 
-#Q 
+#Q  #AOSR/2vah1
 What is the term for the maximum acceptable amount of power loss on an optical
 link?
-?
+? #AOSR/2vah1/m/6qio
 Link Budget
 
-#Q 
+#Q  #AOSR/4ronq
 What is MDIX?
-?
+? #AOSR/4ronq/m/69tk
 A switch feature that ditects the type of cable connected and configures the
 port accordingly (no need to worry about using corssover vs straight-through
 cable)
 
-#Q 
+#Q  #AOSR/hkova
 What kind of cable is fire-retardent?
-?
+? #AOSR/hkova/m/5vd5
 Plenum
 
-#Q 
+#Q  #AOSR/6dnl8
 What are the pin colors 1-8 of the 568B wiring standard?
-?
+? #AOSR/6dnl8/m/4g81
 1 Orange/White
 2 Orange 
 3 Green/White 
@@ -861,7 +861,16 @@ What are the pin colors 1-8 of the 568B wiring standard?
 7 Brown/White 
 8 Brown
 
+#Q  #AOSR/49td1
+What is Quality of Service?
+? #AOSR/49td1/m/4upn
+a set of tools used to improve network performance for certain types of traffic
+
 - [ ] DSSS OFDM
+- [x] QoS - Quality of Service
+- [ ] DNS EDNS,iDNS,NDNS,PDNS Types and protocols
+- [ ] Firewall Implicit/explicit rules
+- [ ] DSS WSS LSS BSS
 
 
 

@@ -861,18 +861,118 @@ What are the pin colors 1-8 of the 568B wiring standard?
 7 Brown/White 
 8 Brown
 
+#Q 
+What are the pin colors 1-8 of the 568A wiring standard?
+?
+1 Green/White 
+2 Green 
+3 Orange/White
+4 Blue 
+5 Blue/White 
+6 Orange 
+7 Brown/White 
+8 Brown 
+
+#Q 
+What wiring standard is used on a straight-through and crossover cable?
+?
+**Straight-Through**: T-568B on both ends 
+**Crossover**: T-568A on one end and T-568B on the other 
+
+#Q 
+What is DWDM?
+?
+Dence wavelength-division multiplexing, is a high-spped optical network type
+used in MANs that can support up to 160 simultaneous connections.
+
 #Q  #AOSR/49td1
 What is Quality of Service?
 ? #AOSR/49td1/m/4upn
 a set of tools used to improve network performance for certain types of traffic
 
+#Q 
+What is this difference between Implicit and Explicit FIrewall rules?
+?
+**Explicit**: Specifically defined by admin on predefined criteria such as IP,
+port, etc..
+**Implicit**: applied by default without being define. 
+
+#Q 
+What is a Captive Portal?
+Web Pages that are displayed to users when they attempt to connect to a public Wi-Fi
+
+#Q What is the difference between a stateful and application-aware firewall?
+?
+**Application-Aware**: Operates on Layer 5-7 
+**Stateful**: Operates on Layer 3-4
+
+#Q 
+What is the difference between a wiring diagram and physical network diagram? 
+?
+**Wiring Diagram**: Clearly label cable to port connections 
+**Physical Network Diagram**: Show actual physical arragenment of the components
+that make up the network
+
+#Q 
+What is a cable short?
+?
+An unintended connection between two points allowing current to flow where it
+should not 
+
+#Q 
+What is a cable open? 
+?
+Opposite of a short, where there is no connection between two points were there
+should be current
+
+#Q 
+What is Kerberos?
+An authentication protocol designed to send data over insecure networks while
+using strong encryption to protect information
+
+#Q 
+What is MU-MIMO?
+?
+Multi-user, Multi-input, Multi-output technology, allows a wap to communicate
+with multiple devices simultaniously to decrease the time each device has to
+wait for a signal. 
+
+#Q 
+What is a Hot, Warm Cold, and Cloud Site?
+?
+**Hot**: fully operational site
+**Warm**: has hardware and software lacks data  
+**Cold**:  has just power cooling
+**Cloud**: cloud base disaser recovery 
+
+#Q 
+What is Seperation of Duties?
+?
+ensures no single personel can exploit organization processes by having more
+than one person required to complete a task 
+
+#Q 
+What is a screend subnet? 
+?
+a DMZ 
+
+
+
+
+
+
 - [ ] DSSS OFDM
 - [x] QoS - Quality of Service
 - [ ] DNS EDNS,iDNS,NDNS,PDNS Types and protocols
-- [ ] Firewall Implicit/explicit rules
+- [x] Firewall Implicit/explicit rules
 - [ ] DSS WSS LSS BSS
 
+# Learn Cisco Switch Commands 
 
+- [ ] show route 
+- [ ] show config 
+- [ ] show diagnostic 
+- [ ] show interface 
 
 # Learn cli tools 
 

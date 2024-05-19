@@ -861,9 +861,9 @@ What are the pin colors 1-8 of the 568B wiring standard?
 7 Brown/White 
 8 Brown
 
-#Q 
+#Q  #AOSR/3tnop
 What are the pin colors 1-8 of the 568A wiring standard?
-?
+? #AOSR/3tnop/m/605q
 1 Green/White 
 2 Green 
 3 Orange/White
@@ -873,15 +873,15 @@ What are the pin colors 1-8 of the 568A wiring standard?
 7 Brown/White 
 8 Brown 
 
-#Q 
+#Q  #AOSR/4v8m9
 What wiring standard is used on a straight-through and crossover cable?
-?
+? #AOSR/4v8m9/m/3v7r
 **Straight-Through**: T-568B on both ends 
 **Crossover**: T-568A on one end and T-568B on the other 
 
-#Q 
+#Q  #AOSR/2ptn3
 What is DWDM?
-?
+? #AOSR/2ptn3/m/5ddq
 Dence wavelength-division multiplexing, is a high-spped optical network type
 used in MANs that can support up to 160 simultaneous connections.
 
@@ -890,9 +890,9 @@ What is Quality of Service?
 ? #AOSR/49td1/m/4upn
 a set of tools used to improve network performance for certain types of traffic
 
-#Q 
+#Q  #AOSR/78k9n
 What is this difference between Implicit and Explicit FIrewall rules?
-?
+? #AOSR/78k9n/m/5dim
 **Explicit**: Specifically defined by admin on predefined criteria such as IP,
 port, etc..
 **Implicit**: applied by default without being define. 
@@ -906,22 +906,22 @@ Web Pages that are displayed to users when they attempt to connect to a public W
 **Application-Aware**: Operates on Layer 5-7 
 **Stateful**: Operates on Layer 3-4
 
-#Q 
+#Q  #AOSR/11q4b
 What is the difference between a wiring diagram and physical network diagram? 
-?
+? #AOSR/11q4b/m/6vqv
 **Wiring Diagram**: Clearly label cable to port connections 
 **Physical Network Diagram**: Show actual physical arragenment of the components
 that make up the network
 
-#Q 
+#Q  #AOSR/3djte
 What is a cable short?
-?
+? #AOSR/3djte/m/2an6
 An unintended connection between two points allowing current to flow where it
 should not 
 
-#Q 
+#Q  #AOSR/5b92g
 What is a cable open? 
-?
+? #AOSR/5b92g/m/5ijq
 Opposite of a short, where there is no connection between two points were there
 should be current
 
@@ -930,30 +930,30 @@ What is Kerberos?
 An authentication protocol designed to send data over insecure networks while
 using strong encryption to protect information
 
-#Q 
+#Q  #AOSR/vacme
 What is MU-MIMO?
-?
+? #AOSR/vacme/m/e16c
 Multi-user, Multi-input, Multi-output technology, allows a wap to communicate
 with multiple devices simultaniously to decrease the time each device has to
 wait for a signal. 
 
-#Q 
+#Q  #AOSR/u59nt
 What is a Hot, Warm Cold, and Cloud Site?
-?
+? #AOSR/u59nt/m/6ifa
 **Hot**: fully operational site
 **Warm**: has hardware and software lacks data  
 **Cold**:  has just power cooling
 **Cloud**: cloud base disaser recovery 
 
-#Q 
+#Q  #AOSR/7smob
 What is Seperation of Duties?
-?
+? #AOSR/7smob/m/8o14
 ensures no single personel can exploit organization processes by having more
 than one person required to complete a task 
 
-#Q 
+#Q  #AOSR/2avq0
 What is a screend subnet? 
-?
+? #AOSR/2avq0/m/3ke4
 a DMZ 
 
 

@@ -679,7 +679,7 @@ What is the Administrative distance of the following routing protocols: EIGRP, O
 What is the address range for IPv6 link local addresses?
 ? #AOSR/47vhb/m/5ik2
 Link-Local addresses are used for communication between nodes on the same network segment with 
-an address range of FE80::/10.   #AOSR/47vhb/s/3aes
+an address range of FE80::/10.   #AOSR/47vhb/s/3aes #AOSR/efnjd/s/7t6v
 
 #Q #AOSR/6fgmb
 What is the address range for IPv6 multicast addresses?

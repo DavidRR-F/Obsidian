@@ -119,7 +119,10 @@ DNS (Domain Name System) uses various types of records to provide essential info
 - **Purpose**: Used to specify which mail servers are permitted to send email on behalf of a domain, aiming to reduce spam. (Note: While SPF was historically implemented as a separate record type, it is now typically included as part of a TXT record.)
 - **Example**: `example.com IN TXT "v=spf1 include:_spf.google.com ~all"`
 
-#### 11. NAPTR (Naming Authority Pointer) Record
+#### 11. DKIM (Domain Keys Identified Mail)
+
+- Purpose: Used to digitally sign your outgoing mail with a public key so that the reciever can validate the mail
+#### 12. NAPTR (Naming Authority Pointer) Record
 
 - **Purpose**: Used in dynamic delegation discovery systems that implement ENUM (E.164 Number Mapping) and other services to map telephone numbers and other identifiers to URIs (Uniform Resource Identifiers) and DNS records.
 - **Example**: `2.1.2.0.4.4.1.e164.arpa IN NAPTR 100 10 "u" "E2U+sip" "!^.*$!sip:number@example.com!" .`

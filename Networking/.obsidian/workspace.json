@@ -8,39 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "972a6c579ec3078c",
+            "id": "0f87b01f450883c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network +/Network Components/Routing Protocols.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c429c3e82291f62c",
-            "type": "leaf",
-            "state": {
-              "type": "aosr-review-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "9117ee3c1248b3dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network +/Review.md",
+                "file": "Network +/Final Review.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Review.md",
+                "file": "Network +/Final Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Review.md",
+                "file": "Network +/Final Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Review.md"
+                "file": "Network +/Final Review.md"
               }
             }
           }
@@ -170,15 +149,55 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9117ee3c1248b3dc",
+  "floating": {
+    "id": "99289efd4139f3a2",
+    "type": "floating",
+    "children": [
+      {
+        "id": "b6085b57e7fa4dc2",
+        "type": "window",
+        "children": [
+          {
+            "id": "c4315872028a94c4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9117ee3c1248b3dc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Network +/Network Components/DNS.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1080,
+        "y": 0,
+        "width": 1080,
+        "height": 936,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "0f87b01f450883c5",
   "lastOpenFiles": [
+    "Network +/Network Components/DNS.md",
+    "Network +/Final Review.md",
+    "Network +/Review.md",
+    "Pasted image 20240602141302.png",
+    "Network +/Network Configuration and Infra/Datacenters.md",
+    "Network +/Flashcards/Cloud.md",
     "Network +/Review.md~",
     "Network +/Network Components/Routing Protocols.md",
-    "Network +/Review.md",
     "Network +/Network Configuration and Infra/Physical Network/Terminating Structured Cabling.md",
     "Network +/Network Components/Ethernet.md",
-    "Network +/Network Configuration and Infra/Datacenters.md",
-    "Network +/Network Components/DNS.md",
     "Network +/Network Components/IPv6.md",
     "images/Pasted image 20240424182606.png",
     "images/Pasted image 20240424181709.png",
@@ -200,8 +219,6 @@
     "Network +/Network Configuration and Infra/WAN Connectivity.md",
     "Network +/Network Monitoring/Documenting Logs.md",
     "Network +/Network Security/Network Defense/Network Hardening.md",
-    "Network +/Network Security/Network Defense/Firewalls.md",
-    "Network +/IT Procedures/Network Operations.md",
     "Network +/Other",
     "images/Pasted image 20240402135936.png",
     "Network +/Flashcards",
@@ -209,7 +226,6 @@
     "images/Pasted image 20240325104747.png",
     "images/Pasted image 20240325104443.png",
     "images/Pasted image 20240325104412.png",
-    "images/Pasted image 20240325104323.png",
     "Network +/Network Configuration and Infra/Physical Network",
     "Network +/Network Monitoring/Network Troubleshooting",
     "Network +/Protecting Networks/Network Attacks",

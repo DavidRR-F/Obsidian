@@ -18,6 +18,7 @@ tags: []
 
 #### Modulation
 
+
 ### 802.1
 #Q 
 What is 802.1Q?
@@ -204,3 +205,48 @@ Allows admins to add arbitrary text to a DNS entry
 
 ![[Pasted image 20240602141302.png]]
 
+#Q 
+What is the Routing Metric for Link State Routing Protocols?
+***
+Cost
+
+#Q 
+What is the Routing Metric for Distance Vector Protocols?
+***
+Bandwidth
+
+#Q 
+What is OSPF?
+***
+IGP: Link State Routing Protocol
+AD: 110
+
+#Q 
+What is IS-IS?
+***
+IGP: Link State Routing Protocol
+AD: 115
+
+#Q 
+What is RIP?
+***
+IDGP: Distance Vector Routing Protocol
+AD: 120
+
+#Q 
+What is IGRP?
+***
+IGP: Distance Vector Routing Protocol
+AD: 100
+
+#Q 
+What is EIGRP?
+***
+IGP: Hybrid Routing Protocol
+AD: 170
+
+#Q 
+What is BGP?
+***
+EGP: Path Vector Routing Protocol
+AD: 20

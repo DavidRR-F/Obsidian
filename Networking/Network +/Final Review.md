@@ -5,16 +5,133 @@ tags: []
 ---
 
 - [x] DNS Record Types/Steps
-- [ ] DHCP Steps
-- [ ] 802.11 memorize
-- [ ] 802.1 memorize
+- [x] DHCP Steps
+- [x] 802.11 memorize
+- [x] 802.1 memorize
 - [ ] 802.3 memorize
 - [x] Dynamic Routing Protocols AD/Types
-- [ ] STP States Blocking Listening Learning Forwarding
+- [x] STP States Blocking Listening Learning Forwarding
 - [ ] OC, T, E line memorize Mbps
 - [ ] Wireless Overview
 
+### Wireless
+
+#### Modulation
+
+### 802.1
+#Q 
+What is 802.1Q?
+***
+Defines standard for single vlan tagging on ethernet frames
+
+#Q 
+What is 802.1d?
+***
+Defines Mac Bridging and STP, how data frames are forwarded between network segments
+
+#Q
+What is 802.1af?
+***
+Provides a framework for distributing and managing crpyt-keys for secure communication
+
+#Q 
+What is 802.1ad?
+Extends vlan tagging to support multiple layers of tags (double tagging)
+
+#Q 
+What is 802.1ax?
+***
+Link Aggregation, Specifies protocols for combining multiple physical ports (LACP)
+
+#Q 
+What is 802.1x?
+Provides mechanism for authenticating devices that connect to a LAN or WLAN (EAP)
+
+#Q 
+What is 802.1i?
+***
+Defines priority levels of traffic, enabling QoS
+### 802.3
+
+### 802.11
+
+#Q 
+What is 802.11a?
+***
+WLAN Standard:
+- **Frequency**: 5 GHz band.
+- **Maximum Data Rate**: 54 Mbps.
+- **Modulation**: Orthogonal Frequency Division Multiplexing (OFDM).
+
+#Q 
+What is 802.11b?
+***
+WLAN Standard: 
+- **Frequency**: 2.4 GHz band.
+- **Maximum Data Rate**: 11 Mbps.
+- **Modulation**: Direct Sequence Spread Spectrum (DSSS).
+
+#Q 
+What is 802.11g?
+***
+WLAN Standard:
+- **Frequency**: 2.4 GHz band.
+- **Maximum Data Rate**: 54 Mbps.
+- **Modulation**: OFDM.
+
+#Q 
+What is 802.11n
+***
+WLAN Standard: Wi-Fi 4
+- **Frequency**: 2.4 GHz and 5 GHz bands (dual-band).
+- **Maximum Data Rate**: Up to 600 Mbps (with 4 spatial streams).
+- **Modulation**: OFDM.
+
+#Q 
+What is 802.11ac?
+***
+WLAN Standard: Wi-Fi 5
+- **Frequency**: 5 GHz band.
+- **Maximum Data Rate**: Up to 6.93 Gbps (with 8 spatial streams).
+- **Modulation**: OFDM.
+
+#Q 
+What is 802.11.ax?
+***
+WLAN Standard: Wi-Fi 6/6E
+- **Frequency**: 2.4 GHz, 5 GHz, and 6 GHz bands (Wi-Fi 6E includes 6 GHz).
+- **Maximum Data Rate**: Up to 9.6 Gbps.
+- **Modulation**: OFDMA (Orthogonal Frequency Division Multiple Access).
+
+#Q 
+What is 802.11ad?
+***
+WLAN Standard: WiGig
+- **Frequency**: 60 GHz band.
+- **Maximum Data Rate**: Up to 7 Gbps.
+- **Modulation**: OFDM.
+
+### DHCP
+
+![[Pasted image 20240603200426.png]]
+#### Steps
+
+- **DHCP Discover**: new device sends a broadcast to networks broadcast address (0.0.0.0:udp port 68 -> 255.255.255.255:udp port 67) to find the DHCP Server(s)
+- **DHCP Offer**: the dhcp server sends an offer message from its IP to the broadcast address (<ip_address>:udp port 67 -> 255.255.255.255:udp port 68) with a IP configuration that the new device can use
+- **DHCP Request**: the new device sends a request (0.0.0.0:udp port 68 -> 255.255.255.255:udp port 67) to confirm the use of the IP configuration
+- **DHCP Acknowledgement**: the DHCP server sends a acknowledgement message at which point on recieving the new device configures itself with the IP configuration
+
+#### DHCP Relay/IP Helper
+
+Since DHCP uses broadcasting to configure new devices on a network. It would not work if the is no DHCP server on a particular network. To solve this networks can configure a DHCP Relay to Forward Broadcast requests to a DHCP Server on a different network
+
 ### STP - Spanning Tree Protocol (802.1D)
+
+![[Pasted image 20240603194408.png]]
+#### Ports
+- Root: The Interface that is closest to the root on the network
+- Designated: All Other operational ports
+- Blocked: Ports disabled by STP to prevent loops
 
 #### States 
 

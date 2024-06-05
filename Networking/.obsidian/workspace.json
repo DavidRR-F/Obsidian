@@ -4,23 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "69ce43f2ff04cecf",
+        "id": "0ad0ff473824b9ff",
         "type": "tabs",
         "children": [
           {
-            "id": "f6263234ccd7bafd",
+            "id": "aadbf20c9d431594",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network +/Network Components/Wireless Networking.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "aosr-review-view",
+              "state": {}
             }
           },
           {
-            "id": "3d76e7f1bb617ae0",
+            "id": "1bb472b61a417354",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,7 +27,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Final Review.md",
+                "file": "Network +/Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Final Review.md",
+                "file": "Network +/Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Final Review.md"
+                "file": "Network +/Review.md"
               }
             }
           }
@@ -157,53 +154,18 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "flashcard-learning:Review flashcards": false,
-      "aosr:Aosr": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "aosr:Aosr": false
     }
   },
-  "floating": {
-    "id": "99289efd4139f3a2",
-    "type": "floating",
-    "children": [
-      {
-        "id": "8eb7ea11b78824f7",
-        "type": "window",
-        "children": [
-          {
-            "id": "83fdb7270c9fb61b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0f87b01f450883c5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Network +/Final Review.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1028,
-        "y": 38,
-        "width": 1012,
-        "height": 1066,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "0f87b01f450883c5",
+  "active": "1bb472b61a417354",
   "lastOpenFiles": [
-    "Network +/Network Components/Wireless Networking.md",
-    "Network +/Review.md",
-    "Network +/Network Components/Ethernet.md",
+    "Network +/Final Review.md~",
     "Network +/Final Review.md",
+    "Network +/Review.md~",
+    "Network +/Review.md",
+    "Network +/Network Components/Wireless Networking.md",
+    "Network +/Network Components/Ethernet.md",
     "Network +/Network Components/DNS.md",
     "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
     "images/Pasted image 20240603200426.png",
@@ -211,7 +173,6 @@
     "images/Pasted image 20240602141302.png",
     "Network +/Network Configuration and Infra/Datacenters.md",
     "Network +/Flashcards/Cloud.md",
-    "Network +/Review.md~",
     "Network +/Network Components/Routing Protocols.md",
     "Network +/Network Configuration and Infra/Physical Network/Terminating Structured Cabling.md",
     "Network +/Network Components/IPv6.md",
@@ -233,7 +194,6 @@
     "Network +/Network Security/Network Attacks/Man in the Middle (On-Path).md",
     "Network +/Network Configuration and Infra/WAN Connectivity.md",
     "Network +/Network Monitoring/Documenting Logs.md",
-    "Network +/Network Security/Network Defense/Network Hardening.md",
     "Network +/Other",
     "images/Pasted image 20240402135936.png",
     "Network +/Flashcards",

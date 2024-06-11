@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0ad0ff473824b9ff",
+        "id": "7ae8fdae02131fad",
         "type": "tabs",
         "children": [
           {
-            "id": "aadbf20c9d431594",
+            "id": "cbcb984cecbd1ed5",
             "type": "leaf",
             "state": {
-              "type": "aosr-review-view",
+              "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "1bb472b61a417354",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network +/Review.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "802.3",
+                "query": "BASE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network +/Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network +/Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network +/Review.md"
+                "file": "Excalidraw/Drawing 2024-06-08 20.06.10.excalidraw.md"
               }
             }
           }
@@ -154,46 +139,47 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "flashcard-learning:Review flashcards": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "aosr:Aosr": false
+      "aosr:Aosr": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1bb472b61a417354",
+  "active": "97e816aea58422a6",
   "lastOpenFiles": [
-    "Network +/Final Review.md~",
-    "Network +/Final Review.md",
-    "Network +/Review.md~",
-    "Network +/Review.md",
-    "Network +/Network Components/Wireless Networking.md",
-    "Network +/Network Components/Ethernet.md",
+    "Excalidraw/Drawing 2024-06-08 20.06.10.excalidraw.md",
+    "Excalidraw",
+    "Network +/Network Configuration and Infra/Integrating Networked Devices.md",
+    "Network +/Network Configuration and Infra/WAN Connectivity.md",
+    "Network +/Network Configuration and Infra/Virtualization and Cloud Computing.md",
+    "Network +/Network Configuration and Infra/Switch Features.md",
+    "Network +/Network Configuration and Infra/Network Topologies.md",
     "Network +/Network Components/DNS.md",
+    "Network +/IT Procedures/Network Operations.md",
+    "Networking Fundamentals/Network Devices.md",
+    "Networking Fundamentals/Network Protocols.md",
+    "Networking Fundamentals/OSI Model.md",
+    "Networking Fundamentals/Packet Traveling.md",
+    "Network +/Final Review.md",
     "Network +/Network Configuration and Infra/Physical Network/Cabling Basics.md",
     "images/Pasted image 20240603200426.png",
     "images/Pasted image 20240603194408.png",
+    "Network +/Review.md",
     "images/Pasted image 20240602141302.png",
     "Network +/Network Configuration and Infra/Datacenters.md",
     "Network +/Flashcards/Cloud.md",
+    "Network +/Review.md~",
     "Network +/Network Components/Routing Protocols.md",
     "Network +/Network Configuration and Infra/Physical Network/Terminating Structured Cabling.md",
+    "Network +/Network Components/Ethernet.md",
     "Network +/Network Components/IPv6.md",
     "images/Pasted image 20240424182606.png",
     "images/Pasted image 20240424181709.png",
-    "Networking Fundamentals/Network Protocols.md",
     "images/Pasted image 20240422192627.png",
     "Pasted image 20240422192627.png",
     "Network +/Network Monitoring/SIEM.md",
     "Network +/Network Components/Protocols.md",
     "Network +/Network Configuration and Infra/Physical Network/Testing Cable.md",
-    "Networking Fundamentals/Network Devices.md",
     "Networking Fundamentals/Communication/Routers.md",
     "Networking Fundamentals/Communication/Hosts.md",
-    "Network +/Network Components/IP and Subnetting.md",
-    "Network +/Flashcards/IP Addressing.md",
-    "Network +/Network Monitoring/Metrics.md",
-    "Network +/Network Security/Securing TCP - IP.md",
-    "Network +/Network Security/Network Attacks/Man in the Middle (On-Path).md",
-    "Network +/Network Configuration and Infra/WAN Connectivity.md",
-    "Network +/Network Monitoring/Documenting Logs.md",
     "Network +/Other",
     "images/Pasted image 20240402135936.png",
     "Network +/Flashcards",
@@ -204,7 +190,6 @@
     "Network +/Protecting Networks/Network Attacks",
     "Network +/Protecting Networks",
     "Network +/Cabling",
-    "Network +",
-    "Networking Fundamentals/Communication"
+    "Network +"
   ]
 }

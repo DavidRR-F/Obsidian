@@ -3,7 +3,7 @@ id: Objective 1.2 Security Fundamentals
 aliases: []
 tags: []
 ---
-
+	
 
 ## Security
 
@@ -18,7 +18,7 @@ The act of protecting the systems that hold and process the critical data
 
 - `Authentication`: the process of verifying the identity of a user or system
 - `Authorization`: defines what actions or resources a user can access
-- `Accounting`: the act of tracking user activities and resource useage,
+- `Accounting`: the act of tracking user activities and resource usage,
 typically for audit or billing purposes
 
 ### Security Controls
@@ -31,7 +31,6 @@ systems and data
 - Managerial
 - Operational
 - Physical
-
 #### Security Control Types
 - Preventative
 - Deterrent
@@ -186,11 +185,186 @@ function might be overkill due to computational resources or time constraints
 While checksums can detect errors, they are not foolproof against deliberate 
 tampering because they are not designed with cryptographic security in mind.
 
-**Access Controls**: 
+##### **Access Controls** 
+Access controls ensures that only authorized users can modify data which reduces
+that risk of unintetional or malicious alterations
 
-**Regular Audits**: 
+##### **Regular Audits**
+Regular audits is the practice of reviewing company logs and operations to
+ensure that only authorized changes have been made and any discrepancies are
+addressed
+
+## Availability 
+**Availibility** ensures that information, systems, and resources are available
+and operational when needed by authorized users
+
+#### Nines of Availability 
+
+"Nines of availability" refers to the measure of system uptime, reliability, 
+or availability. It's a way of quantifying how much time a system or service 
+is expected to be operational and available for use over a given period, 
+usually a year. Each "nine" represents a higher level of availability and uptime:
+
+| Nines | Availability | Downtime |
+|:-----|:-------------|:---------|
+| 1 | 90% | 36.5 days per year | 
+| 2 | 99% | 3.65 days per year |
+| 3 | 99.9% | 8.76 hours per year | 
+| 4 | 99.99% | 52.56 minutes per year |
+| 5 | 99.999% | 5.26 minutes per year |
+| 6 | 99.9999% | 31.5 seconds per year |
+
+**5 Nines** is the golden standard for service providers
+
+#### Availability Purposes 
+
+**Ensuring Business Continuity**: If a critical systems is not operational, the
+business can face significant losses
+
+**Maintaining Customer Trust**: If a system is down for to long and customers 
+are unable to access acounts or use your service. it can encourage
+customers to seek elsewere to get there needs met
+
+**Upholding Organizations Reputation**:  If your org has repeated downtime
+events this will tarnish your companies reputation as a reliable providers
+
+#### Availability Solutions
+
+##### Redundancy 
+Duplication of critical components or functions of a system with the intetion of
+enhancing its reliability. In essence having backups incase of a system failure
+that can handle the requests while the main system is down such as:
+
+**Server Redundancy**: using multiple servers in a load balance so that if one
+is overloaded or fails, the other servers can take over
+
+**Data Redundancy**: storing multiple copies of data in multiple places so that
+it can be accessed from multiple locations (RAIDS, Backups, etc...)
+
+**Network Redundancy**: if one network path fails the data can still travel
+through another route
+
+**Power Redundancy**: using backup power sources to ensure systems remain
+operational in power outages
+
+## Non-repudiation
+**Non-repudiation** is focused on providing undeniable proof in digital
+transactions and ensures that participants cannot deny their participations
+or the authenticity of their actions
+
+**Digital Signatures**: signing a hash digest using a users private asymmetric 
+encryption key that ensures data is coming from a specified source and hasn't
+been altered during transmission
+
+#### Non-repudiation Purposes 
+
+**Confirming authenticity of digital transactions**: impersenation on the
+internet is easy so we need as system to be able to verify the identity of a
+user to perform a specific action
+
+**Ensure integrity of critical communications**: all parties invloved can ensure
+that the transmission hasn't been tampered with
+
+**Provide accountability in digital processes**: ensures accountability of users
+since there actions can be traced back to them via there digital signatures
+without denial
+
+## Authentication
+**Authentication**: a security measure that ensures individuals or entities are
+who they say they claim to be during a communication or transaction, verifying
+the identity of participants in a digital interaction.
+
+#### Authentication Methods
+
+**Something you know**: (Knowledge Factor) relies on information that a user can
+recall. Passwords, Security Questions, etc..
+
+**Something you have**: (Possession Factor) relies on the user presenting a
+physical item to authenticate themselves. Badge, SMS Authenticator,
+etc..
+
+**Something you are**: (Inherence Factor) relies on the user providing a unique
+physical or behavioral characteristic of the person to validate that they are
+who they claim to be. Facial Recognition, Figerprint Reader, Other Biometric
+Data
+
+**Something you do**: (Action Factor) relies on the user conducting a unique
+action to prove who thery are. Handwritting Samples, etc..
+
+**Somewhere you are**: (Location Factor) relies on the user being in a certain
+geographic location before access is granted. Geolocation, Geofencing, etc..
+
+#### Multi Factor Authentication Systems 
+A security process that requires multiple authentication methods for a user to 
+verify their identity, increasing authentication security and
+decreasing risk of unauthorized access to data and systems.
+
+- **TFA**: Two-Factor Authentication
+- **MFA**: Multi-Factor Authentication (Two or more methods)
 
 ## Review Questions
+
+#Q 
+What is non-repudiation?
+?
+it povides undeniable proof in digital transactions and ensures participants
+cannot deny their participation or authenticity of their actions via use of
+there digital signatures
+
+#Q 
+What is redundancy?
+?
+Duplication of critical components or functions of a system with the intetion of
+enhancing its reliability and availability.
+
+#Q 
+What is data availability?
+?
+ensures that information, systems, and resources are available
+and operational when needed by authorized users
+
+
+#Q 
+What are access controls?
+?
+Access controls ensure only authorized users can modify data
+
+#Q 
+What is a Regular Audit?
+?
+Practice of reviewing logs and operations to ensure that only authorized changes
+are being made to data
+
+#Q 
+What is a checksum?
+?
+A less intensive way to ensure data integrity. A checksum is generated and 
+appended to data (data + checksum). The reciever can then recalculate the
+checksum to verify data integrity
+
+#Q 
+What is a digital signature?
+?
+A cryptographic technique used for digital documents or messages. Digital
+signatures use a asymmetric encryption key algorithm to encrypt (sign) hash values 
+
+#Q 
+What is hashing and what is it for?
+?
+The process of converting data into a fixed size value whose value is sensitive
+to data changes. This allows us to verify data integrity by matching hash
+digests
+
+#Q 
+What are the fice main integrity security practices?
+?
+Hashing, Digital Signatures, Checksums, Access Controls, and Regular audits
+
+#Q 
+What is data integrity?
+?
+**Integrity** ensures information and data remiains accurate and unchanged from
+their original state unless intetionally modified by authorized individuals.
 
 #Q  #AOSR/7qo33
 What is the difference between **Information Security** and **Information System

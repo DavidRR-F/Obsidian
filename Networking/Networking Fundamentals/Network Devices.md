@@ -1,3 +1,9 @@
+---
+id: Network Devices
+aliases: []
+tags: []
+---
+
 ## Overview
 
 - **Hosts**: are any device which sends or receives traffic

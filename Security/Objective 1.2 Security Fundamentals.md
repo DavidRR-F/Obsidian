@@ -305,6 +305,15 @@ decreasing risk of unauthorized access to data and systems.
 ## Review Questions
 
 #Q 
+What are the five authentication methods?
+?
+- Action Factor (Something you do) - Handwritting, Walking
+- Location Factor (Somewhere you are) - Geolocation 
+- Inherence Factor (Something you are) - Biometrics
+- Possession Factor (Something you have) - Badges
+- Knowledge Factor (Something you know) - Passwords
+
+#Q 
 What is non-repudiation?
 ?
 it povides undeniable proof in digital transactions and ensures participants

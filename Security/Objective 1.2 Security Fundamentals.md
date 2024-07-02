@@ -302,6 +302,35 @@ decreasing risk of unauthorized access to data and systems.
 - **TFA**: Two-Factor Authentication
 - **MFA**: Multi-Factor Authentication (Two or more methods)
 
+## Authorization 
+**Authorization** is the permissions and privileges granted to users or entities
+after they have been authenticated. It is a set of rules and polies based on
+user roles and attributes used to dictate what actions users can perform.
+
+## Accounting
+**Accounting** is a security measure that ensures all user activities are
+properly tracked and recorded. Logging and monitoring user interaction
+
+#### Accounting Purposes 
+
+**Audit Trail**: Provides a chronological record of all user activities that can
+be used to trace changes, unauthorized access, or anomalies back to a specific
+user or point in time 
+
+**Regulatory Compliance**: Maintains a comprehensive record of all users'
+activities
+
+**Forensic Analysis**: Users detailed accounting and event logs that can help
+cybersecurity experts understand what happened, how it happened, and how to
+prevent similar incidents from occurring again in the future
+
+**Resource Optimization**: Orgs can optimize system performance and minimize
+costs by tracking resource utilization and allocation decisions
+
+**User Accountability**: THorough accounting system ensures users' actions are
+monitored and logged, deterring potential misuse and promoting adherence to the
+organization's policies
+
 ## Review Questions
 
 #Q 

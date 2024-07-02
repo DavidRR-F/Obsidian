@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b991c8a6d0bdeb5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Objective 1.1 Security Controls.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objective 1.2 Security Fundamentals.md",
+                "file": "Objective 1.1 Security Controls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Objective 1.2 Security Fundamentals.md",
+                "file": "Objective 1.1 Security Controls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Objective 1.2 Security Fundamentals.md"
+                "file": "Objective 1.1 Security Controls.md"
               }
             }
           },
@@ -157,12 +170,14 @@
       "aosr:Aosr": false
     }
   },
-  "active": "6ada0ffd08120d88",
+  "active": "b991c8a6d0bdeb5b",
   "lastOpenFiles": [
     "Objective 1.2 Security Fundamentals.md~",
+    "Objective 1.1 Security Controls.md~",
+    "Objective 1.2 Security Fundamentals.md",
+    "Objective 1.1 Security Controls.md",
     "4913",
     "Security Fundamentals Overview.md",
-    "Objective 1.2 Security Fundamentals.md",
     "Threats&Vulnerabilities.md",
     "SecurityFundamentals.md~",
     "Threats&Vulnerabilities.md~",

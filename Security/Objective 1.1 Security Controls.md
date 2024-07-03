@@ -28,7 +28,7 @@ systems and data
 
 #### Security Control Categories
 
-**Technical Controls**: The technologies, hardware, and softweare mechanisms
+**Technical Controls**: The technologies, hardware, and software mechanisms
 that are implemented to manage and reduce risks. Examples: Antivirus software,
 Firewalls, Encryption Processes, IDS systems
 
@@ -37,29 +37,29 @@ security. Examples: Risk Assessments, Security Policies, Training Programs, and
 Incident Response Strategies
 
 **Operational Controls**: Procedures and measures that are designed to protect
-data on a day-to-day basis and are mainly governed by internal proccesses and
+data on a day-to-day basis and are mainly governed by internal processes and
 human actions. Examples: Password Rotations, Backup Procedures, Account Reviews,
 and User Training Programs 
 
 **Physical Controls**: Tangible, real-world measures taken to protect assets.
-Examples: Survailence Camera's, Biometric Scanners, DOcument Shredding, Security
+Examples: Surveillance Camera's, Biometric Scanners, Document Shredding, Security
 Guards, Locking Doors, etc..
 
 
 #### Security Control Types
 
 **Preventative Controls**: Proactive measures implemented to thwart potential
-security threates or breaches. Examples: Firewalls 
+security threats or breaches. Examples: Firewalls 
 
 **Deterrent Controls**: Aim to discourage potential attackers by making the
-effort seem less appealing or more chanllenging. Examples: Burglar Alarm Signs
+effort seem less appealing or more challenging. Examples: Burglar Alarm Signs
 
 **Detective Controls**: Monitor and alert orgs to malicious activities as they
 occur or shortly thereafter, Examples: Security Camera's, IDS system,
-Antimalware software (detecting)
+Anti malware software (detecting)
 
-**Corrective Controls**: Midigatte any potential damage and restore the systems
-to their normal state. Examples: Resotring from Backups, Antivirus software (quritining)
+**Corrective Controls**: Mitigated any potential damage and restore the systems
+to their normal state. Examples: Restoring from Backups, Antivirus software (quarantining)
 
 **Compensating Controls**: Alternative measures that are implemented when
 primary security controls are not feasible or effective. Examples: Using WPA2
@@ -67,18 +67,6 @@ with VPN instead of using WPA3
 
 **Directive Controls**: Often rooted in policy or documentation and set the
 standards for behavior within an org. Examples: Policies/Documentation like AUP 
-
-### Zero Trust
-Security model that operates on the principle that no one, whether inside or
-outside of the organization, should be trusted by default
-
-#### Control Plane
-Consists of the adaptive identity, threat scope reduction, policy-driven
-access control, and secured zones
-
-#### Data Plane
-Focused on the subject/system. policy engine, policy administrator, and
-establishing policy enforcement points
 
 ## Threats and Vulnerabilities
 

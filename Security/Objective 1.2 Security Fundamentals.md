@@ -313,6 +313,59 @@ areas that the orgs current performance falls short of its desired performance
 proccesses and other areas to help meet the performance or security of the orgs
 desired state
 
+#### Gap Analysis Types 
+
+**Technical Gap Analysis**: Involves evaluating an orgs current technical infra
+and identifying any areas where it falls short of the technical capabilities
+required to fully utilize their security solutions 
+
+**Business Gap Analysis**: Involes evaluating an org current business proccesses
+and identifying any areas where they fall short of the capabilities required to
+fully utilize cloud-based solutions
+
+#### POA&M - Plan of Action and Milestones
+Outlines the specific measurres to address each vulnerability, allocate
+resources, and set up timelines for each remediation task that is needed
+
+ 
+## Zero Trust
+Security model that operates on the principle that no one, whether inside or
+outside of the organization, should be trusted by default
+
+#### Control Plane
+The overarching framework and set of components responsible for defihing,
+managing, and enforcing policies related to user and system access within an
+org. such as adaptive identity, threat scope reduction, policy-driven access control, 
+and secured zones.
+
+**Adaptive identity**: rely on real-time validation that takes into account the
+user's behavior, device, location, and more
+
+**Threat scope reduction**: limit the users' access to only what they need for
+their work tasks because this drastically reduces the network's potential attack
+surface 
+
+**Policy-Driven access control**: Entails developing, managing, and enforcing
+user access policies based on their roles and responsibilities
+
+**Secured zones**: Isolated environments within a network that are designed to
+house sensitive data
+
+##### Policy Engine 
+Cross-references the access reuqest with its predefined policies
+
+##### Policy Administrator 
+Used to establish and mange the access policies
+
+#### Data Plane
+Focused on the subject/system. policy engine, policy administrator, and
+establishing policy enforcement points
+
+**Subject/System**: Refers to the individual or entity attempting to gain access
+
+**Policy Enforcement Point**: Allows or restricts access and will effectively
+act as a gatekeeper to the sensitive areas of the systems or networks
+
 #Q 
 What is non-repudiation?
 ?

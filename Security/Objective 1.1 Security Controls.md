@@ -89,3 +89,65 @@ outcome and achieve the desired outcomes
 
 
 ## Review Questions
+
+#Q 
+What are Physical Controls?
+?
+Tangible, real-world measures taken to protect assets.
+Examples: Surveillance Camera's, Biometric Scanners, Document Shredding, Security
+Guards, Locking Doors, etc..
+
+#Q 
+What are Operational Controls?
+?
+Procedures and measures that are designed to protect
+data on a day-to-day basis and are mainly governed by internal processes and
+human actions. Examples: Password Rotations, Backup Procedures, Account Reviews,
+and User Training Programs 
+
+#Q 
+What are Managerial Controls?
+?
+Involve the strategic planning and governance side of
+security. Examples: Risk Assessments, Security Policies, Training Programs, and
+Incident Response Strategies
+
+#Q 
+What are Technical Controls?
+?
+The technologies, hardware, and software mechanisms
+that are implemented to manage and reduce risks. Examples: Antivirus software,
+Firewalls, Encryption Processes, IDS systems
+
+#Q 
+What is a Directive Control?
+?
+Often rooted in policy or documentation and set the
+standards for behavior within an org. Examples: Policies/Documentation like AUP 
+
+#Q 
+What is a Corrective Control?
+?
+Mitigated any potential damage and restore the systems
+to their normal state. Examples: Restoring from Backups, Antivirus software (quarantining)
+
+
+#Q 
+What is a Detective Control?
+?
+Monitor and alert orgs to malicious activities as they
+occur or shortly thereafter, Examples: Security Camera's, IDS system,
+Anti malware software (detecting)
+
+
+#Q 
+What is a Deterrent Control?
+?
+Aim to discourage potential attackers by making the
+effort seem less appealing or more challenging. Examples: Burglar Alarm Signs
+
+#Q 
+What is a Preventative Control?
+?
+Proactive measures implemented to thwart potential
+security threats or breaches. Examples: Firewalls 

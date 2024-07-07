@@ -5,7 +5,7 @@ tags: []
 ---
 
 ## Threat Actor
-**Threat Actors** are indviduals or entities responsible for incidents that
+**Threat Actors** are individuals or entities responsible for incidents that
 impact security and data protection
 
 #### Threat Actor Motivations
@@ -13,12 +13,12 @@ impact security and data protection
 **Data Exfiltration**: The unauthorized transfer of data from a computer to sell
 on the dark web, identity theft, or gain competitive advantages
 
-**Financial Gain**: Hacking systems for finacial gain through ransomware attacks
+**Financial Gain**: Hacking systems for financial gain through ransomware attacks
 or banking trojans
 
 **Blackmail**: the attacker obtains sensitive or compromising information about
-an indavidual or an organization and threatens to release the information to the
-public unless certain demands are met. Often involving cryptocurrency finanical
+an individual or an organization and threatens to release the information to the
+public unless certain demands are met. Often involving cryptocurrency financial
 transactions
 
 **Service Disruption**: Attack to overwhelm a network, service, or server with
@@ -26,23 +26,23 @@ excessive amounts of traffic so that it becomes unavailable to normal users by
 conducting a DDoS attack. often to demand ransom, cause chaos, or make a
 political statement
 
-**Philisophical or Political Belief**: Individuals or groups use hacking to
+**Philosophic or Political Belief**: Individuals or groups use hacking to
 promote a political agenda, social change, or protest against organizations they
 perceive as unethical. Known as hackivisim
 
-**Ethical Reasons**: Ethical hackers, bug bounty hunters, and penitration testers motivated by a
+**Ethical Reasons**: Ethical hackers, bug bounty hunters, and penetration testers motivated by a
 desire to improve security
 
 **Revenge**: employee who is disgruntled, or who has recently been fired or laid
-off, might want to harm their current or formeer employer by causing a data
-breach, dirupting services, or leaking sensitive information
+off, might want to harm their current or former employer by causing a data
+breach, disrupting services, or leaking sensitive information
 
-**Disruption or Chaos**: Often reffered to as unauthorized hackers, engage in
+**Disruption or Chaos**: Often referred to as unauthorized hackers, engage in
 malicious activities for the thrill of it, to challenge their skills, or simply
 to cause harm
 
 **Espionage**: Involes spying on Individuals, organizations, or nations to
-gather sensitive or classified informaition
+gather sensitive or classified information
 
 **War**: cyber attacks have increasingly become a tool for nations to attack
 each other both on and off the battlefield
@@ -59,7 +59,7 @@ attempt to breach its cybersecurity defences
 **Resources and Funding**: Refers to the tools, skills, and personnel at the
 disposal of a given threat actor
 
-**Level of Sophistication and Capability**: Refers to their tachnical skill, the
+**Level of Sophistication and Capability**: Refers to their technical skill, the
 complexity of the tools and techniques they use, and their ability to evade
 detection and countermeasures
 
@@ -153,8 +153,8 @@ systems.
 
 - Varying levels of capabilities depending on the individuals role in the
   organization 
-- Can help fasilitate external attacks
-- Motivated by finacial gain, revenge, or carelessness
+- Can help facilitate external attacks
+- Motivated by financial gain, revenge, or carelessness
 
 #### Shadow IT 
 The use of IT systems devices, software, applications, and services without
@@ -177,7 +177,7 @@ instant messaging. Example: Phishing
 
 **Images**: Embedding of malicious code inside of an image file
 
-**Files**: involes the use of malicious files to deliver a cyber threat
+**Files**: Involves the use of malicious files to deliver a cyber threat
 
 **Voice Calls**: involves the use of voice calls to trick victims into revealing
 their sensitive information
@@ -194,8 +194,8 @@ spread malware or take over devices
 - `BlueSmack`: DoS Attack that targets bluetooth enabled devices
 
 ##### **Attack Surface**
-Encompasses all the various points where an unauthorizaed
-user can try to enter data or extreact data from an environment. The where of
+Encompasses all the various points where an unauthorized
+user can try to enter data or extract data from an environment. The where of
 the attack
 
 #### Proactive Defense 

@@ -165,6 +165,37 @@ the following technologies:
 
 - Magnetic Strips
 
+##### Access Badge Cloning 
+Prevalent vulnerabilities in terms of the RFID and NFC technologies is the
+ability to easily conduct access badge cloning to bypass your authentication
+systems. Or copying the data from an RFID or NFC card or badge onto another
+device
+
+###### Cloning Steps 
+
+1. An attacker can use a handheld RFID or NFC reader to capture data from a
+   victims card and store it for further processing
+
+2. Extracts the relevant authentication credentials from the card
+
+3. Transfer the extracted data into a blank RFID or NFC card
+
+4. Use the cloned badge to gain unauthorized access 
+
+###### Prevent Cloning 
+
+- Implement advanced encryption in card-based authentication systems
+
+- Implement MFA 
+
+- Regularly update the security protocols
+
+- Educate the users
+
+- Use of shielded wallets or sleeves
+
+- Monitor and audit access logs
+
 #### Door Locks
 Physical Security Control that is designed to secure entryways by resricting
 and regulating access to a particular space or property
@@ -187,7 +218,27 @@ and regulating access to a particular space or property
 
 - Cipher Lock: Mechanical Combination Lock
 
-## Review Questions 
+## Review Questions
+#Q 
+What is Pressure Detection?
+?
+Activated when a specified minimum amount of weight is detected 
+
+#Q 
+What is Ultrasonic Detection?
+?
+Measure the reflection of ultrasonic waves off moving objects
+
+#Q 
+What is Microwave Detection?
+?
+Detect movement in an area by emitting microwave pulses and
+measuring their reflection of moving objects
+
+#Q 
+What is Infrared Detection?
+?
+Detect changes in infrared radiation that is emitted by warm bodies
 
 #Q 
 What is the purpose of a fence vs. bollard?

@@ -146,6 +146,111 @@ a different source or group
 - Zero-day Exploits 
 - Custom Malware
 
+##### Insider Threats 
+Cybersecurity threats that originate from inside the organization. Namely
+current/former employees or associates/contractors who have access to internal
+systems.
+
+- Varying levels of capabilities depending on the individuals role in the
+  organization 
+- Can help fasilitate external attacks
+- Motivated by finacial gain, revenge, or carelessness
+
+#### Shadow IT 
+The use of IT systems devices, software, applications, and services without
+explicit organizational approval
+
+Examples:
+- Use of Personal Devices for work purposes
+- Installation of Unapproved Software 
+- Use of Cloud Services the have not been approved by the organization
+
+#### Threat Vectors and Attack Surfaces
+
+##### **Threat Vector**
+the means or pathway by which an attacker can gain
+unauthorized access to a computer or network to deliver a malicious payload or
+carry out an unwanted action. The how of the attack 
+
+**Messages**: include threats delivered via email, sms, or other forms of
+instant messaging. Example: Phishing
+
+**Images**: Embedding of malicious code inside of an image file
+
+**Files**: involes the use of malicious files to deliver a cyber threat
+
+**Voice Calls**: involves the use of voice calls to trick victims into revealing
+their sensitive information
+
+**Removable Devices**: threats delivered via USB, hardisks, or other removable
+devices
+
+**Unsecure Networks**: the lack of appropriate security measures to protect
+networks. Example Evil Twins
+
+- `BlueBorne`: set of vulnerabilities in Bluetooth that allows attackers to
+spread malware or take over devices
+
+- `BlueSmack`: DoS Attack that targets bluetooth enabled devices
+
+##### **Attack Surface**
+Encompasses all the various points where an unauthorizaed
+user can try to enter data or extreact data from an environment. The where of
+the attack
+
+#### Proactive Defense 
+
+##### TTPs - Tactics, Techniques, and Procedures 
+Specific methods and patterns of activities or behaviors associated with a
+particular threat actor or group of threat actors 
+
+##### Deseptive and Disruption Technologies 
+Designed to mislead, confuse, and divert attackers from critical assets while
+simultaneously detecting and neutralizing threats
+
+**Honeypot**:  Decoy System or network setup to attract potential hackers placed
+within a screened subnet or isolated segment that is easily accessed by
+potential attackers
+
+**Honeynet**: Network of honeypots to create a more complex system that is
+designed to mimic an entire network of systems, including servers, routers, and
+switches
+
+**Honeyfile**: Decoy file placed within a system to lure in potential attackers
+
+**Honeytoken**: Piece of data or a resource that has no legitimate value or use
+but is monitored for access or use. Example: Fake account, dumby url, fake
+database record
+
+**Bogus DNS**: Fake DNS entries introduced into a system's DNS server
+
+**Decoy Directories**: Fake Folder and files placed within a system's storage
+
+**Dynamic Page Generation**: Used in websites to present ever-changing content
+to web crawlers to confuse an slow down threat actors
+
+**Port Triggering**: Security mechanism where specific services or ports on a
+network device remain closed until a specific outbound traffic pattern is
+detected
+
+**Fake Telemetry Data**: System can respond to an attacker's network scan
+attempt by sending out fake telemetry or network data
+
+## Review Questions 
+#Q 
+What is an Attack Surface?
+?
+The sum of all potential vulnerabilities and entry points that an attack could
+exploit 
+
+#Q 
+What is a Threat Vector?
+?
+The pathway by which an attacker can gain access to a computer or network
+
+
+
+
 
 
 

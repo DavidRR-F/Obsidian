@@ -237,15 +237,15 @@ detected
 attempt by sending out fake telemetry or network data
 
 ## Review Questions 
-#Q 
+#Q  #AOSR/3up7m
 What is an Attack Surface?
-?
+? #AOSR/3up7m/m/1mhf
 The sum of all potential vulnerabilities and entry points that an attack could
 exploit 
 
-#Q 
+#Q  #AOSR/5auk6
 What is a Threat Vector?
-?
+? #AOSR/5auk6/m/2mup
 The pathway by which an attacker can gain access to a computer or network
 
 

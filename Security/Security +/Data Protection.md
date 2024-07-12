@@ -218,27 +218,27 @@ data while it's at rest on the server
 
 ## Review Questions
 
-#Q 
+#Q  #AOSR/7orr3
 What is the Top Secret Data Classification?
-?
+? #AOSR/7orr3/m/jv4d
 Government classification, data that ***would*** damage national security if
 disclosed
 
-#Q 
+#Q  #AOSR/7n57l
 What is the Secret Data Classification?
-?
+? #AOSR/7n57l/m/3e7u
 Government classification, data the ***could*** damage national security if
 disclosed
 
-#Q 
+#Q  #AOSR/7nt56
 What is the Government Confidential Data Classification?
-?
+? #AOSR/7nt56/m/1n85
 Data that could seriously affect the government if unauthorized disclosures
 happen 
 
-#Q 
+#Q  #AOSR/6j4c3
 What is the Sensitive but Unclassified Data Classification?
-?
+? #AOSR/6j4c3/m/772l
 Government classification, data that would not hurt national security but could
 impact those whose data was being used 
 
@@ -266,9 +266,9 @@ What is the Private Data Classification?
 Business classification of data that should only be used within an organization
 that relates to individual entities (pid)
 
-#Q 
+#Q  #AOSR/3dfi0
 What is the Sensitive Data Classification?
-?
+? #AOSR/3dfi0/m/6in9
 Business classification of data that has minimal impact if released (org fin
 data)
 

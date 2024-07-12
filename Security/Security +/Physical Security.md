@@ -229,9 +229,9 @@ What is Ultrasonic Detection?
 ?
 Measure the reflection of ultrasonic waves off moving objects
 
-#Q 
+#Q  #AOSR/2dvgj
 What is Microwave Detection?
-?
+? #AOSR/2dvgj/m/je4o
 Detect movement in an area by emitting microwave pulses and
 measuring their reflection of moving objects
 

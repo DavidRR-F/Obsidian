@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ansible/Ansible Basics.md",
+                "file": "Security/Review.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 468
   },
   "right": {
     "id": "f8713cbf87074415",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ansible/Ansible Basics.md",
+                "file": "Security/Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ansible/Ansible Basics.md",
+                "file": "Security/Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ansible/Ansible Basics.md"
+                "file": "Security/Review.md"
               }
             }
           }
@@ -151,6 +151,17 @@
   },
   "active": "150f3628864dcda3",
   "lastOpenFiles": [
+    "Networking/Review.md",
+    "Security/Review.md",
+    "Security/Security +",
+    "Security/Security +/Malware.md",
+    "Security/Security +/Physical Security.md",
+    "Security/Security +/Data Protection.md",
+    "Security/Security +/Security Fundamentals.md",
+    "Security/Security +/Threat Actors.md",
+    "Security/Security +/Security Controls.md",
+    "Networking/Network +/Review.md",
+    "Ansible/Ansible Basics.md",
     "images/Screenshot from 2024-03-24 13-47-22.png",
     "images/Screenshot from 2024-03-23 19-14-35.png",
     "images/Screenshot from 2024-03-24 13-45-13.png",
@@ -161,7 +172,6 @@
     "images/Pasted image 20240609162126.png",
     "images/Pasted image 20240609162107.png",
     "images/Pasted image 20240609162047.png",
-    "images/Pasted image 20240609161304.png",
     "images/Drawing 2024-01-05 14.50.30.excalidraw.md",
     "images",
     "README.md",
@@ -171,7 +181,6 @@
     "Jenkins/Jenkins Controller Install and Setup.md",
     "Jenkins/Jenkins CLI Setup.md",
     "Jenkins/Jenkins Agent Windows (as Service).md",
-    "Ansible/Ansible Basics.md",
     "Ansible/Untitled.md",
     "Networking/Network +/Network Monitoring/Splunk.md",
     "Networking/Network +/Network Monitoring/SIEM.md",
@@ -180,15 +189,7 @@
     "Networking/Network +/Network Monitoring/Documenting Logs.md",
     "Networking/Network +/Network Monitoring/SNMP.md",
     "Networking/Network +/Network Configuration and Infra/Switch Features.md",
-    "Networking/Network +/Network Configuration and Infra/WAN Connectivity.md",
-    "Networking/Network +/Network Components/Wireless Networking.md",
     "Networking/Network +/Network Components",
-    "Networking/Network +/Network Configuration and Infra/Network Topologies.md",
-    "Networking/Network +/Network Configuration and Infra/Datacenters.md",
-    "Networking/Network +/Network Configuration and Infra/Virtualization and Cloud Computing.md",
-    "Networking/Network +/Network Security/Securing TCP - IP.md",
-    "Networking/Network +/Network Components/Routing.md",
-    "Networking/Network +/Network Components/Protocols.md",
     "Networking/Network +/Network Configuration and Infra",
     "Networking/Network +/Network Monitoring",
     "Networking/Network +/Network Security/Untitled",

@@ -90,9 +90,9 @@ outcome and achieve the desired outcomes
 
 ## Review Questions
 
-#Q 
+#Q  #AOSR/3e5ep
 What are Physical Controls?
-?
+? #AOSR/3e5ep/m/6sp6
 Tangible, real-world measures taken to protect assets.
 Examples: Surveillance Camera's, Biometric Scanners, Document Shredding, Security
 Guards, Locking Doors, etc..
@@ -105,9 +105,9 @@ data on a day-to-day basis and are mainly governed by internal processes and
 human actions. Examples: Password Rotations, Backup Procedures, Account Reviews,
 and User Training Programs 
 
-#Q 
+#Q  #AOSR/7efio
 What are Managerial Controls?
-?
+? #AOSR/7efio/m/69ll
 Involve the strategic planning and governance side of
 security. Examples: Risk Assessments, Security Policies, Training Programs, and
 Incident Response Strategies
@@ -119,9 +119,9 @@ The technologies, hardware, and software mechanisms
 that are implemented to manage and reduce risks. Examples: Antivirus software,
 Firewalls, Encryption Processes, IDS systems
 
-#Q 
+#Q  #AOSR/4tdvp
 What is a Directive Control?
-?
+? #AOSR/4tdvp/m/48n6
 Often rooted in policy or documentation and set the
 standards for behavior within an org. Examples: Policies/Documentation like AUP 
 
@@ -132,22 +132,22 @@ Mitigated any potential damage and restore the systems
 to their normal state. Examples: Restoring from Backups, Antivirus software (quarantining)
 
 
-#Q 
+#Q  #AOSR/ci4ue
 What is a Detective Control?
-?
+? #AOSR/ci4ue/m/65hj
 Monitor and alert orgs to malicious activities as they
 occur or shortly thereafter, Examples: Security Camera's, IDS system,
 Anti malware software (detecting)
 
 
-#Q 
+#Q  #AOSR/3ol6u
 What is a Deterrent Control?
-?
+? #AOSR/3ol6u/m/5g2m
 Aim to discourage potential attackers by making the
 effort seem less appealing or more challenging. Examples: Burglar Alarm Signs
 
-#Q 
+#Q  #AOSR/3n21e
 What is a Preventative Control?
-?
+? #AOSR/3n21e/m/1r6u
 Proactive measures implemented to thwart potential
 security threats or breaches. Examples: Firewalls 

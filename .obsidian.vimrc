@@ -14,4 +14,4 @@ exmap unfoldall obcommand editor:unfold-all
 nmap zR :unfoldall
 
 exmap foldall obcommand editor:fold-all
-nmap zM :foldall 
+nmap zM :foldall

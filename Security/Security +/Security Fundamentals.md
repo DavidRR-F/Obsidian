@@ -360,9 +360,9 @@ managing, and enforcing policies related to user and system access.
 such as adaptive identity, threat scope reduction, policy-driven access control, 
 and secured zones
 
-#Q 
+#Q  #AOSR/209sc
 What is the Zero Trust Data Plane?
-?
+? #AOSR/209sc/m/7cen
 Focused on the subject/system. policy engine, policy administrator, and
 establishing policy enforcement points
 
@@ -372,21 +372,21 @@ What is POA&M?
 Plan of Action and Milestones, Outlines the specific measurres to address each vulnerability, allocate
 resources, and set up timelines for each remediation task that is needed
 
-#Q 
+#Q  #AOSR/77pju
 What is Gap analysis?
-?
+? #AOSR/77pju/m/4smd
 The proccess of evaluating the diifferences between an orgs
 current performance and its desired performance
 
-#Q 
+#Q  #AOSR/6an7u
 What is a SIEM?
-?
+? #AOSR/6an7u/m/76l5
 a Security Information and Event Management that provides real-time analysis of
 security alerts
 
-#Q 
+#Q  #AOSR/mfr8o
 What are the five authentication methods?
-?
+? #AOSR/mfr8o/m/768r
 - Action Factor (Something you do) - Handwritting, Walking
 - Location Factor (Somewhere you are) - Geolocation 
 - Inherence Factor (Something you are) - Biometrics
@@ -399,9 +399,9 @@ it povides undeniable proof in digital transactions and ensures participants
 cannot deny their participation or authenticity of their actions via use of
 there digital signatures
 
-#Q 
+#Q  #AOSR/32fnq
 What is redundancy?
-?
+? #AOSR/32fnq/m/1ejs
 Duplication of critical components or functions of a system with the intetion of
 enhancing its reliability and availability.
 
@@ -412,9 +412,9 @@ ensures that information, systems, and resources are available
 and operational when needed by authorized users
 
 
-#Q 
+#Q  #AOSR/3jo88
 What are access controls?
-?
+? #AOSR/3jo88/m/4r1v
 Access controls ensure only authorized users can modify data
 
 #Q 
@@ -423,16 +423,16 @@ What is a Regular Audit?
 Practice of reviewing logs and operations to ensure that only authorized changes
 are being made to data
 
-#Q 
+#Q  #AOSR/3sv6f
 What is a checksum?
-?
+? #AOSR/3sv6f/m/535a
 A less intensive way to ensure data integrity. A checksum is generated and 
 appended to data (data + checksum). The reciever can then recalculate the
 checksum to verify data integrity
 
-#Q 
+#Q  #AOSR/ls9sh
 What is a digital signature?
-?
+? #AOSR/ls9sh/m/iean
 A cryptographic technique used for digital documents or messages. Digital
 signatures use a asymmetric encryption key algorithm to encrypt (sign) hash values 
 
@@ -443,14 +443,14 @@ The process of converting data into a fixed size value whose value is sensitive
 to data changes. This allows us to verify data integrity by matching hash
 digests
 
-#Q 
+#Q  #AOSR/7qqh0
 What are the fice main integrity security practices?
-?
+? #AOSR/7qqh0/m/t3ds
 Hashing, Digital Signatures, Checksums, Access Controls, and Regular audits
 
-#Q 
+#Q  #AOSR/34dfa
 What is data integrity?
-?
+? #AOSR/34dfa/m/5mk1
 **Integrity** ensures information and data remiains accurate and unchanged from
 their original state unless intetionally modified by authorized individuals.
 
@@ -498,14 +498,14 @@ What is Confidentiality?
 ?
 The protection of information from unauthorized access
 
-#Q 
+#Q  #AOSR/16l85
 What are the 3 purposes of confidentiality?
-?
+? #AOSR/16l85/m/36sr
 Protecting personal privacy, maintaining a business advantage, and achieving
 regulatory compliance
 
-#Q 
+#Q  #AOSR/3bvuj
 What are the 5 security practices for that assist in achieving confidentiality?
-?
+? #AOSR/3bvuj/m/m7t6
 Encryption, access controls, data masking, physical security measures, training
 and awareness

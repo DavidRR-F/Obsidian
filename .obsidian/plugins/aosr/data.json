@@ -1,0 +1,8 @@
+{
+  "DefaultEase": 50,
+  "EasyBonus": 1,
+  "HardBonus": 1,
+  "WordTTSURL": "",
+  "WaitingTimeoutBase": 7,
+  "HideContext": false
+}

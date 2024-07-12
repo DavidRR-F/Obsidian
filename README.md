@@ -1,9 +1,13 @@
 # Obsidian 
 
-These are my personal notes.
+These are my personal study notes.
 
 ### Community Plugins
 
 - [Exscalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
-- [Flashcard Learning](https://github.com/gaetanmuck/obsidian-flashcard-learning)
-- [Highlightr](https://github.com/chetachiezikeuzor/Highlightr-Plugin)
+- [Vim Support]()
+- [Aosr]()
+- [DataView]()
+- [Catppuccin]()
+- [Advanced Tables]()
+- [Ollama]()

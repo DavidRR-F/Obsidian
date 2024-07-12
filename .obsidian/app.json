@@ -1,1 +1,9 @@
-{}
+{
+  "vimMode": true,
+  "showLineNumber": false,
+  "foldHeading": true,
+  "showInlineTitle": false,
+  "attachmentFolderPath": "images",
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true
+}

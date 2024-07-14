@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/Review.md",
+                "file": "Security/Security +/Cryptography.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 468
+    "width": 336
   },
   "right": {
     "id": "f8713cbf87074415",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/Review.md",
+                "file": "Security/Security +/Cryptography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/Review.md",
+                "file": "Security/Security +/Cryptography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/Review.md"
+                "file": "Security/Security +/Cryptography.md"
               }
             }
           }
@@ -144,21 +144,26 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "aosr:Aosr": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "150f3628864dcda3",
   "lastOpenFiles": [
-    "Networking/Review.md",
+    "images/Pasted image 20240714133126.png",
+    "images/Pasted image 20240714132258.png",
+    "Security/Security +/Cryptography.md",
+    "images/Pasted image 20240609164105.png",
+    "images/Pasted image 20240714130350.png",
+    "Security/Security +/Data Protection.md",
+    "Security/Security +/Threat Actors.md",
     "Security/Review.md",
+    "Networking/Review.md",
     "Security/Security +",
     "Security/Security +/Malware.md",
     "Security/Security +/Physical Security.md",
-    "Security/Security +/Data Protection.md",
     "Security/Security +/Security Fundamentals.md",
-    "Security/Security +/Threat Actors.md",
     "Security/Security +/Security Controls.md",
     "Networking/Network +/Review.md",
     "Ansible/Ansible Basics.md",
@@ -167,11 +172,8 @@
     "images/Screenshot from 2024-03-24 13-45-13.png",
     "images/Screenshot from 2024-03-23 18-46-46.png",
     "images/Pasted image 20240609162221.png",
-    "images/Pasted image 20240609164105.png",
     "images/Pasted image 20240609162608.png",
     "images/Pasted image 20240609162126.png",
-    "images/Pasted image 20240609162107.png",
-    "images/Pasted image 20240609162047.png",
     "images/Drawing 2024-01-05 14.50.30.excalidraw.md",
     "images",
     "README.md",
@@ -187,8 +189,6 @@
     "Networking/Network +/Network Monitoring/Metrics.md",
     "Networking/Network +/Network Monitoring/System Monitoring.md",
     "Networking/Network +/Network Monitoring/Documenting Logs.md",
-    "Networking/Network +/Network Monitoring/SNMP.md",
-    "Networking/Network +/Network Configuration and Infra/Switch Features.md",
     "Networking/Network +/Network Components",
     "Networking/Network +/Network Configuration and Infra",
     "Networking/Network +/Network Monitoring",

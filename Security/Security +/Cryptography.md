@@ -202,3 +202,25 @@ a shared immutable ledger for recording transactions, tracking assets, and build
 **Steganography**: Concealing a message within another so that the very existence of the message is hidden
 - frequently used alongside encryption to add a extra layer of security
 
+**Tokenization**: Transformative technique in data protection that involves substituting sensitive data elements with non-sensitive equivalents, called tokens, which have no meaningful value
+
+**Data Masking** Used to protect data by ensuring that it remains recognizable but does not actually include sensitive information
+
+## Cryptographic Attacks
+Techniques and strategies that adversaries employ to exploit vulnerabilities in cryptographic systems  with the intent to compromise the confidentiality, integrity or authenticity of data
+
+**Downgrade Attack**: Aims to force a system into using a weaker or older cryptographic standard or protocol than what it is currently utilizing 
+- ***POODLE attack***: also known as the Padding Oracle On Downgraded Legacy Encryption attack, which targeted SSL version 3.0
+- Exploit Backwards compatibility of systems that support older cryptographic protocols. Causing many systems to phase out support for legacy protocols
+- Dangerous because they turn the very nature of evolving security, such as the development of stronger, more robust cryptographic protocols, against itself
+
+**Collision Attack**: Aims to find two different inputs that produce the same hash output
+- ***Birthday Attack***: Exploiting a hash collision 
+- Threat actor can create malicious code with the same hash as legit hashes to trick users into thinking a hash is secure
+- MD5 had this issue and is why it has been phased out do to having to many collisions
+
+## Post-Quantum Cryptography
+A new kind of cryptographic algorithm that can be implemented using today's classical computers but is also impervious to attackers from future quantum computers
+
+- Increase the key size to increase the number of permutations that are needed to be brute forced. Works well for symmetric encryption
+- Working on post-quantum resistant algorithms including lattice-based cryptography and super singular isogeny key exchange

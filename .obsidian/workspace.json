@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5489560bf15f4d27",
+        "id": "60ba860313dbd47a",
         "type": "tabs",
         "children": [
           {
-            "id": "150f3628864dcda3",
+            "id": "fb26b8b526edfc0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/Security +/Cryptography.md",
+                "file": "Security/Security +/Risk Management.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336
+    "width": 468,
+    "collapsed": true
   },
   "right": {
     "id": "f8713cbf87074415",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/Security +/Cryptography.md",
+                "file": "Security/Security +/Risk Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/Security +/Cryptography.md",
+                "file": "Security/Security +/Risk Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/Security +/Cryptography.md"
+                "file": "Security/Security +/Risk Management.md"
               }
             }
           }
@@ -144,39 +145,39 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "aosr:Aosr": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
+      "aosr:Aosr": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "150f3628864dcda3",
+  "active": "fb26b8b526edfc0d",
   "lastOpenFiles": [
+    "Security/Security +/Cryptography.md",
+    "Security/Security +/Risk Management.md",
+    "Security/Review.md",
     "images/Pasted image 20240714212323.png",
     "images/Pasted image 20240714205909.png",
     "images/Pasted image 20240714203122.png",
-    "Security/Security +/Security Controls.md",
-    "Security/Security +/Security Fundamentals.md",
-    "Security/Security +/Cryptography.md",
     "images/Pasted image 20240714133126.png",
-    "images/Pasted image 20240714132258.png",
-    "images/Pasted image 20240609164105.png",
-    "images/Pasted image 20240714130350.png",
-    "Security/Security +/Data Protection.md",
-    "Security/Security +/Threat Actors.md",
-    "Security/Review.md",
+    "README.md",
     "Networking/Review.md",
     "Security/Security +",
     "Security/Security +/Malware.md",
     "Security/Security +/Physical Security.md",
+    "Security/Security +/Data Protection.md",
+    "Security/Security +/Security Fundamentals.md",
+    "Security/Security +/Threat Actors.md",
+    "Security/Security +/Security Controls.md",
     "Networking/Network +/Review.md",
     "Ansible/Ansible Basics.md",
     "images/Screenshot from 2024-03-24 13-47-22.png",
     "images/Screenshot from 2024-03-23 19-14-35.png",
     "images/Screenshot from 2024-03-24 13-45-13.png",
     "images/Screenshot from 2024-03-23 18-46-46.png",
+    "images/Pasted image 20240609162221.png",
+    "images/Pasted image 20240609164105.png",
     "images/Drawing 2024-01-05 14.50.30.excalidraw.md",
     "images",
-    "README.md",
     "Linux-Admin/CentOS and Redhat/Fedora Based Linux.md",
     "Linux-Admin/CentOS and Redhat/Cockpit.md",
     "Linux-Admin/CentOS and Redhat/Automate Linux Installation.md",

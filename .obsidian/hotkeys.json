@@ -34,5 +34,21 @@
   "app:go-forward": [],
   "editor:save-file": [],
   "editor:open-search-replace": [],
-  "editor:toggle-checklist-status": []
+  "editor:toggle-checklist-status": [],
+  "cm-typewriter-scroll-obsidian:toggle-typewriter-sroll": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Z"
+    }
+  ],
+  "cm-typewriter-scroll-obsidian:toggle-typewriter-sroll-zen": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "X"
+    }
+  ]
 }

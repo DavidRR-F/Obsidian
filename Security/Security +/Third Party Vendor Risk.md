@@ -99,4 +99,3 @@ Process that organizations implement to evaluate the security, reliability, and 
 Mechanism to ensure that the chose vendors still aligns with the organizational needs and standards such as performance reviews
 
 **Feedback Loops**: Involve a two-way communication channel where both the organization and the vendor share feedback
-

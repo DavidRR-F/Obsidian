@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "43a3b093fa4e4195",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Security/Security +/Governance and Compliance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/Security +/Third Party Vendor Risk.md",
+                "file": "Security/Security +/Governance and Compliance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/Security +/Third Party Vendor Risk.md",
+                "file": "Security/Security +/Governance and Compliance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/Security +/Third Party Vendor Risk.md"
+                "file": "Security/Security +/Governance and Compliance.md"
               }
             }
           }
@@ -149,11 +162,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "150f3628864dcda3",
+  "active": "43a3b093fa4e4195",
   "lastOpenFiles": [
-    "Security/Security +/Cryptography.md",
     "Security/Security +/Third Party Vendor Risk.md",
+    "Security/Security +/Governance and Compliance.md",
     "Security/Security +/Risk Management.md",
+    "Security/Security +/Cryptography.md",
     "images/Pasted image 20240714212323.png",
     "images/Pasted image 20240714205909.png",
     "images/Pasted image 20240714203122.png",
@@ -188,7 +202,6 @@
     "Networking/Network +/Network Monitoring/Splunk.md",
     "Networking/Network +/Network Monitoring/SIEM.md",
     "Networking/Network +/Network Monitoring/Metrics.md",
-    "Networking/Network +/Network Monitoring/System Monitoring.md",
     "Networking/Network +/Network Components",
     "Networking/Network +/Network Configuration and Infra",
     "Networking/Network +/Network Monitoring",

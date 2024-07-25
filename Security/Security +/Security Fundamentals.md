@@ -1,7 +1,7 @@
 ---
 id: Objective 1.2 Security Fundamentals
-aliases: []
-tags: []
+aliases: 
+tags:
 ---
 	
 ## Confidentiality
@@ -139,14 +139,14 @@ or availability. It's a way of quantifying how much time a system or service
 is expected to be operational and available for use over a given period, 
 usually a year. Each "nine" represents a higher level of availability and uptime:
 
-| Nines | Availability | Downtime |
-|:-----|:-------------|:---------|
-| 1 | 90% | 36.5 days per year | 
-| 2 | 99% | 3.65 days per year |
-| 3 | 99.9% | 8.76 hours per year | 
-| 4 | 99.99% | 52.56 minutes per year |
-| 5 | 99.999% | 5.26 minutes per year |
-| 6 | 99.9999% | 31.5 seconds per year |
+| Nines | Availability | Downtime               |     |
+| :---- | :----------- | :--------------------- | --- |
+| 1     | 90%          | 36.5 days per year     |     |
+| 2     | 99%          | 3.65 days per year     |     |
+| 3     | 99.9%        | 8.76 hours per year    |     |
+| 4     | 99.99%       | 52.56 minutes per year |     |
+| 5     | 99.999%      | 5.26 minutes per year  |     |
+| 6     | 99.9999%     | 31.5 seconds per year  |     |
 
 **5 Nines** is the golden standard for service providers
 
@@ -350,7 +350,25 @@ establishing policy enforcement points
 act as a gatekeeper to the sensitive areas of the systems or networks
 
 
-## Review Questions
+# Review Questions
+
+```aosr-deck-config
+{
+	"rule": {
+		"conditions": {
+			"all": [{
+				"fact": "card",
+				"operator": "regexMatch",
+				"value": "Security Fundamentals",
+				"path": "$.path"
+			}]
+		},
+		"event": {
+			"type": "match"
+		}
+	}
+}
+```
 
 #Q 
 What is the Zero Trust Control Plane?

@@ -1,3 +1,5 @@
+set clipboard=unnamed
+
 vmap <Tab> >gv
 vmap <S-Tab> <gv
 vmap jk <Esc>
@@ -6,6 +8,12 @@ imap <C-h> <Left>
 imap <C-j> <Down>
 imap <C-k> <Up>
 imap <C-l> <Right>
+
+exmap focusRight obcommand editor:focus-right
+nmap <C-l> :focusRight
+
+exmap focusLeft obcommand editor:focus-left
+nmap <C-h> :focusLeft
 
 exmap togglefold obcommand editor:toggle-fold
 nmap za :togglefold 

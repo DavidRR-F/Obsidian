@@ -218,7 +218,26 @@ and regulating access to a particular space or property
 
 - Cipher Lock: Mechanical Combination Lock
 
-## Review Questions
+# Review Questions
+
+```aosr-deck-config
+{
+	"rule": {
+		"conditions": {
+			"all": [{
+				"fact": "card",
+				"operator": "regexMatch",
+				"value": "Physical Security",
+				"path": "$.path"
+			}]
+		},
+		"event": {
+			"type": "match"
+		}
+	}
+}
+```
+
 #Q 
 What is Pressure Detection?
 ?

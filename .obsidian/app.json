@@ -3,7 +3,7 @@
   "showLineNumber": false,
   "foldHeading": true,
   "showInlineTitle": false,
-  "attachmentFolderPath": "images",
+  "attachmentFolderPath": "assets/images",
   "newFileLocation": "current",
   "alwaysUpdateLinks": true
 }

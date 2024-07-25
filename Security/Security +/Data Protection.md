@@ -216,7 +216,25 @@ data while it's at rest on the server
 
 **Cloud-based DLP System**: Usually offered as SaaS, and it's part of the cloud service and storage needs
 
-## Review Questions
+# Review Questions
+
+```aosr-deck-config
+{
+	"rule": {
+		"conditions": {
+			"all": [{
+				"fact": "card",
+				"operator": "regexMatch",
+				"value": "Data Protection",
+				"path": "$.path"
+			}]
+		},
+		"event": {
+			"type": "match"
+		}
+	}
+}
+```
 
 #Q  #AOSR/7orr3
 What is the Top Secret Data Classification?
@@ -242,27 +260,27 @@ What is the Sensitive but Unclassified Data Classification?
 Government classification, data that would not hurt national security but could
 impact those whose data was being used 
 
-#Q 
+#Q  #AOSR/4qkvt
 What is the Unclassified Data Classification?
-?
+? #AOSR/4qkvt/m/40gl
 Government classification, data that can be released to the public under the
 Freedom of Information Act 
 
-#Q 
+#Q  #AOSR/3le6v
 What is the Critical Data Classification?
-?
+? #AOSR/3le6v/m/30re
 Business classification, data that that contains valuable information with
 restricted viewing within the organization
 
-#Q 
+#Q  #AOSR/45q63
 What is the Business Confidential Data Classification?
-?
+? #AOSR/45q63/m/17nq
 Contains data such as trade secrets, intellectual property, and source code that
 can affect the business if disclosed
 
-#Q 
+#Q  #AOSR/3vgdr
 What is the Private Data Classification?
-?
+? #AOSR/3vgdr/m/5ke9
 Business classification of data that should only be used within an organization
 that relates to individual entities (pid)
 
@@ -272,7 +290,7 @@ What is the Sensitive Data Classification?
 Business classification of data that has minimal impact if released (org fin
 data)
 
-#Q 
+#Q  #AOSR/f71lh
 What is the Public Data Classification?
-?
+? #AOSR/f71lh/m/71f0
 Business classification of data that has no impact if released 

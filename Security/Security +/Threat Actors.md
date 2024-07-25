@@ -236,7 +236,26 @@ detected
 **Fake Telemetry Data**: System can respond to an attacker's network scan
 attempt by sending out fake telemetry or network data
 
-## Review Questions 
+# Review Questions 
+
+```aosr-deck-config
+{
+	"rule": {
+		"conditions": {
+			"all": [{
+				"fact": "card",
+				"operator": "regexMatch",
+				"value": "Threat Actors",
+				"path": "$.path"
+			}]
+		},
+		"event": {
+			"type": "match"
+		}
+	}
+}
+```
+
 #Q  #AOSR/3up7m
 What is an Attack Surface?
 ? #AOSR/3up7m/m/1mhf

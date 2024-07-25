@@ -88,7 +88,25 @@ any potential danger that can exploit a vulnerability to breach security and cau
 outcome and achieve the desired outcomes
 
 
-## Review Questions
+# Review Questions
+
+```aosr-deck-config
+{
+	"rule": {
+		"conditions": {
+			"all": [{
+				"fact": "card",
+				"operator": "regexMatch",
+				"value": "Security Controls",
+				"path": "$.path"
+			}]
+		},
+		"event": {
+			"type": "match"
+		}
+	}
+}
+```
 
 #Q  #AOSR/3e5ep
 What are Physical Controls?

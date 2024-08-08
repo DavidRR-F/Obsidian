@@ -13,41 +13,70 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/Security +/Security Infrastructure.md",
+                "file": "Security/Security +/Vulnerabilities and Attacks.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "344a677bd1528917",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "assets/excalidraw/Drawing 2024-07-30 14.20.17.excalidraw.md"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "49d321c0829fd193",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "63613c4a2f9c72b3",
+            "id": "11b7657d872d593e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/Security +/Security Infrastructure.md",
+                "file": "Security/Security +/Malicious Activity.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b988f8ad7a0a6a6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "assets/excalidraw/Drawing 2024-08-05 13.37.02.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "7a1fa7ade489d564",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "assets/excalidraw/Drawing 2024-08-05 13.26.16.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "934f387d293398f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Network +/Network Security/Securing TCP - IP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ccfb4f0293f1cc3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Security/Security +/Cyber Resilience and Redundancy.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/Security +/Security Infrastructure.md",
+                "file": "Security/Security +/Malicious Activity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/Security +/Security Infrastructure.md",
+                "file": "Security/Security +/Malicious Activity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/Security +/Security Infrastructure.md"
+                "file": "Security/Security +/Malicious Activity.md"
               }
             }
           }
@@ -179,20 +208,35 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3d6459a2afba878c",
+  "active": "11b7657d872d593e",
   "lastOpenFiles": [
+    "Security/Security +/Vulnerabilities and Attacks.md",
+    "Security/Security +/Malicious Activity.md",
+    "assets/images/Pasted image 20240805134030.png",
+    "assets/excalidraw/Drawing 2024-08-05 13.37.02.excalidraw.md",
+    "assets/images/Pasted image 20240805133233.png",
+    "assets/excalidraw/Drawing 2024-08-05 13.26.16.excalidraw.md",
+    "Security/Security +/Identity and Access Management.md",
+    "Security/Security +/Cyber Resilience and Redundancy.md",
+    "Networking/Network +/Network Security/Securing TCP - IP.md",
+    "Networking/Network +/Network Security/Network Attacks/Password Attacks.md",
+    "Security/Security +/Security Controls.md",
+    "Security/Security +/Security Fundamentals.md",
+    "Security/Security +/Physical Security.md",
+    "Security/Security +/Governance and Compliance.md",
+    "Security/Security +/Cryptography.md",
+    "Security/Security +/Security Infrastructure.md",
+    "assets/images/Pasted image 20240801094901.png",
+    "assets/excalidraw/Drawing 2024-08-01 09.44.06.excalidraw.md",
+    "assets/images/Pasted image 20240731154747.png",
+    "assets/excalidraw/Drawing 2024-07-31 15.38.23.excalidraw.md",
+    "assets/excalidraw/Drawing 2024-07-30 14.20.17.excalidraw.md",
     "assets/images/Pasted image 20240730152300.png",
     "assets/images/Pasted image 20240730142414.png",
-    "assets/excalidraw/Drawing 2024-07-30 14.20.17.excalidraw.md",
-    "Security/Security +/Security Infrastructure.md",
     "Security/Security +/Audits and Assessments.md",
     "Security/Security +/Security Architecture.md",
-    "Security/Security +/Cyber Resilience and Redundancy.md",
     "Security/Security +/Data Protection.md",
-    "Security/Security +/Governance and Compliance.md",
-    "Security/Security +/Security Controls.md",
     "Security/Security +/Social Engineering.md",
-    "Security/Security +/Security Fundamentals.md",
     "Networking/Network +/Flashcards/Security.md",
     "assets/excalidraw/Drawing 2024-07-24 13.35.32.excalidraw.md",
     "assets/images/Pasted image 20240724141731.png",
@@ -200,26 +244,11 @@
     "assets/images/Pasted image 20240724140105.png",
     "assets/images/Pasted image 20240724134129.png",
     "assets/images/Pasted image 20240724134003.png",
-    "assets/images/Pasted image 20240724133932.png",
-    "assets/images/Pasted image 20240724133746.png",
-    "assets/images/Drawing 2024-01-05 14.50.30.excalidraw.png",
     "assets/images/Drawing 2024-01-05 14.50.30.excalidraw.md",
-    "assets/images/Pasted image 20240724133237.png",
     "assets/excalidraw",
     "Security/Security +/Third Party Vendor Risk.md",
-    "Security/Security +/Asset and Change Management.md",
-    "assets/templates/study_section.md",
     "assets",
-    "Test.md",
-    "README.md",
     "assets/templates",
-    "Security/Security +/Cryptography.md",
-    "Security/Security +/Malware.md",
-    "Security/Security +/Physical Security.md",
-    "Security/Security +/Risk Management.md",
-    "Security/Security +/Threat Actors.md",
-    "Security/Review.md",
-    "assets/images/Pasted image 20240714212323.png",
     "Security/Security +",
     "assets/images",
     "Networking/Network +/Network Components",

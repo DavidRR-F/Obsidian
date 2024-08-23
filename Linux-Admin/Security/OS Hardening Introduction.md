@@ -82,6 +82,8 @@ $ iptables --help
 
 ## Enable SELinux
 
+[[Hardening#SELinux]]
+
 stands for Security-Enhanced Linux, is a security framework and implementation of mandatory access control (MAC) in Linux-based operating systems. It provides fine-grained access control and mandatory access controls, enhancing the security of Linux systems by enforcing access policies and limiting the potential impact of security vulnerabilities.
 
 Check if enabled

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "baccd2b9eb4db7b5",
+        "id": "5489560bf15f4d27",
         "type": "tabs",
         "children": [
           {
-            "id": "19dc2d6069b66661",
+            "id": "1238f030a80fae35",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,41 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1b120a3647769f4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Security/Security +/Alerting and Monitoring.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76b03d4508f5ba49",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "assets/excalidraw/Drawing 2024-08-24 18.15.47.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "b6f5062f8f411865",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "assets/excalidraw/Drawing 2024-08-24 17.46.01.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Q",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 468
+    "width": 336
   },
   "right": {
     "id": "f8713cbf87074415",
@@ -85,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/Security +/Security Techniques.md",
+                "file": "Security/Security +/Alerting and Monitoring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/Security +/Security Techniques.md",
+                "file": "Security/Security +/Alerting and Monitoring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/Security +/Security Techniques.md"
+                "file": "Security/Security +/Alerting and Monitoring.md"
               }
             }
           }
@@ -138,65 +171,65 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "aosr:Aosr": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "omnisearch:Omnisearch": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "19dc2d6069b66661",
+  "active": "1b120a3647769f4b",
   "lastOpenFiles": [
-    "Security/Security +/Malicious Activity.md",
+    "assets/images/Pasted image 20240824181924.png",
+    "assets/excalidraw/Drawing 2024-08-24 18.15.47.excalidraw.md",
+    "Security/Security +/Alerting and Monitoring.md",
+    "assets/images/Pasted image 20240824175302.png",
+    "assets/excalidraw/Drawing 2024-08-24 17.46.01.excalidraw.md",
+    "Security/Security +/Vulnerability Management.md",
     "Security/Security +/Security Techniques.md",
-    "Security/Security +/Vulnerabilities and Attacks.md",
+    "Kubernetes/Helm.md",
+    "assets/excalidraw/Drawing 2024-08-08 18.37.36.excalidraw.md",
     "Security/Security +/Hardening.md",
-    "Linux-Admin/Security/OS Hardening Introduction.md",
-    "Networking/Network +/Network Security/Securing TCP - IP.md",
-    "Security/Security +/Identity and Access Management.md",
-    "Security/Security +/Cyber Resilience and Redundancy.md",
-    "assets/excalidraw/Drawing 2024-08-05 13.26.16.excalidraw.md",
-    "assets/excalidraw/Drawing 2024-08-05 13.37.02.excalidraw.md",
+    "2024-08-14.md",
+    "Kubernetes/K8SSetup.md",
     "assets/images/Pasted image 20240812192320.png",
+    "assets/excalidraw/Drawing 2024-08-12 19.17.34.excalidraw.md",
+    "Security/Security +/Malicious Activity.md",
+    "Kubernetes",
     "assets/images/Pasted image 20240808202233.png",
+    "assets/excalidraw/Drawing 2024-08-08 20.09.40.excalidraw.md",
+    "assets/excalidraw/Drawing 2024-08-08 19.23.06.excalidraw.md",
     "assets/images/Pasted image 20240808201942.png",
     "assets/images/Pasted image 20240808192947.png",
     "assets/images/Pasted image 20240808184739.png",
-    "assets/excalidraw/Drawing 2024-08-12 19.17.34.excalidraw.md",
-    "assets/excalidraw/Drawing 2024-08-08 20.09.40.excalidraw.md",
-    "assets/excalidraw/Drawing 2024-08-08 19.23.06.excalidraw.md",
-    "Kubernetes/K8SSetup.md",
-    "Kubernetes/Helm.md",
-    "Kubernetes",
-    "assets/excalidraw/Drawing 2024-08-08 18.37.36.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-08 18.37.36.excalidraw.md",
     "Excalidraw",
-    "assets/images/Pasted image 20240805134030.png",
-    "assets/images/Pasted image 20240805133233.png",
-    "Networking/Network +/Network Security/Network Attacks/Password Attacks.md",
-    "Security/Security +/Security Controls.md",
-    "Security/Security +/Security Fundamentals.md",
-    "Security/Security +/Physical Security.md",
     "Security/Security +/Governance and Compliance.md",
-    "Security/Security +/Cryptography.md",
-    "Security/Security +/Security Infrastructure.md",
-    "assets/images/Pasted image 20240801094901.png",
+    "assets/templates/study_section.md",
+    "assets/templates",
+    "assets/images/Screenshot from 2024-03-24 13-47-22.png",
+    "assets/images/Screenshot from 2024-03-24 13-45-13.png",
+    "assets/images/Screenshot from 2024-03-23 19-14-35.png",
+    "assets/images/Screenshot from 2024-03-23 18-46-46.png",
+    "assets/images/Drawing 2024-01-05 14.50.30.excalidraw.md",
+    "assets/excalidraw/Drawing 2024-08-05 13.37.02.excalidraw.md",
+    "assets/excalidraw/Drawing 2024-08-05 13.26.16.excalidraw.md",
     "assets/excalidraw/Drawing 2024-08-01 09.44.06.excalidraw.md",
-    "assets/images/Pasted image 20240731154747.png",
     "assets/excalidraw/Drawing 2024-07-31 15.38.23.excalidraw.md",
     "assets/excalidraw/Drawing 2024-07-30 14.20.17.excalidraw.md",
-    "assets/images/Pasted image 20240730152300.png",
+    "assets/excalidraw/Drawing 2024-07-24 13.35.32.excalidraw.md",
+    "assets/excalidraw/Drawing 2024-07-24 13.23.02.excalidraw.md",
+    "assets/images",
     "assets/excalidraw",
     "assets",
-    "assets/templates",
     "Security/Security +",
-    "assets/images",
+    "images",
     "Networking/Network +/Network Components",
-    "Networking/Network +/Network Configuration and Infra",
-    "Networking/Network +/Network Monitoring"
+    "Networking/Network +/Network Configuration and Infra"
   ]
 }

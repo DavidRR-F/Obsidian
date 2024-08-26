@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/Security +/Alerting and Monitoring.md",
+                "file": "Security/Security +/Incident Response.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/Security +/Alerting and Monitoring.md",
+                "file": "Security/Security +/Incident Response.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/Security +/Alerting and Monitoring.md",
+                "file": "Security/Security +/Incident Response.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/Security +/Alerting and Monitoring.md"
+                "file": "Security/Security +/Incident Response.md"
               }
             }
           }
@@ -185,9 +185,10 @@
   },
   "active": "1b120a3647769f4b",
   "lastOpenFiles": [
+    "Security/Security +/Alerting and Monitoring.md",
+    "Security/Security +/Incident Response.md",
     "assets/images/Pasted image 20240824181924.png",
     "assets/excalidraw/Drawing 2024-08-24 18.15.47.excalidraw.md",
-    "Security/Security +/Alerting and Monitoring.md",
     "assets/images/Pasted image 20240824175302.png",
     "assets/excalidraw/Drawing 2024-08-24 17.46.01.excalidraw.md",
     "Security/Security +/Vulnerability Management.md",
@@ -215,7 +216,6 @@
     "assets/images/Screenshot from 2024-03-24 13-47-22.png",
     "assets/images/Screenshot from 2024-03-24 13-45-13.png",
     "assets/images/Screenshot from 2024-03-23 19-14-35.png",
-    "assets/images/Screenshot from 2024-03-23 18-46-46.png",
     "assets/images/Drawing 2024-01-05 14.50.30.excalidraw.md",
     "assets/excalidraw/Drawing 2024-08-05 13.37.02.excalidraw.md",
     "assets/excalidraw/Drawing 2024-08-05 13.26.16.excalidraw.md",

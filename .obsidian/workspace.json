@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/Review.md",
+                "file": "Security/Recap.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/Review.md",
+                "file": "Security/Recap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/Review.md",
+                "file": "Security/Recap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/Review.md"
+                "file": "Security/Recap.md"
               }
             }
           }
@@ -197,6 +197,11 @@
   },
   "active": "48b85a68c433c310",
   "lastOpenFiles": [
+    "Linux-Admin/File System/File Permissions.md",
+    "Security/Recap.md",
+    "Proxmox/Create Ubuntu Template.md",
+    "Linux-Admin/File System/File Commands.md",
+    "Security/Review.md",
     "Security/Security +/Automation and Orchestration.md",
     "Security/Security +/Investigating an Incident.md",
     "Security/Security +/Incident Response.md",
@@ -231,11 +236,6 @@
     "assets/images/Screenshot from 2024-03-24 13-45-13.png",
     "assets/images/Screenshot from 2024-03-23 19-14-35.png",
     "assets/images/Drawing 2024-01-05 14.50.30.excalidraw.md",
-    "assets/excalidraw/Drawing 2024-08-05 13.37.02.excalidraw.md",
-    "assets/excalidraw/Drawing 2024-08-05 13.26.16.excalidraw.md",
-    "assets/excalidraw/Drawing 2024-08-01 09.44.06.excalidraw.md",
-    "assets/excalidraw/Drawing 2024-07-31 15.38.23.excalidraw.md",
-    "assets/excalidraw/Drawing 2024-07-30 14.20.17.excalidraw.md",
     "assets/images",
     "assets/excalidraw",
     "assets",

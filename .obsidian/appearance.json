@@ -6,5 +6,6 @@
   "monospaceFontFamily": "0xProto Nerd Font Mono",
   "enabledCssSnippets": [
     "custom"
-  ]
+  ],
+  "theme": "obsidian"
 }

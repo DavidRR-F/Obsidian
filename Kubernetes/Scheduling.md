@@ -151,3 +151,97 @@ Available:
 Planned:
 - `requiredDuringSchedulingRequiredDuringExecution`: label is required on node during scheduling and execution of the pod
 - `preferredDuringSchedulingRequiredDuringExecution`: label is preferred when scheduling a pod but is required during execution of the pod
+
+## Resource Limits
+
+- *Response Request*: the minimum amount of resources requested by a container
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+	name: simple-webapp-color
+	labels:
+		name: simple-webapp-color
+spec: 
+	containers:
+	- name: simple-wbapp-color
+	  image: simple-webapp-color
+	  ports:
+		  - containerPort: 8080
+	  resources:
+		  requests: # minimum system requirement
+			  memory: "4Gi" # 4 gibibytes
+			  cpu: 2 # 2 vcpus or 1 hyperthread
+		  limits: # maximum system requirements
+			  memory: "5Gi"
+			  cpu: 4
+		  
+```
+
+Containers cannot use more cpu than its limit is set to (the cpu will throttle to prevent this), but it can use more memory. *If the pod constantly uses more memory than its limit it will terminate with error OOM (Out Of Memory)*
+
+#### Default Behavior
+
+Any pod can consume as much resource as required on any node and suffocate other pods or processes
+
+##### CPU
+
+![[Pasted image 20250121201803.png]]
+##### Memory
+
+![[Pasted image 20250121201929.png]]
+
+### LimitRange
+
+Define default values to be set for containers that are created without a request or limit defined in the pod definition.
+
+*Note: Only effects pods on creation not existing pods*
+
+```yaml
+apiVersion: v1
+kind: LimitRange
+metadata:
+	name: cpu-resource-contraint
+spec:
+	limits:
+	- default: # default limit
+	    cpu: 500m
+	  defaultRequest: # default request
+		cpu: 500m
+	  max: # max limit that can be set
+		cpu: "1"
+	  min: # minimum request that can be set
+	    cpu: 100m
+	  type: Container
+	- default: # default limit
+	    memory: 1Gi
+	  defaultRequest: # default request
+		memory: 1Gi
+	  max: # max limit that can be set
+		memory: 1Gi
+	  min: # minimum request that can be set
+	    memory: 500Mi
+	  type: Container
+```
+
+### Resource Quota
+
+A resource quota is an object that limits resources for a given namespace
+
+```yaml
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+	name: compute-quota
+	namespace: dev
+spec: # namespace limits
+	hard:
+		pods: "10"
+		requests.cpu: "4"
+		requests.memory: 5Gi
+		limits.cpu: "10"
+		limits.memory: 10Gi
+```
+## DaemonSets
+

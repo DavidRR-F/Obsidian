@@ -245,3 +245,198 @@ spec: # namespace limits
 ```
 ## DaemonSets
 
+Daemon Sets are like Replica sets in that they help deploy multiple instances of pods, but unlike replicasets, daemonsets runs a single instance of a pod on each node in a cluster. Whenever a new node is added to the cluster, a replica of all daemon sets is added to it automatically.
+
+![[Pasted image 20250203194941.png]]
+
+Daemon Sets are good for use cases such as monitoring and log viewers.
+
+*Example*
+
+```yaml
+apiVersion: apps/v1
+kind: DaemonSet
+metadata: 
+	name: monitoring-daemon
+spec:
+	selector:
+		matchLabels:
+			app: monitoring-agent
+	template:
+		metadataa:
+			labels:
+				app: montoring-agent
+		spec:
+			containers:
+			- name: monitoring-agent
+			  image: monitoring-agent:latest
+```
+
+### How does it work
+
+Daemonsets (since v1.12) use the default scheduler and NodeAffinity rules to schedule a pod on each node.
+
+## Static Pods
+
+The `kubelet` can manage a node independently without a `kube-api-server` by configuring the `kubelet` to read pod definition files from a directory on the nodes server designated to store information about pods *Example:* `/etc/kubernetes/manifests`.
+
+The `kubelet` will periodically check the directory for files to read and create pods on the host and can ensure the pod stays alive removing pods and adding changes as part of the periodic checking.
+
+*Note: You can only create pods this way*
+
+You can configure the designated directory path by defining the `--pod-manifest-path` option in the `kubelet.service` on the nodes host machine or provide a path to another config file `--config=kubeconfig.yaml` in the `kubelet.service` and define the `staticPodPath: <dir>`
+
+### Use Cases
+Since static pods are defined in a static directory on a node if their where to be a crash then on restart of the node the static pods would be immediately re-created.
+
+![[Pasted image 20250203203452.png]]
+
+*Note: This is how the kubeadmin tool sets up a cluster*
+
+*Note: Static Pods have a suffix of the node they are deployed on*
+## Multiple Schedulers
+
+You can define additional schedulers for specific applications that require more than the default scheduler provides.
+
+When creating a pod/deployment you can specify in the configuration that it uses a specific scheduler
+
+*Example*
+
+```yaml
+...
+spec:
+...
+	schedulerName: my-scheduler
+...
+```
+
+#### Defining Additional Schedulers
+
+Each scheduler uses a different configuration file. You can deploy an additional scheduler by defining a new scheduler service with its specific configuration file
+
+*Example*
+
+```bash
+# my-scheduler.service
+ExecStart=/usr/local/bin/kube-scheduler \\
+  --config=/etc/kubernetes/config/my-scheduler-config.yaml
+```
+
+*Note: best practice is to deploy scheduler as a pod*
+#### Deploy Additional Scheduler as a Pod
+
+*Example*
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+	name: my-scheduler
+	namespace: kube-system
+spec:
+	containers:
+	- command:
+	  - kube-scheduler
+	  - --address=127.0.0.1
+	  - --kubeconfig=/etc/kubernetes/scheduler.conf
+	  - --config=/etc/kubernetes/my-scheduler-config.yaml
+	image: k8s.gcr.io/kube-scheduler-amd64:v1.11.3
+	name: kube-scheduler
+```
+
+`my-scheduler-config.yaml`
+
+```yaml
+apiVersion: kubescheduler.config.k8s.io/v1
+kind KubeSchedulerConfiguration
+profiles:
+- schedulerName: my-scheduler
+leaderElection: # used when running scheduler on multiple master nodes 
+# only one instance runs at a time
+	leaderElect: true
+	resourceNamespace: kube-system
+	resourceName: lock-obkect-my-scheduler
+```
+
+*Note: you can view scheduler events to see what scheduler picked up a pod/deployment with `kubectl get events -o wide`*
+
+### Configuring Scheduler Profiles
+
+#### Scheduling Phases
+
+![[Pasted image 20250203214413.png]]
+
+1. **Scheduling Queue:** Pods waiting on being scheduled are placed in a queue they are placed in the queue based on the priority defined on the pod
+
+```yaml
+# Priority Class Object
+apiVersion: scheduling.k8s.io/v1
+metadata:
+	name: high-priority
+value: 1000000
+globalDefault: false
+description: "This priority class should be used for XYZ service pods only."
+```
+
+```yaml
+...
+spec:
+	priorityClassName: high-priority
+...
+```
+
+2. **Filter:** Nodes that can't run the pod are filtered out. For Example filtering based on the pods resource limits
+3. **Scoring:** Nodes are scored w/ different weights. (uses factors such as total available resources etc..)
+4. **Binding:** The pod is bound to the node w/ the highest score
+
+#### Extension Points
+
+![[Pasted image 20250203214734.png]]
+
+At each phase of the scheduling process there is an extension point which a plugin can be added to.
+
+#### Scheduler Profiles
+
+Running multiple schedulers can lead to computational overhead as well as race conditions. To Combat the k8s provides *Scheduler Profiles* (v1.18). This allows you to configure multiple profiles within the same scheduler by adding more entries to the list of profiles
+
+*Example*
+
+```yaml
+apiVersion: kubescheduler.config.k8s.io/v1
+kind: KubeSchedulerConfiguration
+profiles:
+- schedulerName: my-scheduler-1
+- schedulerName: my-scheduler-2
+```
+
+This allows multiple schedulers to be run in the same binary as apposed to separate binaries for each scheduler
+
+##### Configuring Scheduler Profiles
+
+Under each scheduler profile you can configure plugins for the desired affect
+
+*Example*
+
+```yaml
+apiVersion: kubescheduler.config.k8s.io/v1
+kind: KubeSchedulerConfiguration
+profiles:
+- schedulerName: my-scheduler-1
+  plugins:
+	score:
+		disabled:
+		- name: TaintToleration
+		enabled:
+		- name: MyCustomPlugin1
+		- name: MyCustomPlugin2
+- schedulerName: my-scheduler-2
+  plugins:
+	preScore:
+		disabled:
+		- name: '*' # all
+	score:
+		disabled:
+		- name: '*'
+```
+
+## Admissions Controllers

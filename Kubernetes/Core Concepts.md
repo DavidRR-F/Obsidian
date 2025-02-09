@@ -1,4 +1,4 @@
-
+	
 ## Cluster Architecture
 
 ![[Pasted image 20250119093210.png]]

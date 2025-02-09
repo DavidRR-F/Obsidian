@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Scheduling.md",
+                "file": "Kubernetes/Security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scheduling"
+              "title": "Security"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Core Concepts.md",
+                "file": "Kubernetes/Storage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Core Concepts"
+              "title": "Storage"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336,
-    "collapsed": true
+    "width": 336
   },
   "right": {
     "id": "f8713cbf87074415",
@@ -182,23 +182,26 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c99843a0e6211a1a",
+  "active": "d7b15cce29478158",
   "lastOpenFiles": [
+    "assets/images/Pasted image 20250209140416.png",
+    "assets/images/Pasted image 20250209134808.png",
+    "assets/images/Pasted image 20250209134042.png",
+    "assets/images/Pasted image 20250209131929.png",
+    "Kubernetes/Core Concepts.md",
+    "Kubernetes/Storage.md",
+    "test.md",
+    "Kubernetes/Security.md",
+    "assets/images/Pasted image 20250204193707.png",
+    "assets/images/Pasted image 20250204192258.png",
+    "assets/images/Pasted image 20250204191806.png",
+    "Kubernetes/Scheduling.md",
     "assets/images/Pasted image 20250203214734.png",
     "assets/images/Pasted image 20250203214654.png",
     "assets/images/Pasted image 20250203214413.png",
-    "Kubernetes/Core Concepts.md",
-    "Kubernetes/Scheduling.md",
     "assets/images/Pasted image 20250203203452.png",
-    "assets/images/Pasted image 20250203194941.png",
     "Kubernetes/Networking.md",
-    "assets/images/Pasted image 20250126133709.png",
-    "assets/images/Pasted image 20250126130008.png",
     "assets/excalidraw/Drawing 2025-01-26 12.57.40.excalidraw.md",
-    "assets/images/Pasted Image 20250126125844_665.png",
-    "assets/images/Pasted Image 20250126125755_656.png",
-    "assets/images/Pasted image 20250126125724.png",
-    "assets/images/Pasted image 20250126125700.png",
     "Kubernetes/prerequisites/Networking.md",
     "Kubernetes/prerequisites",
     "Slurm/Slurm Setup.md",
@@ -218,9 +221,6 @@
     "Regex/Atomic Grouping.md",
     "Regex/Mode Modifiers.md",
     "Regex/Unicodes.md",
-    "Regex/Free-Spacing.md",
-    "Regex/Branch Reset Groups.md",
-    "Regex/Backreferences.md",
     "Regex",
     "Kubernetes",
     "Excalidraw",

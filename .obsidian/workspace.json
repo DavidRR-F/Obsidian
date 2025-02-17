@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Storage.md",
+                "file": "Kubernetes/Dev Rel Tooling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Storage"
+              "title": "Dev Rel Tooling"
             }
           }
         ],
@@ -184,14 +184,15 @@
   },
   "active": "d7b15cce29478158",
   "lastOpenFiles": [
+    "Kubernetes/Security.md",
+    "Kubernetes/Dev Rel Tooling.md",
+    "Kubernetes/Storage.md",
     "assets/images/Pasted image 20250209140416.png",
     "assets/images/Pasted image 20250209134808.png",
     "assets/images/Pasted image 20250209134042.png",
     "assets/images/Pasted image 20250209131929.png",
     "Kubernetes/Core Concepts.md",
-    "Kubernetes/Storage.md",
     "test.md",
-    "Kubernetes/Security.md",
     "assets/images/Pasted image 20250204193707.png",
     "assets/images/Pasted image 20250204192258.png",
     "assets/images/Pasted image 20250204191806.png",
@@ -199,7 +200,6 @@
     "assets/images/Pasted image 20250203214734.png",
     "assets/images/Pasted image 20250203214654.png",
     "assets/images/Pasted image 20250203214413.png",
-    "assets/images/Pasted image 20250203203452.png",
     "Kubernetes/Networking.md",
     "assets/excalidraw/Drawing 2025-01-26 12.57.40.excalidraw.md",
     "Kubernetes/prerequisites/Networking.md",

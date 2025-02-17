@@ -28,3 +28,42 @@ You can add Admission Controller names to the `kube-apiserver.service` or the ku
 *Examples*
 
 ![[Pasted image 20250204193707.png]]
+
+# Security Primitives
+
+Securing kubernetes starts with requiring authentication to interact with the *kube-apiserver* to enforce who can access the cluster and what can they do
+
+### Who can access
+This is defined by the *authentication* mechanisms such as
+- Files - Username and Password
+- Files - Username and Tokens
+- Certificates
+- External Auth Providers - LDAP etc..
+- Service Accounts
+
+### What can they do
+This is defined by the *authorization* mechanisms such as
+- RBAC Authorization
+- ABAC Authorization
+- Node Authorization
+- Webhook Mode
+
+## TLS Certificates
+
+All communications between the *kuber-apiserver* and other native kube-system service like `etcd`, `kubelet`, `kube-controller-manager`, `kube-scheduler`, and the `kube-proxy`are secured using tls encryption
+
+## Network Policies
+
+By default all pods can access all other pods in the cluster. This access can be restricted by defining network policies
+
+# Authentication
+
+## Accounts
+
+Their are two kinds of use account the have access to kubernetes internal feature the *users* (administrators and developers) and *bots* (service accounts)
+
+Kubernetes does not naively support the creation of users. This requires a third party authentication service to manage these users. On the other hand kubernetes does provide native support for creating service accounts
+
+## TLS Encryption
+
+

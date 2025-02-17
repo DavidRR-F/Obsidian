@@ -89,6 +89,7 @@ volumes:
 Persistent volumes in kubernetes allows you to centrally manage volumes outside of pod definitions.
 
 A Persistent volume is a cluster wide pool of storage volumes configured by a kubernetes administrator to be used by users deploying applications on the cluster.
+type: Directory
 
 Users can select volume pools from this storage using persistent volume claims
 
@@ -138,6 +139,7 @@ Persistent Volumes are set to `persistentVolumeReclaimPolicy:` *Retain* by defau
 - *Delete:* Delete the volume on claim removal
 - *Recycle:* Scrub the data on claim removal and make available to new claims
 
+*Note: if pv is set to `WaitForFirstConsuer` the claim will not bind to the pv until use is requested*
 ## Storage Class
 
 When creating persistent volumes using a distributed file system (like aws elastic blob storage). You first have to create to disk on the storage device and the create the persistent volume on kubernetes which is *static provisioning*.
